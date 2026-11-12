@@ -451,20 +451,25 @@ GUIDE = [
       ("Guia dos Móveis", "Cadeiras, mesas, armários, sofás, camas, lâmpadas e a casa toda: cozinha, quarto, banheiro e jardim.\n\nOs móveis de madeira existem em todas as madeiras do jogo: troque as tábuas e a laje da receita."),
       ("Guia dos Móveis", "Cadeiras, mesas, armários, sofás, camas, candeeiros e a casa toda: cozinha, quarto, casa de banho e jardim.\n\nOs móveis de madeira existem em todas as madeiras do jogo: troca as tábuas e a laje da receita."),
       ("Furniture Guide", "Chairs, tables, cabinets, sofas, beds, lamps and the whole house: kitchen, bedroom, bathroom and garden.\n\nWooden furniture comes in every wood of the game: swap the planks and the slab in the recipe.")),
+    # 0.3.2: a receita do próprio livro (livro e qualquer tábua)
+    P("guide_book", "guide",
+      ("Livro-guia", "Um livro e qualquer tábua na bancada fazem um guia novo."),
+      ("Livro-guia", "Um livro e uma tábua qualquer na bancada fazem um guia novo."),
+      ("Guide Book", "A book and any planks on the crafting table make a new guide.")),
     P("sitting", None,
-      ("Sentar", "Clique direito numa cadeira, banco ou sofá para se sentar. Shift para se levantar.\n\nSó cabe uma pessoa por bloco. Partir o móvel levanta quem lá estiver."),
-      ("Sentar", "Clique direito numa cadeira, banco ou sofá para te sentares. Shift para te levantares.\n\nSó cabe uma pessoa por bloco. Partir o móvel levanta quem lá estiver."),
+      ("Sentar", "Clique com o botão direito numa cadeira, banco ou sofá para se sentar. Shift para se levantar.\n\nSó cabe uma pessoa por bloco. Quebrar o móvel levanta quem estiver nele."),
+      ("Sentar", "Clica com o direito numa cadeira, banco ou sofá para te sentares. Shift para te levantares.\n\nSó cabe uma pessoa por bloco. Partir o móvel levanta quem lá estiver."),
       ("Sitting", "Right-click a chair, stool or sofa to sit down. Sneak to stand up.\n\nOne person per block. Breaking the furniture stands the sitter up.")),
     P("chair", "oak_chair",
       ("Cadeira", "Fica virada para onde você está olhando: sentado, você olha para o mesmo lado. Dá 2."),
       ("Cadeira", "Fica virada para onde estás a olhar: sentado, olhas para o mesmo lado. Dá 2."),
       ("Chair", "Faces the way you look when you place it: seated, you look the same way. Makes 2.")),
     P("stool", "oak_stool",
-      ("Banco", "Sem encosto: senta-se virado para qualquer lado. Dá 2."),
+      ("Banco", "Sem encosto: dá para sentar virado para qualquer lado. Dá 2."),
       ("Banco", "Sem encosto: senta-se virado para qualquer lado. Dá 2."),
       ("Stool", "No backrest: sit facing any way. Makes 2.")),
     P("table", "oak_table",
-      ("Mesa", "Mesas lado a lado juntam-se num tampo só. As pernas ficam só nos cantos de fora."),
+      ("Mesa", "Mesas lado a lado se juntam num tampo só. As pernas ficam só nos cantos de fora."),
       ("Mesa", "Mesas lado a lado juntam-se num tampo só. As pernas ficam só nos cantos de fora."),
       ("Table", "Tables side by side join into one top. Legs stay only on the outer corners.")),
     P("cabinet", "oak_cabinet",
@@ -476,7 +481,7 @@ GUIDE = [
       ("Cómoda", "27 espaços, como um baú. A gaveta de cima abre enquanto o inventário está aberto."),
       ("Chest of Drawers", "27 slots, like a chest. The top drawer opens while the inventory is open.")),
     P("storage_use", None,
-      ("Guardar", "Armário e gaveteiro funcionam com funis (põem por cima e pelos lados, tiram por baixo) e comparadores.\n\nAo partir, o conteúdo cai no chão."),
+      ("Guardar", "Armário e gaveteiro funcionam com funis (põem por cima e pelos lados, tiram por baixo) e comparadores.\n\nAo quebrar, o conteúdo cai no chão."),
       ("Guardar", "Armário e cómoda funcionam com funis (põem por cima e pelos lados, tiram por baixo) e comparadores.\n\nAo partir, o conteúdo cai no chão."),
       ("Storage", "Cabinets and chests of drawers work with hoppers (in from the top and sides, out from the bottom) and comparators.\n\nBreaking one drops its contents.")),
     P("sofa", "white_sofa",
@@ -488,17 +493,17 @@ GUIDE = [
       ("Sofás juntos", "Sofás lado a lado viram um sofá comprido: os braços ficam só nas pontas.\n\nEm L fazem canto, como as escadas. Cores diferentes também se juntam."),
       ("Joined sofas", "Sofas side by side become one long sofa: armrests only at the ends.\n\nIn an L they make a corner, like stairs. Different colors join too.")),
     P("double_bed", "white_double_bed",
-      ("Cama de Casal", "2 camas da mesma cor. Ocupa 2×2 blocos: precisa de espaço à direita e à frente."),
-      ("Cama de Casal", "2 camas da mesma cor. Ocupa 2×2 blocos: precisa de espaço à direita e à frente."),
-      ("Double Bed", "2 beds of the same color. Takes 2×2 blocks: needs room to the right and ahead.")),
+      ("Cama de Casal", "2 camas da mesma cor. Ocupa 2 por 2 blocos: precisa de espaço à direita e à frente."),
+      ("Cama de Casal", "2 camas da mesma cor. Ocupa 2 por 2 blocos: precisa de espaço à direita e à frente."),
+      ("Double Bed", "2 beds of the same color. Takes 2 by 2 blocks: needs room to the right and ahead.")),
     P("double_bed_use", None,
       ("Dormir", "Funciona como uma cama normal: passa a noite e marca onde você renasce. Cabem duas pessoas, uma de cada lado.\n\nNo Nether e no Fim explode!"),
       ("Dormir", "Funciona como uma cama normal: passa a noite e marca onde renasces. Cabem duas pessoas, uma de cada lado.\n\nNo Nether e no Fim explode!"),
       ("Sleeping", "Works like a normal bed: skips the night and sets your respawn point. Two people fit, one on each side.\n\nIn the Nether and the End it explodes!")),
     P("lamps", None,
-      ("Lâmpadas", "Lustre, arandela e luminária de mesa acendem com redstone, como a Lâmpada de Redstone.\n\nCom o mod Industrial também acendem com energia."),
-      ("Candeeiros", "Lustre, arandela e candeeiro de mesa acendem com redstone, como a Lâmpada de Redstone.\n\nCom o mod Industrial também acendem com energia."),
-      ("Lamps", "Chandelier, wall sconce and table lamp light up with redstone, like the Redstone Lamp.\n\nWith the Industrial mod they also run on energy.")),
+      ("Lâmpadas", "Lustre, arandela, luminária de mesa e luminária de chão acendem com redstone, como a Lâmpada de Redstone.\n\nCom o mod Industrial também acendem com energia."),
+      ("Candeeiros", "Lustre, arandela, candeeiro de mesa e candeeiro de pé acendem com redstone, como a Lâmpada de Redstone.\n\nCom o mod Industrial também acendem com energia."),
+      ("Lamps", "Chandelier, wall sconce, table lamp and floor lamp light up with redstone, like the Redstone Lamp.\n\nWith the Industrial mod they also run on energy.")),
     P("chandelier", "chandelier",
       ("Lustre", "Pendurado no teto: precisa de um bloco por cima. A luz mais forte."),
       ("Lustre", "Pendurado no teto: precisa de um bloco por cima. A luz mais forte."),
@@ -512,9 +517,9 @@ GUIDE = [
       ("Candeeiro de Mesa", "Em cima de uma mesa, armário ou qualquer bloco."),
       ("Table Lamp", "On top of a table, cabinet or any block.")),
     P("lamp_energy", None,
-      ("Com energia", "Com o Industrial: ligue um Fio de Cobre ou cabo à lâmpada, ou encoste-a a uma bateria ou painel.\n\nGasta 1 J/t: um fio de 32 J/t dá para 32 lâmpadas."),
-      ("Com energia", "Com o Industrial: liga um Fio de Cobre ou cabo à lâmpada, ou encosta-a a uma bateria ou painel.\n\nGasta 1 J/t: um fio de 32 J/t dá para 32 candeeiros."),
-      ("With energy", "With Industrial: connect a Copper Wire or cable to the lamp, or place it against a battery or panel.\n\nUses 1 J/t: a 32 J/t wire runs 32 lamps.")),
+      ("Com energia", "Com o Industrial: ligue um Fio de Cobre ou um cabo à lâmpada, ou encoste-a numa bateria ou painel.\n\nCada lâmpada gasta 1 J/t: um só Fio de Cobre alimenta até 32 lâmpadas."),
+      ("Com energia", "Com o Industrial: liga um Fio de Cobre ou um cabo ao candeeiro, ou encosta-o a uma bateria ou painel.\n\nCada candeeiro gasta 1 J/t: um só Fio de Cobre alimenta até 32 candeeiros."),
+      ("With energy", "With Industrial: connect a Copper Wire or a cable to the lamp, or place it against a battery or panel.\n\nEach lamp uses 1 J/t: a single Copper Wire powers up to 32 lamps.")),
     # ---------------- 0.2.0
     P("house", None,
       ("A casa toda", "Cozinha, quarto, banheiro, sala e jardim.\n\nPortas, gavetas, tampas, cortinas e persianas abrem devagar, como a tampa do baú, e fecham sozinhas quando você sai do inventário."),
@@ -573,7 +578,7 @@ GUIDE = [
       ("Lareira", "Põe lenha (paus ou troncos) e acende com o Isqueiro (do jogo ou do Clima). A pá apaga."),
       ("Fireplace", "Add firewood (sticks or logs) and light it with Flint and Steel or the Clima Lighter. A shovel puts it out.")),
     P("fireplace_use", None,
-      ("Lenha e calor", "Um tronco dura 1 minuto; um pau, 20 segundos. Sem lenha, apaga.\n\nCom o mod Clima, aquece a sala (6 blocos à volta).\n\n⚠ Queima quem encosta no fogo."),
+      ("Lenha e calor", "Um tronco dura 1 minuto; um pau, 20 segundos. Sem lenha, apaga.\n\nCom o mod Clima, aquece a sala (6 blocos em volta).\n\n⚠ Queima quem encosta no fogo."),
       ("Lenha e calor", "Um tronco dura 1 minuto; um pau, 20 segundos. Sem lenha, apaga.\n\nCom o mod Clima, aquece a sala (6 blocos à volta).\n\n⚠ Queima quem encosta ao fogo."),
       ("Firewood and heat", "A log lasts 1 minute; a stick, 20 seconds. Without firewood it goes out.\n\nWith the Clima mod it warms the room (6 blocks around).\n\n⚠ Burns whoever touches the fire.")),
     P("ceiling_fan", "ceiling_fan",
@@ -581,7 +586,7 @@ GUIDE = [
       ("Ventoinha", "No teto. Gira com redstone (mais sinal, mais rápido) ou com energia do Industrial."),
       ("Ceiling Fan", "On the ceiling. Spins with redstone (stronger signal, faster) or Industrial energy.")),
     P("fan_climate", None,
-      ("Ventilador e Clima", "Com o mod Clima, o ventilador a girar refresca a sala no verão (5 blocos à volta).\n\nA luz do ventilador acende junto."),
+      ("Ventilador e Clima", "Com o mod Clima, o ventilador girando refresca a sala no verão (5 blocos em volta).\n\nA luz do ventilador acende junto."),
       ("Ventoinha e Clima", "Com o mod Clima, a ventoinha a girar refresca a sala no verão (5 blocos à volta).\n\nA luz da ventoinha acende junto."),
       ("Fan and climate", "With the Clima mod, a spinning fan cools the room in summer (5 blocks around).\n\nThe fan light turns on with it.")),
     P("mailbox", "mailbox",
@@ -589,11 +594,11 @@ GUIDE = [
       ("Caixa do Correio", "É de quem a põe. Qualquer um deixa itens; só o dono tira. A bandeirinha levanta com correio."),
       ("Mailbox", "It belongs to whoever places it. Anyone can drop items; only the owner takes them. The flag goes up with mail.")),
     P("mail_use", None,
-      ("Mandar correio", "Para mandar itens a outro jogador, ponha-os na caixa de correio dele.\n\nSe ele estiver no mundo, recebe um aviso na hora; senão, quando entrar."),
+      ("Mandar correio", "Para mandar itens a outro jogador, coloque-os na caixa de correio dele.\n\nSe ele estiver no mundo, recebe um aviso na hora; senão, quando entrar."),
       ("Mandar correio", "Para mandar itens a outro jogador, põe-nos na caixa do correio dele.\n\nSe ele estiver no mundo, recebe um aviso logo; senão, quando entrar."),
       ("Sending mail", "To send items to another player, put them in their mailbox.\n\nIf they are online they get a message right away; otherwise when they join.")),
     P("desk", "oak_desk",
-      ("Escrivaninha", "3 gavetas, 9 espaços. Lado a lado, juntam-se num tampo só."),
+      ("Escrivaninha", "3 gavetas, 9 espaços. Lado a lado, se juntam num tampo só."),
       ("Secretária", "3 gavetas, 9 espaços. Lado a lado, juntam-se num tampo só."),
       ("Desk", "3 drawers, 9 slots. Side by side, desks join into one long top.")),
     P("coffee_table", "oak_coffee_table",
@@ -625,7 +630,7 @@ GUIDE = [
       ("Piano", "2 blocos. Cada tecla toca uma nota: as graves à esquerda, as agudas à direita."),
       ("Piano", "2 blocks wide. Each key plays a note: low ones on the left, high ones on the right.")),
     P("safe", "safe",
-      ("Cofre-Forte", "27 espaços. Só o dono abre e parte. Explosões, funis e outros jogadores não o abrem."),
+      ("Cofre-Forte", "27 espaços. Só o dono abre e quebra. Explosões, funis e outros jogadores não o abrem."),
       ("Cofre-Forte", "27 espaços. Só o dono abre e parte. Explosões, funis e outros jogadores não o abrem."),
       ("Safe", "27 slots. Only the owner opens and breaks it. Blasts, hoppers and other players can't.")),
     P("awning", "white_awning",
@@ -636,6 +641,8 @@ GUIDE = [
 
 
 def _grid(r):
+    if r["type"] == f"{MOD}:sawing":  # 0.3.2: receita da Serraria — o ingrediente no meio (o Receitário desenha a Serraria por cima)
+        return [[None] * 3, [None, r["ingredient"], None], [None] * 3]
     if r["type"] == "minecraft:crafting_shaped":
         rows = [row.ljust(3) for row in r["pattern"]] + ["   "] * (3 - len(r["pattern"]))
         return [[None if ch == " " else r["key"][ch] for ch in row[:3]] for row in rows[:3]]
@@ -652,12 +659,15 @@ def gen_guide():
             tr(f"guide.{MOD}.{g['key']}.{part}", g["br"][i], g["pt"][i], g["en"][i])
     book = [f"§l{g['br'][0]}§r\n\n{g['br'][1]}" for g in GUIDE]
     book.append(f"§lMadeiras§r\n\n{woods_br}.")
+    # 0.3.2: como os livros da Forja e do Industrial, o último manda para o separador Guias (lá estão as receitas)
+    book.append("§lE o resto?§r\n\nTudo o resto está no separador Guias do Receitário (botão no inventário): a receita de cada "
+                "móvel, uma por página.")
     assert len(book) <= 100, f"livro escrito com {len(book)} páginas (máximo 100)"
-    write(f"data/{MOD}/recipe/guide.json", {"type": "minecraft:crafting_shapeless", "category": "misc",
-                                             "ingredients": ["minecraft:book", "#minecraft:planks"],
-                                             "result": {"id": "minecraft:written_book", "components": {"minecraft:written_book_content": {
-                                                 "title": {"raw": "Guia dos Móveis"}, "author": "Tcordeiro",
-                                                 "pages": [{"raw": p} for p in book], "resolved": True}}}})
+    guide = {"type": "minecraft:crafting_shapeless", "category": "misc", "ingredients": ["minecraft:book", "#minecraft:planks"],
+             "result": {"id": "minecraft:written_book", "components": {"minecraft:written_book_content": {
+                 "title": {"raw": "Guia dos Móveis"}, "author": "Tcordeiro", "pages": [{"raw": p} for p in book], "resolved": True}}}}
+    write(f"data/{MOD}/recipe/guide.json", guide)
+    RECIPES["guide"] = guide  # a página «Livro-guia» mostra esta receita
     advancement("guide", ["#minecraft:planks"])
 
     def js(v):
@@ -668,10 +678,15 @@ def gen_guide():
         if g["recipe"] is None:
             lines.append(f'new Page("{g["key"]}", null, List.of())')
             continue
-        r = RECIPES[g["recipe"]]
-        const = g["recipe"].upper()
+        if g["recipe"].startswith("sawing/"):  # receitas da Serraria: escritas por gen_finishes.py
+            with open(os.path.join(RES, "data", MOD, "recipe", g["recipe"] + ".json")) as f:
+                r = json.load(f)
+        else:
+            r = RECIPES[g["recipe"]]
+        const = g["recipe"].upper().replace("/", "_")
+        station = f'"{MOD}:sawmill"' if r["type"] == f"{MOD}:sawing" else "null"
         rows = ", ".join("{" + ", ".join(js(c) for c in row) + "}" for row in _grid(r))
-        consts.append(f'\tstatic final Recipe {const} = new Recipe("{MOD}:{g["recipe"]}", "{r["result"]["id"]}", {r["result"].get("count", 1)},\n'
+        consts.append(f'\tstatic final Recipe {const} = new Recipe("{MOD}:{g["recipe"]}", "{r["result"]["id"]}", {r["result"].get("count", 1)}, {station},\n'
                       f'\t\t\tnew String[][] {{{rows}}});')
         lines.append(f'new Page("{g["key"]}", null, List.of({const}))')
     java = f"""package com.tcordeiro.moveis.guide;
@@ -680,7 +695,8 @@ import java.util.List;
 
 /**
  * Páginas do guia dos Móveis, lidas pelo separador «Guias» do Receitário por reflexão ({{@code PAGES}}; cada página com
- * {{@code key()}}, {{@code image()}} e {{@code recipes()}}; cada receita com {{@code result()}}, {{@code count()}} e {{@code cell(linha, coluna)}}).
+ * {{@code key()}}, {{@code image()}} e {{@code recipes()}}; cada receita com {{@code result()}}, {{@code count()}}, {{@code cell(linha, coluna)}} e
+ * {{@code station()}}: o bloco de uma receita que não é da bancada — a Serraria, com o ingrediente no meio — ou null).
  * Os textos estão nas traduções: guide.{MOD}.&lt;página&gt;.title / .text.
  * <p>
  * GERADO por tools/gen_data.py: não editar à mão.
@@ -688,8 +704,8 @@ import java.util.List;
 public final class MoveisGuide {{
 	private MoveisGuide() {{}}
 
-	/** Receita numa página: id, resultado, quantidade e 3 linhas de 3 casas (id de item, «#tag» ou null). */
-	public record Recipe(String id, String result, int count, String[][] grid) {{
+	/** Receita numa página: id, resultado, quantidade, estação (a Serraria, ou null = bancada) e 3 linhas de 3 casas (id de item, «#tag» ou null). */
+	public record Recipe(String id, String result, int count, String station, String[][] grid) {{
 		public String cell(int row, int col) {{
 			return row >= 0 && row < grid.length && col >= 0 && col < grid[row].length ? grid[row][col] : null;
 		}}
@@ -811,7 +827,7 @@ def gen_lang_v020():
     tr(f"tooltip.{MOD}.trash_can", "⚠ Os itens somem para sempre ao fechar.", "⚠ Os itens desaparecem para sempre ao fechar.",
        "⚠ Items are gone forever when you close it.")
     tr(f"tooltip.{MOD}.fireplace", "⚠ Queima quem encosta no fogo.", "⚠ Queima quem encosta ao fogo.", "⚠ Burns whoever touches the fire.")
-    tr(f"tooltip.{MOD}.safe", "Só o dono abre e parte. Resiste a explosões.", "Só o dono abre e parte. Resiste a explosões.",
+    tr(f"tooltip.{MOD}.safe", "Só o dono abre e quebra. Resiste a explosões.", "Só o dono abre e parte. Resiste a explosões.",
        "Only the owner opens and breaks it. Blast-proof.")
     tr(f"tooltip.{MOD}.mailbox", "Qualquer um põe; só o dono tira.", "Qualquer um põe; só o dono tira.", "Anyone can put in; only the owner takes out.")
 
@@ -1481,7 +1497,7 @@ def main():
     print(f"referências: {n_files} blockstates/itens → {n_models} modelos → texturas, nada em falta")
     print(f"receitas conferidas contra {n_other} receitas do jogo e dos mods Tcordeiro: sem colisões")
     print(f"{len(WOODS)} madeiras ({', '.join(w['id'] for w in WOODS)}), {len(DYES)} cores, {len(all_blocks())} blocos, "
-          f"{len(RECIPES)} receitas, {len(GUIDE) + 1} páginas no livro, {len(written)} ficheiros")
+          f"{len(RECIPES)} receitas, {len(GUIDE) + 2} páginas no livro, {len(written)} ficheiros")
 
 
 if __name__ == "__main__":

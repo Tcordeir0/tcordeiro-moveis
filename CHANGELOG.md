@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.2 — 12/11/2026 — guias revistos
+
+- **Página do Livro-guia** com a receita (livro e qualquer tábua).
+- **Parquet, espinha, assoalho, lambri e viga** mostram a receita da Serraria (de carvalho), com a Serraria desenhada por cima: as
+  receitas do guia têm `station()` (`tmoveis:sawmill`), lida pelo Receitário 0.7.8.
+- `lamps`: a luminária de chão também está na lista; `lamp_energy` sem conta («um só Fio de Cobre alimenta até 32 lâmpadas»); cama de
+  casal «2 por 2».
+- pt-BR: «Quebrar o móvel», «Ao quebrar», «se juntam», «dá para sentar», «clique com o botão direito», «girando», «em volta», «o
+  dono abre e quebra»; pt-PT «Clica com o direito».
+- Livro escrito: acaba numa página «E o resto?» que manda para o separador Guias do Receitário (65 páginas).
+- `tools/check_written_book.py`: verifica um livro escrito (14 linhas, 100 páginas, sem «=» nem «×»), usado também na Forja e no
+  Industrial.
+- GameTest `guideBookFits`: cada receita do guia existe no servidor, dá o item mostrado e as da Serraria têm a estação.
+
 ## 0.3.1 — 12/11/2026 — correções do teste no jogo
 
 - **Sentar virado para a frente do móvel.** Antes o jogador ficava virado para onde estava a olhar ao clicar: na cadeira de costas

@@ -18,16 +18,19 @@
             "raw": "§lGuia dos Móveis§r\n\nCadeiras, mesas, armários, sofás, camas, lâmpadas e a casa toda: cozinha, quarto, banheiro e jardim.\n\nOs móveis de madeira existem em todas as madeiras do jogo: troque as tábuas e a laje da receita."
           },
           {
-            "raw": "§lSentar§r\n\nClique direito numa cadeira, banco ou sofá para se sentar. Shift para se levantar.\n\nSó cabe uma pessoa por bloco. Partir o móvel levanta quem lá estiver."
+            "raw": "§lLivro-guia§r\n\nUm livro e qualquer tábua na bancada fazem um guia novo."
+          },
+          {
+            "raw": "§lSentar§r\n\nClique com o botão direito numa cadeira, banco ou sofá para se sentar. Shift para se levantar.\n\nSó cabe uma pessoa por bloco. Quebrar o móvel levanta quem estiver nele."
           },
           {
             "raw": "§lCadeira§r\n\nFica virada para onde você está olhando: sentado, você olha para o mesmo lado. Dá 2."
           },
           {
-            "raw": "§lBanco§r\n\nSem encosto: senta-se virado para qualquer lado. Dá 2."
+            "raw": "§lBanco§r\n\nSem encosto: dá para sentar virado para qualquer lado. Dá 2."
           },
           {
-            "raw": "§lMesa§r\n\nMesas lado a lado juntam-se num tampo só. As pernas ficam só nos cantos de fora."
+            "raw": "§lMesa§r\n\nMesas lado a lado se juntam num tampo só. As pernas ficam só nos cantos de fora."
           },
           {
             "raw": "§lArmário§r\n\n27 espaços, como um baú. As portas abrem enquanto o inventário está aberto."
@@ -36,7 +39,7 @@
             "raw": "§lGaveteiro§r\n\n27 espaços, como um baú. A gaveta de cima abre enquanto o inventário está aberto."
           },
           {
-            "raw": "§lGuardar§r\n\nArmário e gaveteiro funcionam com funis (põem por cima e pelos lados, tiram por baixo) e comparadores.\n\nAo partir, o conteúdo cai no chão."
+            "raw": "§lGuardar§r\n\nArmário e gaveteiro funcionam com funis (põem por cima e pelos lados, tiram por baixo) e comparadores.\n\nAo quebrar, o conteúdo cai no chão."
           },
           {
             "raw": "§lSofá§r\n\nLã de qualquer cor e lajes de qualquer madeira. Dá 2. A frente fica virada para você."
@@ -45,13 +48,13 @@
             "raw": "§lSofás juntos§r\n\nSofás lado a lado viram um sofá comprido: os braços ficam só nas pontas.\n\nEm L fazem canto, como as escadas. Cores diferentes também se juntam."
           },
           {
-            "raw": "§lCama de Casal§r\n\n2 camas da mesma cor. Ocupa 2×2 blocos: precisa de espaço à direita e à frente."
+            "raw": "§lCama de Casal§r\n\n2 camas da mesma cor. Ocupa 2 por 2 blocos: precisa de espaço à direita e à frente."
           },
           {
             "raw": "§lDormir§r\n\nFunciona como uma cama normal: passa a noite e marca onde você renasce. Cabem duas pessoas, uma de cada lado.\n\nNo Nether e no Fim explode!"
           },
           {
-            "raw": "§lLâmpadas§r\n\nLustre, arandela e luminária de mesa acendem com redstone, como a Lâmpada de Redstone.\n\nCom o mod Industrial também acendem com energia."
+            "raw": "§lLâmpadas§r\n\nLustre, arandela, luminária de mesa e luminária de chão acendem com redstone, como a Lâmpada de Redstone.\n\nCom o mod Industrial também acendem com energia."
           },
           {
             "raw": "§lLustre§r\n\nPendurado no teto: precisa de um bloco por cima. A luz mais forte."
@@ -63,7 +66,7 @@
             "raw": "§lLuminária de Mesa§r\n\nEm cima de uma mesa, armário ou qualquer bloco."
           },
           {
-            "raw": "§lCom energia§r\n\nCom o Industrial: ligue um Fio de Cobre ou cabo à lâmpada, ou encoste-a a uma bateria ou painel.\n\nGasta 1 J/t: um fio de 32 J/t dá para 32 lâmpadas."
+            "raw": "§lCom energia§r\n\nCom o Industrial: ligue um Fio de Cobre ou um cabo à lâmpada, ou encoste-a numa bateria ou painel.\n\nCada lâmpada gasta 1 J/t: um só Fio de Cobre alimenta até 32 lâmpadas."
           },
           {
             "raw": "§lA casa toda§r\n\nCozinha, quarto, banheiro, sala e jardim.\n\nPortas, gavetas, tampas, cortinas e persianas abrem devagar, como a tampa do baú, e fecham sozinhas quando você sai do inventário."
@@ -108,22 +111,22 @@
             "raw": "§lLareira§r\n\nPonha lenha (paus ou troncos) e acenda com a Pederneira ou o Isqueiro do Clima. A pá apaga."
           },
           {
-            "raw": "§lLenha e calor§r\n\nUm tronco dura 1 minuto; um pau, 20 segundos. Sem lenha, apaga.\n\nCom o mod Clima, aquece a sala (6 blocos à volta).\n\n⚠ Queima quem encosta no fogo."
+            "raw": "§lLenha e calor§r\n\nUm tronco dura 1 minuto; um pau, 20 segundos. Sem lenha, apaga.\n\nCom o mod Clima, aquece a sala (6 blocos em volta).\n\n⚠ Queima quem encosta no fogo."
           },
           {
             "raw": "§lVentilador§r\n\nNo teto. Gira com redstone (mais sinal, mais rápido) ou com energia do Industrial."
           },
           {
-            "raw": "§lVentilador e Clima§r\n\nCom o mod Clima, o ventilador a girar refresca a sala no verão (5 blocos à volta).\n\nA luz do ventilador acende junto."
+            "raw": "§lVentilador e Clima§r\n\nCom o mod Clima, o ventilador girando refresca a sala no verão (5 blocos em volta).\n\nA luz do ventilador acende junto."
           },
           {
             "raw": "§lCaixa de Correio§r\n\nÉ de quem a põe. Qualquer um deixa itens; só o dono tira. A bandeirinha levanta com correio."
           },
           {
-            "raw": "§lMandar correio§r\n\nPara mandar itens a outro jogador, ponha-os na caixa de correio dele.\n\nSe ele estiver no mundo, recebe um aviso na hora; senão, quando entrar."
+            "raw": "§lMandar correio§r\n\nPara mandar itens a outro jogador, coloque-os na caixa de correio dele.\n\nSe ele estiver no mundo, recebe um aviso na hora; senão, quando entrar."
           },
           {
-            "raw": "§lEscrivaninha§r\n\n3 gavetas, 9 espaços. Lado a lado, juntam-se num tampo só."
+            "raw": "§lEscrivaninha§r\n\n3 gavetas, 9 espaços. Lado a lado, se juntam num tampo só."
           },
           {
             "raw": "§lMesa de Centro§r\n\nClique com um item para o pôr em cima; com a mão vazia, tire."
@@ -147,7 +150,7 @@
             "raw": "§lPiano§r\n\n2 blocos. Cada tecla toca uma nota: as graves à esquerda, as agudas à direita."
           },
           {
-            "raw": "§lCofre-Forte§r\n\n27 espaços. Só o dono abre e parte. Explosões, funis e outros jogadores não o abrem."
+            "raw": "§lCofre-Forte§r\n\n27 espaços. Só o dono abre e quebra. Explosões, funis e outros jogadores não o abrem."
           },
           {
             "raw": "§lToldo§r\n\nDecoração de parede, por cima de janelas e portas. Dá 2."
@@ -165,13 +168,13 @@
             "raw": "§lPincel de Verniz§r\n\nLã, verniz e um pau. Um pincel por tom; dá 64 demãos. Devolve o frasco."
           },
           {
-            "raw": "§lEnvernizar§r\n\nClique direito com o pincel em tábuas, escadas, lajes, blocos novos ou móveis: ficam da cor do verniz.\n\nO carvalho continua carvalho, virado para o mesmo lado. Portas, cercas e alçapões não."
+            "raw": "§lEnvernizar§r\n\nClique com o botão direito, com o pincel, em tábuas, escadas, lajes, blocos novos ou móveis: ficam da cor do verniz.\n\nO carvalho continua carvalho, virado para o mesmo lado. Portas, cercas e alçapões não."
           },
           {
             "raw": "§lPolir§r\n\nPasse o mesmo pincel outra vez: a madeira fica polida, com mais brilho.\n\nUm pincel de outro tom troca a cor (sem polimento)."
           },
           {
-            "raw": "§lTirar o verniz§r\n\nClique direito com um machado, como na cera do cobre:\n\npolida → envernizada → madeira crua.\n\nCada raspagem gasta o machado."
+            "raw": "§lTirar o verniz§r\n\nClique com o botão direito segurando um machado, como na cera do cobre:\n\npolida → envernizada → madeira crua.\n\nCada raspagem gasta o machado."
           },
           {
             "raw": "§lDesgaste§r\n\nA madeira crua dos Móveis (blocos novos e móveis) se desgasta na chuva, com o céu por cima: 3 estágios, cada um cerca de 9 dias de jogo.\n\nA madeira do jogo e as casas que já existem nunca mudam."
@@ -186,22 +189,25 @@
             "raw": "§lNa Serraria§r\n\nTronco → 6 tábuas (a bancada dá 4).\n\nTábua → parquet, espinha, assoalho, lambri, viga, escadas, 2 lajes ou 2 paus.\n\nParquet, espinha, assoalho → escadas ou 2 lajes."
           },
           {
-            "raw": "§lParquet§r\n\nQuadrados de tábuas deitadas e em pé, alternados.\n\nNa Serraria: 1 tábua → 1 parquet. Tem escadas e lajes."
+            "raw": "§lParquet§r\n\nQuadrados de tábuas deitadas e em pé, alternados. Feito na Serraria, com 1 tábua. Tem escadas e lajes."
           },
           {
-            "raw": "§lEspinha de Peixe§r\n\nRéguas curtas em ziguezague, como nos salões antigos.\n\nNa Serraria: 1 tábua → 1 bloco. Tem escadas e lajes."
+            "raw": "§lEspinha de Peixe§r\n\nRéguas curtas em ziguezague, como nos salões antigos. Feita na Serraria, com 1 tábua. Tem escadas e lajes."
           },
           {
-            "raw": "§lAssoalho§r\n\nTábuas compridas com as juntas desencontradas, para pisos.\n\nNa Serraria: 1 tábua → 1 assoalho. Tem escadas e lajes."
+            "raw": "§lAssoalho§r\n\nTábuas compridas com as juntas desencontradas, para pisos. Feito na Serraria, com 1 tábua. Tem escadas e lajes."
           },
           {
-            "raw": "§lLambri§r\n\nTábuas em pé com sulcos, para forrar paredes.\n\nNa Serraria: 1 tábua → 1 lambri. Sem escadas nem lajes."
+            "raw": "§lLambri§r\n\nTábuas em pé com sulcos, para forrar paredes. Feito na Serraria, com 1 tábua. Sem escadas nem lajes."
           },
           {
-            "raw": "§lViga§r\n\nUm pilar de madeira serrada. Fica deitada para o lado em que se clica, como os troncos.\n\nNa Serraria: 1 tábua → 1 viga."
+            "raw": "§lViga§r\n\nPilar de madeira serrada. Fica deitada para o lado em que se clica, como os troncos. Feita na Serraria, com 1 tábua."
           },
           {
             "raw": "§lMadeiras§r\n\nCarvalho, Abeto, Bétula, Selva, Acácia, Carvalho Escuro, Carvalho Pálido, Carmesim, Distorcida, Mangue, Bambu, Cerejeira, Álamo."
+          },
+          {
+            "raw": "§lE o resto?§r\n\nTudo o resto está no separador Guias do Receitário (botão no inventário): a receita de cada móvel, uma por página."
           }
         ],
         "resolved": true

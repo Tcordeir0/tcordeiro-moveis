@@ -69,7 +69,21 @@ public class DataGameTests {
 		ItemStack book = holder.get().value().display().get(0).result().resolveForFirstStack(SlotDisplayContext.fromLevel(h.getLevel()));
 		var content = book.get(DataComponents.WRITTEN_BOOK_CONTENT);
 		h.assertTrue(content != null && !content.pages().isEmpty() && content.pages().size() <= 100, "livro com 1–100 páginas");
-		h.assertValueEqual(com.tcordeiro.moveis.guide.MoveisGuide.PAGES.size() + 1, content.pages().size(), "livro = páginas do guia + madeiras");
+		h.assertValueEqual(com.tcordeiro.moveis.guide.MoveisGuide.PAGES.size() + 2, content.pages().size(),
+				"livro = páginas do guia + madeiras + «o resto no separador Guias»");
+		h.assertTrue(content.pages().get(content.pages().size() - 1).raw().getString().contains("separador Guias"), "a última página manda para o separador");
+		// 0.3.2: cada receita do separador Guias existe no servidor e dá o item mostrado; as da Serraria são do tipo tmoveis:sawing
+		var ctx = SlotDisplayContext.fromLevel(h.getLevel());
+		for (var p : com.tcordeiro.moveis.guide.MoveisGuide.PAGES)
+			for (var r : p.recipes()) {
+				var rh = server.getRecipeManager().byKey(ResourceKey.create(Registries.RECIPE, net.minecraft.resources.Identifier.parse(r.id())));
+				h.assertTrue(rh.isPresent(), "receita do guia existe: " + r.id());
+				var shown = rh.get().value().display().get(0).result().resolveForFirstStack(ctx);
+				h.assertValueEqual(BuiltInRegistries.ITEM.getKey(shown.getItem()).toString(), r.result(), "resultado de " + r.id());
+				boolean saw = BuiltInRegistries.RECIPE_TYPE.getKey(rh.get().value().getType()).toString().equals("tmoveis:sawing");
+				h.assertValueEqual(r.station() != null, saw, "estação da Serraria em " + r.id());
+				if (saw) h.assertValueEqual(r.station(), "tmoveis:sawmill", "estação de " + r.id());
+			}
 		h.succeed();
 	}
 

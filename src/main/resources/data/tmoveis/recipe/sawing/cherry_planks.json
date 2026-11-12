@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "#minecraft:cherry_logs",
+  "result": {
+    "id": "minecraft:cherry_planks",
+    "count": 6
+  }
+}

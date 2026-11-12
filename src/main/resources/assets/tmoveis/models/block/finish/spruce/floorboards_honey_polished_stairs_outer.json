@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/spruce/floorboards_honey_polished",
+    "top": "tmoveis:block/finish/spruce/floorboards_honey_polished",
+    "side": "tmoveis:block/finish/spruce/floorboards_honey_polished"
+  }
+}

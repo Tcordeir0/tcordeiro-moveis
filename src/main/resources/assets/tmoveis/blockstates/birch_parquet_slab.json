@@ -1,0 +1,166 @@
+{
+  "variants": {
+    "finish=raw,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_slab"
+    },
+    "finish=raw,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_slab_top"
+    },
+    "finish=raw,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet"
+    },
+    "finish=worn_1,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_worn_1_slab"
+    },
+    "finish=worn_1,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_worn_1_slab_top"
+    },
+    "finish=worn_1,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_worn_1"
+    },
+    "finish=worn_2,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_worn_2_slab"
+    },
+    "finish=worn_2,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_worn_2_slab_top"
+    },
+    "finish=worn_2,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_worn_2"
+    },
+    "finish=worn_3,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_worn_3_slab"
+    },
+    "finish=worn_3,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_worn_3_slab_top"
+    },
+    "finish=worn_3,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_worn_3"
+    },
+    "finish=natural,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_natural_slab"
+    },
+    "finish=natural,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_natural_slab_top"
+    },
+    "finish=natural,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_natural"
+    },
+    "finish=natural_polished,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_natural_polished_slab"
+    },
+    "finish=natural_polished,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_natural_polished_slab_top"
+    },
+    "finish=natural_polished,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_natural_polished"
+    },
+    "finish=honey,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_honey_slab"
+    },
+    "finish=honey,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_honey_slab_top"
+    },
+    "finish=honey,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_honey"
+    },
+    "finish=honey_polished,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_honey_polished_slab"
+    },
+    "finish=honey_polished,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_honey_polished_slab_top"
+    },
+    "finish=honey_polished,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_honey_polished"
+    },
+    "finish=walnut,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_walnut_slab"
+    },
+    "finish=walnut,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_walnut_slab_top"
+    },
+    "finish=walnut,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_walnut"
+    },
+    "finish=walnut_polished,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_walnut_polished_slab"
+    },
+    "finish=walnut_polished,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_walnut_polished_slab_top"
+    },
+    "finish=walnut_polished,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_walnut_polished"
+    },
+    "finish=mahogany,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_mahogany_slab"
+    },
+    "finish=mahogany,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_mahogany_slab_top"
+    },
+    "finish=mahogany,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_mahogany"
+    },
+    "finish=mahogany_polished,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_mahogany_polished_slab"
+    },
+    "finish=mahogany_polished,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_mahogany_polished_slab_top"
+    },
+    "finish=mahogany_polished,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_mahogany_polished"
+    },
+    "finish=ebony,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_ebony_slab"
+    },
+    "finish=ebony,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_ebony_slab_top"
+    },
+    "finish=ebony,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_ebony"
+    },
+    "finish=ebony_polished,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_ebony_polished_slab"
+    },
+    "finish=ebony_polished,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_ebony_polished_slab_top"
+    },
+    "finish=ebony_polished,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_ebony_polished"
+    },
+    "finish=white_lacquer,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_white_lacquer_slab"
+    },
+    "finish=white_lacquer,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_white_lacquer_slab_top"
+    },
+    "finish=white_lacquer,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_white_lacquer"
+    },
+    "finish=white_lacquer_polished,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_white_lacquer_polished_slab"
+    },
+    "finish=white_lacquer_polished,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_white_lacquer_polished_slab_top"
+    },
+    "finish=white_lacquer_polished,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_white_lacquer_polished"
+    },
+    "finish=black_lacquer,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_black_lacquer_slab"
+    },
+    "finish=black_lacquer,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_black_lacquer_slab_top"
+    },
+    "finish=black_lacquer,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_black_lacquer"
+    },
+    "finish=black_lacquer_polished,type=bottom": {
+      "model": "tmoveis:block/finish/birch/parquet_black_lacquer_polished_slab"
+    },
+    "finish=black_lacquer_polished,type=top": {
+      "model": "tmoveis:block/finish/birch/parquet_black_lacquer_polished_slab_top"
+    },
+    "finish=black_lacquer_polished,type=double": {
+      "model": "tmoveis:block/finish/birch/parquet_black_lacquer_polished"
+    }
+  }
+}

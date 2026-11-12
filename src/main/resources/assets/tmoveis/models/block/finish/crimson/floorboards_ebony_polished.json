@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tmoveis:block/finish/crimson/floorboards_ebony_polished"
+  }
+}

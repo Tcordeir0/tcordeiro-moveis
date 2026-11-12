@@ -1,18 +1,273 @@
 {
   "variants": {
-    "facing=north": {
+    "finish=raw,facing=north": {
       "model": "tmoveis:block/mangrove_chair"
     },
-    "facing=east": {
+    "finish=raw,facing=east": {
       "model": "tmoveis:block/mangrove_chair",
       "y": 90
     },
-    "facing=south": {
+    "finish=raw,facing=south": {
       "model": "tmoveis:block/mangrove_chair",
       "y": 180
     },
-    "facing=west": {
+    "finish=raw,facing=west": {
       "model": "tmoveis:block/mangrove_chair",
+      "y": 270
+    },
+    "finish=worn_1,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_1"
+    },
+    "finish=worn_1,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_1",
+      "y": 270
+    },
+    "finish=worn_2,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_2"
+    },
+    "finish=worn_2,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_2",
+      "y": 270
+    },
+    "finish=worn_3,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_3"
+    },
+    "finish=worn_3,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_worn_3",
+      "y": 270
+    },
+    "finish=natural,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_natural"
+    },
+    "finish=natural,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_natural",
+      "y": 90
+    },
+    "finish=natural,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_natural",
+      "y": 180
+    },
+    "finish=natural,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_natural",
+      "y": 270
+    },
+    "finish=natural_polished,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_natural_polished"
+    },
+    "finish=natural_polished,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_natural_polished",
+      "y": 270
+    },
+    "finish=honey,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_honey"
+    },
+    "finish=honey,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_honey",
+      "y": 90
+    },
+    "finish=honey,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_honey",
+      "y": 180
+    },
+    "finish=honey,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_honey",
+      "y": 270
+    },
+    "finish=honey_polished,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_honey_polished"
+    },
+    "finish=honey_polished,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_honey_polished",
+      "y": 270
+    },
+    "finish=walnut,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_walnut"
+    },
+    "finish=walnut,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_walnut",
+      "y": 90
+    },
+    "finish=walnut,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_walnut",
+      "y": 180
+    },
+    "finish=walnut,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_walnut",
+      "y": 270
+    },
+    "finish=walnut_polished,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_walnut_polished"
+    },
+    "finish=walnut_polished,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_walnut_polished",
+      "y": 270
+    },
+    "finish=mahogany,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_mahogany"
+    },
+    "finish=mahogany,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_mahogany",
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_mahogany_polished"
+    },
+    "finish=mahogany_polished,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_mahogany_polished",
+      "y": 270
+    },
+    "finish=ebony,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_ebony"
+    },
+    "finish=ebony,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_ebony",
+      "y": 90
+    },
+    "finish=ebony,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_ebony",
+      "y": 180
+    },
+    "finish=ebony,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_ebony",
+      "y": 270
+    },
+    "finish=ebony_polished,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_ebony_polished"
+    },
+    "finish=ebony_polished,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_ebony_polished",
+      "y": 270
+    },
+    "finish=white_lacquer,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_white_lacquer"
+    },
+    "finish=white_lacquer,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_black_lacquer"
+    },
+    "finish=black_lacquer,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=north": {
+      "model": "tmoveis:block/finish/mangrove/chair_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,facing=east": {
+      "model": "tmoveis:block/finish/mangrove/chair_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=south": {
+      "model": "tmoveis:block/finish/mangrove/chair_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=west": {
+      "model": "tmoveis:block/finish/mangrove/chair_black_lacquer_polished",
       "y": 270
     }
   }

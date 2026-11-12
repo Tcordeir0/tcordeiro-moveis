@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "minecraft:spruce_planks",
+  "result": {
+    "id": "tmoveis:spruce_paneling"
+  }
+}

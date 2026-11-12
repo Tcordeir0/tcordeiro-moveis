@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tmoveis:block/finish/mangrove/planks_white_lacquer",
+    "side": "tmoveis:block/finish/mangrove/paneling_white_lacquer"
+  }
+}

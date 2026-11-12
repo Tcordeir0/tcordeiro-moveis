@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tmoveis:block/finish/acacia/herringbone_honey_polished"
+  }
+}

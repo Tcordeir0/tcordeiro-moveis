@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tmoveis:block/finish/bamboo/planks_natural",
+    "side": "tmoveis:block/finish/bamboo/paneling_natural"
+  }
+}

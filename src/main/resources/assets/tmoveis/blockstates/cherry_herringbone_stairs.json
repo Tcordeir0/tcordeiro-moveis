@@ -1,0 +1,3694 @@
+{
+  "variants": {
+    "finish=raw,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=raw,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner"
+    },
+    "finish=raw,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=raw,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer"
+    },
+    "finish=raw,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs"
+    },
+    "finish=raw,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=raw,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=raw,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=raw,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=raw,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=raw,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=raw,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=raw,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=raw,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=raw,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=raw,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=raw,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=raw,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=raw,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=raw,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=raw,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner"
+    },
+    "finish=raw,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=raw,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer"
+    },
+    "finish=raw,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=raw,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=raw,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=raw,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=raw,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=raw,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=raw,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=raw,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=raw,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=raw,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=raw,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=raw,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=raw,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=raw,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=raw,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=raw,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=raw,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_1,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_1,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner"
+    },
+    "finish=worn_1,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_1,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer"
+    },
+    "finish=worn_1,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs"
+    },
+    "finish=worn_1,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_1,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_1,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_1,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_1,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_1,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_1,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_1,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_1,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_1,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_1,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_1,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_1,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_1,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_1,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_1,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner"
+    },
+    "finish=worn_1,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_1,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer"
+    },
+    "finish=worn_1,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_1,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_1,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_1,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_1,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_1,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_1,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_1,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_1,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_1,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_1,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_1,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_1,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_1,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_1,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_1,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_1,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_1_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_2,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_2,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner"
+    },
+    "finish=worn_2,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_2,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer"
+    },
+    "finish=worn_2,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs"
+    },
+    "finish=worn_2,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_2,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_2,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_2,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_2,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_2,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_2,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_2,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_2,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_2,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_2,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_2,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_2,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_2,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_2,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_2,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner"
+    },
+    "finish=worn_2,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_2,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer"
+    },
+    "finish=worn_2,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_2,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_2,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_2,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_2,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_2,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_2,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_2,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_2,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_2,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_2,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_2,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_2,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_2,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_2,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_2,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_2,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_2_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_3,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_3,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner"
+    },
+    "finish=worn_3,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_3,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer"
+    },
+    "finish=worn_3,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs"
+    },
+    "finish=worn_3,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_3,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_3,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_3,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_3,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_3,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_3,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_3,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_3,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_3,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=worn_3,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_3,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_3,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_3,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=worn_3,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_3,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner"
+    },
+    "finish=worn_3,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_3,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer"
+    },
+    "finish=worn_3,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_3,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_3,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_3,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_3,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_3,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_3,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=worn_3,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_3,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_3,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=worn_3,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_3,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=worn_3,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_3,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_3,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=worn_3,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=worn_3,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_worn_3_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=natural,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=natural,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner"
+    },
+    "finish=natural,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=natural,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer"
+    },
+    "finish=natural,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs"
+    },
+    "finish=natural,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=natural,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=natural,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=natural,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=natural,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=natural,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=natural,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=natural,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=natural,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=natural,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=natural,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=natural,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=natural,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=natural,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=natural,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=natural,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner"
+    },
+    "finish=natural,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=natural,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer"
+    },
+    "finish=natural,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=natural,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=natural,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=natural,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=natural,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=natural,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=natural,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=natural,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=natural,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=natural,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=natural,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=natural,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=natural,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=natural,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=natural,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=natural,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=natural,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=natural_polished,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=natural_polished,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner"
+    },
+    "finish=natural_polished,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=natural_polished,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer"
+    },
+    "finish=natural_polished,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs"
+    },
+    "finish=natural_polished,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=natural_polished,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=natural_polished,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=natural_polished,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=natural_polished,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=natural_polished,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=natural_polished,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=natural_polished,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=natural_polished,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=natural_polished,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=natural_polished,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=natural_polished,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=natural_polished,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=natural_polished,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=natural_polished,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=natural_polished,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner"
+    },
+    "finish=natural_polished,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=natural_polished,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer"
+    },
+    "finish=natural_polished,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=natural_polished,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=natural_polished,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=natural_polished,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=natural_polished,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=natural_polished,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=natural_polished,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=natural_polished,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=natural_polished,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=natural_polished,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=natural_polished,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=natural_polished,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=natural_polished,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=natural_polished,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=natural_polished,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=natural_polished,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=natural_polished,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_natural_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=honey,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=honey,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner"
+    },
+    "finish=honey,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=honey,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer"
+    },
+    "finish=honey,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs"
+    },
+    "finish=honey,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=honey,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=honey,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=honey,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=honey,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=honey,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=honey,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=honey,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=honey,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=honey,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=honey,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=honey,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=honey,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=honey,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=honey,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=honey,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner"
+    },
+    "finish=honey,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=honey,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer"
+    },
+    "finish=honey,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=honey,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=honey,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=honey,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=honey,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=honey,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=honey,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=honey,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=honey,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=honey,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=honey,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=honey,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=honey,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=honey,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=honey,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=honey,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=honey,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=honey_polished,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=honey_polished,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner"
+    },
+    "finish=honey_polished,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=honey_polished,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer"
+    },
+    "finish=honey_polished,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs"
+    },
+    "finish=honey_polished,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=honey_polished,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=honey_polished,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=honey_polished,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=honey_polished,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=honey_polished,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=honey_polished,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=honey_polished,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=honey_polished,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=honey_polished,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=honey_polished,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=honey_polished,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=honey_polished,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=honey_polished,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=honey_polished,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=honey_polished,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner"
+    },
+    "finish=honey_polished,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=honey_polished,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer"
+    },
+    "finish=honey_polished,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=honey_polished,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=honey_polished,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=honey_polished,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=honey_polished,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=honey_polished,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=honey_polished,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=honey_polished,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=honey_polished,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=honey_polished,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=honey_polished,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=honey_polished,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=honey_polished,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=honey_polished,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=honey_polished,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=honey_polished,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=honey_polished,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_honey_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=walnut,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=walnut,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner"
+    },
+    "finish=walnut,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=walnut,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer"
+    },
+    "finish=walnut,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs"
+    },
+    "finish=walnut,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=walnut,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=walnut,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=walnut,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=walnut,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=walnut,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=walnut,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=walnut,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=walnut,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=walnut,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=walnut,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=walnut,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=walnut,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=walnut,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=walnut,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=walnut,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner"
+    },
+    "finish=walnut,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=walnut,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer"
+    },
+    "finish=walnut,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=walnut,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=walnut,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=walnut,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=walnut,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=walnut,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=walnut,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=walnut,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=walnut,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=walnut,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=walnut,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=walnut,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=walnut,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=walnut,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=walnut,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=walnut,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=walnut,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=walnut_polished,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=walnut_polished,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner"
+    },
+    "finish=walnut_polished,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=walnut_polished,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer"
+    },
+    "finish=walnut_polished,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs"
+    },
+    "finish=walnut_polished,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=walnut_polished,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=walnut_polished,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=walnut_polished,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=walnut_polished,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=walnut_polished,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=walnut_polished,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=walnut_polished,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=walnut_polished,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=walnut_polished,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=walnut_polished,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=walnut_polished,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=walnut_polished,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=walnut_polished,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=walnut_polished,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=walnut_polished,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner"
+    },
+    "finish=walnut_polished,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=walnut_polished,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer"
+    },
+    "finish=walnut_polished,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=walnut_polished,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=walnut_polished,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=walnut_polished,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=walnut_polished,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=walnut_polished,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=walnut_polished,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=walnut_polished,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=walnut_polished,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=walnut_polished,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=walnut_polished,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=walnut_polished,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=walnut_polished,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=walnut_polished,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=walnut_polished,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=walnut_polished,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=walnut_polished,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_walnut_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=mahogany,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=mahogany,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner"
+    },
+    "finish=mahogany,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=mahogany,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer"
+    },
+    "finish=mahogany,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs"
+    },
+    "finish=mahogany,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=mahogany,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=mahogany,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=mahogany,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=mahogany,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=mahogany,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=mahogany,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=mahogany,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=mahogany,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=mahogany,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=mahogany,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=mahogany,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=mahogany,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=mahogany,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=mahogany,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=mahogany,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner"
+    },
+    "finish=mahogany,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=mahogany,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer"
+    },
+    "finish=mahogany,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=mahogany,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=mahogany,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=mahogany,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=mahogany,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=mahogany,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=mahogany,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=mahogany,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=mahogany,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=mahogany,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=mahogany,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=mahogany,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=mahogany,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=mahogany,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=mahogany,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=mahogany,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=mahogany,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner"
+    },
+    "finish=mahogany_polished,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer"
+    },
+    "finish=mahogany_polished,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs"
+    },
+    "finish=mahogany_polished,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=mahogany_polished,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=mahogany_polished,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=mahogany_polished,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=mahogany_polished,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=mahogany_polished,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner"
+    },
+    "finish=mahogany_polished,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer"
+    },
+    "finish=mahogany_polished,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_mahogany_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=ebony,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=ebony,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner"
+    },
+    "finish=ebony,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=ebony,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer"
+    },
+    "finish=ebony,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs"
+    },
+    "finish=ebony,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=ebony,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=ebony,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=ebony,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=ebony,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=ebony,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=ebony,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=ebony,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=ebony,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=ebony,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=ebony,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=ebony,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=ebony,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=ebony,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=ebony,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=ebony,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner"
+    },
+    "finish=ebony,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=ebony,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer"
+    },
+    "finish=ebony,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=ebony,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=ebony,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=ebony,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=ebony,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=ebony,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=ebony,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=ebony,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=ebony,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=ebony,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=ebony,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=ebony,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=ebony,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=ebony,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=ebony,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=ebony,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=ebony,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=ebony_polished,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=ebony_polished,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner"
+    },
+    "finish=ebony_polished,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=ebony_polished,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer"
+    },
+    "finish=ebony_polished,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs"
+    },
+    "finish=ebony_polished,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=ebony_polished,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=ebony_polished,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=ebony_polished,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=ebony_polished,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=ebony_polished,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=ebony_polished,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=ebony_polished,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=ebony_polished,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=ebony_polished,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=ebony_polished,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=ebony_polished,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=ebony_polished,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=ebony_polished,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=ebony_polished,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=ebony_polished,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner"
+    },
+    "finish=ebony_polished,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=ebony_polished,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer"
+    },
+    "finish=ebony_polished,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=ebony_polished,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=ebony_polished,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=ebony_polished,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=ebony_polished,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=ebony_polished,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=ebony_polished,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=ebony_polished,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=ebony_polished,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=ebony_polished,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=ebony_polished,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=ebony_polished,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=ebony_polished,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=ebony_polished,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=ebony_polished,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=ebony_polished,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=ebony_polished,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_ebony_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=white_lacquer,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=white_lacquer,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner"
+    },
+    "finish=white_lacquer,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=white_lacquer,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer"
+    },
+    "finish=white_lacquer,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs"
+    },
+    "finish=white_lacquer,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=white_lacquer,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=white_lacquer,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=white_lacquer,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=white_lacquer,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=white_lacquer,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=white_lacquer,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=white_lacquer,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=white_lacquer,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=white_lacquer,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=white_lacquer,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=white_lacquer,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=white_lacquer,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=white_lacquer,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=white_lacquer,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=white_lacquer,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner"
+    },
+    "finish=white_lacquer,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=white_lacquer,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer"
+    },
+    "finish=white_lacquer,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=white_lacquer,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=white_lacquer,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=white_lacquer,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=white_lacquer,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=white_lacquer,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=white_lacquer,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=white_lacquer,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=white_lacquer,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=white_lacquer,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=white_lacquer,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=white_lacquer,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=white_lacquer,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=white_lacquer,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=white_lacquer,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=white_lacquer,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=white_lacquer,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner"
+    },
+    "finish=white_lacquer_polished,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer"
+    },
+    "finish=white_lacquer_polished,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs"
+    },
+    "finish=white_lacquer_polished,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=white_lacquer_polished,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=white_lacquer_polished,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=white_lacquer_polished,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=white_lacquer_polished,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=white_lacquer_polished,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner"
+    },
+    "finish=white_lacquer_polished,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer"
+    },
+    "finish=white_lacquer_polished,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_white_lacquer_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=black_lacquer,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=black_lacquer,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner"
+    },
+    "finish=black_lacquer,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=black_lacquer,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer"
+    },
+    "finish=black_lacquer,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs"
+    },
+    "finish=black_lacquer,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=black_lacquer,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=black_lacquer,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=black_lacquer,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=black_lacquer,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=black_lacquer,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=black_lacquer,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=black_lacquer,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=black_lacquer,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=black_lacquer,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=black_lacquer,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=black_lacquer,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=black_lacquer,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=black_lacquer,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=black_lacquer,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=black_lacquer,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner"
+    },
+    "finish=black_lacquer,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=black_lacquer,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer"
+    },
+    "finish=black_lacquer,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=black_lacquer,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=black_lacquer,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=black_lacquer,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=black_lacquer,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=black_lacquer,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=black_lacquer,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=black_lacquer,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=black_lacquer,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=black_lacquer,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=black_lacquer,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=black_lacquer,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=black_lacquer,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=black_lacquer,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=black_lacquer,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=black_lacquer,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=black_lacquer,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=east,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=east,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner"
+    },
+    "finish=black_lacquer_polished,facing=east,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=east,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer"
+    },
+    "finish=black_lacquer_polished,facing=east,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs"
+    },
+    "finish=black_lacquer_polished,facing=east,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=black_lacquer_polished,facing=east,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=east,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=black_lacquer_polished,facing=east,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=east,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=black_lacquer_polished,facing=north,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=north,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=north,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=north,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=north,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs",
+      "uvlock": true,
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=north,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=north,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=black_lacquer_polished,facing=north,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=north,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180
+    },
+    "finish=black_lacquer_polished,facing=north,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=south,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner"
+    },
+    "finish=black_lacquer_polished,facing=south,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=south,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer"
+    },
+    "finish=black_lacquer_polished,facing=south,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=south,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=south,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=south,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=south,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=south,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=south,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=west,half=bottom,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=west,half=bottom,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=west,half=bottom,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=west,half=bottom,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=west,half=bottom,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs",
+      "uvlock": true,
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=west,half=top,shape=inner_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=west,half=top,shape=inner_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_inner",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=west,half=top,shape=outer_left": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=west,half=top,shape=outer_right": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs_outer",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=west,half=top,shape=straight": {
+      "model": "tmoveis:block/finish/cherry/herringbone_black_lacquer_polished_stairs",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    }
+  }
+}

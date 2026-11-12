@@ -24,6 +24,11 @@ public class StoolBlock extends Block implements SeatBlock {
 	}
 
 	@Override
+	protected void createBlockStateDefinition(net.minecraft.world.level.block.state.StateDefinition.Builder<Block, BlockState> builder) {
+		builder.add(com.tcordeiro.moveis.finish.FinishState.FINISH);
+	}
+
+	@Override
 	protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext ctx) {
 		return SHAPE;
 	}
@@ -51,5 +56,16 @@ public class StoolBlock extends Block implements SeatBlock {
 	@Override
 	protected boolean isPathfindable(BlockState state, PathComputationType type) {
 		return false;
+	}
+
+	// verniz e desgaste (0.3.0): ver com.tcordeiro.moveis.finish
+	@Override
+	protected boolean isRandomlyTicking(BlockState state) {
+		return com.tcordeiro.moveis.finish.Weathering.ticks(state);
+	}
+
+	@Override
+	protected void randomTick(BlockState state, ServerLevel level, BlockPos pos, net.minecraft.util.RandomSource random) {
+		com.tcordeiro.moveis.finish.Weathering.randomTick(state, level, pos, random);
 	}
 }

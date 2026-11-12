@@ -19,5 +19,6 @@ public class TMoveis implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		MoveisBlocks.init();
+		com.tcordeiro.moveis.finish.FinishBlocks.init(); // 0.3.0: madeira e verniz, Serraria
 	}
 }

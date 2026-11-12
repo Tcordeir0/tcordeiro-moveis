@@ -1,33 +1,543 @@
 {
   "variants": {
-    "facing=north,open=false": {
+    "finish=raw,facing=north,open=false": {
       "model": "tmoveis:block/pale_oak_cabinet"
     },
-    "facing=north,open=true": {
+    "finish=raw,facing=north,open=true": {
       "model": "tmoveis:block/pale_oak_cabinet_open"
     },
-    "facing=east,open=false": {
+    "finish=raw,facing=east,open=false": {
       "model": "tmoveis:block/pale_oak_cabinet",
       "y": 90
     },
-    "facing=east,open=true": {
+    "finish=raw,facing=east,open=true": {
       "model": "tmoveis:block/pale_oak_cabinet_open",
       "y": 90
     },
-    "facing=south,open=false": {
+    "finish=raw,facing=south,open=false": {
       "model": "tmoveis:block/pale_oak_cabinet",
       "y": 180
     },
-    "facing=south,open=true": {
+    "finish=raw,facing=south,open=true": {
       "model": "tmoveis:block/pale_oak_cabinet_open",
       "y": 180
     },
-    "facing=west,open=false": {
+    "finish=raw,facing=west,open=false": {
       "model": "tmoveis:block/pale_oak_cabinet",
       "y": 270
     },
-    "facing=west,open=true": {
+    "finish=raw,facing=west,open=true": {
       "model": "tmoveis:block/pale_oak_cabinet_open",
+      "y": 270
+    },
+    "finish=worn_1,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_1"
+    },
+    "finish=worn_1,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_1"
+    },
+    "finish=worn_1,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_1",
+      "y": 270
+    },
+    "finish=worn_2,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_2"
+    },
+    "finish=worn_2,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_2"
+    },
+    "finish=worn_2,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_2",
+      "y": 270
+    },
+    "finish=worn_3,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_3"
+    },
+    "finish=worn_3,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_3"
+    },
+    "finish=worn_3,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_worn_3",
+      "y": 270
+    },
+    "finish=natural,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_natural"
+    },
+    "finish=natural,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_natural"
+    },
+    "finish=natural,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_natural",
+      "y": 90
+    },
+    "finish=natural,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_natural",
+      "y": 90
+    },
+    "finish=natural,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_natural",
+      "y": 180
+    },
+    "finish=natural,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_natural",
+      "y": 180
+    },
+    "finish=natural,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_natural",
+      "y": 270
+    },
+    "finish=natural,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_natural",
+      "y": 270
+    },
+    "finish=natural_polished,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_natural_polished"
+    },
+    "finish=natural_polished,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_natural_polished"
+    },
+    "finish=natural_polished,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_natural_polished",
+      "y": 270
+    },
+    "finish=honey,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_honey"
+    },
+    "finish=honey,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_honey"
+    },
+    "finish=honey,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_honey",
+      "y": 90
+    },
+    "finish=honey,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_honey",
+      "y": 90
+    },
+    "finish=honey,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_honey",
+      "y": 180
+    },
+    "finish=honey,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_honey",
+      "y": 180
+    },
+    "finish=honey,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_honey",
+      "y": 270
+    },
+    "finish=honey,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_honey",
+      "y": 270
+    },
+    "finish=honey_polished,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_honey_polished"
+    },
+    "finish=honey_polished,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_honey_polished"
+    },
+    "finish=honey_polished,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_honey_polished",
+      "y": 270
+    },
+    "finish=walnut,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_walnut"
+    },
+    "finish=walnut,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_walnut"
+    },
+    "finish=walnut,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_walnut",
+      "y": 90
+    },
+    "finish=walnut,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_walnut",
+      "y": 90
+    },
+    "finish=walnut,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_walnut",
+      "y": 180
+    },
+    "finish=walnut,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_walnut",
+      "y": 180
+    },
+    "finish=walnut,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_walnut",
+      "y": 270
+    },
+    "finish=walnut,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_walnut",
+      "y": 270
+    },
+    "finish=walnut_polished,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_walnut_polished"
+    },
+    "finish=walnut_polished,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_walnut_polished"
+    },
+    "finish=walnut_polished,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_walnut_polished",
+      "y": 270
+    },
+    "finish=mahogany,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_mahogany"
+    },
+    "finish=mahogany,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_mahogany"
+    },
+    "finish=mahogany,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_mahogany",
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_mahogany_polished"
+    },
+    "finish=mahogany_polished,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_mahogany_polished"
+    },
+    "finish=mahogany_polished,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_mahogany_polished",
+      "y": 270
+    },
+    "finish=ebony,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_ebony"
+    },
+    "finish=ebony,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_ebony"
+    },
+    "finish=ebony,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_ebony",
+      "y": 90
+    },
+    "finish=ebony,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_ebony",
+      "y": 90
+    },
+    "finish=ebony,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_ebony",
+      "y": 180
+    },
+    "finish=ebony,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_ebony",
+      "y": 180
+    },
+    "finish=ebony,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_ebony",
+      "y": 270
+    },
+    "finish=ebony,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_ebony",
+      "y": 270
+    },
+    "finish=ebony_polished,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_ebony_polished"
+    },
+    "finish=ebony_polished,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_ebony_polished"
+    },
+    "finish=ebony_polished,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_ebony_polished",
+      "y": 270
+    },
+    "finish=white_lacquer,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_white_lacquer"
+    },
+    "finish=white_lacquer,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_white_lacquer"
+    },
+    "finish=white_lacquer,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_black_lacquer"
+    },
+    "finish=black_lacquer,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_black_lacquer"
+    },
+    "finish=black_lacquer,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=north,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,facing=north,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,facing=east,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=east,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,facing=south,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=south,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,facing=west,open=false": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,facing=west,open=true": {
+      "model": "tmoveis:block/finish/pale_oak/cabinet_open_black_lacquer_polished",
       "y": 270
     }
   }

@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:spruce_floorboards",
+  "result": {
+    "id": "tmoveis:spruce_floorboard_stairs"
+  }
+}

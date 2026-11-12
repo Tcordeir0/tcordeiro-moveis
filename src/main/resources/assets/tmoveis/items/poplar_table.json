@@ -1,99 +1,1806 @@
 {
   "model": {
-    "type": "minecraft:composite",
-    "models": [
+    "type": "minecraft:select",
+    "property": "minecraft:block_state",
+    "block_state_property": "finish",
+    "cases": [
       {
-        "type": "minecraft:model",
-        "model": "tmoveis:block/poplar_table_top"
-      },
-      {
-        "type": "minecraft:model",
-        "model": "tmoveis:block/poplar_table_leg"
-      },
-      {
-        "type": "minecraft:model",
-        "model": "tmoveis:block/poplar_table_leg",
-        "transformation": {
-          "left_rotation": [
-            0,
-            -0.70710677,
-            0,
-            0.70710677
-          ],
-          "right_rotation": [
-            0,
-            0,
-            0,
-            1
-          ],
-          "scale": [
-            1,
-            1,
-            1
-          ],
-          "translation": [
-            1,
-            0,
-            0
+        "when": "worn_1",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_worn_1"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_1"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_1",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_1",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_1",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
           ]
         }
       },
       {
-        "type": "minecraft:model",
-        "model": "tmoveis:block/poplar_table_leg",
-        "transformation": {
-          "left_rotation": [
-            0,
-            1,
-            0,
-            0
-          ],
-          "right_rotation": [
-            0,
-            0,
-            0,
-            1
-          ],
-          "scale": [
-            1,
-            1,
-            1
-          ],
-          "translation": [
-            1,
-            0,
-            1
+        "when": "worn_2",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_worn_2"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_2"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_2",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_2",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_2",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
           ]
         }
       },
       {
-        "type": "minecraft:model",
-        "model": "tmoveis:block/poplar_table_leg",
-        "transformation": {
-          "left_rotation": [
-            0,
-            0.70710677,
-            0,
-            0.70710677
-          ],
-          "right_rotation": [
-            0,
-            0,
-            0,
-            1
-          ],
-          "scale": [
-            1,
-            1,
-            1
-          ],
-          "translation": [
-            0,
-            0,
-            1
+        "when": "worn_3",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_worn_3"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_3"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_3",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_3",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_worn_3",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "natural",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_natural"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_natural"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_natural",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_natural",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_natural",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "natural_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_natural_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_natural_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_natural_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_natural_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_natural_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "honey",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_honey"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_honey"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_honey",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_honey",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_honey",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "honey_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_honey_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_honey_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_honey_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_honey_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_honey_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "walnut",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_walnut"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_walnut"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_walnut",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_walnut",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_walnut",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "walnut_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_walnut_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_walnut_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_walnut_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_walnut_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_walnut_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "mahogany",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_mahogany"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_mahogany"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_mahogany",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_mahogany",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_mahogany",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "mahogany_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_mahogany_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_mahogany_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_mahogany_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_mahogany_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_mahogany_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "ebony",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_ebony"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_ebony"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_ebony",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_ebony",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_ebony",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "ebony_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_ebony_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_ebony_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_ebony_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_ebony_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_ebony_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "white_lacquer",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_white_lacquer"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_white_lacquer"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_white_lacquer",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_white_lacquer",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_white_lacquer",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "white_lacquer_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_white_lacquer_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_white_lacquer_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_white_lacquer_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_white_lacquer_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_white_lacquer_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "black_lacquer",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_black_lacquer"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_black_lacquer"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_black_lacquer",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_black_lacquer",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_black_lacquer",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "black_lacquer_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_top_black_lacquer_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_black_lacquer_polished"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_black_lacquer_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  -0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_black_lacquer_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  1,
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/poplar/table_leg_black_lacquer_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0.70710677,
+                  0,
+                  0.70710677
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
           ]
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/poplar_table_top"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/poplar_table_leg"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/poplar_table_leg",
+          "transformation": {
+            "left_rotation": [
+              0,
+              -0.70710677,
+              0,
+              0.70710677
+            ],
+            "right_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "translation": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/poplar_table_leg",
+          "transformation": {
+            "left_rotation": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "right_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "translation": [
+              1,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/poplar_table_leg",
+          "transformation": {
+            "left_rotation": [
+              0,
+              0.70710677,
+              0,
+              0.70710677
+            ],
+            "right_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "translation": [
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      ]
+    }
   }
 }

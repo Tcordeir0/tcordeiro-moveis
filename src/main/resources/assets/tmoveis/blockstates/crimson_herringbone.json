@@ -1,0 +1,58 @@
+{
+  "variants": {
+    "finish=raw": {
+      "model": "tmoveis:block/finish/crimson/herringbone"
+    },
+    "finish=worn_1": {
+      "model": "tmoveis:block/finish/crimson/herringbone_worn_1"
+    },
+    "finish=worn_2": {
+      "model": "tmoveis:block/finish/crimson/herringbone_worn_2"
+    },
+    "finish=worn_3": {
+      "model": "tmoveis:block/finish/crimson/herringbone_worn_3"
+    },
+    "finish=natural": {
+      "model": "tmoveis:block/finish/crimson/herringbone_natural"
+    },
+    "finish=natural_polished": {
+      "model": "tmoveis:block/finish/crimson/herringbone_natural_polished"
+    },
+    "finish=honey": {
+      "model": "tmoveis:block/finish/crimson/herringbone_honey"
+    },
+    "finish=honey_polished": {
+      "model": "tmoveis:block/finish/crimson/herringbone_honey_polished"
+    },
+    "finish=walnut": {
+      "model": "tmoveis:block/finish/crimson/herringbone_walnut"
+    },
+    "finish=walnut_polished": {
+      "model": "tmoveis:block/finish/crimson/herringbone_walnut_polished"
+    },
+    "finish=mahogany": {
+      "model": "tmoveis:block/finish/crimson/herringbone_mahogany"
+    },
+    "finish=mahogany_polished": {
+      "model": "tmoveis:block/finish/crimson/herringbone_mahogany_polished"
+    },
+    "finish=ebony": {
+      "model": "tmoveis:block/finish/crimson/herringbone_ebony"
+    },
+    "finish=ebony_polished": {
+      "model": "tmoveis:block/finish/crimson/herringbone_ebony_polished"
+    },
+    "finish=white_lacquer": {
+      "model": "tmoveis:block/finish/crimson/herringbone_white_lacquer"
+    },
+    "finish=white_lacquer_polished": {
+      "model": "tmoveis:block/finish/crimson/herringbone_white_lacquer_polished"
+    },
+    "finish=black_lacquer": {
+      "model": "tmoveis:block/finish/crimson/herringbone_black_lacquer"
+    },
+    "finish=black_lacquer_polished": {
+      "model": "tmoveis:block/finish/crimson/herringbone_black_lacquer_polished"
+    }
+  }
+}

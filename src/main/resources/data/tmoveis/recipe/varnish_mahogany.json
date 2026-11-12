@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:honeycomb",
+    "minecraft:red_dye",
+    "minecraft:brown_dye"
+  ],
+  "result": {
+    "id": "tmoveis:varnish_mahogany"
+  },
+  "group": "tmoveis:varnish"
+}

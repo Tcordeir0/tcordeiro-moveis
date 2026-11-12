@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "minecraft:poplar_planks",
+  "result": {
+    "id": "tmoveis:poplar_herringbone"
+  }
+}

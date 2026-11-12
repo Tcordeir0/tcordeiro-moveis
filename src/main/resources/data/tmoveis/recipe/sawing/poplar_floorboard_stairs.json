@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:poplar_floorboards",
+  "result": {
+    "id": "tmoveis:poplar_floorboard_stairs"
+  }
+}

@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.3.0 — madeira e verniz
+
+- **Verniz em 7 tons** (Natural, Mel, Nogueira, Mogno, Ébano, Laca Branca, Laca Preta): um Pincel de Verniz por tom (`tmoveis:varnish_brush_<tom>`, 64 demãos). Clique direito em tábuas, escadas e lajes de qualquer madeira, nos blocos novos e nos móveis: a madeira continua a mesma (o carvalho continua carvalho) e mantém os estados (lado, metade, forma, tipo da laje, água).
+- **Polido:** o mesmo pincel outra vez dá a versão polida (mais brilho). Um pincel de outro tom troca a cor.
+- **Tirar o verniz:** machado, como a cera do cobre (polida → envernizada → crua), com partículas e som.
+- **Desgaste:** só a madeira crua DOS MÓVEIS (blocos novos e móveis), à chuva e com o céu por cima, passa a Desgaste Leve → Médio → Forte (cerca de 9 dias de jogo por estágio). A madeira do jogo nunca muda; a envernizada nunca se desgasta. Com o mod Clima, o outono desgasta mais e o verão menos. O machado raspa um estágio; o pincel numa madeira gasta repõe a cor e a protege.
+- **Blocos novos** em todas as 13 madeiras: Parquet, Espinha de Peixe e Assoalho (com escadas e lajes), Lambri e Viga (pilar com eixo).
+- **Serraria** (`tmoveis:sawmill`): o cortador de pedras da madeira. Tronco → 6 tábuas (a bancada dá 4); tábuas → blocos novos 1:1, escadas, 2 lajes, 2 paus; parquet/espinha/assoalho → escadas ou 2 lajes. Receitas próprias (`tmoveis:sawing`). A serra gira enquanto a tela está aberta.
+- Verniz: frasco + favo de mel + a cor do tom (corantes, carvão vegetal, garrafa de mel). Pincel: lã + verniz + pau (devolve o frasco).
+- Os móveis ganharam a propriedade `finish` (crua, 3 desgastes, 7 tons, 7 polidos); partidos guardam o acabamento e mostram-no no nome.
+- Novo separador criativo «Madeira e Verniz»; 16 páginas novas no guia.
+
 ## 0.1.0 — 12/11/2026
 
 Primeira versão.

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/crimson/parquet_black_lacquer_polished",
+    "top": "tmoveis:block/finish/crimson/parquet_black_lacquer_polished",
+    "side": "tmoveis:block/finish/crimson/parquet_black_lacquer_polished"
+  }
+}

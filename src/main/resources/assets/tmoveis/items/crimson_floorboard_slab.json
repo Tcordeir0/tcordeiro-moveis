@@ -1,0 +1,132 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:block_state",
+    "block_state_property": "finish",
+    "cases": [
+      {
+        "when": "worn_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_worn_1_slab"
+        }
+      },
+      {
+        "when": "worn_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_worn_2_slab"
+        }
+      },
+      {
+        "when": "worn_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_worn_3_slab"
+        }
+      },
+      {
+        "when": "natural",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_natural_slab"
+        }
+      },
+      {
+        "when": "natural_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_natural_polished_slab"
+        }
+      },
+      {
+        "when": "honey",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_honey_slab"
+        }
+      },
+      {
+        "when": "honey_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_honey_polished_slab"
+        }
+      },
+      {
+        "when": "walnut",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_walnut_slab"
+        }
+      },
+      {
+        "when": "walnut_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_walnut_polished_slab"
+        }
+      },
+      {
+        "when": "mahogany",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_mahogany_slab"
+        }
+      },
+      {
+        "when": "mahogany_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_mahogany_polished_slab"
+        }
+      },
+      {
+        "when": "ebony",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_ebony_slab"
+        }
+      },
+      {
+        "when": "ebony_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_ebony_polished_slab"
+        }
+      },
+      {
+        "when": "white_lacquer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_white_lacquer_slab"
+        }
+      },
+      {
+        "when": "white_lacquer_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_white_lacquer_polished_slab"
+        }
+      },
+      {
+        "when": "black_lacquer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_black_lacquer_slab"
+        }
+      },
+      {
+        "when": "black_lacquer_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/crimson/floorboards_black_lacquer_polished_slab"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "tmoveis:block/finish/crimson/floorboards_slab"
+    }
+  }
+}

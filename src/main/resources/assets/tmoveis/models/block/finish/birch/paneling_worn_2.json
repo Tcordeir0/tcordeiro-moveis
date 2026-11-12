@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tmoveis:block/finish/birch/planks_worn_2",
+    "side": "tmoveis:block/finish/birch/paneling_worn_2"
+  }
+}

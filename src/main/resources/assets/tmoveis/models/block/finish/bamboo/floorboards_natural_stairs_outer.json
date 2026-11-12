@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/bamboo/floorboards_natural",
+    "top": "tmoveis:block/finish/bamboo/floorboards_natural",
+    "side": "tmoveis:block/finish/bamboo/floorboards_natural"
+  }
+}

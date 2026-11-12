@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/warped/parquet_walnut",
+    "top": "tmoveis:block/finish/warped/parquet_walnut",
+    "side": "tmoveis:block/finish/warped/parquet_walnut"
+  }
+}

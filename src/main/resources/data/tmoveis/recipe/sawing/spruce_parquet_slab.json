@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:spruce_parquet",
+  "result": {
+    "id": "tmoveis:spruce_parquet_slab",
+    "count": 2
+  }
+}

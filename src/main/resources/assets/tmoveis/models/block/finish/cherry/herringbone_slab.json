@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tmoveis:block/finish/cherry/herringbone",
+    "top": "tmoveis:block/finish/cherry/herringbone",
+    "side": "tmoveis:block/finish/cherry/herringbone"
+  }
+}

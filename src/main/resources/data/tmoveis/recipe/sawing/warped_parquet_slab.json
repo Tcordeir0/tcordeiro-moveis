@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:warped_parquet",
+  "result": {
+    "id": "tmoveis:warped_parquet_slab",
+    "count": 2
+  }
+}

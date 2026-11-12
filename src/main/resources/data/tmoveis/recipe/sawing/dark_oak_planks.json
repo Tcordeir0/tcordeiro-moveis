@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "#minecraft:dark_oak_logs",
+  "result": {
+    "id": "minecraft:dark_oak_planks",
+    "count": 6
+  }
+}

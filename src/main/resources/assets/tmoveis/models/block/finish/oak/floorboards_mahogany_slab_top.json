@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tmoveis:block/finish/oak/floorboards_mahogany",
+    "top": "tmoveis:block/finish/oak/floorboards_mahogany",
+    "side": "tmoveis:block/finish/oak/floorboards_mahogany"
+  }
+}

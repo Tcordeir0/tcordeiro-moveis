@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/drawer",
+  "textures": {
+    "planks": "tmoveis:block/finish/warped/planks_worn_2",
+    "log": "tmoveis:block/finish/warped/log_worn_2",
+    "particle": "tmoveis:block/finish/warped/planks_worn_2"
+  }
+}

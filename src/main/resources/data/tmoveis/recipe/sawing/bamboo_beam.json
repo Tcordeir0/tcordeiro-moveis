@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "minecraft:bamboo_planks",
+  "result": {
+    "id": "tmoveis:bamboo_beam"
+  }
+}

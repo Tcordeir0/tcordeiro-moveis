@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/cherry/parquet_black_lacquer",
+    "top": "tmoveis:block/finish/cherry/parquet_black_lacquer",
+    "side": "tmoveis:block/finish/cherry/parquet_black_lacquer"
+  }
+}

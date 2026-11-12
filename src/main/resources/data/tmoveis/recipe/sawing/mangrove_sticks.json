@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "minecraft:mangrove_planks",
+  "result": {
+    "id": "minecraft:stick",
+    "count": 2
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/warped/planks_natural_polished",
+    "top": "tmoveis:block/finish/warped/planks_natural_polished",
+    "side": "tmoveis:block/finish/warped/planks_natural_polished"
+  }
+}

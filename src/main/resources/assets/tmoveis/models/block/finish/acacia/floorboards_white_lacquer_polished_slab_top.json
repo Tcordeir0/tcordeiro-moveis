@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tmoveis:block/finish/acacia/floorboards_white_lacquer_polished",
+    "top": "tmoveis:block/finish/acacia/floorboards_white_lacquer_polished",
+    "side": "tmoveis:block/finish/acacia/floorboards_white_lacquer_polished"
+  }
+}

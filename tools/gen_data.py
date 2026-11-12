@@ -667,6 +667,7 @@ def main():
     gen_lamps()
     gen_loot_tags()
     gen_recipes()
+    __import__("gen_finishes").run(globals())  # 0.3.0: madeira e verniz (tools/gen_finishes.py)
     gen_guide()
     gen_wood_types()
     check_names()

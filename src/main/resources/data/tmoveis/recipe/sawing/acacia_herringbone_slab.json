@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:acacia_herringbone",
+  "result": {
+    "id": "tmoveis:acacia_herringbone_slab",
+    "count": 2
+  }
+}

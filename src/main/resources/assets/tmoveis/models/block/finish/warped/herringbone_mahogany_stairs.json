@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/warped/herringbone_mahogany",
+    "top": "tmoveis:block/finish/warped/herringbone_mahogany",
+    "side": "tmoveis:block/finish/warped/herringbone_mahogany"
+  }
+}

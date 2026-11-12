@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W",
+    "V",
+    "|"
+  ],
+  "key": {
+    "W": "#minecraft:wool",
+    "V": "tmoveis:varnish_black_lacquer",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:varnish_brush_black_lacquer"
+  },
+  "group": "tmoveis:varnish_brush"
+}

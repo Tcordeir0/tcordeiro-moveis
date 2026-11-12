@@ -1,0 +1,132 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:block_state",
+    "block_state_property": "finish",
+    "cases": [
+      {
+        "when": "worn_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_worn_1"
+        }
+      },
+      {
+        "when": "worn_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_worn_2"
+        }
+      },
+      {
+        "when": "worn_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_worn_3"
+        }
+      },
+      {
+        "when": "natural",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_natural"
+        }
+      },
+      {
+        "when": "natural_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_natural_polished"
+        }
+      },
+      {
+        "when": "honey",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_honey"
+        }
+      },
+      {
+        "when": "honey_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_honey_polished"
+        }
+      },
+      {
+        "when": "walnut",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_walnut"
+        }
+      },
+      {
+        "when": "walnut_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_walnut_polished"
+        }
+      },
+      {
+        "when": "mahogany",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_mahogany"
+        }
+      },
+      {
+        "when": "mahogany_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_mahogany_polished"
+        }
+      },
+      {
+        "when": "ebony",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_ebony"
+        }
+      },
+      {
+        "when": "ebony_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_ebony_polished"
+        }
+      },
+      {
+        "when": "white_lacquer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_white_lacquer"
+        }
+      },
+      {
+        "when": "white_lacquer_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_white_lacquer_polished"
+        }
+      },
+      {
+        "when": "black_lacquer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_black_lacquer"
+        }
+      },
+      {
+        "when": "black_lacquer_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/bamboo/parquet_black_lacquer_polished"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "tmoveis:block/finish/bamboo/parquet"
+    }
+  }
+}

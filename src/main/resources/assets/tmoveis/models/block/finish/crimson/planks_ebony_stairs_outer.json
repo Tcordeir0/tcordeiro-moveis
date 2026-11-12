@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/crimson/planks_ebony",
+    "top": "tmoveis:block/finish/crimson/planks_ebony",
+    "side": "tmoveis:block/finish/crimson/planks_ebony"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tmoveis:block/finish/oak/planks_honey_polished",
+    "side": "tmoveis:block/finish/oak/paneling_honey_polished"
+  }
+}

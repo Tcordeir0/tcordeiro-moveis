@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/table_top",
+  "textures": {
+    "planks": "tmoveis:block/finish/spruce/planks_mahogany",
+    "log": "tmoveis:block/finish/spruce/log_mahogany",
+    "particle": "tmoveis:block/finish/spruce/planks_mahogany"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tmoveis:block/finish/cherry/planks_black_lacquer_polished"
+  }
+}

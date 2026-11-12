@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:crimson_parquet",
+  "result": {
+    "id": "tmoveis:crimson_parquet_stairs"
+  }
+}

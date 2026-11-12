@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tmoveis:block/sawmill"
+    },
+    "facing=east": {
+      "model": "tmoveis:block/sawmill",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tmoveis:block/sawmill",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tmoveis:block/sawmill",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:mangrove_floorboards",
+  "result": {
+    "id": "tmoveis:mangrove_floorboard_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:pale_oak_floorboards",
+  "result": {
+    "id": "tmoveis:pale_oak_floorboard_slab",
+    "count": 2
+  }
+}

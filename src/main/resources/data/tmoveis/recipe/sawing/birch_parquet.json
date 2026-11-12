@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "minecraft:birch_planks",
+  "result": {
+    "id": "tmoveis:birch_parquet"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:crimson_floorboards",
+  "result": {
+    "id": "tmoveis:crimson_floorboard_slab",
+    "count": 2
+  }
+}

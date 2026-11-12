@@ -4,6 +4,7 @@ import java.util.Map;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
@@ -55,7 +56,7 @@ public class TableBlock extends Block {
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(NORTH, EAST, SOUTH, WEST);
+		builder.add(NORTH, EAST, SOUTH, WEST, com.tcordeiro.moveis.finish.FinishState.FINISH);
 	}
 
 	/** Tem perna neste canto? (os dois lados do canto sem mesa) */
@@ -110,5 +111,16 @@ public class TableBlock extends Block {
 	@Override
 	protected boolean isPathfindable(BlockState state, PathComputationType type) {
 		return false;
+	}
+
+	// verniz e desgaste (0.3.0): ver com.tcordeiro.moveis.finish
+	@Override
+	protected boolean isRandomlyTicking(BlockState state) {
+		return com.tcordeiro.moveis.finish.Weathering.ticks(state);
+	}
+
+	@Override
+	protected void randomTick(BlockState state, ServerLevel level, BlockPos pos, net.minecraft.util.RandomSource random) {
+		com.tcordeiro.moveis.finish.Weathering.randomTick(state, level, pos, random);
 	}
 }

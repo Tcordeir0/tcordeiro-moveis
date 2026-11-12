@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:jungle_floorboards",
+  "result": {
+    "id": "tmoveis:jungle_floorboard_stairs"
+  }
+}

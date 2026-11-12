@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tmoveis:block/finish/jungle/planks_white_lacquer"
+  }
+}

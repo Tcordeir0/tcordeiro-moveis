@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/poplar/floorboards_worn_2",
+    "top": "tmoveis:block/finish/poplar/floorboards_worn_2",
+    "side": "tmoveis:block/finish/poplar/floorboards_worn_2"
+  }
+}

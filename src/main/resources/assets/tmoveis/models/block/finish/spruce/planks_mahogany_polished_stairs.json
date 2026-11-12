@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/spruce/planks_mahogany_polished",
+    "top": "tmoveis:block/finish/spruce/planks_mahogany_polished",
+    "side": "tmoveis:block/finish/spruce/planks_mahogany_polished"
+  }
+}

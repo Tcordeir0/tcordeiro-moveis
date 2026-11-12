@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:dark_oak_herringbone",
+  "result": {
+    "id": "tmoveis:dark_oak_herringbone_slab",
+    "count": 2
+  }
+}

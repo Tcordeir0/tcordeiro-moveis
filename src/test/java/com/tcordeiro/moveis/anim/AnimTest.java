@@ -68,4 +68,26 @@ class AnimTest {
 		assertTrue(open.settled());
 		assertEquals(1f, open.progress(0.5f), 1e-6);
 	}
+
+	/** 0.3.3: «a mexer» conta logo que o alvo muda (antes do tick) e o renderer desenha mais GRACE ticks depois de parar. */
+	@Test
+	void movingAndGraceAfterTheEnd() {
+		Anim a = new Anim(false);
+		assertFalse(a.moving(false));
+		assertFalse(a.drawing(false), "nova e parada: não desenha");
+		assertTrue(a.moving(true), "o alvo mudou (estado do bloco): já a mexer, antes do tick");
+		int ticks = 0;
+		do {
+			a.tick(true);
+			ticks++;
+		} while (a.moving(true));
+		assertEquals(Anim.TICKS + 1, ticks, "para ao fim de TICKS + 1 ticks");
+		for (int i = 0; i < Anim.GRACE; i++) {
+			assertTrue(a.drawing(true), "graça: o renderer ainda desenha (tick " + i + ")");
+			a.tick(true);
+		}
+		assertFalse(a.drawing(true), "passada a graça, não desenha");
+		a.tick(false);
+		assertTrue(a.drawing(false) && a.moving(false), "a fechar outra vez");
+	}
 }

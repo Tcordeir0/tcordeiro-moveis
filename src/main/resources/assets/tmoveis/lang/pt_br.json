@@ -1060,7 +1060,7 @@
   "guide.tmoveis.lamps.title": "Lâmpadas",
   "guide.tmoveis.mail_use.text": "Para mandar itens a outro jogador, coloque-os na caixa de correio dele.\n\nSe ele estiver no mundo, recebe um aviso na hora; senão, quando entrar.",
   "guide.tmoveis.mail_use.title": "Mandar correio",
-  "guide.tmoveis.mailbox.text": "É de quem a põe. Qualquer um deixa itens; só o dono tira. A bandeirinha levanta com correio.",
+  "guide.tmoveis.mailbox.text": "É de quem a põe. Qualquer um deixa itens; só o dono tira e quebra. Explosões e funis não a esvaziam. A bandeirinha levanta com correio.",
   "guide.tmoveis.mailbox.title": "Caixa de Correio",
   "guide.tmoveis.mirror.text": "Decoração de parede: clique na face de um bloco.",
   "guide.tmoveis.mirror.title": "Espelho",
@@ -1151,7 +1151,7 @@
   "message.tmoveis.water": "Água: %s de %s baldes",
   "tooltip.tmoveis.brush": "Botão direito: envernizar. De novo: polir.",
   "tooltip.tmoveis.fireplace": "⚠ Queima quem encosta no fogo.",
-  "tooltip.tmoveis.mailbox": "Qualquer um põe; só o dono tira.",
+  "tooltip.tmoveis.mailbox": "Qualquer um põe; só o dono tira e quebra.",
   "tooltip.tmoveis.safe": "Só o dono abre e quebra. Resiste a explosões.",
   "tooltip.tmoveis.trash_can": "⚠ Os itens somem para sempre ao fechar."
 }

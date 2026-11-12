@@ -590,9 +590,12 @@ GUIDE = [
       ("Ventoinha e Clima", "Com o mod Clima, a ventoinha a girar refresca a sala no verão (5 blocos à volta).\n\nA luz da ventoinha acende junto."),
       ("Fan and climate", "With the Clima mod, a spinning fan cools the room in summer (5 blocks around).\n\nThe fan light turns on with it.")),
     P("mailbox", "mailbox",
-      ("Caixa de Correio", "É de quem a põe. Qualquer um deixa itens; só o dono tira. A bandeirinha levanta com correio."),
-      ("Caixa do Correio", "É de quem a põe. Qualquer um deixa itens; só o dono tira. A bandeirinha levanta com correio."),
-      ("Mailbox", "It belongs to whoever places it. Anyone can drop items; only the owner takes them. The flag goes up with mail.")),
+      ("Caixa de Correio", "É de quem a põe. Qualquer um deixa itens; só o dono tira e quebra. Explosões e funis não a esvaziam. "
+       "A bandeirinha levanta com correio."),
+      ("Caixa do Correio", "É de quem a põe. Qualquer um deixa itens; só o dono tira e parte. Explosões e funis não a esvaziam. "
+       "A bandeirinha levanta com correio."),
+      ("Mailbox", "It belongs to whoever places it. Anyone can drop items; only the owner takes them out or breaks it. Blasts and "
+       "hoppers can't empty it. The flag goes up with mail.")),
     P("mail_use", None,
       ("Mandar correio", "Para mandar itens a outro jogador, coloque-os na caixa de correio dele.\n\nSe ele estiver no mundo, recebe um aviso na hora; senão, quando entrar."),
       ("Mandar correio", "Para mandar itens a outro jogador, põe-nos na caixa do correio dele.\n\nSe ele estiver no mundo, recebe um aviso logo; senão, quando entrar."),
@@ -829,7 +832,8 @@ def gen_lang_v020():
     tr(f"tooltip.{MOD}.fireplace", "⚠ Queima quem encosta no fogo.", "⚠ Queima quem encosta ao fogo.", "⚠ Burns whoever touches the fire.")
     tr(f"tooltip.{MOD}.safe", "Só o dono abre e quebra. Resiste a explosões.", "Só o dono abre e parte. Resiste a explosões.",
        "Only the owner opens and breaks it. Blast-proof.")
-    tr(f"tooltip.{MOD}.mailbox", "Qualquer um põe; só o dono tira.", "Qualquer um põe; só o dono tira.", "Anyone can put in; only the owner takes out.")
+    tr(f"tooltip.{MOD}.mailbox", "Qualquer um põe; só o dono tira e quebra.", "Qualquer um põe; só o dono tira e parte.",
+       "Anyone can put in; only the owner takes out or breaks it.")
 
 
 # ---------------- texturas de cada bloco (as variáveis dos templates)
@@ -1448,7 +1452,7 @@ def check_refs():
                 walk(v, where)
 
     n = 0
-    for d in ("blockstates", "items"):
+    for d in ("blockstates", "anim_blockstates", "items"):
         for dp, _, fs in os.walk(os.path.join(A, d)):
             for fn in fs:
                 if fn.endswith(".json"):
@@ -1460,7 +1464,7 @@ def check_refs():
 
 def clean_stale():
     """Apaga ficheiros gerados antes que já não são gerados (ex.: madeira renomeada). Só nas pastas geridas por este script."""
-    managed = [f"assets/{MOD}/blockstates", f"assets/{MOD}/items", f"assets/{MOD}/models/block", f"data/{MOD}/loot_table",
+    managed = [f"assets/{MOD}/blockstates", ANIM_BS, f"assets/{MOD}/items", f"assets/{MOD}/models/block", f"data/{MOD}/loot_table",
                f"data/{MOD}/recipe", f"data/{MOD}/advancement", f"data/{MOD}/tags"]
     for d in managed:
         for dp, _, fs in os.walk(os.path.join(RES, d)):
@@ -1469,6 +1473,36 @@ def clean_stale():
                 if fn.endswith(".json") and rel not in written:
                     os.remove(os.path.join(dp, fn))
                     print("  apagado:", rel)
+
+
+ANIM_BS = f"assets/{MOD}/anim_blockstates"
+
+
+def uses_moving(node):
+    """O blockstate usa a chave «moving» (variantes «…,moving=…» ou multipart com {"moving": …})?"""
+    if isinstance(node, dict):
+        return any(k == "moving" or ("moving=" in k) or uses_moving(v) for k, v in node.items())
+    if isinstance(node, list):
+        return any(uses_moving(x) for x in node)
+    return False
+
+
+def relocate_anim_blockstates():
+    """0.3.3: os blocos já não têm a propriedade MOVING (vem da entidade). Os blockstates que a usam passam, IGUAIS, para
+    anim_blockstates/ (lidos pelo cliente: client/AnimModels.java monta com eles o modelo parado e o a mexer de cada estado)."""
+    n = 0
+    for rel in sorted(r for r in written if r.startswith(f"assets/{MOD}/blockstates/")):
+        path = os.path.join(RES, rel)
+        data = json.load(open(path))
+        if not uses_moving(data):
+            continue
+        new = rel.replace(f"assets/{MOD}/blockstates/", ANIM_BS + "/")
+        os.makedirs(os.path.dirname(os.path.join(RES, new)), exist_ok=True)
+        os.replace(path, os.path.join(RES, new))
+        written.discard(rel)
+        written.add(new)
+        n += 1
+    print(f"anim_blockstates: {n} blockstates com «moving» (sem a propriedade no bloco; o cliente escolhe pela entidade)")
 
 
 def main():
@@ -1494,6 +1528,7 @@ def main():
     gen_parts_java()
     check_names()
     gen_lang()
+    relocate_anim_blockstates()
     clean_stale()
     check_textures()
     n_files, n_models = check_refs()

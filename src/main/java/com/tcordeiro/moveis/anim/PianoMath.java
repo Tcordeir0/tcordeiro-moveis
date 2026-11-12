@@ -44,4 +44,13 @@ public final class PianoMath {
 		if (t < 2) return 1;
 		return 1 - (t - 2) / 3f;
 	}
+
+	/**
+	 * O renderer desenha as teclas? A tocar ({@code playing}, o estado PLAYING), ou até {@code playTicks} + {@link Anim#GRACE} ticks depois
+	 * da última tecla (0.3.3: quando PLAYING desliga, o modelo estático com as teclas só aparece no fotograma seguinte — sem esta graça
+	 * o teclado sumia entre teclas tocadas com mais de {@code playTicks} de intervalo).
+	 */
+	public static boolean drawsKeys(boolean playing, long sinceLastKey, int playTicks) {
+		return playing || (sinceLastKey >= 0 && sinceLastKey <= playTicks + Anim.GRACE);
+	}
 }

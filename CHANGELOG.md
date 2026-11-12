@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.3.3 — 12/11/2026 — segurança, menos estados e correções do teste no jogo
+
+- **Caixa de Correio protegida como o cofre.** Só o dono abre a caixa a sério e tira (os outros continuam a depositar); só o dono a
+  quebra (a picareta dos outros não avança); explosões, o Wither e o dragão não a quebram (o correio não cai); funis, canos do
+  Industrial e outros mods (Transfer API do Fabric, com e sem lado) só põem. O cofre ganhou as mesmas regras do lado da Transfer
+  API e as tags `wither_immune`/`dragon_immune`.
+- **Pincel de verniz e machado respeitam terrenos e proteções:** proteção do spawn, borda do mundo e modo aventura
+  (`Protection.mayEdit`: `Level.mayInteract` + `can_place_on`, as mesmas regras do machado e do favo do jogo).
+- **HUD (Receitário):** quem não é o dono já não vê o conteúdo do cofre nem da caixa de correio. A regra está no `canOpen` da
+  entidade, que o `ProbePayload.mayInspect` do Receitário já consultava: o Receitário não precisou de mudar.
+- **Menos estados de bloco: 127 882 → 108 970 (−18 912, −15 %).** A propriedade `moving` saiu do blockstate dos 111 móveis
+  animados (armários, gaveteiros, bancadas, mesas de cabeceira, escrivaninhas, guarda-roupas, persianas, cortinas, cofre, lixeira,
+  caixa de correio e ventilador): «a mexer» vem agora da animação da entidade, que o cliente entrega ao modelo do chunk
+  (`getRenderData`). Os blockstates destes móveis passaram iguais (byte a byte) para `assets/tmoveis/anim_blockstates/`, lidos pelo
+  cliente (`AnimModels`): os modelos e as texturas são os mesmos, o aspeto não muda. Os mundos antigos carregam sem perder blocos
+  (o jogo ignora a propriedade que já não existe; os outros estados, incluindo o verniz, ficam).
+- **As partes animadas já não somem 1 fotograma no fim da animação** (cortinas, persianas, cofre…): o renderer continua a
+  desenhar 3 ticks depois do fim, enquanto o chunk se refaz. **Piano:** o teclado já não some entre teclas tocadas com mais de 6
+  ticks de intervalo.
+- **Ícone do Ventilador de Teto** do tamanho do Lustre na barra de atalhos e no inventário (também no chão e na moldura).
+- GameTests novos: `SecurityGameTests` (caixa de correio, Transfer API e canos do Industrial, HUD do Receitário, pincel em modo
+  aventura e fora da borda do mundo), `StateCountGameTests` (contagem de estados, mundos antigos com `moving`, cobertura dos
+  `anim_blockstates`) e a graça do renderer (móveis e piano): 95 GameTests + 35 testes JUnit. Testes de mutação nas regras de
+  segurança, na graça e no `getRenderData`.
+
 ## 0.3.2 — 12/11/2026 — guias revistos
 
 - **Página do Livro-guia** com a receita (livro e qualquer tábua).

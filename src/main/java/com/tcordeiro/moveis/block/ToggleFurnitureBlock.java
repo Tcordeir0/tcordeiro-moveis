@@ -55,12 +55,12 @@ public class ToggleFurnitureBlock extends BaseEntityBlock implements AnimatedFur
 		this.openSound = openSound;
 		this.closeSound = closeSound;
 		this.shapes = Shapes.rotateHorizontal(northShape);
-		registerDefaultState(stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(OPEN, false).setValue(MOVING, false));
+		registerDefaultState(stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(OPEN, false));
 	}
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(FACING, OPEN, MOVING);
+		builder.add(FACING, OPEN); // 0.3.3: sem MOVING (vem da entidade)
 		com.tcordeiro.moveis.finish.FinishState.addIfWood(builder);
 	}
 

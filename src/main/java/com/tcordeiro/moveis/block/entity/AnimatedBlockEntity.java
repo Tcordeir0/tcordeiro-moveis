@@ -23,6 +23,12 @@ public class AnimatedBlockEntity extends BlockEntity implements Animated {
 		return anim;
 	}
 
+	/** 0.3.3: o modelo do chunk (cliente) pergunta à entidade se as partes estão a mexer (já não há MOVING no blockstate). */
+	@Override
+	public Object getRenderData() {
+		return getBlockState().getBlock() instanceof AnimatedFurniture af && af.moving(getBlockState(), anim);
+	}
+
 	public static void tick(Level level, BlockPos pos, BlockState state, AnimatedBlockEntity be) {
 		AnimatedFurniture.tickAnim(level, pos, state, be.anim);
 	}

@@ -93,6 +93,12 @@ public class StorageFurnitureBlockEntity extends RandomizableContainerBlockEntit
 		return anim;
 	}
 
+	/** 0.3.3: o modelo do chunk (cliente) pergunta à entidade se as partes estão a mexer (já não há MOVING no blockstate). */
+	@Override
+	public Object getRenderData() {
+		return getBlockState().getBlock() instanceof AnimatedFurniture af && af.moving(getBlockState(), anim);
+	}
+
 	public boolean isOwner(Player player) {
 		return owner == null || owner.equals(player.getUUID());
 	}

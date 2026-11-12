@@ -120,7 +120,7 @@
             "raw": "§lVentilador e Clima§r\n\nCom o mod Clima, o ventilador girando refresca a sala no verão (5 blocos em volta).\n\nA luz do ventilador acende junto."
           },
           {
-            "raw": "§lCaixa de Correio§r\n\nÉ de quem a põe. Qualquer um deixa itens; só o dono tira. A bandeirinha levanta com correio."
+            "raw": "§lCaixa de Correio§r\n\nÉ de quem a põe. Qualquer um deixa itens; só o dono tira e quebra. Explosões e funis não a esvaziam. A bandeirinha levanta com correio."
           },
           {
             "raw": "§lMandar correio§r\n\nPara mandar itens a outro jogador, coloque-os na caixa de correio dele.\n\nSe ele estiver no mundo, recebe um aviso na hora; senão, quando entrar."

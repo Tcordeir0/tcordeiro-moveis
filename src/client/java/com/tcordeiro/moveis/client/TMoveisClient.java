@@ -27,6 +27,8 @@ public class TMoveisClient implements ClientModInitializer {
 		// o assento é invisível: só serve para o jogador ficar sentado
 		EntityRendererRegistry.register(MoveisBlocks.SEAT, NoopRenderer::new);
 		com.tcordeiro.moveis.finish.client.FinishClient.init(); // 0.3.0: Serraria (ecrã e serra a girar)
+		// 0.3.3: o modelo do chunk dos móveis animados escolhe «parado»/«a mexer» pela entidade (sem MOVING no blockstate)
+		AnimModels.init();
 		// partes móveis (portas, gavetas, cortinas, pás, ponteiros, teclas…)
 		BlockEntityRenderers.register(MoveisBlocks.STORAGE_BE, FurnitureRenderer::new);
 		BlockEntityRenderers.register(MoveisBlocks.ANIM_BE, FurnitureRenderer::new);

@@ -1,5 +1,9 @@
 package com.tcordeiro.moveis.test;
 
+import net.minecraft.world.level.block.entity.BlockEntity;
+import com.tcordeiro.moveis.block.CeilingFanBlock;
+import com.tcordeiro.moveis.block.entity.LampBlockEntity;
+import com.tcordeiro.moveis.block.entity.Animated;
 import com.tcordeiro.moveis.anim.Anim;
 import com.tcordeiro.moveis.block.AnimatedFurniture;
 import com.tcordeiro.moveis.block.MailboxBlock;
@@ -24,16 +28,32 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 
 /**
- * Animações: abrir e fechar mexe o estado (MOVING enquanto as partes andam, como a tampa do baú), a animação chega ao fim em
+ * Animações: abrir e fechar mexe as partes (a mexer: a entidade diz ao modelo do chunk, 0.3.3), a animação chega ao fim em
  * {@link Anim#TICKS} ticks e o modelo estático volta. Guarda-roupa (as duas metades), cortinas vizinhas juntas, persianas, bandeirinha.
  */
 public class AnimGameTests {
+	/** Espera até a animação acabar E passar a graça do renderer. */
+	static final int SETTLE = Anim.TICKS + Anim.GRACE + 3;
+
 	static boolean draws(GameTestHelper h, BlockPos p) {
 		BlockState st = h.getBlockState(p);
-		return ((AnimatedFurniture) st.getBlock()).drawsParts(st);
+		return ((AnimatedFurniture) st.getBlock()).drawsParts(st, ((Animated) h.getBlockEntity(p, BlockEntity.class)).anim());
 	}
 
-	@GameTest
+	/** As partes estão a mexer? (0.3.3: vem da entidade, já não é a propriedade MOVING do blockstate) */
+	static boolean moving(GameTestHelper h, BlockPos p) {
+		BlockState st = h.getBlockState(p);
+		BlockEntity be = h.getBlockEntity(p, BlockEntity.class);
+		if (be instanceof LampBlockEntity lamp) return CeilingFanBlock.moving(lamp);
+		return ((AnimatedFurniture) st.getBlock()).moving(st, ((Animated) be).anim());
+	}
+
+	static void assertMoving(GameTestHelper h, BlockPos p, boolean want) {
+		h.assertValueEqual(moving(h, p), want, "a mexer em " + p);
+		h.assertValueEqual(h.getBlockEntity(p, BlockEntity.class).getRenderData(), (Object) want, "o modelo do chunk recebe o mesmo (getRenderData)");
+	}
+
+	@GameTest(maxTicks = 100)
 	public void cabinetDoorsOpenAndCloseSmoothly(GameTestHelper h) {
 		BlockPos p = new BlockPos(1, 1, 1);
 		h.setBlock(p, MoveisBlocks.wooden(Furniture.CABINET, "oak"));
@@ -42,7 +62,7 @@ public class AnimGameTests {
 		h.assertTrue(!draws(h, p) && be.anim().settled(), "fechado e parado: só o modelo estático");
 		player.openMenu(be);
 		h.assertBlockProperty(p, AnimatedFurniture.OPEN, true);
-		h.assertBlockProperty(p, AnimatedFurniture.MOVING, true);
+		assertMoving(h, p, true);
 		h.startSequence()
 				.thenIdle(2)
 				.thenExecute(() -> {
@@ -50,19 +70,19 @@ public class AnimGameTests {
 					h.assertTrue(pr > 0 && pr < 1, "a meio da animação (" + pr + ")");
 					h.assertTrue(draws(h, p), "a mexer: o renderer desenha as portas");
 				})
-				.thenIdle(Anim.TICKS + 1)
+				.thenIdle(SETTLE)
 				.thenExecute(() -> {
 					h.assertValueEqual(be.anim().progress(1f), 1f, "aberto ao fim da animação");
-					h.assertBlockProperty(p, AnimatedFurniture.MOVING, false);
+					assertMoving(h, p, false);
 					h.assertTrue(draws(h, p), "aberto (sem modelo estático aberto): o renderer mantém as portas abertas");
 					player.closeContainer();
 					h.assertBlockProperty(p, AnimatedFurniture.OPEN, false);
-					h.assertBlockProperty(p, AnimatedFurniture.MOVING, true);
+					assertMoving(h, p, true);
 				})
-				.thenIdle(Anim.TICKS + 2)
+				.thenIdle(SETTLE)
 				.thenExecute(() -> {
 					h.assertValueEqual(be.anim().progress(1f), 0f, "fechado");
-					h.assertBlockProperty(p, AnimatedFurniture.MOVING, false);
+					assertMoving(h, p, false);
 					h.assertTrue(!draws(h, p), "parado e fechado: o renderer não corre");
 				})
 				.thenSucceed();
@@ -83,8 +103,8 @@ public class AnimGameTests {
 		h.assertTrue(player.containerMenu instanceof ChestMenu m && m.getContainer() == be && m.getRowCount() == 4, "ecrã de 4 linhas");
 		h.assertBlockProperty(low, AnimatedFurniture.OPEN, true);
 		h.assertBlockProperty(up, AnimatedFurniture.OPEN, true);
-		h.assertBlockProperty(up, AnimatedFurniture.MOVING, true);
-		h.startSequence().thenIdle(Anim.TICKS + 2).thenExecute(() -> {
+		assertMoving(h, up, true);
+		h.startSequence().thenIdle(SETTLE).thenExecute(() -> {
 			h.assertValueEqual(h.getBlockEntity(up, AnimatedBlockEntity.class).anim().progress(1f), 1f, "a metade de cima também abriu");
 			player.closeContainer();
 			h.destroyBlock(up);
@@ -105,12 +125,12 @@ public class AnimGameTests {
 		h.useBlock(new BlockPos(1, 1, 1), player);
 		for (BlockPos p : new BlockPos[] {new BlockPos(0, 1, 1), new BlockPos(1, 1, 1), new BlockPos(2, 1, 1), new BlockPos(1, 2, 1)}) {
 			h.assertBlockProperty(p, AnimatedFurniture.OPEN, true);
-			h.assertBlockProperty(p, AnimatedFurniture.MOVING, true);
+			assertMoving(h, p, true);
 		}
 		h.assertBlockProperty(new BlockPos(3, 1, 1), AnimatedFurniture.OPEN, false);
 		h.assertBlockProperty(new BlockPos(5, 1, 1), AnimatedFurniture.OPEN, false);
-		h.startSequence().thenIdle(Anim.TICKS + 2).thenExecute(() -> {
-			h.assertBlockProperty(new BlockPos(0, 1, 1), AnimatedFurniture.MOVING, false);
+		h.startSequence().thenIdle(SETTLE).thenExecute(() -> {
+			assertMoving(h, new BlockPos(0, 1, 1), false);
 			h.assertTrue(!draws(h, new BlockPos(0, 1, 1)), "aberta e parada: modelo estático aberto");
 			h.useBlock(new BlockPos(0, 1, 1), player);
 			h.assertBlockProperty(new BlockPos(2, 1, 1), AnimatedFurniture.OPEN, false);
@@ -125,9 +145,9 @@ public class AnimGameTests {
 		ServerPlayer player = TestUtil.playerAt(h, new BlockPos(1, 1, 0));
 		h.useBlock(new BlockPos(1, 1, 1), player);
 		h.assertBlockProperty(new BlockPos(1, 1, 1), AnimatedFurniture.OPEN, true);
-		h.assertBlockProperty(new BlockPos(1, 1, 1), AnimatedFurniture.MOVING, true);
+		assertMoving(h, new BlockPos(1, 1, 1), true);
 		h.assertBlockProperty(new BlockPos(2, 1, 1), AnimatedFurniture.OPEN, false);
-		h.startSequence().thenIdle(Anim.TICKS + 2).thenExecute(() -> h.assertBlockProperty(new BlockPos(1, 1, 1), AnimatedFurniture.MOVING, false))
+		h.startSequence().thenIdle(SETTLE).thenExecute(() -> assertMoving(h, new BlockPos(1, 1, 1), false))
 				.thenSucceed();
 	}
 
@@ -139,14 +159,70 @@ public class AnimGameTests {
 		be.setItem(0, new ItemStack(net.minecraft.world.item.Items.PAPER));
 		be.setChanged();
 		h.assertBlockProperty(p, MailboxBlock.HAS_MAIL, true);
-		h.assertBlockProperty(p, AnimatedFurniture.MOVING, true);
-		h.startSequence().thenIdle(Anim.TICKS + 2).thenExecute(() -> {
-			h.assertBlockProperty(p, AnimatedFurniture.MOVING, false);
+		assertMoving(h, p, true);
+		h.startSequence().thenIdle(SETTLE).thenExecute(() -> {
+			assertMoving(h, p, false);
 			h.assertTrue(!draws(h, p), "bandeirinha em cima e parada: modelo estático");
 			be.clearContent();
 			be.setChanged();
 			h.assertBlockProperty(p, MailboxBlock.HAS_MAIL, false);
-			h.assertBlockProperty(p, AnimatedFurniture.MOVING, true);
+			assertMoving(h, p, true);
 		}).thenSucceed();
+	}
+
+	/**
+	 * 0.3.3: no fim da animação o modelo do chunk volta logo ao inteiro (getRenderData = false), mas o renderer ainda desenha as partes
+	 * {@link Anim#GRACE} ticks: o chunk só se refaz no fotograma seguinte e sem isto as partes sumiam 1 fotograma (cortinas, persianas,
+	 * cofre).
+	 */
+	@GameTest(maxTicks = 60)
+	public void partsKeepDrawingForAGraceAfterTheEnd(GameTestHelper h) {
+		BlockPos[] ps = {new BlockPos(1, 1, 1), new BlockPos(3, 1, 1), new BlockPos(5, 1, 1)};
+		h.setBlock(ps[0], MoveisBlocks.CURTAINS.get(DyeColor.RED));
+		h.setBlock(ps[1], MoveisBlocks.wooden(Furniture.SHUTTERS, "oak"));
+		h.setBlock(ps[2], MoveisBlocks.SAFE);
+		ServerPlayer player = TestUtil.playerAt(h, new BlockPos(3, 1, 0));
+		h.useBlock(ps[0], player);
+		h.useBlock(ps[1], player);
+		player.openMenu(h.getBlockEntity(ps[2], StorageFurnitureBlockEntity.class));
+		int[] endTick = new int[1];
+		h.startSequence()
+				.thenWaitUntil(() -> {
+					for (BlockPos p : ps) h.assertTrue(!moving(h, p), "ainda a mexer");
+				})
+				.thenExecute(() -> {
+					for (BlockPos p : ps) h.assertTrue(draws(h, p), "acabou de parar: o renderer ainda desenha (graça) em " + p);
+				})
+				.thenIdle(Anim.GRACE + 1)
+				.thenExecute(() -> {
+					h.assertTrue(!draws(h, ps[0]) && !draws(h, ps[1]), "passada a graça, cortina e persiana abertas: só o modelo estático");
+					h.assertTrue(draws(h, ps[2]), "o cofre aberto não tem modelo estático aberto: o renderer continua");
+					player.closeContainer();
+				})
+				.thenWaitUntil(() -> h.assertTrue(!moving(h, ps[2]), "o cofre ainda a fechar"))
+				.thenExecute(() -> h.assertTrue(draws(h, ps[2]), "o cofre acabou de fechar: graça"))
+				.thenIdle(Anim.GRACE + 1)
+				.thenExecute(() -> h.assertTrue(!draws(h, ps[2]), "fechado e parado: o renderer não corre"))
+				.thenSucceed();
+	}
+
+	/** Piano (0.3.3): depois de PLAYING desligar, as teclas continuam desenhadas uns ticks (o teclado não some entre teclas). */
+	@GameTest(maxTicks = 60)
+	public void pianoKeysKeepDrawingForAGrace(GameTestHelper h) {
+		BlockPos p = new BlockPos(1, 1, 1);
+		h.setBlock(p.below(), Blocks.STONE);
+		h.setBlock(p.below().east(), Blocks.STONE);
+		ServerPlayer player = TestUtil.playerAt(h, p.north());
+		h.assertTrue(TestUtil.placeWithItem(h, player, new ItemStack(MoveisBlocks.PIANO), p, 0f).consumesAction(), "piano posto");
+		BlockState st = h.getBlockState(p);
+		com.tcordeiro.moveis.block.PianoBlock.play(h.getLevel(), h.absolutePos(p), st, 3, player);
+		com.tcordeiro.moveis.block.entity.PianoBlockEntity be = h.getBlockEntity(p, com.tcordeiro.moveis.block.entity.PianoBlockEntity.class);
+		h.assertTrue(be.drawsKeys(), "a tocar: o renderer desenha as teclas");
+		h.startSequence()
+				.thenWaitUntil(() -> h.assertBlockProperty(p, com.tcordeiro.moveis.block.PianoBlock.PLAYING, false))
+				.thenExecute(() -> h.assertTrue(be.drawsKeys(), "PLAYING acabou de desligar: graça, o teclado não some"))
+				.thenIdle(Anim.GRACE + 2)
+				.thenExecute(() -> h.assertTrue(!be.drawsKeys(), "passada a graça: só o modelo estático"))
+				.thenSucceed();
 	}
 }

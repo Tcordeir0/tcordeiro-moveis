@@ -115,6 +115,7 @@ public class DataGameTests {
 	}
 
 	static String value(BlockState st, String prop) {
+		if (prop.equals("moving")) return moving; // 0.3.3: só nos anim_blockstates (vem da entidade)
 		for (Property<?> p : st.getProperties()) if (p.getName().equals(prop)) return name(st, p);
 		return null;
 	}
@@ -125,6 +126,9 @@ public class DataGameTests {
 	}
 
 	/** Uma condição de multipart («when»): chaves simples (valores com |), AND, OR. */
+	/** O valor de «moving» a conferir nos anim_blockstates (null = o bloco não a usa). */
+	static String moving;
+
 	static boolean when(BlockState st, JsonObject w) {
 		if (w.has("AND")) {
 			for (JsonElement e : w.getAsJsonArray("AND")) if (!when(st, e.getAsJsonObject())) return false;
@@ -169,9 +173,11 @@ public class DataGameTests {
 		int states = 0, parts = 0;
 		for (Block b : MoveisBlocks.all()) {
 			String path = BuiltInRegistries.BLOCK.getKey(b).getPath();
-			JsonObject bs = json("/assets/tmoveis/blockstates/" + path + ".json");
+			JsonObject anim = json("/assets/tmoveis/anim_blockstates/" + path + ".json");
+			JsonObject bs = anim != null ? anim : json("/assets/tmoveis/blockstates/" + path + ".json");
 			h.assertTrue(bs != null, "blockstate de " + path);
-			for (BlockState st : b.getStateDefinition().getPossibleStates()) {
+			for (BlockState st : b.getStateDefinition().getPossibleStates()) for (String mv : anim != null ? new String[] {"false", "true"} : new String[] {null}) {
+				moving = mv;
 				java.util.List<String> used = new java.util.ArrayList<>();
 				if (bs.has("variants")) {
 					for (var e : bs.getAsJsonObject("variants").entrySet()) if (variantMatches(st, e.getKey())) models(e.getValue(), used);

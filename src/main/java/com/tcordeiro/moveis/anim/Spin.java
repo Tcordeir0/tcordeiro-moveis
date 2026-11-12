@@ -14,6 +14,8 @@ public final class Spin {
 
 	private float speed, angle, prevAngle, brakeFrom, brakeTo;
 	private int brakeT = -1;
+	/** Ticks desde que parou (0.3.3: graça do renderer, como {@link Anim#GRACE}). */
+	private int still = Anim.GRACE + 1;
 
 	/** Um tick: {@code target} = velocidade pedida (0 = desligado, 1 = máxima). */
 	public void tick(float target) {
@@ -38,6 +40,7 @@ public final class Spin {
 				brakeT = -1;
 			}
 		}
+		still = stopped() ? Math.min(Anim.GRACE + 1, still + 1) : 0;
 		if (angle >= 360f) { // o mesmo desvio nos dois, para a interpolação não dar a volta para trás
 			angle -= 360f;
 			prevAngle -= 360f;
@@ -52,6 +55,11 @@ public final class Spin {
 
 	public float speed() {
 		return speed;
+	}
+
+	/** O renderer ainda desenha as pás: a girar, ou parado há {@link Anim#GRACE} ticks ou menos. */
+	public boolean drawing() {
+		return !stopped() || still <= Anim.GRACE;
 	}
 
 	/** Parado (e já travado): o modelo estático serve. */

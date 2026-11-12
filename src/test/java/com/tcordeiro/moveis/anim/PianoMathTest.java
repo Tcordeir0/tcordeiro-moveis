@@ -60,4 +60,13 @@ class PianoMathTest {
 		assertEquals(0f, PianoMath.sink(5), 1e-6);
 		assertEquals(0f, PianoMath.sink(-1), 1e-6);
 	}
+
+	/** 0.3.3: o teclado continua desenhado GRACE ticks depois de PLAYING desligar. */
+	@Test
+	void keysKeepDrawingForAGrace() {
+		org.junit.jupiter.api.Assertions.assertTrue(PianoMath.drawsKeys(true, 100, 6));
+		org.junit.jupiter.api.Assertions.assertTrue(PianoMath.drawsKeys(false, 6 + Anim.GRACE, 6));
+		org.junit.jupiter.api.Assertions.assertFalse(PianoMath.drawsKeys(false, 6 + Anim.GRACE + 1, 6));
+		org.junit.jupiter.api.Assertions.assertFalse(PianoMath.drawsKeys(false, Long.MAX_VALUE / 2, 6), "nunca tocado");
+	}
 }

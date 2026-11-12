@@ -16,6 +16,8 @@ public class PianoBlockEntity extends BlockEntity {
 	public final long[] pressedAt = new long[PianoMath.keyCount()];
 	public int lastKey = -1, lastNote = -1;
 	public long playUntil;
+	/** Tick da última tecla (os dois lados; no cliente vem do blockEvent): a graça do renderer, {@link #drawsKeys}. */
+	public long lastPressedAt = Long.MIN_VALUE / 2;
 
 	public PianoBlockEntity(BlockPos pos, BlockState state) {
 		super(MoveisBlocks.PIANO_BE, pos, state);
@@ -33,8 +35,15 @@ public class PianoBlockEntity extends BlockEntity {
 	public boolean triggerEvent(int id, int param) {
 		if (id == EVENT_KEY && param >= 0 && param < pressedAt.length && level != null) {
 			pressedAt[param] = level.getGameTime();
+			lastPressedAt = level.getGameTime();
 			return true;
 		}
 		return super.triggerEvent(id, param);
+	}
+
+	/** O renderer desenha as teclas agora? (PLAYING, ou a graça depois da última tecla: {@link com.tcordeiro.moveis.anim.PianoMath#drawsKeys}) */
+	public boolean drawsKeys() {
+		return level != null && com.tcordeiro.moveis.anim.PianoMath.drawsKeys(getBlockState().getValue(com.tcordeiro.moveis.block.PianoBlock.PLAYING),
+				level.getGameTime() - lastPressedAt, com.tcordeiro.moveis.block.PianoBlock.PLAY_TICKS);
 	}
 }

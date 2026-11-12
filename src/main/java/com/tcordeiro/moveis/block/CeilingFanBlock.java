@@ -27,8 +27,8 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 /**
  * Ventilador de teto (com luz): gira com redstone — a velocidade é a força do sinal ({@link #POWER}) — ou, com o Industrial, com
- * energia (velocidade máxima, como as lâmpadas: 1 J/t). Ao desligar trava e para com as pás no sítio do modelo (MOVING enquanto
- * trava). Com o mod Clima, a girar no verão refresca a sala ({@link ClimaBridge}).
+ * energia (velocidade máxima, como as lâmpadas: 1 J/t). Ao desligar trava e para com as pás no sítio do modelo (a girar ou a
+ * travar, o modelo do chunk é só o corpo: {@link #moving}). Com o mod Clima, a girar no verão refresca a sala ({@link ClimaBridge}).
  */
 public class CeilingFanBlock extends LampBlock {
 	public static final IntegerProperty POWER = IntegerProperty.create("power", 0, 15);
@@ -39,22 +39,19 @@ public class CeilingFanBlock extends LampBlock {
 
 	public CeilingFanBlock(Properties props) {
 		super(props);
-		registerDefaultState(stateDefinition.any().setValue(LIT, false).setValue(POWER, 0).setValue(AnimatedFurniture.MOVING, false));
+		registerDefaultState(stateDefinition.any().setValue(LIT, false).setValue(POWER, 0));
 	}
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		super.createBlockStateDefinition(builder);
-		builder.add(POWER, AnimatedFurniture.MOVING);
+		builder.add(POWER); // 0.3.3: sem MOVING (a travagem vem de LampBlockEntity.spin)
 	}
 
 	@Override
 	protected BlockState powered(Level level, BlockPos pos, BlockState state, int signal, boolean energy) {
 		int power = energy ? 15 : signal;
-		boolean was = state.getValue(LIT);
-		BlockState s = state.setValue(POWER, power).setValue(LIT, power > 0);
-		if (was && power == 0) s = s.setValue(AnimatedFurniture.MOVING, true); // trava a girar
-		return s;
+		return state.setValue(POWER, power).setValue(LIT, power > 0); // desligado, trava a girar (spin) e depois o chunk refaz-se
 	}
 
 	/** Velocidade pedida (0–1). */
@@ -96,7 +93,14 @@ public class CeilingFanBlock extends LampBlock {
 	}
 
 	static void clientTick(Level level, BlockPos pos, BlockState state, LampBlockEntity be) {
+		boolean was = !be.spin.stopped();
 		be.spin.tick(speed(state));
+		if (was && be.spin.stopped()) AnimatedFurniture.remesh(level, pos, state); // travou: as pás voltam ao modelo estático
+	}
+
+	/** A girar ou a travar (o modelo do chunk é só o corpo): 0.3.3, em vez de MOVING no blockstate. */
+	public static boolean moving(LampBlockEntity be) {
+		return !be.spin.stopped();
 	}
 
 	static void serverTick(Level level, BlockPos pos, BlockState state, LampBlockEntity be) {
@@ -104,7 +108,6 @@ public class CeilingFanBlock extends LampBlock {
 		BlockState now = level.getBlockState(pos);
 		if (!now.is(state.getBlock())) return;
 		be.spin.tick(speed(now));
-		if (now.getValue(AnimatedFurniture.MOVING) && be.spin.stopped()) level.setBlock(pos, now.setValue(AnimatedFurniture.MOVING, false), Block.UPDATE_CLIENTS);
 		if (now.getValue(LIT) && level.getGameTime() % 20 == 0 && "summer".equals(ClimaBridge.seasonId(level)))
 			ClimaBridge.zone(level, pos, COOL_C, COOL_RADIUS, COOL_TTL);
 	}

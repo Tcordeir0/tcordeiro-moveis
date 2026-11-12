@@ -39,11 +39,11 @@ public class PowerGameTests {
 					h.assertTrue(be.spin.speed() > 0.9f, "a girar depressa (sinal 15)");
 					h.setBlock(fan.north(), Blocks.AIR);
 					h.assertBlockProperty(fan, LampBlock.LIT, false);
-					h.assertBlockProperty(fan, AnimatedFurniture.MOVING, true);
+					AnimGameTests.assertMoving(h, fan, true);
 				})
 				.thenIdle(Spin.BRAKE_TICKS + 3)
 				.thenExecute(() -> {
-					h.assertBlockProperty(fan, AnimatedFurniture.MOVING, false);
+					AnimGameTests.assertMoving(h, fan, false);
 					h.assertTrue(be.spin.stopped(), "parou");
 				})
 				.thenSucceed();

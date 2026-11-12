@@ -42,8 +42,9 @@ import net.minecraft.world.phys.Vec3;
  * seu modelo (pecas.py → template → filho com as texturas do bloco) com a transformação de {@link FurnitureParts}, interpolada com
  * o partialTick.
  * <p>
- * Desempenho: só corre perto ({@link #VIEW} blocos) e só quando há algo a mexer ({@link #shouldRender}: o estado do bloco diz se as
- * partes estão a mexer; parado, o modelo estático do bloco já tem tudo e nada é criado neste frame). As pilhas de itens das partes
+ * Desempenho: só corre perto ({@link #VIEW} blocos) e só quando há algo a mexer ({@link #shouldRender}: a animação da entidade diz se
+ * as partes estão a mexer; parado, o modelo estático do bloco já tem tudo e nada é criado neste frame). 0.3.3: continua a desenhar
+ * {@link com.tcordeiro.moveis.anim.Anim#GRACE} ticks depois do fim (o modelo do chunk só se refaz no fotograma seguinte). As pilhas de itens das partes
  * são criadas uma vez por bloco, parte e acabamento ({@link PartStacks}): as partes dos móveis envernizados, polidos ou gastos têm as
  * mesmas texturas do corpo (0.3.0).
  */
@@ -75,10 +76,11 @@ public class FurnitureRenderer<T extends BlockEntity> implements BlockEntityRend
 	static boolean active(BlockEntity be) {
 		BlockState st = be.getBlockState();
 		Block b = st.getBlock();
-		if (be instanceof Animated && b instanceof AnimatedFurniture af) return af.drawsParts(st);
-		if (b instanceof CeilingFanBlock) return st.getValue(LampBlock.LIT) || st.getValue(AnimatedFurniture.MOVING);
+		// 0.3.3: a mexer vem da entidade (não do blockstate) e há uns ticks de graça no fim (o chunk refaz-se um fotograma depois)
+		if (be instanceof Animated a && b instanceof AnimatedFurniture af) return af.drawsParts(st, a.anim());
+		if (b instanceof CeilingFanBlock && be instanceof LampBlockEntity lamp) return st.getValue(LampBlock.LIT) || lamp.spin.drawing();
 		if (be instanceof ClockBlockEntity) return true;
-		if (be instanceof PianoBlockEntity) return st.getValue(PianoBlock.PLAYING);
+		if (be instanceof PianoBlockEntity piano) return piano.drawsKeys();
 		return false;
 	}
 

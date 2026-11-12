@@ -54,4 +54,20 @@ class SpinTest {
 		assertTrue(s.stopped());
 		assertEquals(0f, s.angle(0.5f), 1e-6);
 	}
+
+	/** 0.3.3: as pás continuam desenhadas GRACE ticks depois de parar. */
+	@Test
+	void bladesKeepDrawingForAGrace() {
+		Spin s = new Spin();
+		org.junit.jupiter.api.Assertions.assertFalse(s.drawing(), "novo e parado");
+		for (int i = 0; i < 30; i++) s.tick(1f);
+		int n = 0;
+		while (!s.stopped()) { s.tick(0f); n++; }
+		org.junit.jupiter.api.Assertions.assertTrue(n > 0);
+		for (int i = 0; i < Anim.GRACE; i++) {
+			org.junit.jupiter.api.Assertions.assertTrue(s.drawing(), "graça " + i);
+			s.tick(0f);
+		}
+		org.junit.jupiter.api.Assertions.assertFalse(s.drawing());
+	}
 }

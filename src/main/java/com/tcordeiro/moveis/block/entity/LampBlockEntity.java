@@ -40,6 +40,12 @@ public class LampBlockEntity extends BlockEntity {
 		return create(MoveisBlocks.LAMP_BE, pos, state);
 	}
 
+	/** 0.3.3: o modelo do chunk do ventilador (cliente) pergunta se as pás estão a girar ou a travar (já não há MOVING no blockstate). */
+	@Override
+	public Object getRenderData() {
+		return !spin.stopped();
+	}
+
 	/** Recebeu energia suficiente no último tick? */
 	public boolean energized() {
 		return false;

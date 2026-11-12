@@ -19,8 +19,14 @@ public class TMoveis implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		long t0 = System.nanoTime();
 		MoveisBlocks.init();
 		com.tcordeiro.moveis.finish.FinishBlocks.init(); // 0.3.0: madeira e verniz, Serraria
+		// medição (0.3.3): o registo dos blocos é onde os estados se criam
+		int states = 0;
+		for (var b : net.minecraft.core.registries.BuiltInRegistries.BLOCK)
+			if (net.minecraft.core.registries.BuiltInRegistries.BLOCK.getKey(b).getNamespace().equals(MOD_ID)) states += b.getStateDefinition().getPossibleStates().size();
+		org.slf4j.LoggerFactory.getLogger(MOD_ID).info("Móveis: blocos registados em {} ms ({} estados)", (System.nanoTime() - t0) / 1_000_000, states);
 		// cofre-forte e caixa de correio (0.3.3): só o dono os parte (os outros nem com a picareta)
 		net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents.BEFORE.register((level, player, pos, state, be) -> {
 			if (!StorageFurnitureBlock.ownerOnly(state) || StorageFurnitureBlock.isOwner(level, pos, player)) return true;

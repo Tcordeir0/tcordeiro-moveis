@@ -66,9 +66,12 @@ public interface AnimatedFurniture {
 		if (level.isClientSide() && was && !anim.moving(target)) remesh(level, pos, state);
 	}
 
-	/** Cliente: o modelo do chunk deste bloco mudou (a escolha vem da entidade, não do estado). */
+	/**
+	 * Cliente: o modelo do chunk deste bloco mudou (a escolha vem da entidade, não do estado). UPDATE_IMMEDIATE: a secção refaz-se já
+	 * (como quando o próprio jogador mexe num bloco), e a graça do renderer ({@link Anim#GRACE}) cobre o resto.
+	 */
 	static void remesh(Level level, BlockPos pos, BlockState state) {
-		level.sendBlockUpdated(pos, state, state, Block.UPDATE_CLIENTS);
+		level.sendBlockUpdated(pos, state, state, Block.UPDATE_CLIENTS | Block.UPDATE_IMMEDIATE);
 	}
 
 	/** O alvo inicial de uma entidade nova (para a animação começar parada onde o bloco está). */

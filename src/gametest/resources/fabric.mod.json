@@ -14,7 +14,9 @@
 			"com.tcordeiro.moveis.test.SofaGameTests",
 			"com.tcordeiro.moveis.test.BedGameTests",
 			"com.tcordeiro.moveis.test.LampGameTests",
-			"com.tcordeiro.moveis.test.DataGameTests"
+			"com.tcordeiro.moveis.test.DataGameTests",
+			"com.tcordeiro.moveis.test.FinishGameTests",
+			"com.tcordeiro.moveis.test.SawmillGameTests"
 		]
 	},
 	"depends": {

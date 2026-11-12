@@ -1,0 +1,220 @@
+{
+  "variants": {
+    "axis=x,finish=raw": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=raw": {
+      "model": "tmoveis:block/finish/dark_oak/beam"
+    },
+    "axis=z,finish=raw": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal",
+      "x": 90
+    },
+    "axis=x,finish=worn_1": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_worn_1",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=worn_1": {
+      "model": "tmoveis:block/finish/dark_oak/beam_worn_1"
+    },
+    "axis=z,finish=worn_1": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_worn_1",
+      "x": 90
+    },
+    "axis=x,finish=worn_2": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_worn_2",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=worn_2": {
+      "model": "tmoveis:block/finish/dark_oak/beam_worn_2"
+    },
+    "axis=z,finish=worn_2": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_worn_2",
+      "x": 90
+    },
+    "axis=x,finish=worn_3": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_worn_3",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=worn_3": {
+      "model": "tmoveis:block/finish/dark_oak/beam_worn_3"
+    },
+    "axis=z,finish=worn_3": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_worn_3",
+      "x": 90
+    },
+    "axis=x,finish=natural": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_natural",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=natural": {
+      "model": "tmoveis:block/finish/dark_oak/beam_natural"
+    },
+    "axis=z,finish=natural": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_natural",
+      "x": 90
+    },
+    "axis=x,finish=natural_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_natural_polished",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=natural_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_natural_polished"
+    },
+    "axis=z,finish=natural_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_natural_polished",
+      "x": 90
+    },
+    "axis=x,finish=honey": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_honey",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=honey": {
+      "model": "tmoveis:block/finish/dark_oak/beam_honey"
+    },
+    "axis=z,finish=honey": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_honey",
+      "x": 90
+    },
+    "axis=x,finish=honey_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_honey_polished",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=honey_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_honey_polished"
+    },
+    "axis=z,finish=honey_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_honey_polished",
+      "x": 90
+    },
+    "axis=x,finish=walnut": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_walnut",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=walnut": {
+      "model": "tmoveis:block/finish/dark_oak/beam_walnut"
+    },
+    "axis=z,finish=walnut": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_walnut",
+      "x": 90
+    },
+    "axis=x,finish=walnut_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_walnut_polished",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=walnut_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_walnut_polished"
+    },
+    "axis=z,finish=walnut_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_walnut_polished",
+      "x": 90
+    },
+    "axis=x,finish=mahogany": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_mahogany",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=mahogany": {
+      "model": "tmoveis:block/finish/dark_oak/beam_mahogany"
+    },
+    "axis=z,finish=mahogany": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_mahogany",
+      "x": 90
+    },
+    "axis=x,finish=mahogany_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_mahogany_polished",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=mahogany_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_mahogany_polished"
+    },
+    "axis=z,finish=mahogany_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_mahogany_polished",
+      "x": 90
+    },
+    "axis=x,finish=ebony": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_ebony",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=ebony": {
+      "model": "tmoveis:block/finish/dark_oak/beam_ebony"
+    },
+    "axis=z,finish=ebony": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_ebony",
+      "x": 90
+    },
+    "axis=x,finish=ebony_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_ebony_polished",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=ebony_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_ebony_polished"
+    },
+    "axis=z,finish=ebony_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_ebony_polished",
+      "x": 90
+    },
+    "axis=x,finish=white_lacquer": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_white_lacquer",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=white_lacquer": {
+      "model": "tmoveis:block/finish/dark_oak/beam_white_lacquer"
+    },
+    "axis=z,finish=white_lacquer": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_white_lacquer",
+      "x": 90
+    },
+    "axis=x,finish=white_lacquer_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_white_lacquer_polished",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=white_lacquer_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_white_lacquer_polished"
+    },
+    "axis=z,finish=white_lacquer_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_white_lacquer_polished",
+      "x": 90
+    },
+    "axis=x,finish=black_lacquer": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_black_lacquer",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=black_lacquer": {
+      "model": "tmoveis:block/finish/dark_oak/beam_black_lacquer"
+    },
+    "axis=z,finish=black_lacquer": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_black_lacquer",
+      "x": 90
+    },
+    "axis=x,finish=black_lacquer_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_black_lacquer_polished",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,finish=black_lacquer_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_black_lacquer_polished"
+    },
+    "axis=z,finish=black_lacquer_polished": {
+      "model": "tmoveis:block/finish/dark_oak/beam_horizontal_black_lacquer_polished",
+      "x": 90
+    }
+  }
+}

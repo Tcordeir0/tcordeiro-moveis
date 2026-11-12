@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:cherry_herringbone",
+  "result": {
+    "id": "tmoveis:cherry_herringbone_slab",
+    "count": 2
+  }
+}

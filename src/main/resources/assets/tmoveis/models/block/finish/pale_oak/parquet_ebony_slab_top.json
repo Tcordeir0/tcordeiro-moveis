@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tmoveis:block/finish/pale_oak/parquet_ebony",
+    "top": "tmoveis:block/finish/pale_oak/parquet_ebony",
+    "side": "tmoveis:block/finish/pale_oak/parquet_ebony"
+  }
+}

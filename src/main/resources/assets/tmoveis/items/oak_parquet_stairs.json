@@ -1,0 +1,132 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:block_state",
+    "block_state_property": "finish",
+    "cases": [
+      {
+        "when": "worn_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_worn_1_stairs"
+        }
+      },
+      {
+        "when": "worn_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_worn_2_stairs"
+        }
+      },
+      {
+        "when": "worn_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_worn_3_stairs"
+        }
+      },
+      {
+        "when": "natural",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_natural_stairs"
+        }
+      },
+      {
+        "when": "natural_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_natural_polished_stairs"
+        }
+      },
+      {
+        "when": "honey",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_honey_stairs"
+        }
+      },
+      {
+        "when": "honey_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_honey_polished_stairs"
+        }
+      },
+      {
+        "when": "walnut",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_walnut_stairs"
+        }
+      },
+      {
+        "when": "walnut_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_walnut_polished_stairs"
+        }
+      },
+      {
+        "when": "mahogany",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_mahogany_stairs"
+        }
+      },
+      {
+        "when": "mahogany_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_mahogany_polished_stairs"
+        }
+      },
+      {
+        "when": "ebony",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_ebony_stairs"
+        }
+      },
+      {
+        "when": "ebony_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_ebony_polished_stairs"
+        }
+      },
+      {
+        "when": "white_lacquer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_white_lacquer_stairs"
+        }
+      },
+      {
+        "when": "white_lacquer_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_white_lacquer_polished_stairs"
+        }
+      },
+      {
+        "when": "black_lacquer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_black_lacquer_stairs"
+        }
+      },
+      {
+        "when": "black_lacquer_polished",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/finish/oak/parquet_black_lacquer_polished_stairs"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "tmoveis:block/finish/oak/parquet_stairs"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tmoveis:block/finish/acacia/planks_honey",
+    "top": "tmoveis:block/finish/acacia/planks_honey",
+    "side": "tmoveis:block/finish/acacia/planks_honey"
+  }
+}

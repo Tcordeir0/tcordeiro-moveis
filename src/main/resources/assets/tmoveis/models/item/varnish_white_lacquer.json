@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tmoveis:item/varnish_white_lacquer"
+  }
+}

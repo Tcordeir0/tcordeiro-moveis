@@ -92,6 +92,12 @@ public final class MoveisGuide {
 			new String[][] {{"minecraft:iron_ingot", "minecraft:tripwire_hook", "minecraft:iron_ingot"}, {"minecraft:iron_ingot", "minecraft:chest", "minecraft:iron_ingot"}, {"minecraft:iron_ingot", "minecraft:iron_ingot", "minecraft:iron_ingot"}});
 	static final Recipe WHITE_AWNING = new Recipe("tmoveis:white_awning", "tmoveis:white_awning", 2,
 			new String[][] {{"minecraft:white_wool", "minecraft:white_wool", "minecraft:white_wool"}, {"minecraft:stick", null, "minecraft:stick"}, {null, null, null}});
+	static final Recipe VARNISH_HONEY = new Recipe("tmoveis:varnish_honey", "tmoveis:varnish_honey", 1,
+			new String[][] {{"minecraft:glass_bottle", "minecraft:honeycomb", "minecraft:honey_bottle"}, {null, null, null}, {null, null, null}});
+	static final Recipe VARNISH_BRUSH_HONEY = new Recipe("tmoveis:varnish_brush_honey", "tmoveis:varnish_brush_honey", 1,
+			new String[][] {{"#minecraft:wool", null, null}, {"tmoveis:varnish_honey", null, null}, {"minecraft:stick", null, null}});
+	static final Recipe SAWMILL = new Recipe("tmoveis:sawmill", "tmoveis:sawmill", 1,
+			new String[][] {{null, "minecraft:iron_ingot", null}, {"#minecraft:planks", "#minecraft:planks", "#minecraft:planks"}, {"minecraft:stick", null, "minecraft:stick"}});
 
 	public static final List<Page> PAGES = List.of(
 			new Page("cover", null, List.of()),
@@ -139,5 +145,21 @@ public final class MoveisGuide {
 			new Page("floor_lamp", null, List.of(FLOOR_LAMP)),
 			new Page("piano", null, List.of(PIANO)),
 			new Page("safe", null, List.of(SAFE)),
-			new Page("awning", null, List.of(WHITE_AWNING)));
+			new Page("awning", null, List.of(WHITE_AWNING)),
+			new Page("finish", null, List.of()),
+			new Page("varnish", null, List.of(VARNISH_HONEY)),
+			new Page("varnish_tones", null, List.of()),
+			new Page("varnish_brush", null, List.of(VARNISH_BRUSH_HONEY)),
+			new Page("brushing", null, List.of()),
+			new Page("polish", null, List.of()),
+			new Page("remove_varnish", null, List.of()),
+			new Page("weathering", null, List.of()),
+			new Page("protect", null, List.of()),
+			new Page("sawmill", null, List.of(SAWMILL)),
+			new Page("sawmill_use", null, List.of()),
+			new Page("parquet", null, List.of()),
+			new Page("herringbone", null, List.of()),
+			new Page("floorboards", null, List.of()),
+			new Page("paneling", null, List.of()),
+			new Page("beam", null, List.of()));
 }

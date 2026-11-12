@@ -1,7 +1,58 @@
 {
   "variants": {
-    "": {
+    "finish=raw": {
       "model": "tmoveis:block/acacia_stool"
+    },
+    "finish=worn_1": {
+      "model": "tmoveis:block/finish/acacia/stool_worn_1"
+    },
+    "finish=worn_2": {
+      "model": "tmoveis:block/finish/acacia/stool_worn_2"
+    },
+    "finish=worn_3": {
+      "model": "tmoveis:block/finish/acacia/stool_worn_3"
+    },
+    "finish=natural": {
+      "model": "tmoveis:block/finish/acacia/stool_natural"
+    },
+    "finish=natural_polished": {
+      "model": "tmoveis:block/finish/acacia/stool_natural_polished"
+    },
+    "finish=honey": {
+      "model": "tmoveis:block/finish/acacia/stool_honey"
+    },
+    "finish=honey_polished": {
+      "model": "tmoveis:block/finish/acacia/stool_honey_polished"
+    },
+    "finish=walnut": {
+      "model": "tmoveis:block/finish/acacia/stool_walnut"
+    },
+    "finish=walnut_polished": {
+      "model": "tmoveis:block/finish/acacia/stool_walnut_polished"
+    },
+    "finish=mahogany": {
+      "model": "tmoveis:block/finish/acacia/stool_mahogany"
+    },
+    "finish=mahogany_polished": {
+      "model": "tmoveis:block/finish/acacia/stool_mahogany_polished"
+    },
+    "finish=ebony": {
+      "model": "tmoveis:block/finish/acacia/stool_ebony"
+    },
+    "finish=ebony_polished": {
+      "model": "tmoveis:block/finish/acacia/stool_ebony_polished"
+    },
+    "finish=white_lacquer": {
+      "model": "tmoveis:block/finish/acacia/stool_white_lacquer"
+    },
+    "finish=white_lacquer_polished": {
+      "model": "tmoveis:block/finish/acacia/stool_white_lacquer_polished"
+    },
+    "finish=black_lacquer": {
+      "model": "tmoveis:block/finish/acacia/stool_black_lacquer"
+    },
+    "finish=black_lacquer_polished": {
+      "model": "tmoveis:block/finish/acacia/stool_black_lacquer_polished"
     }
   }
 }

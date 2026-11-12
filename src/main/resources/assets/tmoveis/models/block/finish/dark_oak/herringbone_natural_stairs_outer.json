@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/dark_oak/herringbone_natural",
+    "top": "tmoveis:block/finish/dark_oak/herringbone_natural",
+    "side": "tmoveis:block/finish/dark_oak/herringbone_natural"
+  }
+}

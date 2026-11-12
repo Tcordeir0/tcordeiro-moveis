@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tmoveis:block/finish/crimson/floorboards_honey",
+    "top": "tmoveis:block/finish/crimson/floorboards_honey",
+    "side": "tmoveis:block/finish/crimson/floorboards_honey"
+  }
+}

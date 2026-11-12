@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tmoveis:block/finish/bamboo/beam_end_white_lacquer",
+    "side": "tmoveis:block/finish/bamboo/beam_side_white_lacquer"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "minecraft:dark_oak_planks",
+  "result": {
+    "id": "tmoveis:dark_oak_herringbone"
+  }
+}

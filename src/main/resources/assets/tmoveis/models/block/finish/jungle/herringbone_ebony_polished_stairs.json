@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/jungle/herringbone_ebony_polished",
+    "top": "tmoveis:block/finish/jungle/herringbone_ebony_polished",
+    "side": "tmoveis:block/finish/jungle/herringbone_ebony_polished"
+  }
+}

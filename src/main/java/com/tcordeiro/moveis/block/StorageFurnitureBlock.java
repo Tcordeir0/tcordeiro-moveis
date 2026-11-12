@@ -93,7 +93,7 @@ public class StorageFurnitureBlock extends BaseEntityBlock implements AnimatedFu
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(FACING, OPEN, MOVING);
+		builder.add(FACING, OPEN, MOVING, com.tcordeiro.moveis.finish.FinishState.FINISH);
 	}
 
 	@Override
@@ -161,5 +161,16 @@ public class StorageFurnitureBlock extends BaseEntityBlock implements AnimatedFu
 	@Override
 	protected BlockState mirror(BlockState state, Mirror mirror) {
 		return state.rotate(mirror.getRotation(state.getValue(FACING)));
+	}
+
+	// verniz e desgaste (0.3.0): ver com.tcordeiro.moveis.finish
+	@Override
+	protected boolean isRandomlyTicking(BlockState state) {
+		return com.tcordeiro.moveis.finish.Weathering.ticks(state);
+	}
+
+	@Override
+	protected void randomTick(BlockState state, ServerLevel level, BlockPos pos, net.minecraft.util.RandomSource random) {
+		com.tcordeiro.moveis.finish.Weathering.randomTick(state, level, pos, random);
 	}
 }

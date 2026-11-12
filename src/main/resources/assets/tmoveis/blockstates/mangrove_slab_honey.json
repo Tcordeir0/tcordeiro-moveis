@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tmoveis:block/finish/mangrove/planks_honey_slab"
+    },
+    "type=top": {
+      "model": "tmoveis:block/finish/mangrove/planks_honey_slab_top"
+    },
+    "type=double": {
+      "model": "tmoveis:block/finish/mangrove/planks_honey"
+    }
+  }
+}

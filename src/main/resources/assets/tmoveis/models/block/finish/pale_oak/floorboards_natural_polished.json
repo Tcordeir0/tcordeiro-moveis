@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tmoveis:block/finish/pale_oak/floorboards_natural_polished"
+  }
+}

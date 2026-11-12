@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:bamboo_herringbone",
+  "result": {
+    "id": "tmoveis:bamboo_herringbone_slab",
+    "count": 2
+  }
+}

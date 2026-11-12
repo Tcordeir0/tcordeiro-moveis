@@ -1414,6 +1414,7 @@ def main():
     gen_loot_tags_merged()
     gen_recipes()
     recipes_v020()
+    __import__("gen_finishes").run(globals())  # 0.3.0: madeira e verniz (tools/gen_finishes.py)
     n_other = check_recipe_collisions()
     gen_guide()
     gen_wood_types()

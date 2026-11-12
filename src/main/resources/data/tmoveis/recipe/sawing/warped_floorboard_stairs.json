@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:warped_floorboards",
+  "result": {
+    "id": "tmoveis:warped_floorboard_stairs"
+  }
+}

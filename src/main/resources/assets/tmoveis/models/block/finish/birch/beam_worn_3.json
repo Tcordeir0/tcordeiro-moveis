@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tmoveis:block/finish/birch/beam_end_worn_3",
+    "side": "tmoveis:block/finish/birch/beam_side_worn_3"
+  }
+}

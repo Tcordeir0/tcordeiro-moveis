@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tmoveis:block/finish/pale_oak/planks_mahogany",
+    "side": "tmoveis:block/finish/pale_oak/paneling_mahogany"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/mangrove/floorboards_ebony_polished",
+    "top": "tmoveis:block/finish/mangrove/floorboards_ebony_polished",
+    "side": "tmoveis:block/finish/mangrove/floorboards_ebony_polished"
+  }
+}

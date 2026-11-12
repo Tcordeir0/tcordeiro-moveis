@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:poplar_herringbone",
+  "result": {
+    "id": "tmoveis:poplar_herringbone_stairs"
+  }
+}

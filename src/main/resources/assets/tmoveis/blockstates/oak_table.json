@@ -3,12 +3,16 @@
     {
       "apply": {
         "model": "tmoveis:block/oak_table_top"
+      },
+      "when": {
+        "finish": "raw"
       }
     },
     {
       "when": {
         "north": "false",
-        "west": "false"
+        "west": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/oak_table_leg"
@@ -17,7 +21,8 @@
     {
       "when": {
         "north": "false",
-        "east": "false"
+        "east": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/oak_table_leg",
@@ -27,7 +32,8 @@
     {
       "when": {
         "south": "false",
-        "east": "false"
+        "east": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/oak_table_leg",
@@ -37,10 +43,878 @@
     {
       "when": {
         "south": "false",
-        "west": "false"
+        "west": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/oak_table_leg",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_worn_1"
+      },
+      "when": {
+        "finish": "worn_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_1"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_1",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_worn_2"
+      },
+      "when": {
+        "finish": "worn_2"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_2"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_2",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_worn_3"
+      },
+      "when": {
+        "finish": "worn_3"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_3"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_worn_3",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_natural"
+      },
+      "when": {
+        "finish": "natural"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_natural"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_natural",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_natural",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_natural",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_natural_polished"
+      },
+      "when": {
+        "finish": "natural_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_natural_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_natural_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_natural_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_natural_polished",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_honey"
+      },
+      "when": {
+        "finish": "honey"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_honey"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_honey",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_honey",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_honey",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_honey_polished"
+      },
+      "when": {
+        "finish": "honey_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_honey_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_honey_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_honey_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_honey_polished",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_walnut"
+      },
+      "when": {
+        "finish": "walnut"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_walnut"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_walnut",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_walnut",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_walnut",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_walnut_polished"
+      },
+      "when": {
+        "finish": "walnut_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_walnut_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_walnut_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_walnut_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_walnut_polished",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_mahogany"
+      },
+      "when": {
+        "finish": "mahogany"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_mahogany"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_mahogany",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_mahogany",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_mahogany",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_mahogany_polished"
+      },
+      "when": {
+        "finish": "mahogany_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_mahogany_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_mahogany_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_mahogany_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_mahogany_polished",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_ebony"
+      },
+      "when": {
+        "finish": "ebony"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_ebony"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_ebony",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_ebony",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_ebony",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_ebony_polished"
+      },
+      "when": {
+        "finish": "ebony_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_ebony_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_ebony_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_ebony_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_ebony_polished",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_white_lacquer"
+      },
+      "when": {
+        "finish": "white_lacquer"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_white_lacquer"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_white_lacquer",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_white_lacquer",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_white_lacquer",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_white_lacquer_polished"
+      },
+      "when": {
+        "finish": "white_lacquer_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_white_lacquer_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_white_lacquer_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_white_lacquer_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_white_lacquer_polished",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_black_lacquer"
+      },
+      "when": {
+        "finish": "black_lacquer"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_black_lacquer"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_black_lacquer",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_black_lacquer",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_black_lacquer",
+        "y": 270
+      }
+    },
+    {
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_top_black_lacquer_polished"
+      },
+      "when": {
+        "finish": "black_lacquer_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_black_lacquer_polished"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_black_lacquer_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_black_lacquer_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/oak/table_leg_black_lacquer_polished",
         "y": 270
       }
     }

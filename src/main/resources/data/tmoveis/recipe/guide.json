@@ -153,6 +153,54 @@
             "raw": "§lToldo§r\n\nDecoração de parede, por cima de janelas e portas. Dá 2."
           },
           {
+            "raw": "§lVerniz§r\n\nMuda a cor da madeira e a protege da chuva.\n\n7 tons: Natural, Mel, Nogueira, Mogno, Ébano, Laca Branca e Laca Preta.\n\nServe em tábuas, escadas, lajes, blocos novos e móveis."
+          },
+          {
+            "raw": "§lFazer verniz§r\n\nFrasco de vidro, favo de mel e o que dá a cor do tom (aqui: garrafa de mel)."
+          },
+          {
+            "raw": "§lOs 7 tons§r\n\nFrasco, favo de mel e:\nNatural: outro favo\nMel: garrafa de mel\nNogueira: marrom\nMogno: marrom e vermelho\nÉbano: carvão vegetal\nLaca Branca: branco\nLaca Preta: preto\n\nAs cores são corantes."
+          },
+          {
+            "raw": "§lPincel de Verniz§r\n\nLã, verniz e um pau. Um pincel por tom; dá 64 demãos. Devolve o frasco."
+          },
+          {
+            "raw": "§lEnvernizar§r\n\nClique direito com o pincel em tábuas, escadas, lajes, blocos novos ou móveis: ficam da cor do verniz.\n\nO carvalho continua carvalho, virado para o mesmo lado. Portas, cercas e alçapões não."
+          },
+          {
+            "raw": "§lPolir§r\n\nPasse o mesmo pincel outra vez: a madeira fica polida, com mais brilho.\n\nUm pincel de outro tom troca a cor (sem polimento)."
+          },
+          {
+            "raw": "§lTirar o verniz§r\n\nClique direito com um machado, como na cera do cobre:\n\npolida → envernizada → madeira crua.\n\nCada raspagem gasta o machado."
+          },
+          {
+            "raw": "§lDesgaste§r\n\nA madeira crua dos Móveis (blocos novos e móveis) se desgasta na chuva, com o céu por cima: 3 estágios, cada um cerca de 9 dias de jogo.\n\nA madeira do jogo e as casas que já existem nunca mudam."
+          },
+          {
+            "raw": "§lProteger§r\n\nMadeira envernizada nunca se desgasta.\n\nJá gasta? O machado raspa um estágio. O pincel numa madeira gasta repõe a cor e a deixa protegida."
+          },
+          {
+            "raw": "§lSerraria§r\n\nCorta madeira como o cortador de pedras. A serra gira enquanto a tela está aberta."
+          },
+          {
+            "raw": "§lNa Serraria§r\n\nTronco → 6 tábuas (a bancada dá 4).\n\nTábua → parquet, espinha, assoalho, lambri, viga, escadas, 2 lajes ou 2 paus.\n\nParquet, espinha, assoalho → escadas ou 2 lajes."
+          },
+          {
+            "raw": "§lParquet§r\n\nQuadrados de tábuas deitadas e em pé, alternados.\n\nNa Serraria: 1 tábua → 1 parquet. Tem escadas e lajes."
+          },
+          {
+            "raw": "§lEspinha de Peixe§r\n\nRéguas curtas em ziguezague, como nos salões antigos.\n\nNa Serraria: 1 tábua → 1 bloco. Tem escadas e lajes."
+          },
+          {
+            "raw": "§lAssoalho§r\n\nTábuas compridas com as juntas desencontradas, para pisos.\n\nNa Serraria: 1 tábua → 1 assoalho. Tem escadas e lajes."
+          },
+          {
+            "raw": "§lLambri§r\n\nTábuas em pé com sulcos, para forrar paredes.\n\nNa Serraria: 1 tábua → 1 lambri. Sem escadas nem lajes."
+          },
+          {
+            "raw": "§lViga§r\n\nUm pilar de madeira serrada. Fica deitada para o lado em que se clica, como os troncos.\n\nNa Serraria: 1 tábua → 1 viga."
+          },
+          {
             "raw": "§lMadeiras§r\n\nCarvalho, Abeto, Bétula, Selva, Acácia, Carvalho Escuro, Carvalho Pálido, Carmesim, Distorcida, Mangue, Bambu, Cerejeira, Álamo."
           }
         ],

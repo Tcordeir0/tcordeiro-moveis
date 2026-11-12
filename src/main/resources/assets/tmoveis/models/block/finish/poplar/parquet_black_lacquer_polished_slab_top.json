@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tmoveis:block/finish/poplar/parquet_black_lacquer_polished",
+    "top": "tmoveis:block/finish/poplar/parquet_black_lacquer_polished",
+    "side": "tmoveis:block/finish/poplar/parquet_black_lacquer_polished"
+  }
+}

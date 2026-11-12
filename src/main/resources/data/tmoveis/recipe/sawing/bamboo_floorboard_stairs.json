@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:bamboo_floorboards",
+  "result": {
+    "id": "tmoveis:bamboo_floorboard_stairs"
+  }
+}

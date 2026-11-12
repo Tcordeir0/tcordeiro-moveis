@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/poplar/herringbone_honey",
+    "top": "tmoveis:block/finish/poplar/herringbone_honey",
+    "side": "tmoveis:block/finish/poplar/herringbone_honey"
+  }
+}

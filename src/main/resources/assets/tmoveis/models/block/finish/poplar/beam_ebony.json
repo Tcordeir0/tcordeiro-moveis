@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tmoveis:block/finish/poplar/beam_end_ebony",
+    "side": "tmoveis:block/finish/poplar/beam_side_ebony"
+  }
+}

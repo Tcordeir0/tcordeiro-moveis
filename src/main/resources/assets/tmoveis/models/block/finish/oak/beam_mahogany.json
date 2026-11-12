@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tmoveis:block/finish/oak/beam_end_mahogany",
+    "side": "tmoveis:block/finish/oak/beam_side_mahogany"
+  }
+}

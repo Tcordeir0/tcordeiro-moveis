@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "minecraft:cherry_planks",
+  "result": {
+    "id": "tmoveis:cherry_beam"
+  }
+}

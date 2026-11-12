@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/spruce/parquet_honey",
+    "top": "tmoveis:block/finish/spruce/parquet_honey",
+    "side": "tmoveis:block/finish/spruce/parquet_honey"
+  }
+}

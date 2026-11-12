@@ -1,0 +1,7 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:birch_floorboards",
+  "result": {
+    "id": "tmoveis:birch_floorboard_stairs"
+  }
+}

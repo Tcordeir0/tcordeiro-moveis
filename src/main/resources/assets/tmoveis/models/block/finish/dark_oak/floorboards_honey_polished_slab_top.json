@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tmoveis:block/finish/dark_oak/floorboards_honey_polished",
+    "top": "tmoveis:block/finish/dark_oak/floorboards_honey_polished",
+    "side": "tmoveis:block/finish/dark_oak/floorboards_honey_polished"
+  }
+}

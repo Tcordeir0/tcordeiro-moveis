@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/crimson/floorboards_ebony",
+    "top": "tmoveis:block/finish/crimson/floorboards_ebony",
+    "side": "tmoveis:block/finish/crimson/floorboards_ebony"
+  }
+}

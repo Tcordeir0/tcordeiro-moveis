@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tmoveis:block/finish/spruce/planks_black_lacquer_slab"
+    },
+    "type=top": {
+      "model": "tmoveis:block/finish/spruce/planks_black_lacquer_slab_top"
+    },
+    "type=double": {
+      "model": "tmoveis:block/finish/spruce/planks_black_lacquer"
+    }
+  }
+}

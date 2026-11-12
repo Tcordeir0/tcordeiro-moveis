@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/birch/planks_walnut",
+    "top": "tmoveis:block/finish/birch/planks_walnut",
+    "side": "tmoveis:block/finish/birch/planks_walnut"
+  }
+}

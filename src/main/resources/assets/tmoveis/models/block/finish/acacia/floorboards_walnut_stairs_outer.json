@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/acacia/floorboards_walnut",
+    "top": "tmoveis:block/finish/acacia/floorboards_walnut",
+    "side": "tmoveis:block/finish/acacia/floorboards_walnut"
+  }
+}

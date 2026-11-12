@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/jungle/herringbone",
+    "top": "tmoveis:block/finish/jungle/herringbone",
+    "side": "tmoveis:block/finish/jungle/herringbone"
+  }
+}

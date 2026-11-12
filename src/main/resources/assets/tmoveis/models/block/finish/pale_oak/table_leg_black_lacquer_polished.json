@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/table_leg",
+  "textures": {
+    "planks": "tmoveis:block/finish/pale_oak/planks_black_lacquer_polished",
+    "log": "tmoveis:block/finish/pale_oak/log_black_lacquer_polished",
+    "particle": "tmoveis:block/finish/pale_oak/planks_black_lacquer_polished"
+  }
+}

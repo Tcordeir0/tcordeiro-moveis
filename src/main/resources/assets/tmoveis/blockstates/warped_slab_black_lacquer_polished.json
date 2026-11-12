@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tmoveis:block/finish/warped/planks_black_lacquer_polished_slab"
+    },
+    "type=top": {
+      "model": "tmoveis:block/finish/warped/planks_black_lacquer_polished_slab_top"
+    },
+    "type=double": {
+      "model": "tmoveis:block/finish/warped/planks_black_lacquer_polished"
+    }
+  }
+}

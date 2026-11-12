@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/cabinet_body",
+  "textures": {
+    "planks": "tmoveis:block/finish/crimson/planks_natural_polished",
+    "log": "tmoveis:block/finish/crimson/log_natural_polished",
+    "particle": "tmoveis:block/finish/crimson/planks_natural_polished"
+  }
+}

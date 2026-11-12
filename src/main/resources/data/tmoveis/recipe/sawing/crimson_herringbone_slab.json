@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:crimson_herringbone",
+  "result": {
+    "id": "tmoveis:crimson_herringbone_slab",
+    "count": 2
+  }
+}

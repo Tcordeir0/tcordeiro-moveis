@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:dark_oak_floorboards",
+  "result": {
+    "id": "tmoveis:dark_oak_floorboard_slab",
+    "count": 2
+  }
+}

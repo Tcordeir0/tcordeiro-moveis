@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W",
+    "V",
+    "|"
+  ],
+  "key": {
+    "W": "#minecraft:wool",
+    "V": "tmoveis:varnish_walnut",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:varnish_brush_walnut"
+  },
+  "group": "tmoveis:varnish_brush"
+}

@@ -19,6 +19,7 @@ public class TMoveis implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		MoveisBlocks.init();
+		com.tcordeiro.moveis.finish.FinishBlocks.init(); // 0.3.0: madeira e verniz, Serraria
 		// cofre-forte: só o dono o parte (os outros nem com a picareta)
 		net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents.BEFORE.register((level, player, pos, state, be) -> {
 			if (!(state.getBlock() instanceof com.tcordeiro.moveis.block.SafeBlock) || com.tcordeiro.moveis.block.SafeBlock.isOwner(level, pos, player))

@@ -1,0 +1,8 @@
+{
+  "type": "tmoveis:sawing",
+  "ingredient": "tmoveis:birch_parquet",
+  "result": {
+    "id": "tmoveis:birch_parquet_slab",
+    "count": 2
+  }
+}

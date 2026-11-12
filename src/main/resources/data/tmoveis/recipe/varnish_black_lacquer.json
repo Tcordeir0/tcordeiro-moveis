@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:honeycomb",
+    "minecraft:black_dye"
+  ],
+  "result": {
+    "id": "tmoveis:varnish_black_lacquer"
+  },
+  "group": "tmoveis:varnish"
+}

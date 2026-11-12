@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tmoveis:block/finish/jungle/floorboards",
+    "top": "tmoveis:block/finish/jungle/floorboards",
+    "side": "tmoveis:block/finish/jungle/floorboards"
+  }
+}

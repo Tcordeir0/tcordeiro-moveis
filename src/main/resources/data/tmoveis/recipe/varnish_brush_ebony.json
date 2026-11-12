@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W",
+    "V",
+    "|"
+  ],
+  "key": {
+    "W": "#minecraft:wool",
+    "V": "tmoveis:varnish_ebony",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:varnish_brush_ebony"
+  },
+  "group": "tmoveis:varnish_brush"
+}

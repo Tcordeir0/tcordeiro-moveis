@@ -202,7 +202,8 @@ public final class MoveisBlocks {
 		FIREPLACE = block("fireplace", FireplaceBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_RED).strength(2f, 6f)
 				.sound(SoundType.STONE).noOcclusion().lightLevel(s -> s.getValue(FireplaceBlock.LIT) ? 15 : 0), 64);
 		CEILING_FAN = block("ceiling_fan", CeilingFanBlock::new, lamp(12), 64);
-		MAILBOX = block("mailbox", MailboxBlock::new, metal(1.5f), 64);
+		// 0.3.3: protegida como o cofre (resistência da obsidiana, não se empurra)
+		MAILBOX = block("mailbox", MailboxBlock::new, metal(1.5f).explosionResistance(1200f).pushReaction(PushReaction.IMMOVEABLE), 64);
 		FLOOR_LAMP = block("floor_lamp", FloorLampBlock::new, lamp(14), 64);
 		PIANO = block("piano", PianoBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).strength(1.5f).sound(SoundType.WOOD)
 				.noOcclusion().ignitedByLava(), 64);

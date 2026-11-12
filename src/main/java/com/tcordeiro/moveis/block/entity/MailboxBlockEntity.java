@@ -24,7 +24,8 @@ import net.minecraft.world.level.block.state.BlockState;
 /**
  * O inventário da caixa de correio (9 espaços). O dono abre-o a sério; os outros recebem um espaço de depósito vazio
  * ({@link DepositMenu}): o que lá deixarem entra na caixa ao fechar (e o que não couber volta para eles). Assim nunca veem nem
- * tiram o correio de outra pessoa.
+ * tiram o correio de outra pessoa. 0.3.3: protegida como o cofre — {@link #canOpen} só para o dono (o HUD do Receitário também não
+ * mostra o conteúdo aos outros), só o dono a parte, explosões não a partem e funis/canos só põem.
  */
 public class MailboxBlockEntity extends StorageFurnitureBlockEntity {
 	public MailboxBlockEntity(BlockPos pos, BlockState state) {
@@ -35,6 +36,16 @@ public class MailboxBlockEntity extends StorageFurnitureBlockEntity {
 	protected AbstractContainerMenu createMenu(int containerId, Inventory inventory) {
 		if (isOwner(inventory.player)) return super.createMenu(containerId, inventory);
 		return new DepositMenu(containerId, inventory, this);
+	}
+
+	/**
+	 * Quem não é o dono não pode abrir a caixa a sério ({@link #canOpen} = false, 0.3.3), mas pode depositar: recebe o espaço de
+	 * depósito (se a fechadura do jogo deixar).
+	 */
+	@Override
+	public AbstractContainerMenu createMenu(int containerId, Inventory inventory, Player player) {
+		if (!isOwner(player) && lockAllows(player)) return new DepositMenu(containerId, inventory, this);
+		return super.createMenu(containerId, inventory, player);
 	}
 
 	/** Põe na caixa (de outro jogador ou de um funil); devolve o que não coube. */

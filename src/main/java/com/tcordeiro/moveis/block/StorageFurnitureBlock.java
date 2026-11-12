@@ -61,6 +61,11 @@ public class StorageFurnitureBlock extends BaseEntityBlock implements AnimatedFu
 			return rows * 9;
 		}
 
+		/** Com dono: só ele tira e parte (cofre e caixa de correio, 0.3.3). */
+		public boolean ownerOnly() {
+			return this == SAFE || this == MAILBOX;
+		}
+
 		public SoundEvent sound(boolean open) {
 			return switch (sound) {
 				case DOOR -> open ? SoundEvents.WOODEN_DOOR_OPEN : SoundEvents.WOODEN_DOOR_CLOSE;
@@ -127,6 +132,35 @@ public class StorageFurnitureBlock extends BaseEntityBlock implements AnimatedFu
 	@Override
 	protected void tick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
 		if (level.getBlockEntity(pos) instanceof StorageFurnitureBlockEntity be) be.recheckOpen();
+	}
+
+	// ---------------------------------------------------------------- dono (cofre e caixa de correio, 0.3.3)
+
+	/** O jogador é o dono (ou o móvel não tem dono)? */
+	public static boolean isOwner(BlockGetter level, BlockPos pos, Player player) {
+		return !(level.getBlockEntity(pos) instanceof StorageFurnitureBlockEntity be) || be.isOwner(player);
+	}
+
+	public static String ownerName(BlockGetter level, BlockPos pos) {
+		return level.getBlockEntity(pos) instanceof StorageFurnitureBlockEntity be ? be.ownerName : "";
+	}
+
+	/** Este estado só pode ser partido pelo dono? (o evento PlayerBlockBreakEvents.BEFORE em TMoveis usa isto) */
+	public static boolean ownerOnly(BlockState state) {
+		return state.getBlock() instanceof StorageFurnitureBlock b && b.kind.ownerOnly();
+	}
+
+	/** Quem não é o dono não consegue partir o cofre nem a caixa de correio (a rachadura não avança). */
+	@Override
+	protected float getDestroyProgress(BlockState state, Player player, BlockGetter level, BlockPos pos) {
+		return kind.ownerOnly() && !isOwner(level, pos, player) ? 0f : super.getDestroyProgress(state, player, level, pos);
+	}
+
+	/** Explosões nunca partem o cofre nem a caixa de correio (além da resistência alta, por garantia): o conteúdo não cai. */
+	@Override
+	protected void onExplosionHit(BlockState state, ServerLevel level, BlockPos pos, net.minecraft.world.level.Explosion explosion,
+			java.util.function.BiConsumer<net.minecraft.world.item.ItemStack, BlockPos> drops) {
+		if (!kind.ownerOnly()) super.onExplosionHit(state, level, pos, explosion, drops);
 	}
 
 	@Override

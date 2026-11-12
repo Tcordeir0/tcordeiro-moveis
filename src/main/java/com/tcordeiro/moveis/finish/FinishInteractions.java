@@ -1,5 +1,7 @@
 package com.tcordeiro.moveis.finish;
 
+import com.tcordeiro.moveis.Protection;
+
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
@@ -19,7 +21,8 @@ import net.minecraft.world.phys.BlockHitResult;
 /**
  * Clique direito com o pincel ou com o machado, ANTES do bloco (UseBlockCallback): senão uma cadeira sentava o jogador e um armário
  * abria-se. Pincel: crua/gasta → envernizada → polida (mesmo tom) ou troca de tom. Machado: polida → envernizada → crua; gasta → um
- * estágio a menos (como a cera e a oxidação do cobre).
+ * estágio a menos (como a cera e a oxidação do cobre). 0.3.3: os dois respeitam terrenos e proteções ({@link Protection#mayEdit}:
+ * spawn, borda do mundo, modo aventura).
  */
 public final class FinishInteractions {
 	private FinishInteractions() {}
@@ -38,11 +41,15 @@ public final class FinishInteractions {
 		return InteractionResult.PASS;
 	}
 
-	/** O pincel do tom {@code tone} neste bloco. PASS = não leva verniz; FAIL = já está polido deste tom (nada a fazer). */
+	/**
+	 * O pincel do tom {@code tone} neste bloco. PASS = não leva verniz; FAIL = já está polido deste tom (nada a fazer) ou o jogador não
+	 * pode mexer aqui ({@link Protection#mayEdit}).
+	 */
 	public static InteractionResult brush(Level level, BlockPos pos, BlockState state, Tone tone, Player player, InteractionHand hand,
 			ItemStack stack) {
 		Finish current = FinishState.of(state);
 		if (current == null) return InteractionResult.PASS;
+		if (!Protection.mayEdit(player, level, pos, stack)) return InteractionResult.FAIL;
 		BlockState next = FinishState.with(state, FinishRules.brush(current, tone));
 		if (next == null) return InteractionResult.FAIL;
 		if (level.isClientSide()) return InteractionResult.SUCCESS;
@@ -54,10 +61,11 @@ public final class FinishInteractions {
 		return InteractionResult.SUCCESS;
 	}
 
-	/** O machado neste bloco: raspa um estágio. PASS se não há nada a raspar (o machado faz o que faria). */
+	/** O machado neste bloco: raspa um estágio. PASS se não há nada a raspar ou não pode mexer aqui (o machado faz o que faria). */
 	public static InteractionResult axe(Level level, BlockPos pos, BlockState state, Player player, InteractionHand hand, ItemStack stack) {
 		Finish current = FinishState.of(state);
 		if (current == null) return InteractionResult.PASS;
+		if (!Protection.mayEdit(player, level, pos, stack)) return InteractionResult.PASS;
 		BlockState next = FinishState.with(state, FinishRules.axe(current));
 		if (next == null) return InteractionResult.PASS;
 		if (level.isClientSide()) return InteractionResult.SUCCESS;

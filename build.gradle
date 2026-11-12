@@ -62,6 +62,10 @@ dependencies {
 	compileOnly industrial
 	// ./gradlew runGametest -PnoIndustrial : os mesmos testes sem o Industrial (as lâmpadas só com redstone)
 	if (!project.hasProperty('noIndustrial')) gametestRuntimeOnly industrial
+	// Receitário (só nos testes, 0.3.3): o HUD não mostra o conteúdo do cofre/correio a quem não é o dono (SecurityGameTests)
+	def receitarioLibs = file("${rootDir}/../receitario/build/libs")
+	def receitarioJar = (receitarioLibs.listFiles() ?: [] as File[]).findAll { it.name ==~ /receitario-[0-9.]+\.jar/ }.max { it.lastModified() }
+	if (receitarioJar != null && !project.hasProperty('noReceitario')) gametestRuntimeOnly files(receitarioJar)
 
 	// lógica pura (animação, relógio, piano, verniz e desgaste): JUnit, sem o jogo
 	testImplementation "org.junit.jupiter:junit-jupiter:5.11.3"

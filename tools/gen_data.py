@@ -1133,6 +1133,9 @@ def gen_loot_tags_merged():
     write("data/minecraft/tags/block/mineable/axe.json", {"replace": False, "values": wooden + [f"{MOD}:{c}_sofa" for c in DYES]
                                                            + [f"{MOD}:{k}" for k in AXE2_SINGLE]})
     write("data/minecraft/tags/block/mineable/pickaxe.json", {"replace": False, "values": [f"{MOD}:{k}" for k in list(LAMPS) + PICKAXE2]})
+    # 0.3.3: o cofre e a caixa de correio (com dono) também não se partem pelo Wither nem pelo dragão (o conteúdo cairia)
+    for tag in ("wither_immune", "dragon_immune"):
+        write(f"data/minecraft/tags/block/{tag}.json", {"replace": False, "values": [f"{MOD}:safe", f"{MOD}:mailbox"]})
 
 
 def recipes_v020():

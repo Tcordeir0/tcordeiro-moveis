@@ -19,7 +19,9 @@ import net.minecraft.world.level.block.state.properties.BooleanProperty;
 /**
  * Caixa de correio: tem dono (quem a põe). Qualquer jogador deixa itens (num espaço à parte, que entra na caixa ao fechar: não vê nem
  * tira o correio que lá está); só o dono abre a caixa a sério e tira. A bandeirinha levanta quando há correio (HAS_MAIL, animada) e
- * o dono recebe um aviso (na hora, se estiver no mundo; senão, ao entrar). Os funis põem mas não tiram.
+ * o dono recebe um aviso (na hora, se estiver no mundo; senão, ao entrar). Os funis e os canos põem mas não tiram. 0.3.3: protegida como o
+ * cofre — só o dono a parte (os outros nem com a picareta), explosões não a partem (o correio não cai) e o HUD não mostra o conteúdo
+ * aos outros ({@link StorageFurnitureBlock.Kind#ownerOnly}).
  */
 public class MailboxBlock extends StorageFurnitureBlock {
 	public static final BooleanProperty HAS_MAIL = BooleanProperty.create("has_mail");

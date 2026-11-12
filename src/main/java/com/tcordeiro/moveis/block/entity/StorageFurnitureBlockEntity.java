@@ -97,6 +97,26 @@ public class StorageFurnitureBlockEntity extends RandomizableContainerBlockEntit
 		return owner == null || owner.equals(player.getUUID());
 	}
 
+	/** Cofre e caixa de correio (0.3.3): só o dono tira, ninguém mais os parte, funis/canos/explosões não os esvaziam. */
+	public boolean ownerOnly() {
+		return kind().ownerOnly();
+	}
+
+	/**
+	 * Quem pode abrir o inventário A SÉRIO (ver e tirar). No cofre e na caixa de correio, só o dono (0.3.3); a fechadura do jogo
+	 * ({@code lock}) continua a valer para todos. É também o que o HUD do Receitário consulta antes de mostrar o conteúdo
+	 * ({@code ProbePayload.mayInspect} → {@code canOpen}): quem não é o dono não vê o que lá está.
+	 */
+	@Override
+	public boolean canOpen(Player player) {
+		return (!ownerOnly() || isOwner(player)) && super.canOpen(player);
+	}
+
+	/** Só a fechadura do jogo (sem a regra do dono): a caixa de correio deixa os outros depositar. */
+	protected boolean lockAllows(Player player) {
+		return super.canOpen(player);
+	}
+
 	public void setOwner(Player player) {
 		owner = player.getUUID();
 		ownerName = player.getName().getString();
@@ -180,7 +200,11 @@ public class StorageFurnitureBlockEntity extends RandomizableContainerBlockEntit
 
 	@Override
 	public boolean canTakeItemThroughFace(int slot, ItemStack stack, Direction side) {
-		Kind k = kind();
+		return takesOut(kind());
+	}
+
+	/** Funis, canos do Industrial e outros mods podem tirar deste tipo? (o cofre, a caixa de correio e a lixeira não) */
+	public static boolean takesOut(Kind k) {
 		return k != Kind.SAFE && k != Kind.MAILBOX && k != Kind.TRASH;
 	}
 

@@ -21,7 +21,9 @@
 			"com.tcordeiro.moveis.test.HomeGameTests",
 			"com.tcordeiro.moveis.test.PowerGameTests",
 			"com.tcordeiro.moveis.test.FinishGameTests",
-			"com.tcordeiro.moveis.test.SawmillGameTests"
+			"com.tcordeiro.moveis.test.SawmillGameTests",
+			"com.tcordeiro.moveis.test.StateCountGameTests",
+			"com.tcordeiro.moveis.test.SecurityGameTests"
 		]
 	},
 	"depends": {

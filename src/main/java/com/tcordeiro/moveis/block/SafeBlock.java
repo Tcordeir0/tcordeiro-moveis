@@ -4,21 +4,20 @@ import com.tcordeiro.moveis.block.entity.StorageFurnitureBlockEntity;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 
 /**
  * Cofre-forte: 27 espaços que só o dono (quem o pôs) abre. Os outros jogadores não o abrem nem o partem (nem a picareta avança:
- * {@link #getDestroyProgress}; e o evento {@code PlayerBlockBreakEvents.BEFORE} em TMoveis recusa o partir); resiste a explosões
- * (resistência da obsidiana) e os funis não lhe tiram nada. O dono parte-o e o conteúdo cai.
+ * {@link StorageFurnitureBlock#getDestroyProgress}; e o evento {@code PlayerBlockBreakEvents.BEFORE} em TMoveis recusa o partir); resiste
+ * a explosões (resistência da obsidiana) e os funis e canos não lhe tiram nem põem nada. O dono parte-o e o conteúdo cai. As regras de
+ * dono são as mesmas da caixa de correio ({@link StorageFurnitureBlock.Kind#ownerOnly}).
  */
 public class SafeBlock extends StorageFurnitureBlock {
 	public SafeBlock(Properties props) {
@@ -26,11 +25,11 @@ public class SafeBlock extends StorageFurnitureBlock {
 	}
 
 	public static boolean isOwner(BlockGetter level, BlockPos pos, Player player) {
-		return !(level.getBlockEntity(pos) instanceof StorageFurnitureBlockEntity be) || be.isOwner(player);
+		return StorageFurnitureBlock.isOwner(level, pos, player);
 	}
 
 	public static String ownerName(BlockGetter level, BlockPos pos) {
-		return level.getBlockEntity(pos) instanceof StorageFurnitureBlockEntity be ? be.ownerName : "";
+		return StorageFurnitureBlock.ownerName(level, pos);
 	}
 
 	@Override
@@ -48,15 +47,4 @@ public class SafeBlock extends StorageFurnitureBlock {
 		}
 		return super.useWithoutItem(state, level, pos, player, hit);
 	}
-
-	/** Quem não é o dono não consegue partir (a rachadura não avança). */
-	@Override
-	protected float getDestroyProgress(BlockState state, Player player, BlockGetter level, BlockPos pos) {
-		return isOwner(level, pos, player) ? super.getDestroyProgress(state, player, level, pos) : 0f;
-	}
-
-	/** Explosões nunca o partem (além da resistência alta, por garantia). */
-	@Override
-	protected void onExplosionHit(BlockState state, ServerLevel level, BlockPos pos, Explosion explosion,
-			java.util.function.BiConsumer<ItemStack, BlockPos> drops) {}
 }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W W",
+    "WWW",
+    "SSS"
+  ],
+  "key": {
+    "W": "minecraft:cyan_wool",
+    "S": "#minecraft:wooden_slabs"
+  },
+  "result": {
+    "id": "tmoveis:cyan_sofa",
+    "count": 2
+  },
+  "group": "tmoveis:sofa"
+}

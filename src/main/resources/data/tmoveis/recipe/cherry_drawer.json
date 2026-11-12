@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "P|P",
+    "PSP"
+  ],
+  "key": {
+    "P": "minecraft:cherry_planks",
+    "S": "minecraft:cherry_slab",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:cherry_drawer"
+  },
+  "group": "tmoveis:drawer"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:pink_bed",
+    "minecraft:pink_bed"
+  ],
+  "result": {
+    "id": "tmoveis:pink_double_bed"
+  },
+  "group": "tmoveis:double_bed"
+}

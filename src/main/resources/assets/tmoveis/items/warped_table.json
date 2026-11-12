@@ -1,0 +1,99 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "tmoveis:block/warped_table_top"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "tmoveis:block/warped_table_leg"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "tmoveis:block/warped_table_leg",
+        "transformation": {
+          "left_rotation": [
+            0,
+            -0.70710677,
+            0,
+            0.70710677
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "translation": [
+            1,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "tmoveis:block/warped_table_leg",
+        "transformation": {
+          "left_rotation": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "translation": [
+            1,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "tmoveis:block/warped_table_leg",
+        "transformation": {
+          "left_rotation": [
+            0,
+            0.70710677,
+            0,
+            0.70710677
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ]
+  }
+}

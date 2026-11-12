@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W W",
+    "WWW",
+    "SSS"
+  ],
+  "key": {
+    "W": "minecraft:red_wool",
+    "S": "#minecraft:wooden_slabs"
+  },
+  "result": {
+    "id": "tmoveis:red_sofa",
+    "count": 2
+  },
+  "group": "tmoveis:sofa"
+}

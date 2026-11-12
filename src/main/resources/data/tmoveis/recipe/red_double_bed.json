@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:red_bed",
+    "minecraft:red_bed"
+  ],
+  "result": {
+    "id": "tmoveis:red_double_bed"
+  },
+  "group": "tmoveis:double_bed"
+}

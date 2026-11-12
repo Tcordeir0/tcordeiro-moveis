@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tmoveis:light_blue_sofa"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tmoveis:blocks/light_blue_sofa"
+}

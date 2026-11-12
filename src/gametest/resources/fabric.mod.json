@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "tmoveis-gametest",
+	"version": "1.0.0",
+	"name": "Móveis do Tcordeiro — testes",
+	"authors": ["Tcordeiro"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": [
+			"com.tcordeiro.moveis.test.SeatGameTests",
+			"com.tcordeiro.moveis.test.TableGameTests",
+			"com.tcordeiro.moveis.test.StorageGameTests",
+			"com.tcordeiro.moveis.test.SofaGameTests",
+			"com.tcordeiro.moveis.test.BedGameTests",
+			"com.tcordeiro.moveis.test.LampGameTests",
+			"com.tcordeiro.moveis.test.DataGameTests"
+		]
+	},
+	"depends": {
+		"tmoveis": "*",
+		"fabric-gametest-api-v1": "*"
+	}
+}

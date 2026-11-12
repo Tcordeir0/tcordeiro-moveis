@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:book",
+    "#minecraft:planks"
+  ],
+  "result": {
+    "id": "minecraft:written_book",
+    "components": {
+      "minecraft:written_book_content": {
+        "title": {
+          "raw": "Guia dos Móveis"
+        },
+        "author": "Tcordeiro",
+        "pages": [
+          {
+            "raw": "§lGuia dos Móveis§r\n\nCadeiras, bancos, mesas, armários, gaveteiros, sofás, camas de casal e lâmpadas.\n\nOs móveis de madeira existem em todas as madeiras do jogo: troque as tábuas e a laje da receita."
+          },
+          {
+            "raw": "§lSentar§r\n\nClique direito numa cadeira, banco ou sofá para se sentar. Shift para se levantar.\n\nSó cabe uma pessoa por bloco. Partir o móvel levanta quem lá estiver."
+          },
+          {
+            "raw": "§lCadeira§r\n\nFica virada para onde você está olhando: sentado, você olha para o mesmo lado. Dá 2."
+          },
+          {
+            "raw": "§lBanco§r\n\nSem encosto: senta-se virado para qualquer lado. Dá 2."
+          },
+          {
+            "raw": "§lMesa§r\n\nMesas lado a lado juntam-se num tampo só. As pernas ficam só nos cantos de fora."
+          },
+          {
+            "raw": "§lArmário§r\n\n27 espaços, como um baú. As portas abrem enquanto o inventário está aberto."
+          },
+          {
+            "raw": "§lGaveteiro§r\n\n27 espaços, como um baú. A gaveta de cima abre enquanto o inventário está aberto."
+          },
+          {
+            "raw": "§lGuardar§r\n\nArmário e gaveteiro funcionam com funis (põem por cima e pelos lados, tiram por baixo) e comparadores.\n\nAo partir, o conteúdo cai no chão."
+          },
+          {
+            "raw": "§lSofá§r\n\nLã de qualquer cor e lajes de qualquer madeira. Dá 2. A frente fica virada para você."
+          },
+          {
+            "raw": "§lSofás juntos§r\n\nSofás lado a lado viram um sofá comprido: os braços ficam só nas pontas.\n\nEm L fazem canto, como as escadas. Cores diferentes também se juntam."
+          },
+          {
+            "raw": "§lCama de Casal§r\n\n2 camas da mesma cor. Ocupa 2×2 blocos: precisa de espaço à direita e à frente."
+          },
+          {
+            "raw": "§lDormir§r\n\nFunciona como uma cama normal: passa a noite e marca onde você renasce. Cabem duas pessoas, uma de cada lado.\n\nNo Nether e no Fim explode!"
+          },
+          {
+            "raw": "§lLâmpadas§r\n\nLustre, arandela e luminária de mesa acendem com redstone, como a Lâmpada de Redstone.\n\nCom o mod Industrial também acendem com energia."
+          },
+          {
+            "raw": "§lLustre§r\n\nPendurado no teto: precisa de um bloco por cima. A luz mais forte."
+          },
+          {
+            "raw": "§lArandela§r\n\nPresa numa parede: clique na face do bloco. Dá 2."
+          },
+          {
+            "raw": "§lLuminária de Mesa§r\n\nEm cima de uma mesa, armário ou qualquer bloco."
+          },
+          {
+            "raw": "§lCom energia§r\n\nCom o Industrial: ligue um Fio de Cobre ou cabo à lâmpada, ou encoste-a a uma bateria ou painel.\n\nGasta 1 J/t: um fio de 32 J/t dá para 32 lâmpadas."
+          },
+          {
+            "raw": "§lMadeiras§r\n\nCarvalho, Abeto, Bétula, Selva, Acácia, Carvalho Escuro, Carvalho Pálido, Carmesim, Distorcida, Mangue, Bambu, Cerejeira, Álamo."
+          }
+        ],
+        "resolved": true
+      }
+    }
+  }
+}

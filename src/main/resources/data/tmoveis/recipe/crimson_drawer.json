@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "P|P",
+    "PSP"
+  ],
+  "key": {
+    "P": "minecraft:crimson_planks",
+    "S": "minecraft:crimson_slab",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:crimson_drawer"
+  },
+  "group": "tmoveis:drawer"
+}

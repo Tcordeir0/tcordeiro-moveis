@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "P|P",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:bamboo_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:bamboo_cabinet"
+  },
+  "group": "tmoveis:cabinet"
+}

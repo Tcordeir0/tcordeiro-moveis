@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "| |"
+  ],
+  "key": {
+    "S": "minecraft:poplar_slab",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:poplar_stool",
+    "count": 2
+  },
+  "group": "tmoveis:stool"
+}

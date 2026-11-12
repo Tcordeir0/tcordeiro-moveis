@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tmoveis:brown_double_bed",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "tmoveis:brown_double_bed",
+            "state": {
+              "part": "head",
+              "side": "left"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tmoveis:blocks/brown_double_bed"
+}

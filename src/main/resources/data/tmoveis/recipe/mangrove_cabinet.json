@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "P|P",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:mangrove_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:mangrove_cabinet"
+  },
+  "group": "tmoveis:cabinet"
+}

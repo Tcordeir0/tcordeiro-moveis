@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cyan_bed",
+    "minecraft:cyan_bed"
+  ],
+  "result": {
+    "id": "tmoveis:cyan_double_bed"
+  },
+  "group": "tmoveis:double_bed"
+}

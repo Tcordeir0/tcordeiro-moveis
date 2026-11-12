@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "tmoveis",
+	"version": "${version}",
+	"name": "Móveis do Tcordeiro",
+	"description": "Cadeiras, bancos, mesas que se juntam, armários e gaveteiros com inventário, sofás que fazem cantos, camas de casal e lâmpadas (redstone ou energia do Industrial), em todas as madeiras do jogo. Feito por Tcordeiro.",
+	"authors": ["Tcordeiro"],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/tmoveis/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.tcordeiro.moveis.TMoveis"],
+		"client": ["com.tcordeiro.moveis.client.TMoveisClient"]
+	},
+	"suggests": { "tindustrial": "*" },
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

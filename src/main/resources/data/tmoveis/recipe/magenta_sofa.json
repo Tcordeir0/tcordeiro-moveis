@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W W",
+    "WWW",
+    "SSS"
+  ],
+  "key": {
+    "W": "minecraft:magenta_wool",
+    "S": "#minecraft:wooden_slabs"
+  },
+  "result": {
+    "id": "tmoveis:magenta_sofa",
+    "count": 2
+  },
+  "group": "tmoveis:sofa"
+}

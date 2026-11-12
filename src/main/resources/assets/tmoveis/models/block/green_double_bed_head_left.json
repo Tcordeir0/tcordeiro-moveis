@@ -1,0 +1,9 @@
+{
+  "parent": "tmoveis:block/template/double_bed_head_left",
+  "textures": {
+    "wool": "minecraft:block/green_wool",
+    "planks": "minecraft:block/oak_planks",
+    "log": "minecraft:block/stripped_oak_log",
+    "particle": "minecraft:block/green_wool"
+  }
+}

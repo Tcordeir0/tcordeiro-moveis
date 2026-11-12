@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "| |",
+    "| |"
+  ],
+  "key": {
+    "P": "minecraft:pale_oak_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:pale_oak_table"
+  },
+  "group": "tmoveis:table"
+}

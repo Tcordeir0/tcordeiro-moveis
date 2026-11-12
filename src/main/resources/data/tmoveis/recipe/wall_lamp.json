@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CG",
+    "CR"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "G": "minecraft:glass",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "tmoveis:wall_lamp",
+    "count": 2
+  }
+}

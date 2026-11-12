@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "P|P",
+    "PSP"
+  ],
+  "key": {
+    "P": "minecraft:dark_oak_planks",
+    "S": "minecraft:dark_oak_slab",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:dark_oak_drawer"
+  },
+  "group": "tmoveis:drawer"
+}

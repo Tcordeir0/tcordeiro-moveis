@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "P|P",
+    "PSP"
+  ],
+  "key": {
+    "P": "minecraft:mangrove_planks",
+    "S": "minecraft:mangrove_slab",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:mangrove_drawer"
+  },
+  "group": "tmoveis:drawer"
+}

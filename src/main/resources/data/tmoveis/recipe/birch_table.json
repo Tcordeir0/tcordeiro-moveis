@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "| |",
+    "| |"
+  ],
+  "key": {
+    "P": "minecraft:birch_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:birch_table"
+  },
+  "group": "tmoveis:table"
+}

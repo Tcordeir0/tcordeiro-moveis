@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "P|P",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:spruce_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:spruce_cabinet"
+  },
+  "group": "tmoveis:cabinet"
+}

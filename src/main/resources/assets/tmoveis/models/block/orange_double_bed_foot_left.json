@@ -1,0 +1,9 @@
+{
+  "parent": "tmoveis:block/template/double_bed_foot_left",
+  "textures": {
+    "wool": "minecraft:block/orange_wool",
+    "planks": "minecraft:block/oak_planks",
+    "log": "minecraft:block/stripped_oak_log",
+    "particle": "minecraft:block/orange_wool"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "| |"
+  ],
+  "key": {
+    "S": "minecraft:crimson_slab",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:crimson_stool",
+    "count": 2
+  },
+  "group": "tmoveis:stool"
+}

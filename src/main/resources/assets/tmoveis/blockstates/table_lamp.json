@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "tmoveis:block/table_lamp"
+    },
+    "lit=true": {
+      "model": "tmoveis:block/table_lamp_lit"
+    }
+  }
+}

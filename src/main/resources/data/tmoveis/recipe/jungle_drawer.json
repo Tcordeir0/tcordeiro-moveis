@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "P|P",
+    "PSP"
+  ],
+  "key": {
+    "P": "minecraft:jungle_planks",
+    "S": "minecraft:jungle_slab",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:jungle_drawer"
+  },
+  "group": "tmoveis:drawer"
+}

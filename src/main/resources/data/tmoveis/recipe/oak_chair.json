@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P  ",
+    "PPP",
+    "| |"
+  ],
+  "key": {
+    "P": "minecraft:oak_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:oak_chair",
+    "count": 2
+  },
+  "group": "tmoveis:chair"
+}

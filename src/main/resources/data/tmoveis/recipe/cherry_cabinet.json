@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "P|P",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:cherry_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:cherry_cabinet"
+  },
+  "group": "tmoveis:cabinet"
+}

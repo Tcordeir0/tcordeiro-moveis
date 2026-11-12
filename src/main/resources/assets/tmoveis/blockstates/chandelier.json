@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "tmoveis:block/chandelier"
+    },
+    "lit=true": {
+      "model": "tmoveis:block/chandelier_lit"
+    }
+  }
+}

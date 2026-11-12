@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "P|P",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:acacia_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:acacia_cabinet"
+  },
+  "group": "tmoveis:cabinet"
+}

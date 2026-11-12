@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tmoveis:block/birch_chair"
+    },
+    "facing=east": {
+      "model": "tmoveis:block/birch_chair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tmoveis:block/birch_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tmoveis:block/birch_chair",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "tmoveis:block/template/wall_lamp",
+  "textures": {
+    "metal": "minecraft:block/copper_block",
+    "glass": "minecraft:block/glass",
+    "particle": "minecraft:block/copper_block",
+    "light": "minecraft:block/redstone_lamp"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/sofa_single",
+  "textures": {
+    "wool": "minecraft:block/brown_wool",
+    "planks": "minecraft:block/oak_planks",
+    "particle": "minecraft:block/brown_wool"
+  }
+}

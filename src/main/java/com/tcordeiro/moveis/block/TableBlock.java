@@ -56,7 +56,8 @@ public class TableBlock extends Block {
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(NORTH, EAST, SOUTH, WEST, com.tcordeiro.moveis.finish.FinishState.FINISH);
+		builder.add(NORTH, EAST, SOUTH, WEST);
+		com.tcordeiro.moveis.finish.FinishState.addIfWood(builder);
 	}
 
 	/** Tem perna neste canto? (os dois lados do canto sem mesa) */

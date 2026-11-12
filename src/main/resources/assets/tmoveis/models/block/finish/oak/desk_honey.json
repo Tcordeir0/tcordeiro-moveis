@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/desk",
+  "textures": {
+    "planks": "tmoveis:block/finish/oak/planks_honey",
+    "log": "tmoveis:block/finish/oak/log_honey",
+    "particle": "tmoveis:block/finish/oak/planks_honey"
+  }
+}

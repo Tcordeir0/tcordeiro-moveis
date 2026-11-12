@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/wardrobe_bottom_door_right",
+  "textures": {
+    "planks": "tmoveis:block/finish/spruce/planks_white_lacquer_polished",
+    "log": "tmoveis:block/finish/spruce/log_white_lacquer_polished",
+    "particle": "tmoveis:block/finish/spruce/planks_white_lacquer_polished"
+  }
+}

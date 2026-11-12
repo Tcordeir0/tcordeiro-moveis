@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/shutters_open",
+  "textures": {
+    "planks": "tmoveis:block/finish/poplar/planks_black_lacquer",
+    "log": "tmoveis:block/finish/poplar/log_black_lacquer",
+    "particle": "tmoveis:block/finish/poplar/planks_black_lacquer"
+  }
+}

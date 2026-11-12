@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/counter_corner_door",
+  "textures": {
+    "planks": "tmoveis:block/finish/oak/planks_ebony",
+    "log": "tmoveis:block/finish/oak/log_ebony",
+    "particle": "tmoveis:block/finish/oak/planks_ebony"
+  }
+}

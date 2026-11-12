@@ -16,7 +16,400 @@
             "state": {
               "half": "lower"
             }
-          }
+          },
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "tmoveis:cherry_wardrobe",
+              "properties": [
+                "finish"
+              ],
+              "condition": {
+                "type": "minecraft:inverted",
+                "term": {
+                  "type": "minecraft:match_block",
+                  "blocks": "tmoveis:cherry_wardrobe",
+                  "state": {
+                    "finish": "raw"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.worn_1"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "worn_1"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.worn_2"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "worn_2"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.worn_3"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "worn_3"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.natural"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "natural"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.natural_polished"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "natural_polished"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.honey"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "honey"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.honey_polished"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "honey_polished"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.walnut"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "walnut"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.walnut_polished"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "walnut_polished"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.mahogany"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "mahogany"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.mahogany_polished"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "mahogany_polished"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.ebony"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "ebony"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.ebony_polished"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "ebony_polished"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.white_lacquer"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "white_lacquer"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.white_lacquer_polished"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "white_lacquer_polished"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.black_lacquer"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "black_lacquer"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "finish.tmoveis.named",
+                "with": [
+                  {
+                    "translate": "block.tmoveis.cherry_wardrobe"
+                  },
+                  {
+                    "translate": "finish.tmoveis.black_lacquer_polished"
+                  }
+                ]
+              },
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "tmoveis:cherry_wardrobe",
+                "state": {
+                  "finish": "black_lacquer_polished"
+                }
+              }
+            }
+          ]
         }
       ]
     }

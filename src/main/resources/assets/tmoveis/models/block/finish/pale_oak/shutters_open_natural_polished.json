@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/shutters_open",
+  "textures": {
+    "planks": "tmoveis:block/finish/pale_oak/planks_natural_polished",
+    "log": "tmoveis:block/finish/pale_oak/log_natural_polished",
+    "particle": "tmoveis:block/finish/pale_oak/planks_natural_polished"
+  }
+}

@@ -9,8 +9,14 @@
 - **Blocos novos** em todas as 13 madeiras: Parquet, Espinha de Peixe e Assoalho (com escadas e lajes), Lambri e Viga (pilar com eixo).
 - **Serraria** (`tmoveis:sawmill`): o cortador de pedras da madeira. Tronco → 6 tábuas (a bancada dá 4); tábuas → blocos novos 1:1, escadas, 2 lajes, 2 paus; parquet/espinha/assoalho → escadas ou 2 lajes. Receitas próprias (`tmoveis:sawing`). A serra gira enquanto a tela está aberta.
 - Verniz: frasco + favo de mel + a cor do tom (corantes, carvão vegetal, garrafa de mel). Pincel: lã + verniz + pau (devolve o frasco).
-- Os móveis ganharam a propriedade `finish` (crua, 3 desgastes, 7 tons, 7 polidos); partidos guardam o acabamento e mostram-no no nome.
-- Novo separador criativo «Madeira e Verniz»; 16 páginas novas no guia.
+- Os 15 móveis de madeira (os 5 da 0.1.0 e os 10 da 0.2.0: bancada, mesa de cabeceira, guarda-roupa, escrivaninha, mesas de
+  centro e lateral, banco de jardim, floreira, persianas, adega) ganharam a propriedade `finish` (crua, 3 desgastes, 7 tons,
+  7 polidos); partidos guardam o acabamento e mostram-no no nome. As duas metades do guarda-roupa têm sempre o mesmo acabamento.
+  As peças de metal, lã ou porcelana que partilham as classes (lixeira, cofre, caixa de correio, cortina, vaso sanitário…) não.
+- **Partes animadas com acabamento:** as portas, gavetas e persianas que o renderer desenha a abrir mostram o mesmo verniz,
+  polido ou desgaste do corpo do móvel (o item da parte escolhe o modelo pelo `finish`, como os itens dos blocos).
+- Novo separador criativo «Madeira e Verniz»; 16 páginas novas no guia (63 no livro).
+- 980 blocos no total, 17 022 modelos, 1 860 texturas. 79 GameTests + 32 testes JUnit.
 
 ## 0.2.0 — 12/11/2026
 

@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/counter_door_right",
+  "textures": {
+    "planks": "tmoveis:block/finish/warped/planks_black_lacquer",
+    "log": "tmoveis:block/finish/warped/log_black_lacquer",
+    "particle": "tmoveis:block/finish/warped/planks_black_lacquer"
+  }
+}

@@ -10,5 +10,5 @@ import java.util.List;
 public final class FinishFurniture {
 	private FinishFurniture() {}
 
-	public static final List<String> SUFFIXES = List.of("chair", "stool", "table", "cabinet", "drawer");
+	public static final List<String> SUFFIXES = List.of("chair", "stool", "table", "cabinet", "drawer", "counter", "nightstand", "wardrobe", "desk", "coffee_table", "side_table", "garden_bench", "planter_box", "shutters", "wine_rack");
 }

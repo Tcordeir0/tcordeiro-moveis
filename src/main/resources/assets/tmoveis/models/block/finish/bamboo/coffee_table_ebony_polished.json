@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/coffee_table",
+  "textures": {
+    "planks": "tmoveis:block/finish/bamboo/planks_ebony_polished",
+    "log": "tmoveis:block/finish/bamboo/log_ebony_polished",
+    "particle": "tmoveis:block/finish/bamboo/planks_ebony_polished"
+  }
+}

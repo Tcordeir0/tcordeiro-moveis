@@ -19,6 +19,14 @@ Mod Fabric para Minecraft Java **26.3** (Fabric Loader 0.20.1, Fabric API 0.165.
   **Banco de Jardim**, **Floreira**, **Persianas**, **Adega**, **Luminária de Chão**, **Piano**, **Cofre-Forte**, **Toldo** (16 cores).
 - Com o mod **Clima** (opcional, por reflexão): a lareira aquece e o ventilador refresca no verão (`ClimaApi.zone`).
 
+**0.3.0 — madeira e verniz:**
+
+- **Pincel de Verniz** em 7 tons (Natural, Mel, Nogueira, Mogno, Ébano, Laca Branca, Laca Preta): tábuas, escadas e lajes do jogo,
+  os blocos novos e os 15 móveis de madeira. O mesmo pincel outra vez = **polido**; o **machado** raspa (como a cera do cobre).
+- **Desgaste** à chuva só na madeira crua do mod (3 estágios); envernizada nunca. As portas e gavetas animadas mostram o mesmo
+  acabamento do móvel.
+- **Parquet**, **Espinha de Peixe**, **Assoalho** (com escadas e lajes), **Lambri** e **Viga**, e a **Serraria** para os cortar.
+
 Os móveis de madeira existem em **todas as 13 madeiras** do jogo (lidas do jar 26.3). Guia: livro (livro + tábuas) e separador
 «Guias» do Receitário.
 
@@ -26,7 +34,8 @@ Os móveis de madeira existem em **todas as 13 madeiras** do jogo (lidas do jar 
 
 ```sh
 export JAVA_HOME="$HOME/Library/Application Support/horizon-launcher/minecraft/runtime/java-runtime-epsilon/mac-os-arm64/java-runtime-epsilon/jre.bundle/Contents/Home"
-python3 tools/gen_data.py          # modelos, blockstates, receitas, loot, tags, traduções, guia, WoodTypes.java
+python3 tools/gen_data.py          # modelos, blockstates, receitas, loot, tags, traduções, guia, WoodTypes.java (+ tools/gen_finishes.py:
+                                   # verniz, texturas, blocos novos, Serraria); no fim confere blockstates/itens → modelos → texturas
 ./gradlew build                    # jar em build/libs/
 ./gradlew runGametest              # testes de servidor (sem janela), com o Industrial
 ./gradlew runGametest -PnoIndustrial

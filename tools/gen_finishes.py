@@ -30,7 +30,10 @@ import pecas_madeira  # noqa: E402
 
 # Os móveis de madeira que levam verniz (propriedade «finish»). LISTA ÚNICA: os móveis novos acrescentam-se aqui (o Java lê-a de
 # finish/FinishFurniture.java, gerado). Cada um tem de ter <madeira>_<sufixo>, e as classes dos blocos acrescentam FinishState.FINISH.
-FURNITURE = ["chair", "stool", "table", "cabinet", "drawer"]
+FURNITURE = ["chair", "stool", "table", "cabinet", "drawer",
+             # 0.2.0 (todos os móveis de madeira; a bancada de canto é o estado corner=true da bancada)
+             "counter", "nightstand", "wardrobe", "desk", "coffee_table", "side_table", "garden_bench", "planter_box", "shutters",
+             "wine_rack"]
 
 # tom: (id da textura em madeira_textures, pt_br, pt_pt, en, polido pt_br, polido pt_pt, polido en)
 TONES = {
@@ -367,8 +370,35 @@ def furniture_model(w, raw_name, f):
         return f"{MOD}:block/{raw_name}"
     src = json.load(open(os.path.join(g["RES"], f"assets/{MOD}/models/block/{raw_name}.json")))
     swap = {f"minecraft:block/{w['planks']}": tex(w, "planks", f), f"minecraft:block/{w['log']}": tex(w, "log", f)}
-    src["textures"] = {k: swap.get(v, v) for k, v in src.get("textures", {}).items()}
+    textures = src.get("textures", {})
+    if not any(v in swap for v in textures.values()):
+        return f"{MOD}:block/{raw_name}"  # sem madeira (ex.: a garrafa da adega): o mesmo modelo em todos os acabamentos
+    src["textures"] = {k: swap.get(v, v) for k, v in textures.items()}
+    if raw_name.startswith("part/"):  # part/<madeira>_<móvel>/<parte> → finish/<madeira>/part/<móvel>/<parte>_<acabamento>
+        _, block, part = raw_name.split("/")
+        return model(f"finish/{w['id']}/part/{block[len(w['id']) + 1:]}/{part}{sfx(f)}", src)
     return model(f"finish/{w['id']}/{raw_name[len(w['id']) + 1:]}{sfx(f)}", src)
+
+
+PART_MODELS = 0
+
+
+def gen_furniture_parts(w, bid):
+    """As partes móveis (portas, gavetas, persianas…) que o BlockEntityRenderer desenha: o item part/<bloco>/<parte> passa a escolher
+    o modelo pelo componente block_state «finish» (o renderer põe-lhe o acabamento do bloco; ver PartStacks/FurnitureParts.partStack).
+    Mesmo número de definições de itens; só os modelos crescem (um por parte com madeira × 17 acabamentos)."""
+    global PART_MODELS
+    prefix = f"assets/{MOD}/items/part/{bid}/"
+    for rel in sorted(r for r in g["written"] if r.startswith(prefix)):
+        item = json.load(open(os.path.join(g["RES"], rel)))
+        raw = item["model"]["model"].split("block/", 1)[1]  # part/<bloco>/<parte>
+        cases = {f: plain(furniture_model(w, raw, f)) for f in FINISHES}
+        if len({c["model"] for c in cases.values()}) == 1:
+            continue
+        PART_MODELS += len(FINISHES) - 1
+        g["write"](rel, {"model": {
+            "type": "minecraft:select", "property": "minecraft:block_state", "block_state_property": "finish",
+            "cases": [{"when": f, "model": m} for f, m in cases.items() if f != "raw"], "fallback": cases["raw"]}})
 
 
 def gen_furniture():
@@ -407,6 +437,7 @@ def gen_furniture():
                     if e.get("name") == f"{MOD}:{bid}":
                         e["modifier"] = e.get("modifier", []) + finish_modifiers(bid)
             g["write"](f"data/{MOD}/loot_table/blocks/{bid}.json", lt)
+            gen_furniture_parts(w, bid)
 
 
 # ------------------------------------------------------------------ Serraria
@@ -624,5 +655,6 @@ def run(globs):
     gen_guide_pages()
     gen_java()
     n_models = sum(1 for r in g["written"] if r.startswith(f"assets/{MOD}/models/"))
-    print(f"verniz: {len(BLOCKS)} blocos ({len(FINISH_BLOCKS)} com «finish»), {len(SAWING)} receitas da Serraria, "
+    print(f"verniz: {len(BLOCKS)} blocos ({len(FINISH_BLOCKS)} com «finish»), {len(FURNITURE) * len(g['WOODS'])} móveis com «finish» "
+          f"({PART_MODELS} modelos de partes móveis), {len(SAWING)} receitas da Serraria, "
           f"{TEXTURES} texturas, {n_models} modelos no total do mod")

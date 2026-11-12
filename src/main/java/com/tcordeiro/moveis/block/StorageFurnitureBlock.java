@@ -93,7 +93,8 @@ public class StorageFurnitureBlock extends BaseEntityBlock implements AnimatedFu
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(FACING, OPEN, MOVING, com.tcordeiro.moveis.finish.FinishState.FINISH);
+		builder.add(FACING, OPEN, MOVING);
+		com.tcordeiro.moveis.finish.FinishState.addIfWood(builder);
 	}
 
 	@Override

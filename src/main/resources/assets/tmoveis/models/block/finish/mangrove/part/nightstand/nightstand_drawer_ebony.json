@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/nightstand_drawer",
+  "textures": {
+    "planks": "tmoveis:block/finish/mangrove/planks_ebony",
+    "log": "tmoveis:block/finish/mangrove/log_ebony",
+    "particle": "tmoveis:block/finish/mangrove/planks_ebony"
+  }
+}

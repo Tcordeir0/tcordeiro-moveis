@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/desk_drawer",
+  "textures": {
+    "planks": "tmoveis:block/finish/pale_oak/planks_worn_3",
+    "log": "tmoveis:block/finish/pale_oak/log_worn_3",
+    "particle": "tmoveis:block/finish/pale_oak/planks_worn_3"
+  }
+}

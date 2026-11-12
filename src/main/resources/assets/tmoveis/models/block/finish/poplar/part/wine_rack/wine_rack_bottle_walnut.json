@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/wine_rack_bottle",
+  "textures": {
+    "planks": "tmoveis:block/finish/poplar/planks_walnut",
+    "log": "tmoveis:block/finish/poplar/log_walnut",
+    "particle": "tmoveis:block/finish/poplar/planks_walnut"
+  }
+}

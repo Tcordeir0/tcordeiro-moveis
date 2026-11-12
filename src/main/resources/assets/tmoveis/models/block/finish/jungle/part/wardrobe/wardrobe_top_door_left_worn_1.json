@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/wardrobe_top_door_left",
+  "textures": {
+    "planks": "tmoveis:block/finish/jungle/planks_worn_1",
+    "log": "tmoveis:block/finish/jungle/log_worn_1",
+    "particle": "tmoveis:block/finish/jungle/planks_worn_1"
+  }
+}

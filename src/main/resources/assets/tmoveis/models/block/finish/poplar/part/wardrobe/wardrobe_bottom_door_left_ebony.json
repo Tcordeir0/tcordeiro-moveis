@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/wardrobe_bottom_door_left",
+  "textures": {
+    "planks": "tmoveis:block/finish/poplar/planks_ebony",
+    "log": "tmoveis:block/finish/poplar/log_ebony",
+    "particle": "tmoveis:block/finish/poplar/planks_ebony"
+  }
+}

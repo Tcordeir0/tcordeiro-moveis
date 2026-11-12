@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/counter_corner_body",
+  "textures": {
+    "planks": "tmoveis:block/finish/pale_oak/planks_mahogany",
+    "log": "tmoveis:block/finish/pale_oak/log_mahogany",
+    "particle": "tmoveis:block/finish/pale_oak/planks_mahogany"
+  }
+}

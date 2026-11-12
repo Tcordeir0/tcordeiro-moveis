@@ -4,7 +4,8 @@
       "when": {
         "facing": "north",
         "open": "false",
-        "moving": "false"
+        "moving": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/spruce_desk"
@@ -14,15 +15,22 @@
       "when": {
         "AND": [
           {
-            "facing": "north"
+            "finish": "raw"
           },
           {
-            "OR": [
+            "AND": [
               {
-                "open": "true"
+                "facing": "north"
               },
               {
-                "moving": "true"
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
               }
             ]
           }
@@ -35,7 +43,8 @@
     {
       "when": {
         "facing": "north",
-        "joined": "false"
+        "joined": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/spruce_desk_leg"
@@ -45,7 +54,8 @@
       "when": {
         "facing": "east",
         "open": "false",
-        "moving": "false"
+        "moving": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/spruce_desk",
@@ -56,15 +66,22 @@
       "when": {
         "AND": [
           {
-            "facing": "east"
+            "finish": "raw"
           },
           {
-            "OR": [
+            "AND": [
               {
-                "open": "true"
+                "facing": "east"
               },
               {
-                "moving": "true"
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
               }
             ]
           }
@@ -78,7 +95,8 @@
     {
       "when": {
         "facing": "east",
-        "joined": "false"
+        "joined": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/spruce_desk_leg",
@@ -89,7 +107,8 @@
       "when": {
         "facing": "south",
         "open": "false",
-        "moving": "false"
+        "moving": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/spruce_desk",
@@ -100,15 +119,22 @@
       "when": {
         "AND": [
           {
-            "facing": "south"
+            "finish": "raw"
           },
           {
-            "OR": [
+            "AND": [
               {
-                "open": "true"
+                "facing": "south"
               },
               {
-                "moving": "true"
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
               }
             ]
           }
@@ -122,7 +148,8 @@
     {
       "when": {
         "facing": "south",
-        "joined": "false"
+        "joined": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/spruce_desk_leg",
@@ -133,7 +160,8 @@
       "when": {
         "facing": "west",
         "open": "false",
-        "moving": "false"
+        "moving": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/spruce_desk",
@@ -144,15 +172,22 @@
       "when": {
         "AND": [
           {
-            "facing": "west"
+            "finish": "raw"
           },
           {
-            "OR": [
+            "AND": [
               {
-                "open": "true"
+                "facing": "west"
               },
               {
-                "moving": "true"
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
               }
             ]
           }
@@ -166,10 +201,3564 @@
     {
       "when": {
         "facing": "west",
-        "joined": "false"
+        "joined": "false",
+        "finish": "raw"
       },
       "apply": {
         "model": "tmoveis:block/spruce_desk_leg",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_1"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_1"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_1"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_1"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_1"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "worn_1"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_2"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_2"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_2"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_2"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_2"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "worn_2"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_3"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_3"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_3"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_3"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_worn_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "worn_3"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_worn_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "worn_3"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_worn_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_natural"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "natural"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_natural"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_natural"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_natural",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "natural"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_natural",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_natural",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_natural",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "natural"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_natural",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_natural",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_natural",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "natural"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_natural",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "natural"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_natural",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_natural_polished"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "natural_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_natural_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_natural_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_natural_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "natural_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_natural_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_natural_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_natural_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "natural_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_natural_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_natural_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_natural_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "natural_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_natural_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "natural_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_natural_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_honey"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "honey"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_honey"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_honey"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_honey",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "honey"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_honey",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_honey",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_honey",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "honey"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_honey",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_honey",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_honey",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "honey"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_honey",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "honey"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_honey",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_honey_polished"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "honey_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_honey_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_honey_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_honey_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "honey_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_honey_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_honey_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_honey_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "honey_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_honey_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_honey_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_honey_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "honey_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_honey_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "honey_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_honey_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_walnut"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "walnut"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_walnut"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_walnut"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_walnut",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "walnut"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_walnut",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_walnut",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_walnut",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "walnut"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_walnut",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_walnut",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_walnut",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "walnut"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_walnut",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "walnut"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_walnut",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_walnut_polished"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "walnut_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_walnut_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_walnut_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_walnut_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "walnut_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_walnut_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_walnut_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_walnut_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "walnut_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_walnut_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_walnut_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_walnut_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "walnut_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_walnut_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "walnut_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_walnut_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_mahogany"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "mahogany"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_mahogany"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_mahogany"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_mahogany",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "mahogany"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_mahogany",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_mahogany",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_mahogany",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "mahogany"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_mahogany",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_mahogany",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_mahogany",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "mahogany"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_mahogany",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "mahogany"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_mahogany",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_mahogany_polished"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "mahogany_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_mahogany_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_mahogany_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_mahogany_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "mahogany_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_mahogany_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_mahogany_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_mahogany_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "mahogany_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_mahogany_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_mahogany_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_mahogany_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "mahogany_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_mahogany_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "mahogany_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_mahogany_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_ebony"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "ebony"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_ebony"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_ebony"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_ebony",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "ebony"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_ebony",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_ebony",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_ebony",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "ebony"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_ebony",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_ebony",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_ebony",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "ebony"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_ebony",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "ebony"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_ebony",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_ebony_polished"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "ebony_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_ebony_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_ebony_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_ebony_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "ebony_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_ebony_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_ebony_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_ebony_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "ebony_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_ebony_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_ebony_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_ebony_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "ebony_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_ebony_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "ebony_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_ebony_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_white_lacquer"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "white_lacquer"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_white_lacquer"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_white_lacquer"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_white_lacquer",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "white_lacquer"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_white_lacquer",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_white_lacquer",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_white_lacquer",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "white_lacquer"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_white_lacquer",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_white_lacquer",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_white_lacquer",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "white_lacquer"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_white_lacquer",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "white_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_white_lacquer",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_white_lacquer_polished"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "white_lacquer_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_white_lacquer_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_white_lacquer_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_white_lacquer_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "white_lacquer_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_white_lacquer_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_white_lacquer_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_white_lacquer_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "white_lacquer_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_white_lacquer_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_white_lacquer_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_white_lacquer_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "white_lacquer_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_white_lacquer_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "white_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_white_lacquer_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_black_lacquer"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "black_lacquer"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_black_lacquer"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_black_lacquer"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_black_lacquer",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "black_lacquer"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_black_lacquer",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_black_lacquer",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_black_lacquer",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "black_lacquer"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_black_lacquer",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_black_lacquer",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_black_lacquer",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "black_lacquer"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_black_lacquer",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "black_lacquer"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_black_lacquer",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_black_lacquer_polished"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "black_lacquer_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "north"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_black_lacquer_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_black_lacquer_polished"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_black_lacquer_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "black_lacquer_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "east"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_black_lacquer_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_black_lacquer_polished",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_black_lacquer_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "black_lacquer_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "south"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_black_lacquer_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_black_lacquer_polished",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_black_lacquer_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "finish": "black_lacquer_polished"
+          },
+          {
+            "AND": [
+              {
+                "facing": "west"
+              },
+              {
+                "OR": [
+                  {
+                    "open": "true"
+                  },
+                  {
+                    "moving": "true"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_body_black_lacquer_polished",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false",
+        "finish": "black_lacquer_polished"
+      },
+      "apply": {
+        "model": "tmoveis:block/finish/spruce/desk_leg_black_lacquer_polished",
         "y": 270
       }
     }

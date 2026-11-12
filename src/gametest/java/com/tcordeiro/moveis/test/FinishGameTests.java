@@ -317,4 +317,97 @@ public class FinishGameTests {
 		h.assertTrue(Component.translatable("container.tmoveis.sawmill").getString().length() > 0, "nome da Serraria");
 		h.succeed();
 	}
+
+	// ---------------------------------------------------------------- 0.2.0 + 0.3.0: os móveis novos também levam verniz
+
+	@GameTest
+	public void furniture020VarnishKeepsState(GameTestHelper h) {
+		// todos os móveis de madeira têm «finish»; as peças de metal/lã/porcelana que partilham as classes não
+		for (Furniture f : Furniture.values())
+			for (Block b : MoveisBlocks.WOODEN.get(f).values()) h.assertTrue(b.defaultBlockState().hasProperty(FinishState.FINISH), "finish: " + b);
+		for (Block b : List.of(MoveisBlocks.TRASH_CAN, MoveisBlocks.SAFE, MoveisBlocks.MAILBOX, MoveisBlocks.TOILET, MoveisBlocks.MIRROR,
+				MoveisBlocks.CURTAINS.get(net.minecraft.world.item.DyeColor.RED)))
+			h.assertFalse(b.defaultBlockState().hasProperty(FinishState.FINISH), "sem verniz: " + b);
+		Player p = h.makeMockPlayer(GameType.SURVIVAL);
+		BlockPos night = new BlockPos(1, 1, 1), counter = new BlockPos(3, 1, 1), shutters = new BlockPos(5, 1, 1), low = new BlockPos(7, 1, 1);
+		h.setBlock(night, MoveisBlocks.wooden(Furniture.NIGHTSTAND, "oak").defaultBlockState().setValue(StorageFurnitureBlock.FACING, Direction.EAST));
+		h.setBlock(counter, MoveisBlocks.wooden(Furniture.COUNTER, "spruce").defaultBlockState()
+				.setValue(StorageFurnitureBlock.FACING, Direction.SOUTH).setValue(com.tcordeiro.moveis.block.CounterBlock.CORNER, true));
+		h.setBlock(shutters, MoveisBlocks.wooden(Furniture.SHUTTERS, "birch").defaultBlockState()
+				.setValue(com.tcordeiro.moveis.block.ToggleFurnitureBlock.FACING, Direction.WEST));
+		BlockState wardrobe = MoveisBlocks.wooden(Furniture.WARDROBE, "cherry").defaultBlockState().setValue(StorageFurnitureBlock.FACING, Direction.WEST);
+		h.setBlock(low, wardrobe);
+		h.setBlock(low.above(), wardrobe.setValue(com.tcordeiro.moveis.block.WardrobeBlock.HALF, net.minecraft.world.level.block.state.properties.DoubleBlockHalf.UPPER));
+		for (BlockPos rel : List.of(night, counter, shutters, low)) {
+			BlockState before = h.getBlockState(rel);
+			h.assertValueEqual(brushAt(h, p, rel, Tone.MAHOGANY, brush(Tone.MAHOGANY)), InteractionResult.SUCCESS, "envernizou " + before);
+			BlockState after = h.getBlockState(rel);
+			h.assertValueEqual(after.getBlock(), before.getBlock(), "mesmo móvel");
+			h.assertValueEqual(after.getValue(FinishState.FINISH), Finish.MAHOGANY, "mogno: " + after);
+			assertSameState(h, before, after, before.getBlock().toString());
+		}
+		h.assertValueEqual(h.getBlockState(low.above()).getValue(FinishState.FINISH), Finish.MAHOGANY, "a metade de cima do guarda-roupa acompanha");
+		axeAt(h, p, low.above());
+		h.assertValueEqual(h.getBlockState(low).getValue(FinishState.FINISH), Finish.RAW, "e a de baixo acompanha a de cima");
+		h.assertTrue(h.getBlockState(counter).getValue(com.tcordeiro.moveis.block.CounterBlock.CORNER), "a bancada continua de canto");
+		// a madeira crua dos móveis novos gasta-se à chuva; envernizada não
+		h.assertTrue(h.getBlockState(night).isRandomlyTicking() == false, "envernizada: sem random ticks");
+		h.setBlock(shutters, h.getBlockState(shutters).setValue(FinishState.FINISH, Finish.RAW));
+		h.assertTrue(h.getBlockState(shutters).isRandomlyTicking(), "crua: random ticks (desgaste)");
+		h.assertTrue(Weathering.tryAge(h.getLevel(), h.absolutePos(shutters), h.getBlockState(shutters), 0.0, true), "gasta à chuva");
+		h.assertValueEqual(h.getBlockState(shutters).getValue(FinishState.FINISH), Finish.WORN_1, "desgaste leve");
+		h.succeed();
+	}
+
+	/** O modelo que a definição de item de uma parte móvel escolhe para esta pilha (select por block_state «finish»). */
+	static String partModel(ItemStack stack) {
+		String id = stack.get(DataComponents.ITEM_MODEL).getPath();
+		com.google.gson.JsonObject def = DataGameTests.json("/assets/tmoveis/items/" + id + ".json").getAsJsonObject("model");
+		var bs = stack.get(DataComponents.BLOCK_STATE);
+		String f = bs == null ? null : bs.properties().get("finish");
+		if (!def.has("cases")) return def.get("model").getAsString();
+		for (var c : def.getAsJsonArray("cases"))
+			if (c.getAsJsonObject().get("when").getAsString().equals(f)) return c.getAsJsonObject().getAsJsonObject("model").get("model").getAsString();
+		return def.getAsJsonObject("fallback").get("model").getAsString();
+	}
+
+	static String planksTexture(String model) {
+		var m = DataGameTests.json("/assets/tmoveis/models/" + model.substring(model.indexOf(':') + 1) + ".json");
+		return m.getAsJsonObject("textures").get("planks").getAsString();
+	}
+
+	@GameTest
+	public void varnishedMovingPartUsesTheFinishTextures(GameTestHelper h) {
+		int n = 0;
+		for (Furniture f : List.of(Furniture.CABINET, Furniture.DRAWER, Furniture.COUNTER, Furniture.NIGHTSTAND, Furniture.WARDROBE, Furniture.DESK,
+				Furniture.SHUTTERS)) {
+			for (WoodTypes.Wood w : List.of(WoodTypes.ALL.get(0), WoodTypes.ALL.get(WoodTypes.ALL.size() - 1))) {
+				Block b = MoveisBlocks.wooden(f, w.id());
+				var kinds = new java.util.LinkedHashSet<String>();
+				for (BlockState st : b.getStateDefinition().getPossibleStates())
+					if (b instanceof com.tcordeiro.moveis.block.AnimatedFurniture af) kinds.add(af.animKind(st));
+				for (String kind : kinds)
+					for (var part : com.tcordeiro.moveis.anim.FurnitureParts.BY_KIND.get(kind)) {
+						String raw = partModel(com.tcordeiro.moveis.finish.FinishParts.stack(b, part.model(), Finish.RAW));
+						h.assertValueEqual(planksTexture(raw), "minecraft:block/" + w.planks(), "crua: tábuas do jogo " + raw);
+						for (Finish fin : List.of(Finish.HONEY, Finish.EBONY_POLISHED, Finish.WORN_3)) {
+							String m = partModel(com.tcordeiro.moveis.finish.FinishParts.stack(b, part.model(), fin));
+							h.assertValueEqual(planksTexture(m), "tmoveis:block/finish/" + w.id() + "/planks_" + fin.getSerializedName(),
+									"parte " + part.model() + " de " + b + " com " + fin);
+							h.assertTrue(TMoveisResource.exists("/assets/tmoveis/textures/block/finish/" + w.id() + "/planks_" + fin.getSerializedName() + ".png"),
+									"textura do acabamento");
+							n++;
+						}
+					}
+			}
+		}
+		h.assertTrue(n >= 7 * 2 * 3, "conferidas " + n + " partes");
+		h.succeed();
+	}
+
+	static final class TMoveisResource {
+		static boolean exists(String path) {
+			return com.tcordeiro.moveis.TMoveis.class.getResource(path) != null;
+		}
+	}
 }

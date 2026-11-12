@@ -1,63 +1,1158 @@
 {
   "model": {
-    "type": "minecraft:composite",
-    "models": [
+    "type": "minecraft:select",
+    "property": "minecraft:block_state",
+    "block_state_property": "finish",
+    "cases": [
       {
-        "type": "minecraft:model",
-        "model": "tmoveis:block/bamboo_wardrobe_bottom",
-        "transformation": {
-          "left_rotation": [
-            0,
-            0,
-            0,
-            1
-          ],
-          "right_rotation": [
-            0,
-            0,
-            0,
-            1
-          ],
-          "scale": [
-            1,
-            1,
-            1
-          ],
-          "translation": [
-            0,
-            -0.5,
-            0
+        "when": "worn_1",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_worn_1",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_worn_1",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
           ]
         }
       },
       {
-        "type": "minecraft:model",
-        "model": "tmoveis:block/bamboo_wardrobe_top",
-        "transformation": {
-          "left_rotation": [
-            0,
-            0,
-            0,
-            1
-          ],
-          "right_rotation": [
-            0,
-            0,
-            0,
-            1
-          ],
-          "scale": [
-            1,
-            1,
-            1
-          ],
-          "translation": [
-            0,
-            0.5,
-            0
+        "when": "worn_2",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_worn_2",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_worn_2",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "worn_3",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_worn_3",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_worn_3",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "natural",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_natural",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_natural",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "natural_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_natural_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_natural_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "honey",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_honey",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_honey",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "honey_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_honey_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_honey_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "walnut",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_walnut",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_walnut",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "walnut_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_walnut_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_walnut_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "mahogany",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_mahogany",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_mahogany",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "mahogany_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_mahogany_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_mahogany_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "ebony",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_ebony",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_ebony",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "ebony_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_ebony_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_ebony_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "white_lacquer",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_white_lacquer",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_white_lacquer",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "white_lacquer_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_white_lacquer_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_white_lacquer_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "black_lacquer",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_black_lacquer",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_black_lacquer",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "black_lacquer_polished",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_bottom_black_lacquer_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  -0.5,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "tmoveis:block/finish/bamboo/wardrobe_top_black_lacquer_polished",
+              "transformation": {
+                "left_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "right_rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ],
+                "translation": [
+                  0,
+                  0.5,
+                  0
+                ]
+              }
+            }
           ]
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/bamboo_wardrobe_bottom",
+          "transformation": {
+            "left_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "right_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "translation": [
+              0,
+              -0.5,
+              0
+            ]
+          }
+        },
+        {
+          "type": "minecraft:model",
+          "model": "tmoveis:block/bamboo_wardrobe_top",
+          "transformation": {
+            "left_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "right_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "translation": [
+              0,
+              0.5,
+              0
+            ]
+          }
+        }
+      ]
+    }
   }
 }

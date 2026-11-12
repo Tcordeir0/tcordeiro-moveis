@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/counter_corner_body",
+  "textures": {
+    "planks": "tmoveis:block/finish/spruce/planks_walnut_polished",
+    "log": "tmoveis:block/finish/spruce/log_walnut_polished",
+    "particle": "tmoveis:block/finish/spruce/planks_walnut_polished"
+  }
+}

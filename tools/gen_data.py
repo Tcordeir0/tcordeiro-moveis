@@ -1385,6 +1385,60 @@ def check_textures():
     assert not bad, "texturas em falta:\n  " + "\n  ".join(sorted(set(bad))[:40])
 
 
+def check_refs():
+    """Verificador offline de referências: blockstates e itens → modelos (e os pais) → texturas, tudo tem de existir (no mod ou no jar)."""
+    A = os.path.join(RES, "assets", MOD)
+    bad, seen = [], {}
+
+    def tex_ok(ref):
+        ns, p = ref.split(":", 1) if ":" in ref else ("minecraft", ref)
+        if ns == MOD:
+            return os.path.exists(os.path.join(A, "textures", p + ".png"))
+        return jar_has(f"assets/minecraft/textures/{p}.png")
+
+    def model_ok(ref, where):
+        if ref in seen:
+            return seen[ref]
+        ns, p = ref.split(":", 1) if ":" in ref else ("minecraft", ref)
+        if ns != MOD:
+            ok = p.startswith("builtin/") or jar_has(f"assets/minecraft/models/{p}.json")
+        else:
+            path = os.path.join(A, "models", p + ".json")
+            ok = os.path.exists(path)
+            if ok:
+                m = json.load(open(path))
+                if "parent" in m and not model_ok(m["parent"], ref):
+                    ok = False
+                for v in m.get("textures", {}).values():
+                    if not v.startswith("#") and not tex_ok(v):
+                        bad.append(f"{ref}: textura em falta {v}")
+        seen[ref] = ok
+        if not ok:
+            bad.append(f"{where}: modelo em falta {ref}")
+        return ok
+
+    def walk(o, where):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k == "model" and isinstance(v, str):
+                    model_ok(v, where)
+                else:
+                    walk(v, where)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v, where)
+
+    n = 0
+    for d in ("blockstates", "items"):
+        for dp, _, fs in os.walk(os.path.join(A, d)):
+            for fn in fs:
+                if fn.endswith(".json"):
+                    walk(json.load(open(os.path.join(dp, fn))), os.path.relpath(os.path.join(dp, fn), A))
+                    n += 1
+    assert not bad, f"{len(bad)} referências em falta:\n  " + "\n  ".join(sorted(set(bad))[:40])
+    return n, len(seen)
+
+
 def clean_stale():
     """Apaga ficheiros gerados antes que já não são gerados (ex.: madeira renomeada). Só nas pastas geridas por este script."""
     managed = [f"assets/{MOD}/blockstates", f"assets/{MOD}/items", f"assets/{MOD}/models/block", f"data/{MOD}/loot_table",
@@ -1423,6 +1477,8 @@ def main():
     gen_lang()
     clean_stale()
     check_textures()
+    n_files, n_models = check_refs()
+    print(f"referências: {n_files} blockstates/itens → {n_models} modelos → texturas, nada em falta")
     print(f"receitas conferidas contra {n_other} receitas do jogo e dos mods Tcordeiro: sem colisões")
     print(f"{len(WOODS)} madeiras ({', '.join(w['id'] for w in WOODS)}), {len(DYES)} cores, {len(all_blocks())} blocos, "
           f"{len(RECIPES)} receitas, {len(GUIDE) + 1} páginas no livro, {len(written)} ficheiros")

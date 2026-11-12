@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/garden_bench",
+  "textures": {
+    "planks": "tmoveis:block/finish/spruce/planks_walnut",
+    "log": "tmoveis:block/finish/spruce/log_walnut",
+    "particle": "tmoveis:block/finish/spruce/planks_walnut"
+  }
+}

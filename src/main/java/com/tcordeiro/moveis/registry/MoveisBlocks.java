@@ -133,7 +133,7 @@ public final class MoveisBlocks {
 			Block planks = BuiltInRegistries.BLOCK.getValue(Identifier.withDefaultNamespace(w.planks()));
 			for (Furniture f : Furniture.values()) {
 				BlockBehaviour.Properties p = BlockBehaviour.Properties.ofLegacyCopy(planks).noOcclusion();
-				Block b = block(w.id() + "_" + f.suffix, switch (f) {
+				Function<BlockBehaviour.Properties, Block> make = switch (f) {
 					case CHAIR -> ChairBlock::new;
 					case STOOL -> StoolBlock::new;
 					case TABLE -> TableBlock::new;
@@ -150,7 +150,10 @@ public final class MoveisBlocks {
 					case SHUTTERS -> pp -> new ToggleFurnitureBlock("shutters", false, SoundEvents.WOODEN_TRAPDOOR_OPEN, SoundEvents.WOODEN_TRAPDOOR_CLOSE,
 							Block.box(0, 0, 15, 16, 16, 16), pp);
 					case WINE_RACK -> WineRackBlock::new;
-				}, p, 64);
+				};
+				// 0.3.0: os de madeira levam verniz (propriedade «finish»; lista única em tools/gen_finishes.py → FinishFurniture)
+				boolean finish = com.tcordeiro.moveis.finish.FinishFurniture.SUFFIXES.contains(f.suffix);
+				Block b = block(w.id() + "_" + f.suffix, finish ? pp -> com.tcordeiro.moveis.finish.FinishState.wood(() -> make.apply(pp)) : make, p, 64);
 				WOODEN.get(f).put(w.id(), b);
 				if (w.flammable()) FlammableBlockRegistry.getDefaultInstance().add(b, 5, 20); // como as tábuas
 			}

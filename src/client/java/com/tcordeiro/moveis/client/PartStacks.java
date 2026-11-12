@@ -1,30 +1,33 @@
 package com.tcordeiro.moveis.client;
 
+import java.util.EnumMap;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.tcordeiro.moveis.TMoveis;
+import com.tcordeiro.moveis.finish.Finish;
+import com.tcordeiro.moveis.finish.FinishParts;
+import com.tcordeiro.moveis.finish.FinishState;
 
-import net.minecraft.core.component.DataComponents;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
 
 /**
- * As partes móveis como itens com {@code item_model = tmoveis:part/<bloco>/<parte>} (os modelos que tools/gen_data.py gera a partir dos
- * templates do pecas.py, com as texturas do bloco). Criadas uma vez por bloco e parte (sem alocações por frame).
+ * As partes móveis como itens ({@link FinishParts#stack}: {@code item_model = tmoveis:part/<bloco>/<parte>} e o acabamento do
+ * móvel no componente block_state). Criadas uma vez por bloco, parte e acabamento (sem alocações por frame).
  */
 final class PartStacks {
 	private PartStacks() {}
 
-	private static final Map<Block, Map<String, ItemStack>> CACHE = new HashMap<>();
+	private static final Map<Block, Map<String, Map<Finish, ItemStack>>> CACHE = new HashMap<>();
+	private static final Map<Block, Map<String, ItemStack>> PLAIN = new HashMap<>();
 
-	static ItemStack get(Block block, String part) {
-		return CACHE.computeIfAbsent(block, b -> new HashMap<>()).computeIfAbsent(part, p -> {
-			ItemStack st = new ItemStack(Items.STICK);
-			st.set(DataComponents.ITEM_MODEL, TMoveis.id("part/" + BuiltInRegistries.BLOCK.getKey(block).getPath() + "/" + p));
-			return st;
-		});
+	static ItemStack get(BlockState state, String part) {
+		Block block = state.getBlock();
+		if (!state.hasProperty(FinishState.FINISH))
+			return PLAIN.computeIfAbsent(block, b -> new HashMap<>()).computeIfAbsent(part, p -> FinishParts.stack(block, p, null));
+		Finish f = state.getValue(FinishState.FINISH);
+		return CACHE.computeIfAbsent(block, b -> new HashMap<>()).computeIfAbsent(part, p -> new EnumMap<>(Finish.class))
+				.computeIfAbsent(f, ff -> FinishParts.stack(block, part, ff));
 	}
 }

@@ -44,7 +44,8 @@ import net.minecraft.world.phys.Vec3;
  * <p>
  * Desempenho: só corre perto ({@link #VIEW} blocos) e só quando há algo a mexer ({@link #shouldRender}: o estado do bloco diz se as
  * partes estão a mexer; parado, o modelo estático do bloco já tem tudo e nada é criado neste frame). As pilhas de itens das partes
- * são criadas uma vez ({@link PartStacks}).
+ * são criadas uma vez por bloco, parte e acabamento ({@link PartStacks}): as partes dos móveis envernizados, polidos ou gastos têm as
+ * mesmas texturas do corpo (0.3.0).
  */
 public class FurnitureRenderer<T extends BlockEntity> implements BlockEntityRenderer<T, FurnitureRenderer.State> {
 	public static final int VIEW = 32;
@@ -86,11 +87,11 @@ public class FurnitureRenderer<T extends BlockEntity> implements BlockEntityRend
 		return active(be) && Vec3.atCenterOf(be.getBlockPos()).closerThan(camera, VIEW);
 	}
 
-	private static void add(State s, BlockEntity be, Block block, String model, Part part, float value, float dx, float dy) {
+	private static void add(State s, BlockEntity be, BlockState state, String model, Part part, float value, float dx, float dy) {
 		if (s.n >= MAX) return;
 		int i = s.n++;
 		ItemStackRenderState r = s.items[i] == null ? (s.items[i] = new ItemStackRenderState()) : s.items[i];
-		Minecraft.getInstance().getItemModelResolver().updateForTopItem(r, PartStacks.get(block, model), ItemDisplayContext.NONE, be.getLevel(), null, 0);
+		Minecraft.getInstance().getItemModelResolver().updateForTopItem(r, PartStacks.get(state, model), ItemDisplayContext.NONE, be.getLevel(), null, 0);
 		s.parts[i] = part;
 		s.value[i] = value;
 		s.dx[i] = dx;
@@ -108,14 +109,14 @@ public class FurnitureRenderer<T extends BlockEntity> implements BlockEntityRend
 			List<Part> parts = FurnitureParts.BY_KIND.get(af.animKind(st));
 			if (parts == null) return;
 			float p = Anim.ease(a.anim().progress(partialTick));
-			for (Part part : parts) add(s, be, block, part.model(), part, p, 0, 0);
+			for (Part part : parts) add(s, be, st, part.model(), part, p, 0, 0);
 		} else if (be instanceof LampBlockEntity lamp) {
 			float angle = lamp.spin.angle(partialTick);
-			for (Part part : FurnitureParts.BY_KIND.get("ceiling_fan")) add(s, be, block, part.model(), part, angle, 0, 0);
+			for (Part part : FurnitureParts.BY_KIND.get("ceiling_fan")) add(s, be, st, part.model(), part, angle, 0, 0);
 		} else if (be instanceof ClockBlockEntity && be.getLevel() != null) {
 			double t = be.getLevel().getOverworldClockTime() + partialTick;
 			for (Part part : FurnitureParts.BY_KIND.get("wall_clock"))
-				add(s, be, block, part.model(), part, part.op() == Op.CLOCK_HOUR ? ClockMath.hourAngle(t) : ClockMath.minuteAngle(t), 0, 0);
+				add(s, be, st, part.model(), part, part.op() == Op.CLOCK_HOUR ? ClockMath.hourAngle(t) : ClockMath.minuteAngle(t), 0, 0);
 		} else if (be instanceof PianoBlockEntity piano && be.getLevel() != null) {
 			boolean right = st.getValue(PianoBlock.SIDE) == BedSide.RIGHT;
 			float now = be.getLevel().getGameTime() + partialTick;
@@ -125,7 +126,7 @@ public class FurnitureRenderer<T extends BlockEntity> implements BlockEntityRend
 				if ((x1 >= 16) != right) continue; // cada metade desenha as teclas que começam nela
 				boolean black = PianoMath.black(k);
 				float sink = PianoMath.sink(now - piano.pressedAt[k]) * (black ? FurnitureParts.BLACK_SINK : FurnitureParts.WHITE_SINK);
-				add(s, be, block, black ? "piano_black_key" : "piano_white_key", null, 0, (x1 - (right ? 16 : 0)) / 16f, -sink / 16f);
+				add(s, be, st, black ? "piano_black_key" : "piano_white_key", null, 0, (x1 - (right ? 16 : 0)) / 16f, -sink / 16f);
 			}
 		}
 	}

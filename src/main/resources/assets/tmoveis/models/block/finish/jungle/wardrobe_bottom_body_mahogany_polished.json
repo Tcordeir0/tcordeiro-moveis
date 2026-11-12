@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/wardrobe_bottom_body",
+  "textures": {
+    "planks": "tmoveis:block/finish/jungle/planks_mahogany_polished",
+    "log": "tmoveis:block/finish/jungle/log_mahogany_polished",
+    "particle": "tmoveis:block/finish/jungle/planks_mahogany_polished"
+  }
+}

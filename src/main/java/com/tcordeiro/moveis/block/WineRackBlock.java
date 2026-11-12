@@ -43,6 +43,7 @@ public class WineRackBlock extends BaseEntityBlock {
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
+		com.tcordeiro.moveis.finish.FinishState.addIfWood(builder);
 	}
 
 	@Override
@@ -122,5 +123,17 @@ public class WineRackBlock extends BaseEntityBlock {
 	@Override
 	protected BlockState mirror(BlockState state, Mirror mirror) {
 		return state.rotate(mirror.getRotation(state.getValue(FACING)));
+	}
+
+	// 0.3.0: a madeira crua dos móveis gasta-se à chuva (só os de madeira têm «finish»: Weathering.ticks devolve false nos outros)
+	@Override
+	protected boolean isRandomlyTicking(net.minecraft.world.level.block.state.BlockState state) {
+		return com.tcordeiro.moveis.finish.Weathering.ticks(state);
+	}
+
+	@Override
+	protected void randomTick(net.minecraft.world.level.block.state.BlockState state, net.minecraft.server.level.ServerLevel level,
+			net.minecraft.core.BlockPos pos, net.minecraft.util.RandomSource random) {
+		com.tcordeiro.moveis.finish.Weathering.randomTick(state, level, pos, random);
 	}
 }

@@ -1,123 +1,2163 @@
 {
   "variants": {
-    "corner=false,facing=north,moving=false,open=false": {
+    "finish=raw,corner=false,facing=north,moving=false,open=false": {
       "model": "tmoveis:block/warped_counter"
     },
-    "corner=false,facing=north,moving=true,open=false": {
+    "finish=raw,corner=false,facing=north,moving=true,open=false": {
       "model": "tmoveis:block/warped_counter_body"
     },
-    "corner=false,facing=north,moving=false,open=true": {
+    "finish=raw,corner=false,facing=north,moving=false,open=true": {
       "model": "tmoveis:block/warped_counter_body"
     },
-    "corner=false,facing=north,moving=true,open=true": {
+    "finish=raw,corner=false,facing=north,moving=true,open=true": {
       "model": "tmoveis:block/warped_counter_body"
     },
-    "corner=true,facing=north,moving=false,open=false": {
+    "finish=raw,corner=true,facing=north,moving=false,open=false": {
       "model": "tmoveis:block/warped_counter_corner"
     },
-    "corner=true,facing=north,moving=true,open=false": {
+    "finish=raw,corner=true,facing=north,moving=true,open=false": {
       "model": "tmoveis:block/warped_counter_corner_body"
     },
-    "corner=true,facing=north,moving=false,open=true": {
+    "finish=raw,corner=true,facing=north,moving=false,open=true": {
       "model": "tmoveis:block/warped_counter_corner_body"
     },
-    "corner=true,facing=north,moving=true,open=true": {
+    "finish=raw,corner=true,facing=north,moving=true,open=true": {
       "model": "tmoveis:block/warped_counter_corner_body"
     },
-    "corner=false,facing=east,moving=false,open=false": {
+    "finish=raw,corner=false,facing=east,moving=false,open=false": {
       "model": "tmoveis:block/warped_counter",
       "y": 90
     },
-    "corner=false,facing=east,moving=true,open=false": {
+    "finish=raw,corner=false,facing=east,moving=true,open=false": {
       "model": "tmoveis:block/warped_counter_body",
       "y": 90
     },
-    "corner=false,facing=east,moving=false,open=true": {
+    "finish=raw,corner=false,facing=east,moving=false,open=true": {
       "model": "tmoveis:block/warped_counter_body",
       "y": 90
     },
-    "corner=false,facing=east,moving=true,open=true": {
+    "finish=raw,corner=false,facing=east,moving=true,open=true": {
       "model": "tmoveis:block/warped_counter_body",
       "y": 90
     },
-    "corner=true,facing=east,moving=false,open=false": {
+    "finish=raw,corner=true,facing=east,moving=false,open=false": {
       "model": "tmoveis:block/warped_counter_corner",
       "y": 90
     },
-    "corner=true,facing=east,moving=true,open=false": {
+    "finish=raw,corner=true,facing=east,moving=true,open=false": {
       "model": "tmoveis:block/warped_counter_corner_body",
       "y": 90
     },
-    "corner=true,facing=east,moving=false,open=true": {
+    "finish=raw,corner=true,facing=east,moving=false,open=true": {
       "model": "tmoveis:block/warped_counter_corner_body",
       "y": 90
     },
-    "corner=true,facing=east,moving=true,open=true": {
+    "finish=raw,corner=true,facing=east,moving=true,open=true": {
       "model": "tmoveis:block/warped_counter_corner_body",
       "y": 90
     },
-    "corner=false,facing=south,moving=false,open=false": {
+    "finish=raw,corner=false,facing=south,moving=false,open=false": {
       "model": "tmoveis:block/warped_counter",
       "y": 180
     },
-    "corner=false,facing=south,moving=true,open=false": {
+    "finish=raw,corner=false,facing=south,moving=true,open=false": {
       "model": "tmoveis:block/warped_counter_body",
       "y": 180
     },
-    "corner=false,facing=south,moving=false,open=true": {
+    "finish=raw,corner=false,facing=south,moving=false,open=true": {
       "model": "tmoveis:block/warped_counter_body",
       "y": 180
     },
-    "corner=false,facing=south,moving=true,open=true": {
+    "finish=raw,corner=false,facing=south,moving=true,open=true": {
       "model": "tmoveis:block/warped_counter_body",
       "y": 180
     },
-    "corner=true,facing=south,moving=false,open=false": {
+    "finish=raw,corner=true,facing=south,moving=false,open=false": {
       "model": "tmoveis:block/warped_counter_corner",
       "y": 180
     },
-    "corner=true,facing=south,moving=true,open=false": {
+    "finish=raw,corner=true,facing=south,moving=true,open=false": {
       "model": "tmoveis:block/warped_counter_corner_body",
       "y": 180
     },
-    "corner=true,facing=south,moving=false,open=true": {
+    "finish=raw,corner=true,facing=south,moving=false,open=true": {
       "model": "tmoveis:block/warped_counter_corner_body",
       "y": 180
     },
-    "corner=true,facing=south,moving=true,open=true": {
+    "finish=raw,corner=true,facing=south,moving=true,open=true": {
       "model": "tmoveis:block/warped_counter_corner_body",
       "y": 180
     },
-    "corner=false,facing=west,moving=false,open=false": {
+    "finish=raw,corner=false,facing=west,moving=false,open=false": {
       "model": "tmoveis:block/warped_counter",
       "y": 270
     },
-    "corner=false,facing=west,moving=true,open=false": {
+    "finish=raw,corner=false,facing=west,moving=true,open=false": {
       "model": "tmoveis:block/warped_counter_body",
       "y": 270
     },
-    "corner=false,facing=west,moving=false,open=true": {
+    "finish=raw,corner=false,facing=west,moving=false,open=true": {
       "model": "tmoveis:block/warped_counter_body",
       "y": 270
     },
-    "corner=false,facing=west,moving=true,open=true": {
+    "finish=raw,corner=false,facing=west,moving=true,open=true": {
       "model": "tmoveis:block/warped_counter_body",
       "y": 270
     },
-    "corner=true,facing=west,moving=false,open=false": {
+    "finish=raw,corner=true,facing=west,moving=false,open=false": {
       "model": "tmoveis:block/warped_counter_corner",
       "y": 270
     },
-    "corner=true,facing=west,moving=true,open=false": {
+    "finish=raw,corner=true,facing=west,moving=true,open=false": {
       "model": "tmoveis:block/warped_counter_corner_body",
       "y": 270
     },
-    "corner=true,facing=west,moving=false,open=true": {
+    "finish=raw,corner=true,facing=west,moving=false,open=true": {
       "model": "tmoveis:block/warped_counter_corner_body",
       "y": 270
     },
-    "corner=true,facing=west,moving=true,open=true": {
+    "finish=raw,corner=true,facing=west,moving=true,open=true": {
       "model": "tmoveis:block/warped_counter_corner_body",
+      "y": 270
+    },
+    "finish=worn_1,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_1"
+    },
+    "finish=worn_1,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1"
+    },
+    "finish=worn_1,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1"
+    },
+    "finish=worn_1,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1"
+    },
+    "finish=worn_1,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_1"
+    },
+    "finish=worn_1,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1"
+    },
+    "finish=worn_1,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1"
+    },
+    "finish=worn_1,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1"
+    },
+    "finish=worn_1,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_2,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_2"
+    },
+    "finish=worn_2,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2"
+    },
+    "finish=worn_2,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2"
+    },
+    "finish=worn_2,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2"
+    },
+    "finish=worn_2,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_2"
+    },
+    "finish=worn_2,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2"
+    },
+    "finish=worn_2,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2"
+    },
+    "finish=worn_2,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2"
+    },
+    "finish=worn_2,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_3,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_3"
+    },
+    "finish=worn_3,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3"
+    },
+    "finish=worn_3,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3"
+    },
+    "finish=worn_3,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3"
+    },
+    "finish=worn_3,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_3"
+    },
+    "finish=worn_3,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3"
+    },
+    "finish=worn_3,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3"
+    },
+    "finish=worn_3,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3"
+    },
+    "finish=worn_3,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_worn_3",
+      "y": 270
+    },
+    "finish=natural,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_natural"
+    },
+    "finish=natural,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural"
+    },
+    "finish=natural,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural"
+    },
+    "finish=natural,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural"
+    },
+    "finish=natural,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_natural"
+    },
+    "finish=natural,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural"
+    },
+    "finish=natural,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural"
+    },
+    "finish=natural,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural"
+    },
+    "finish=natural,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_natural",
+      "y": 90
+    },
+    "finish=natural,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural",
+      "y": 90
+    },
+    "finish=natural,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural",
+      "y": 90
+    },
+    "finish=natural,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural",
+      "y": 90
+    },
+    "finish=natural,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_natural",
+      "y": 90
+    },
+    "finish=natural,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural",
+      "y": 90
+    },
+    "finish=natural,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural",
+      "y": 90
+    },
+    "finish=natural,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural",
+      "y": 90
+    },
+    "finish=natural,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_natural",
+      "y": 180
+    },
+    "finish=natural,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural",
+      "y": 180
+    },
+    "finish=natural,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural",
+      "y": 180
+    },
+    "finish=natural,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural",
+      "y": 180
+    },
+    "finish=natural,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_natural",
+      "y": 180
+    },
+    "finish=natural,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural",
+      "y": 180
+    },
+    "finish=natural,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural",
+      "y": 180
+    },
+    "finish=natural,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural",
+      "y": 180
+    },
+    "finish=natural,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_natural",
+      "y": 270
+    },
+    "finish=natural,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural",
+      "y": 270
+    },
+    "finish=natural,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural",
+      "y": 270
+    },
+    "finish=natural,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural",
+      "y": 270
+    },
+    "finish=natural,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_natural",
+      "y": 270
+    },
+    "finish=natural,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural",
+      "y": 270
+    },
+    "finish=natural,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural",
+      "y": 270
+    },
+    "finish=natural,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural",
+      "y": 270
+    },
+    "finish=natural_polished,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_natural_polished"
+    },
+    "finish=natural_polished,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished"
+    },
+    "finish=natural_polished,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished"
+    },
+    "finish=natural_polished,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished"
+    },
+    "finish=natural_polished,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_natural_polished"
+    },
+    "finish=natural_polished,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished"
+    },
+    "finish=natural_polished,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished"
+    },
+    "finish=natural_polished,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished"
+    },
+    "finish=natural_polished,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_natural_polished",
+      "y": 270
+    },
+    "finish=honey,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_honey"
+    },
+    "finish=honey,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey"
+    },
+    "finish=honey,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey"
+    },
+    "finish=honey,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey"
+    },
+    "finish=honey,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_honey"
+    },
+    "finish=honey,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey"
+    },
+    "finish=honey,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey"
+    },
+    "finish=honey,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey"
+    },
+    "finish=honey,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_honey",
+      "y": 90
+    },
+    "finish=honey,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey",
+      "y": 90
+    },
+    "finish=honey,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey",
+      "y": 90
+    },
+    "finish=honey,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey",
+      "y": 90
+    },
+    "finish=honey,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_honey",
+      "y": 90
+    },
+    "finish=honey,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey",
+      "y": 90
+    },
+    "finish=honey,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey",
+      "y": 90
+    },
+    "finish=honey,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey",
+      "y": 90
+    },
+    "finish=honey,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_honey",
+      "y": 180
+    },
+    "finish=honey,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey",
+      "y": 180
+    },
+    "finish=honey,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey",
+      "y": 180
+    },
+    "finish=honey,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey",
+      "y": 180
+    },
+    "finish=honey,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_honey",
+      "y": 180
+    },
+    "finish=honey,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey",
+      "y": 180
+    },
+    "finish=honey,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey",
+      "y": 180
+    },
+    "finish=honey,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey",
+      "y": 180
+    },
+    "finish=honey,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_honey",
+      "y": 270
+    },
+    "finish=honey,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey",
+      "y": 270
+    },
+    "finish=honey,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey",
+      "y": 270
+    },
+    "finish=honey,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey",
+      "y": 270
+    },
+    "finish=honey,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_honey",
+      "y": 270
+    },
+    "finish=honey,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey",
+      "y": 270
+    },
+    "finish=honey,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey",
+      "y": 270
+    },
+    "finish=honey,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey",
+      "y": 270
+    },
+    "finish=honey_polished,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_honey_polished"
+    },
+    "finish=honey_polished,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished"
+    },
+    "finish=honey_polished,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished"
+    },
+    "finish=honey_polished,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished"
+    },
+    "finish=honey_polished,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_honey_polished"
+    },
+    "finish=honey_polished,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished"
+    },
+    "finish=honey_polished,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished"
+    },
+    "finish=honey_polished,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished"
+    },
+    "finish=honey_polished,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_honey_polished",
+      "y": 270
+    },
+    "finish=walnut,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_walnut"
+    },
+    "finish=walnut,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut"
+    },
+    "finish=walnut,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut"
+    },
+    "finish=walnut,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut"
+    },
+    "finish=walnut,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_walnut"
+    },
+    "finish=walnut,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut"
+    },
+    "finish=walnut,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut"
+    },
+    "finish=walnut,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut"
+    },
+    "finish=walnut,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_walnut",
+      "y": 90
+    },
+    "finish=walnut,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_walnut",
+      "y": 90
+    },
+    "finish=walnut,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_walnut",
+      "y": 180
+    },
+    "finish=walnut,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_walnut",
+      "y": 180
+    },
+    "finish=walnut,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_walnut",
+      "y": 270
+    },
+    "finish=walnut,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut",
+      "y": 270
+    },
+    "finish=walnut,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut",
+      "y": 270
+    },
+    "finish=walnut,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut",
+      "y": 270
+    },
+    "finish=walnut,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_walnut",
+      "y": 270
+    },
+    "finish=walnut,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut",
+      "y": 270
+    },
+    "finish=walnut,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut",
+      "y": 270
+    },
+    "finish=walnut,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut",
+      "y": 270
+    },
+    "finish=walnut_polished,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_walnut_polished"
+    },
+    "finish=walnut_polished,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished"
+    },
+    "finish=walnut_polished,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished"
+    },
+    "finish=walnut_polished,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished"
+    },
+    "finish=walnut_polished,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_walnut_polished"
+    },
+    "finish=walnut_polished,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished"
+    },
+    "finish=walnut_polished,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished"
+    },
+    "finish=walnut_polished,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished"
+    },
+    "finish=walnut_polished,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_walnut_polished",
+      "y": 270
+    },
+    "finish=mahogany,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_mahogany"
+    },
+    "finish=mahogany,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany"
+    },
+    "finish=mahogany,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany"
+    },
+    "finish=mahogany,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany"
+    },
+    "finish=mahogany,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_mahogany"
+    },
+    "finish=mahogany,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany"
+    },
+    "finish=mahogany,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany"
+    },
+    "finish=mahogany,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany"
+    },
+    "finish=mahogany,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany_polished,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_mahogany_polished"
+    },
+    "finish=mahogany_polished,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_mahogany_polished"
+    },
+    "finish=mahogany_polished,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=ebony,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_ebony"
+    },
+    "finish=ebony,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony"
+    },
+    "finish=ebony,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony"
+    },
+    "finish=ebony,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony"
+    },
+    "finish=ebony,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_ebony"
+    },
+    "finish=ebony,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony"
+    },
+    "finish=ebony,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony"
+    },
+    "finish=ebony,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony"
+    },
+    "finish=ebony,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_ebony",
+      "y": 90
+    },
+    "finish=ebony,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_ebony",
+      "y": 90
+    },
+    "finish=ebony,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_ebony",
+      "y": 180
+    },
+    "finish=ebony,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_ebony",
+      "y": 180
+    },
+    "finish=ebony,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_ebony",
+      "y": 270
+    },
+    "finish=ebony,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony",
+      "y": 270
+    },
+    "finish=ebony,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony",
+      "y": 270
+    },
+    "finish=ebony,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony",
+      "y": 270
+    },
+    "finish=ebony,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_ebony",
+      "y": 270
+    },
+    "finish=ebony,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony",
+      "y": 270
+    },
+    "finish=ebony,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony",
+      "y": 270
+    },
+    "finish=ebony,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony",
+      "y": 270
+    },
+    "finish=ebony_polished,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_ebony_polished"
+    },
+    "finish=ebony_polished,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished"
+    },
+    "finish=ebony_polished,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished"
+    },
+    "finish=ebony_polished,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished"
+    },
+    "finish=ebony_polished,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_ebony_polished"
+    },
+    "finish=ebony_polished,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished"
+    },
+    "finish=ebony_polished,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished"
+    },
+    "finish=ebony_polished,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished"
+    },
+    "finish=ebony_polished,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_ebony_polished",
+      "y": 270
+    },
+    "finish=white_lacquer,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_white_lacquer"
+    },
+    "finish=white_lacquer,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer"
+    },
+    "finish=white_lacquer,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer"
+    },
+    "finish=white_lacquer,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer"
+    },
+    "finish=white_lacquer,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_white_lacquer"
+    },
+    "finish=white_lacquer,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer"
+    },
+    "finish=white_lacquer,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer"
+    },
+    "finish=white_lacquer,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer"
+    },
+    "finish=white_lacquer,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_black_lacquer"
+    },
+    "finish=black_lacquer,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer"
+    },
+    "finish=black_lacquer,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer"
+    },
+    "finish=black_lacquer,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer"
+    },
+    "finish=black_lacquer,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_black_lacquer"
+    },
+    "finish=black_lacquer,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer"
+    },
+    "finish=black_lacquer,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer"
+    },
+    "finish=black_lacquer,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer"
+    },
+    "finish=black_lacquer,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_body_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/warped/counter_corner_body_black_lacquer_polished",
       "y": 270
     }
   }

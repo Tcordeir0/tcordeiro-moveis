@@ -25,7 +25,7 @@ public class StoolBlock extends Block implements SeatBlock {
 
 	@Override
 	protected void createBlockStateDefinition(net.minecraft.world.level.block.state.StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(com.tcordeiro.moveis.finish.FinishState.FINISH);
+		com.tcordeiro.moveis.finish.FinishState.addIfWood(builder);
 	}
 
 	@Override

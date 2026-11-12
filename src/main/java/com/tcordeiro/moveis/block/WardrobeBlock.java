@@ -74,6 +74,10 @@ public class WardrobeBlock extends StorageFurnitureBlock {
 		if (dir.getAxis() == Direction.Axis.Y && (half == DoubleBlockHalf.LOWER) == (dir == Direction.UP)) {
 			boolean ok = nstate.is(this) && nstate.getValue(HALF) != half && nstate.getValue(FACING) == state.getValue(FACING);
 			if (!ok) return Blocks.AIR.defaultBlockState();
+			// 0.3.0: as duas metades têm sempre o mesmo acabamento (pincel, machado ou desgaste numa delas passa à outra)
+			var fin = com.tcordeiro.moveis.finish.FinishState.FINISH;
+			if (state.hasProperty(fin) && nstate.hasProperty(fin) && nstate.getValue(fin) != state.getValue(fin))
+				return state.setValue(fin, nstate.getValue(fin));
 		}
 		return state;
 	}

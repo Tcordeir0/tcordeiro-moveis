@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/counter",
+  "textures": {
+    "planks": "tmoveis:block/finish/oak/planks_worn_2",
+    "log": "tmoveis:block/finish/oak/log_worn_2",
+    "particle": "tmoveis:block/finish/oak/planks_worn_2"
+  }
+}

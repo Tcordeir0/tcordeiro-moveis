@@ -43,7 +43,8 @@ public class ChairBlock extends Block implements SeatBlock {
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(FACING, com.tcordeiro.moveis.finish.FinishState.FINISH);
+		builder.add(FACING);
+		com.tcordeiro.moveis.finish.FinishState.addIfWood(builder);
 	}
 
 	@Override

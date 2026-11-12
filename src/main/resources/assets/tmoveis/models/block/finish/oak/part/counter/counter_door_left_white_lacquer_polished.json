@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/counter_door_left",
+  "textures": {
+    "planks": "tmoveis:block/finish/oak/planks_white_lacquer_polished",
+    "log": "tmoveis:block/finish/oak/log_white_lacquer_polished",
+    "particle": "tmoveis:block/finish/oak/planks_white_lacquer_polished"
+  }
+}

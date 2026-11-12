@@ -85,7 +85,13 @@ public class DataGameTests {
 		}
 	}
 
+	private static final java.util.Map<String, Boolean> MODEL_OK = new java.util.concurrent.ConcurrentHashMap<>();
+
 	static boolean modelExists(String id) {
+		return MODEL_OK.computeIfAbsent(id, DataGameTests::modelExists0);
+	}
+
+	private static boolean modelExists0(String id) {
 		String path = id.substring(id.indexOf(':') + 1);
 		JsonObject m = json("/assets/tmoveis/models/" + path + ".json");
 		if (m == null) return false;
@@ -135,6 +141,15 @@ public class DataGameTests {
 		else out.add(apply.getAsJsonObject().get("model").getAsString());
 	}
 
+	/** Todos os modelos de uma definição de item (simples, composto, select por acabamento…). */
+	static void itemModels(JsonElement e, java.util.List<String> out) {
+		if (e.isJsonArray()) for (JsonElement x : e.getAsJsonArray()) itemModels(x, out);
+		else if (e.isJsonObject()) for (var kv : e.getAsJsonObject().entrySet()) {
+			if (kv.getKey().equals("model") && kv.getValue().isJsonPrimitive()) out.add(kv.getValue().getAsString());
+			else itemModels(kv.getValue(), out);
+		}
+	}
+
 	@GameTest
 	public void everyStateHasAModelAndEveryMovingPartToo(GameTestHelper h) {
 		int states = 0, parts = 0;
@@ -161,19 +176,21 @@ public class DataGameTests {
 					h.assertTrue(list != null, "partes de " + af.animKind(st));
 					for (var part : list) {
 						JsonObject item = json("/assets/tmoveis/items/part/" + path + "/" + part.model() + ".json");
-						h.assertTrue(item != null && modelExists(item.getAsJsonObject("model").get("model").getAsString()), "parte " + path + "/" + part.model());
+						h.assertTrue(item != null, "item da parte " + path + "/" + part.model());
+						java.util.List<String> pm = new java.util.ArrayList<>();
+						itemModels(item, pm);
+						h.assertTrue(!pm.isEmpty(), "parte sem modelo " + path + "/" + part.model());
+						for (String m : pm) h.assertTrue(modelExists(m), "modelo da parte em falta: " + m);
 						parts++;
 					}
 				}
 			}
 			JsonObject item = json("/assets/tmoveis/items/" + path + ".json");
 			h.assertTrue(item != null, "item de " + path);
-			JsonObject im = item.getAsJsonObject("model");
-			if (im.has("models")) {
-				for (JsonElement e : im.getAsJsonArray("models")) h.assertTrue(modelExists(e.getAsJsonObject().get("model").getAsString()), "item composto " + path);
-			} else {
-				h.assertTrue(modelExists(im.get("model").getAsString()), "modelo do item " + path);
-			}
+			java.util.List<String> im = new java.util.ArrayList<>();
+			itemModels(item, im);
+			h.assertTrue(!im.isEmpty(), "item sem modelo " + path);
+			for (String m : im) h.assertTrue(modelExists(m), "modelo do item " + path + ": " + m);
 		}
 		h.assertTrue(states > 1000 && parts > 100, "conferidos " + states + " estados e " + parts + " partes");
 		h.succeed();

@@ -1,28 +1,436 @@
 {
   "variants": {
-    "moisture=0": {
+    "finish=raw,moisture=0": {
       "model": "tmoveis:block/cherry_planter_box"
     },
-    "moisture=1": {
+    "finish=raw,moisture=1": {
       "model": "tmoveis:block/cherry_planter_box"
     },
-    "moisture=2": {
+    "finish=raw,moisture=2": {
       "model": "tmoveis:block/cherry_planter_box"
     },
-    "moisture=3": {
+    "finish=raw,moisture=3": {
       "model": "tmoveis:block/cherry_planter_box"
     },
-    "moisture=4": {
+    "finish=raw,moisture=4": {
       "model": "tmoveis:block/cherry_planter_box"
     },
-    "moisture=5": {
+    "finish=raw,moisture=5": {
       "model": "tmoveis:block/cherry_planter_box"
     },
-    "moisture=6": {
+    "finish=raw,moisture=6": {
       "model": "tmoveis:block/cherry_planter_box"
     },
-    "moisture=7": {
+    "finish=raw,moisture=7": {
       "model": "tmoveis:block/cherry_planter_box"
+    },
+    "finish=worn_1,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_1"
+    },
+    "finish=worn_1,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_1"
+    },
+    "finish=worn_1,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_1"
+    },
+    "finish=worn_1,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_1"
+    },
+    "finish=worn_1,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_1"
+    },
+    "finish=worn_1,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_1"
+    },
+    "finish=worn_1,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_1"
+    },
+    "finish=worn_1,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_1"
+    },
+    "finish=worn_2,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_2"
+    },
+    "finish=worn_2,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_2"
+    },
+    "finish=worn_2,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_2"
+    },
+    "finish=worn_2,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_2"
+    },
+    "finish=worn_2,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_2"
+    },
+    "finish=worn_2,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_2"
+    },
+    "finish=worn_2,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_2"
+    },
+    "finish=worn_2,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_2"
+    },
+    "finish=worn_3,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_3"
+    },
+    "finish=worn_3,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_3"
+    },
+    "finish=worn_3,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_3"
+    },
+    "finish=worn_3,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_3"
+    },
+    "finish=worn_3,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_3"
+    },
+    "finish=worn_3,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_3"
+    },
+    "finish=worn_3,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_3"
+    },
+    "finish=worn_3,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_worn_3"
+    },
+    "finish=natural,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural"
+    },
+    "finish=natural,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural"
+    },
+    "finish=natural,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural"
+    },
+    "finish=natural,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural"
+    },
+    "finish=natural,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural"
+    },
+    "finish=natural,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural"
+    },
+    "finish=natural,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural"
+    },
+    "finish=natural,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural"
+    },
+    "finish=natural_polished,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural_polished"
+    },
+    "finish=natural_polished,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural_polished"
+    },
+    "finish=natural_polished,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural_polished"
+    },
+    "finish=natural_polished,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural_polished"
+    },
+    "finish=natural_polished,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural_polished"
+    },
+    "finish=natural_polished,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural_polished"
+    },
+    "finish=natural_polished,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural_polished"
+    },
+    "finish=natural_polished,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_natural_polished"
+    },
+    "finish=honey,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey"
+    },
+    "finish=honey,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey"
+    },
+    "finish=honey,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey"
+    },
+    "finish=honey,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey"
+    },
+    "finish=honey,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey"
+    },
+    "finish=honey,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey"
+    },
+    "finish=honey,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey"
+    },
+    "finish=honey,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey"
+    },
+    "finish=honey_polished,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey_polished"
+    },
+    "finish=honey_polished,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey_polished"
+    },
+    "finish=honey_polished,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey_polished"
+    },
+    "finish=honey_polished,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey_polished"
+    },
+    "finish=honey_polished,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey_polished"
+    },
+    "finish=honey_polished,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey_polished"
+    },
+    "finish=honey_polished,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey_polished"
+    },
+    "finish=honey_polished,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_honey_polished"
+    },
+    "finish=walnut,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut"
+    },
+    "finish=walnut,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut"
+    },
+    "finish=walnut,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut"
+    },
+    "finish=walnut,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut"
+    },
+    "finish=walnut,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut"
+    },
+    "finish=walnut,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut"
+    },
+    "finish=walnut,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut"
+    },
+    "finish=walnut,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut"
+    },
+    "finish=walnut_polished,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut_polished"
+    },
+    "finish=walnut_polished,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut_polished"
+    },
+    "finish=walnut_polished,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut_polished"
+    },
+    "finish=walnut_polished,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut_polished"
+    },
+    "finish=walnut_polished,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut_polished"
+    },
+    "finish=walnut_polished,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut_polished"
+    },
+    "finish=walnut_polished,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut_polished"
+    },
+    "finish=walnut_polished,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_walnut_polished"
+    },
+    "finish=mahogany,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany"
+    },
+    "finish=mahogany,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany"
+    },
+    "finish=mahogany,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany"
+    },
+    "finish=mahogany,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany"
+    },
+    "finish=mahogany,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany"
+    },
+    "finish=mahogany,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany"
+    },
+    "finish=mahogany,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany"
+    },
+    "finish=mahogany,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany"
+    },
+    "finish=mahogany_polished,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany_polished"
+    },
+    "finish=mahogany_polished,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany_polished"
+    },
+    "finish=mahogany_polished,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany_polished"
+    },
+    "finish=mahogany_polished,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany_polished"
+    },
+    "finish=mahogany_polished,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany_polished"
+    },
+    "finish=mahogany_polished,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany_polished"
+    },
+    "finish=mahogany_polished,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany_polished"
+    },
+    "finish=mahogany_polished,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_mahogany_polished"
+    },
+    "finish=ebony,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony"
+    },
+    "finish=ebony,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony"
+    },
+    "finish=ebony,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony"
+    },
+    "finish=ebony,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony"
+    },
+    "finish=ebony,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony"
+    },
+    "finish=ebony,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony"
+    },
+    "finish=ebony,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony"
+    },
+    "finish=ebony,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony"
+    },
+    "finish=ebony_polished,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony_polished"
+    },
+    "finish=ebony_polished,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony_polished"
+    },
+    "finish=ebony_polished,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony_polished"
+    },
+    "finish=ebony_polished,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony_polished"
+    },
+    "finish=ebony_polished,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony_polished"
+    },
+    "finish=ebony_polished,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony_polished"
+    },
+    "finish=ebony_polished,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony_polished"
+    },
+    "finish=ebony_polished,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_ebony_polished"
+    },
+    "finish=white_lacquer,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer"
+    },
+    "finish=white_lacquer,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer"
+    },
+    "finish=white_lacquer,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer"
+    },
+    "finish=white_lacquer,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer"
+    },
+    "finish=white_lacquer,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer"
+    },
+    "finish=white_lacquer,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer"
+    },
+    "finish=white_lacquer,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer"
+    },
+    "finish=white_lacquer,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer"
+    },
+    "finish=white_lacquer_polished,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_white_lacquer_polished"
+    },
+    "finish=black_lacquer,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer"
+    },
+    "finish=black_lacquer,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer"
+    },
+    "finish=black_lacquer,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer"
+    },
+    "finish=black_lacquer,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer"
+    },
+    "finish=black_lacquer,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer"
+    },
+    "finish=black_lacquer,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer"
+    },
+    "finish=black_lacquer,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer"
+    },
+    "finish=black_lacquer,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer"
+    },
+    "finish=black_lacquer_polished,moisture=0": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,moisture=1": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,moisture=2": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,moisture=3": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,moisture=4": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,moisture=5": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,moisture=6": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,moisture=7": {
+      "model": "tmoveis:block/finish/cherry/planter_box_black_lacquer_polished"
     }
   }
 }

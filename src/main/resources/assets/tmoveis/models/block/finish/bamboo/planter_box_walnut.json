@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/planter_box",
+  "textures": {
+    "planks": "tmoveis:block/finish/bamboo/planks_walnut",
+    "log": "tmoveis:block/finish/bamboo/log_walnut",
+    "particle": "tmoveis:block/finish/bamboo/planks_walnut"
+  }
+}

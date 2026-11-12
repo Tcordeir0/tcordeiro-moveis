@@ -16,6 +16,25 @@ public final class FinishState {
 
 	public static final EnumProperty<Finish> FINISH = EnumProperty.create("finish", Finish.class);
 
+	/** Ligado enquanto se constrói um móvel de madeira de {@link FinishFurniture} (as classes servem também peças de metal, lã…). */
+	private static final ThreadLocal<Boolean> BUILDING = ThreadLocal.withInitial(() -> false);
+
+	/** Constrói um móvel de MADEIRA: o createBlockStateDefinition dele acrescenta {@link #FINISH} ({@link #addIfWood}). */
+	public static <T> T wood(java.util.function.Supplier<T> factory) {
+		BUILDING.set(true);
+		try {
+			return factory.get();
+		} finally {
+			BUILDING.set(false);
+		}
+	}
+
+	/** Para os createBlockStateDefinition das classes de móveis: a propriedade só nos móveis de madeira (a lixeira, o cofre, a
+	 *  cortina, o vaso sanitário… partilham a classe e não levam verniz). */
+	public static void addIfWood(net.minecraft.world.level.block.state.StateDefinition.Builder<Block, BlockState> builder) {
+		if (BUILDING.get()) builder.add(FINISH);
+	}
+
 	/** O acabamento deste bloco, ou null se não leva verniz (portas, cercas, pedra…). */
 	public static Finish of(BlockState state) {
 		if (state.hasProperty(FINISH)) return state.getValue(FINISH);

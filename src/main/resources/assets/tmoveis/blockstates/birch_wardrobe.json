@@ -1,123 +1,2163 @@
 {
   "variants": {
-    "half=lower,facing=north,moving=false,open=false": {
+    "finish=raw,half=lower,facing=north,moving=false,open=false": {
       "model": "tmoveis:block/birch_wardrobe_bottom"
     },
-    "half=lower,facing=north,moving=true,open=false": {
+    "finish=raw,half=lower,facing=north,moving=true,open=false": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body"
     },
-    "half=lower,facing=north,moving=false,open=true": {
+    "finish=raw,half=lower,facing=north,moving=false,open=true": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body"
     },
-    "half=lower,facing=north,moving=true,open=true": {
+    "finish=raw,half=lower,facing=north,moving=true,open=true": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body"
     },
-    "half=lower,facing=east,moving=false,open=false": {
+    "finish=raw,half=lower,facing=east,moving=false,open=false": {
       "model": "tmoveis:block/birch_wardrobe_bottom",
       "y": 90
     },
-    "half=lower,facing=east,moving=true,open=false": {
+    "finish=raw,half=lower,facing=east,moving=true,open=false": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body",
       "y": 90
     },
-    "half=lower,facing=east,moving=false,open=true": {
+    "finish=raw,half=lower,facing=east,moving=false,open=true": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body",
       "y": 90
     },
-    "half=lower,facing=east,moving=true,open=true": {
+    "finish=raw,half=lower,facing=east,moving=true,open=true": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body",
       "y": 90
     },
-    "half=lower,facing=south,moving=false,open=false": {
+    "finish=raw,half=lower,facing=south,moving=false,open=false": {
       "model": "tmoveis:block/birch_wardrobe_bottom",
       "y": 180
     },
-    "half=lower,facing=south,moving=true,open=false": {
+    "finish=raw,half=lower,facing=south,moving=true,open=false": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body",
       "y": 180
     },
-    "half=lower,facing=south,moving=false,open=true": {
+    "finish=raw,half=lower,facing=south,moving=false,open=true": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body",
       "y": 180
     },
-    "half=lower,facing=south,moving=true,open=true": {
+    "finish=raw,half=lower,facing=south,moving=true,open=true": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body",
       "y": 180
     },
-    "half=lower,facing=west,moving=false,open=false": {
+    "finish=raw,half=lower,facing=west,moving=false,open=false": {
       "model": "tmoveis:block/birch_wardrobe_bottom",
       "y": 270
     },
-    "half=lower,facing=west,moving=true,open=false": {
+    "finish=raw,half=lower,facing=west,moving=true,open=false": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body",
       "y": 270
     },
-    "half=lower,facing=west,moving=false,open=true": {
+    "finish=raw,half=lower,facing=west,moving=false,open=true": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body",
       "y": 270
     },
-    "half=lower,facing=west,moving=true,open=true": {
+    "finish=raw,half=lower,facing=west,moving=true,open=true": {
       "model": "tmoveis:block/birch_wardrobe_bottom_body",
       "y": 270
     },
-    "half=upper,facing=north,moving=false,open=false": {
+    "finish=raw,half=upper,facing=north,moving=false,open=false": {
       "model": "tmoveis:block/birch_wardrobe_top"
     },
-    "half=upper,facing=north,moving=true,open=false": {
+    "finish=raw,half=upper,facing=north,moving=true,open=false": {
       "model": "tmoveis:block/birch_wardrobe_top_body"
     },
-    "half=upper,facing=north,moving=false,open=true": {
+    "finish=raw,half=upper,facing=north,moving=false,open=true": {
       "model": "tmoveis:block/birch_wardrobe_top_body"
     },
-    "half=upper,facing=north,moving=true,open=true": {
+    "finish=raw,half=upper,facing=north,moving=true,open=true": {
       "model": "tmoveis:block/birch_wardrobe_top_body"
     },
-    "half=upper,facing=east,moving=false,open=false": {
+    "finish=raw,half=upper,facing=east,moving=false,open=false": {
       "model": "tmoveis:block/birch_wardrobe_top",
       "y": 90
     },
-    "half=upper,facing=east,moving=true,open=false": {
+    "finish=raw,half=upper,facing=east,moving=true,open=false": {
       "model": "tmoveis:block/birch_wardrobe_top_body",
       "y": 90
     },
-    "half=upper,facing=east,moving=false,open=true": {
+    "finish=raw,half=upper,facing=east,moving=false,open=true": {
       "model": "tmoveis:block/birch_wardrobe_top_body",
       "y": 90
     },
-    "half=upper,facing=east,moving=true,open=true": {
+    "finish=raw,half=upper,facing=east,moving=true,open=true": {
       "model": "tmoveis:block/birch_wardrobe_top_body",
       "y": 90
     },
-    "half=upper,facing=south,moving=false,open=false": {
+    "finish=raw,half=upper,facing=south,moving=false,open=false": {
       "model": "tmoveis:block/birch_wardrobe_top",
       "y": 180
     },
-    "half=upper,facing=south,moving=true,open=false": {
+    "finish=raw,half=upper,facing=south,moving=true,open=false": {
       "model": "tmoveis:block/birch_wardrobe_top_body",
       "y": 180
     },
-    "half=upper,facing=south,moving=false,open=true": {
+    "finish=raw,half=upper,facing=south,moving=false,open=true": {
       "model": "tmoveis:block/birch_wardrobe_top_body",
       "y": 180
     },
-    "half=upper,facing=south,moving=true,open=true": {
+    "finish=raw,half=upper,facing=south,moving=true,open=true": {
       "model": "tmoveis:block/birch_wardrobe_top_body",
       "y": 180
     },
-    "half=upper,facing=west,moving=false,open=false": {
+    "finish=raw,half=upper,facing=west,moving=false,open=false": {
       "model": "tmoveis:block/birch_wardrobe_top",
       "y": 270
     },
-    "half=upper,facing=west,moving=true,open=false": {
+    "finish=raw,half=upper,facing=west,moving=true,open=false": {
       "model": "tmoveis:block/birch_wardrobe_top_body",
       "y": 270
     },
-    "half=upper,facing=west,moving=false,open=true": {
+    "finish=raw,half=upper,facing=west,moving=false,open=true": {
       "model": "tmoveis:block/birch_wardrobe_top_body",
       "y": 270
     },
-    "half=upper,facing=west,moving=true,open=true": {
+    "finish=raw,half=upper,facing=west,moving=true,open=true": {
       "model": "tmoveis:block/birch_wardrobe_top_body",
+      "y": 270
+    },
+    "finish=worn_1,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_1"
+    },
+    "finish=worn_1,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1"
+    },
+    "finish=worn_1,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1"
+    },
+    "finish=worn_1,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1"
+    },
+    "finish=worn_1,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_1"
+    },
+    "finish=worn_1,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1"
+    },
+    "finish=worn_1,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1"
+    },
+    "finish=worn_1,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1"
+    },
+    "finish=worn_1,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1",
+      "y": 90
+    },
+    "finish=worn_1,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1",
+      "y": 180
+    },
+    "finish=worn_1,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_1,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_1",
+      "y": 270
+    },
+    "finish=worn_2,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_2"
+    },
+    "finish=worn_2,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2"
+    },
+    "finish=worn_2,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2"
+    },
+    "finish=worn_2,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2"
+    },
+    "finish=worn_2,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_2"
+    },
+    "finish=worn_2,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2"
+    },
+    "finish=worn_2,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2"
+    },
+    "finish=worn_2,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2"
+    },
+    "finish=worn_2,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2",
+      "y": 90
+    },
+    "finish=worn_2,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2",
+      "y": 180
+    },
+    "finish=worn_2,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_2,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_2",
+      "y": 270
+    },
+    "finish=worn_3,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_3"
+    },
+    "finish=worn_3,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3"
+    },
+    "finish=worn_3,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3"
+    },
+    "finish=worn_3,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3"
+    },
+    "finish=worn_3,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_3"
+    },
+    "finish=worn_3,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3"
+    },
+    "finish=worn_3,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3"
+    },
+    "finish=worn_3,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3"
+    },
+    "finish=worn_3,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3",
+      "y": 90
+    },
+    "finish=worn_3,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3",
+      "y": 180
+    },
+    "finish=worn_3,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3",
+      "y": 270
+    },
+    "finish=worn_3,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_worn_3",
+      "y": 270
+    },
+    "finish=natural,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_natural"
+    },
+    "finish=natural,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural"
+    },
+    "finish=natural,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural"
+    },
+    "finish=natural,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural"
+    },
+    "finish=natural,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_natural",
+      "y": 90
+    },
+    "finish=natural,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural",
+      "y": 90
+    },
+    "finish=natural,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural",
+      "y": 90
+    },
+    "finish=natural,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural",
+      "y": 90
+    },
+    "finish=natural,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_natural",
+      "y": 180
+    },
+    "finish=natural,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural",
+      "y": 180
+    },
+    "finish=natural,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural",
+      "y": 180
+    },
+    "finish=natural,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural",
+      "y": 180
+    },
+    "finish=natural,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_natural",
+      "y": 270
+    },
+    "finish=natural,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural",
+      "y": 270
+    },
+    "finish=natural,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural",
+      "y": 270
+    },
+    "finish=natural,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural",
+      "y": 270
+    },
+    "finish=natural,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_natural"
+    },
+    "finish=natural,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural"
+    },
+    "finish=natural,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural"
+    },
+    "finish=natural,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural"
+    },
+    "finish=natural,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_natural",
+      "y": 90
+    },
+    "finish=natural,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural",
+      "y": 90
+    },
+    "finish=natural,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural",
+      "y": 90
+    },
+    "finish=natural,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural",
+      "y": 90
+    },
+    "finish=natural,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_natural",
+      "y": 180
+    },
+    "finish=natural,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural",
+      "y": 180
+    },
+    "finish=natural,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural",
+      "y": 180
+    },
+    "finish=natural,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural",
+      "y": 180
+    },
+    "finish=natural,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_natural",
+      "y": 270
+    },
+    "finish=natural,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural",
+      "y": 270
+    },
+    "finish=natural,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural",
+      "y": 270
+    },
+    "finish=natural,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural",
+      "y": 270
+    },
+    "finish=natural_polished,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_natural_polished"
+    },
+    "finish=natural_polished,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished"
+    },
+    "finish=natural_polished,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished"
+    },
+    "finish=natural_polished,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished"
+    },
+    "finish=natural_polished,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_natural_polished"
+    },
+    "finish=natural_polished,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished"
+    },
+    "finish=natural_polished,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished"
+    },
+    "finish=natural_polished,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished"
+    },
+    "finish=natural_polished,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished",
+      "y": 90
+    },
+    "finish=natural_polished,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished",
+      "y": 180
+    },
+    "finish=natural_polished,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished",
+      "y": 270
+    },
+    "finish=natural_polished,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_natural_polished",
+      "y": 270
+    },
+    "finish=honey,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_honey"
+    },
+    "finish=honey,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey"
+    },
+    "finish=honey,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey"
+    },
+    "finish=honey,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey"
+    },
+    "finish=honey,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_honey",
+      "y": 90
+    },
+    "finish=honey,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey",
+      "y": 90
+    },
+    "finish=honey,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey",
+      "y": 90
+    },
+    "finish=honey,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey",
+      "y": 90
+    },
+    "finish=honey,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_honey",
+      "y": 180
+    },
+    "finish=honey,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey",
+      "y": 180
+    },
+    "finish=honey,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey",
+      "y": 180
+    },
+    "finish=honey,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey",
+      "y": 180
+    },
+    "finish=honey,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_honey",
+      "y": 270
+    },
+    "finish=honey,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey",
+      "y": 270
+    },
+    "finish=honey,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey",
+      "y": 270
+    },
+    "finish=honey,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey",
+      "y": 270
+    },
+    "finish=honey,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_honey"
+    },
+    "finish=honey,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey"
+    },
+    "finish=honey,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey"
+    },
+    "finish=honey,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey"
+    },
+    "finish=honey,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_honey",
+      "y": 90
+    },
+    "finish=honey,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey",
+      "y": 90
+    },
+    "finish=honey,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey",
+      "y": 90
+    },
+    "finish=honey,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey",
+      "y": 90
+    },
+    "finish=honey,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_honey",
+      "y": 180
+    },
+    "finish=honey,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey",
+      "y": 180
+    },
+    "finish=honey,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey",
+      "y": 180
+    },
+    "finish=honey,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey",
+      "y": 180
+    },
+    "finish=honey,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_honey",
+      "y": 270
+    },
+    "finish=honey,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey",
+      "y": 270
+    },
+    "finish=honey,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey",
+      "y": 270
+    },
+    "finish=honey,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey",
+      "y": 270
+    },
+    "finish=honey_polished,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_honey_polished"
+    },
+    "finish=honey_polished,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished"
+    },
+    "finish=honey_polished,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished"
+    },
+    "finish=honey_polished,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished"
+    },
+    "finish=honey_polished,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_honey_polished"
+    },
+    "finish=honey_polished,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished"
+    },
+    "finish=honey_polished,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished"
+    },
+    "finish=honey_polished,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished"
+    },
+    "finish=honey_polished,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished",
+      "y": 90
+    },
+    "finish=honey_polished,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished",
+      "y": 180
+    },
+    "finish=honey_polished,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished",
+      "y": 270
+    },
+    "finish=honey_polished,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_honey_polished",
+      "y": 270
+    },
+    "finish=walnut,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_walnut"
+    },
+    "finish=walnut,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut"
+    },
+    "finish=walnut,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut"
+    },
+    "finish=walnut,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut"
+    },
+    "finish=walnut,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_walnut",
+      "y": 90
+    },
+    "finish=walnut,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_walnut",
+      "y": 180
+    },
+    "finish=walnut,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_walnut",
+      "y": 270
+    },
+    "finish=walnut,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut",
+      "y": 270
+    },
+    "finish=walnut,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut",
+      "y": 270
+    },
+    "finish=walnut,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut",
+      "y": 270
+    },
+    "finish=walnut,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_walnut"
+    },
+    "finish=walnut,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut"
+    },
+    "finish=walnut,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut"
+    },
+    "finish=walnut,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut"
+    },
+    "finish=walnut,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_walnut",
+      "y": 90
+    },
+    "finish=walnut,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut",
+      "y": 90
+    },
+    "finish=walnut,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_walnut",
+      "y": 180
+    },
+    "finish=walnut,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut",
+      "y": 180
+    },
+    "finish=walnut,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_walnut",
+      "y": 270
+    },
+    "finish=walnut,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut",
+      "y": 270
+    },
+    "finish=walnut,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut",
+      "y": 270
+    },
+    "finish=walnut,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut",
+      "y": 270
+    },
+    "finish=walnut_polished,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_walnut_polished"
+    },
+    "finish=walnut_polished,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished"
+    },
+    "finish=walnut_polished,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished"
+    },
+    "finish=walnut_polished,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished"
+    },
+    "finish=walnut_polished,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_walnut_polished"
+    },
+    "finish=walnut_polished,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished"
+    },
+    "finish=walnut_polished,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished"
+    },
+    "finish=walnut_polished,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished"
+    },
+    "finish=walnut_polished,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished",
+      "y": 90
+    },
+    "finish=walnut_polished,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished",
+      "y": 180
+    },
+    "finish=walnut_polished,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished",
+      "y": 270
+    },
+    "finish=walnut_polished,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_walnut_polished",
+      "y": 270
+    },
+    "finish=mahogany,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_mahogany"
+    },
+    "finish=mahogany,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany"
+    },
+    "finish=mahogany,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany"
+    },
+    "finish=mahogany,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany"
+    },
+    "finish=mahogany,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_mahogany"
+    },
+    "finish=mahogany,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany"
+    },
+    "finish=mahogany,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany"
+    },
+    "finish=mahogany,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany"
+    },
+    "finish=mahogany,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany",
+      "y": 90
+    },
+    "finish=mahogany,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany",
+      "y": 180
+    },
+    "finish=mahogany,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany",
+      "y": 270
+    },
+    "finish=mahogany_polished,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_mahogany_polished"
+    },
+    "finish=mahogany_polished,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_mahogany_polished"
+    },
+    "finish=mahogany_polished,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished"
+    },
+    "finish=mahogany_polished,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished",
+      "y": 90
+    },
+    "finish=mahogany_polished,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished",
+      "y": 180
+    },
+    "finish=mahogany_polished,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=mahogany_polished,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_mahogany_polished",
+      "y": 270
+    },
+    "finish=ebony,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_ebony"
+    },
+    "finish=ebony,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony"
+    },
+    "finish=ebony,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony"
+    },
+    "finish=ebony,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony"
+    },
+    "finish=ebony,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_ebony",
+      "y": 90
+    },
+    "finish=ebony,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_ebony",
+      "y": 180
+    },
+    "finish=ebony,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_ebony",
+      "y": 270
+    },
+    "finish=ebony,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony",
+      "y": 270
+    },
+    "finish=ebony,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony",
+      "y": 270
+    },
+    "finish=ebony,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony",
+      "y": 270
+    },
+    "finish=ebony,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_ebony"
+    },
+    "finish=ebony,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony"
+    },
+    "finish=ebony,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony"
+    },
+    "finish=ebony,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony"
+    },
+    "finish=ebony,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_ebony",
+      "y": 90
+    },
+    "finish=ebony,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony",
+      "y": 90
+    },
+    "finish=ebony,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_ebony",
+      "y": 180
+    },
+    "finish=ebony,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony",
+      "y": 180
+    },
+    "finish=ebony,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_ebony",
+      "y": 270
+    },
+    "finish=ebony,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony",
+      "y": 270
+    },
+    "finish=ebony,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony",
+      "y": 270
+    },
+    "finish=ebony,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony",
+      "y": 270
+    },
+    "finish=ebony_polished,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_ebony_polished"
+    },
+    "finish=ebony_polished,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished"
+    },
+    "finish=ebony_polished,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished"
+    },
+    "finish=ebony_polished,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished"
+    },
+    "finish=ebony_polished,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_ebony_polished"
+    },
+    "finish=ebony_polished,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished"
+    },
+    "finish=ebony_polished,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished"
+    },
+    "finish=ebony_polished,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished"
+    },
+    "finish=ebony_polished,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished",
+      "y": 90
+    },
+    "finish=ebony_polished,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished",
+      "y": 180
+    },
+    "finish=ebony_polished,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished",
+      "y": 270
+    },
+    "finish=ebony_polished,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_ebony_polished",
+      "y": 270
+    },
+    "finish=white_lacquer,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_white_lacquer"
+    },
+    "finish=white_lacquer,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer"
+    },
+    "finish=white_lacquer,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer"
+    },
+    "finish=white_lacquer,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer"
+    },
+    "finish=white_lacquer,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_white_lacquer"
+    },
+    "finish=white_lacquer,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer"
+    },
+    "finish=white_lacquer,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer"
+    },
+    "finish=white_lacquer,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer"
+    },
+    "finish=white_lacquer,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer",
+      "y": 90
+    },
+    "finish=white_lacquer,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer",
+      "y": 180
+    },
+    "finish=white_lacquer,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished"
+    },
+    "finish=white_lacquer_polished,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished",
+      "y": 90
+    },
+    "finish=white_lacquer_polished,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished",
+      "y": 180
+    },
+    "finish=white_lacquer_polished,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=white_lacquer_polished,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_white_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_black_lacquer"
+    },
+    "finish=black_lacquer,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer"
+    },
+    "finish=black_lacquer,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer"
+    },
+    "finish=black_lacquer,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer"
+    },
+    "finish=black_lacquer,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_black_lacquer"
+    },
+    "finish=black_lacquer,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer"
+    },
+    "finish=black_lacquer,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer"
+    },
+    "finish=black_lacquer,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer"
+    },
+    "finish=black_lacquer,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer",
+      "y": 90
+    },
+    "finish=black_lacquer,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer",
+      "y": 180
+    },
+    "finish=black_lacquer,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_bottom_body_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished"
+    },
+    "finish=black_lacquer_polished,half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished",
+      "y": 90
+    },
+    "finish=black_lacquer_polished,half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished",
+      "y": 180
+    },
+    "finish=black_lacquer_polished,half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished",
+      "y": 270
+    },
+    "finish=black_lacquer_polished,half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/finish/birch/wardrobe_top_body_black_lacquer_polished",
       "y": 270
     }
   }

@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/counter_body",
+  "textures": {
+    "planks": "tmoveis:block/finish/acacia/planks_white_lacquer",
+    "log": "tmoveis:block/finish/acacia/log_white_lacquer",
+    "particle": "tmoveis:block/finish/acacia/planks_white_lacquer"
+  }
+}

@@ -71,7 +71,7 @@ public class ShelfRenderer<T extends BlockEntity> implements BlockEntityRenderer
 			for (int i = 0; i < WineRackBlockEntity.SIZE; i++) {
 				if (w.getItem(i).isEmpty()) continue;
 				int k = s.n++;
-				resolver.updateForTopItem(slot(s, k), PartStacks.get(st.getBlock(), "wine_rack_bottle"), ItemDisplayContext.NONE, be.getLevel(), null, 0);
+				resolver.updateForTopItem(slot(s, k), PartStacks.get(st, "wine_rack_bottle"), ItemDisplayContext.NONE, be.getLevel(), null, 0);
 				s.dx[k] = FurnitureParts.WINE_CELLS[i][0] / 16f;
 				s.dy[k] = FurnitureParts.WINE_CELLS[i][1] / 16f;
 			}

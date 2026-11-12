@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/wardrobe_top_body",
+  "textures": {
+    "planks": "tmoveis:block/finish/pale_oak/planks_worn_1",
+    "log": "tmoveis:block/finish/pale_oak/log_worn_1",
+    "particle": "tmoveis:block/finish/pale_oak/planks_worn_1"
+  }
+}

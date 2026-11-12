@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tmoveis:warped_side_table"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tmoveis:blocks/warped_side_table"
+}

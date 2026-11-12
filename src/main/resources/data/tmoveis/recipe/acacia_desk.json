@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "| P",
+    "| P"
+  ],
+  "key": {
+    "S": "minecraft:acacia_slab",
+    "P": "minecraft:acacia_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:acacia_desk"
+  },
+  "group": "tmoveis:desk"
+}

@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "tmoveis:oak_planter_box",
+    "tmoveis:spruce_planter_box",
+    "tmoveis:birch_planter_box",
+    "tmoveis:jungle_planter_box",
+    "tmoveis:acacia_planter_box",
+    "tmoveis:dark_oak_planter_box",
+    "tmoveis:pale_oak_planter_box",
+    "tmoveis:crimson_planter_box",
+    "tmoveis:warped_planter_box",
+    "tmoveis:mangrove_planter_box",
+    "tmoveis:bamboo_planter_box",
+    "tmoveis:cherry_planter_box",
+    "tmoveis:poplar_planter_box"
+  ]
+}

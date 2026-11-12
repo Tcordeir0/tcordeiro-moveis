@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "|",
+    "W",
+    "W"
+  ],
+  "key": {
+    "W": "minecraft:yellow_wool",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:yellow_curtain",
+    "count": 2
+  },
+  "group": "tmoveis:curtain"
+}

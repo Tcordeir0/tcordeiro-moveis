@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tmoveis:dark_oak_wardrobe",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "tmoveis:dark_oak_wardrobe",
+            "state": {
+              "half": "lower"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tmoveis:blocks/dark_oak_wardrobe"
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "tmoveis:block/template/cabinet_open",
-  "textures": {
-    "planks": "minecraft:block/cherry_planks",
-    "log": "minecraft:block/stripped_cherry_log",
-    "particle": "minecraft:block/cherry_planks"
-  }
-}

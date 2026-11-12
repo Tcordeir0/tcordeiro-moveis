@@ -1,0 +1,72 @@
+{
+ "parent": "block/block",
+ "textures": {
+  "mirror": "minecraft:block/light_blue_stained_glass"
+ },
+ "elements": [
+  {
+   "from": [
+    2,
+    1,
+    15
+   ],
+   "to": [
+    14,
+    15,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#planks"
+    },
+    "south": {
+     "texture": "#planks"
+    },
+    "east": {
+     "texture": "#planks"
+    },
+    "west": {
+     "texture": "#planks"
+    },
+    "up": {
+     "texture": "#planks"
+    },
+    "down": {
+     "texture": "#planks"
+    }
+   }
+  },
+  {
+   "from": [
+    3,
+    2,
+    14.5
+   ],
+   "to": [
+    13,
+    14,
+    15
+   ],
+   "faces": {
+    "north": {
+     "texture": "#mirror"
+    },
+    "south": {
+     "texture": "#mirror"
+    },
+    "east": {
+     "texture": "#mirror"
+    },
+    "west": {
+     "texture": "#mirror"
+    },
+    "up": {
+     "texture": "#mirror"
+    },
+    "down": {
+     "texture": "#mirror"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "tmoveis:block/orange_bunk_bed_bottom_head",
+        "transformation": {
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            -0.5,
+            -0.5
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "tmoveis:block/orange_bunk_bed_bottom_foot",
+        "transformation": {
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            -0.5,
+            0.5
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "tmoveis:block/orange_bunk_bed_top_head",
+        "transformation": {
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0.5,
+            -0.5
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "tmoveis:block/orange_bunk_bed_top_foot",
+        "transformation": {
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            0.5,
+            0.5
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "N N"
+  ],
+  "key": {
+    "S": "minecraft:cherry_slab",
+    "N": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "tmoveis:cherry_garden_bench"
+  },
+  "group": "tmoveis:garden_bench"
+}

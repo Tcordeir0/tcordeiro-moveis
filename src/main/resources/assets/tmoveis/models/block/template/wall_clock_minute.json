@@ -1,0 +1,40 @@
+{
+ "parent": "block/block",
+ "textures": {
+  "black": "minecraft:block/black_concrete"
+ },
+ "elements": [
+  {
+   "from": [
+    7.7,
+    7.8,
+    13.9
+   ],
+   "to": [
+    8.3,
+    11.8,
+    14.2
+   ],
+   "faces": {
+    "north": {
+     "texture": "#black"
+    },
+    "south": {
+     "texture": "#black"
+    },
+    "east": {
+     "texture": "#black"
+    },
+    "west": {
+     "texture": "#black"
+    },
+    "up": {
+     "texture": "#black"
+    },
+    "down": {
+     "texture": "#black"
+    }
+   }
+  }
+ ]
+}

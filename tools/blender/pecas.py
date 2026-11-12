@@ -202,8 +202,8 @@ PIECES["garden_bench"] = [(0, 7, z, 16, 8, z + 2, "#planks") for z in (2, 5, 8, 
     (0, 10, 13, 16, 11.5, 14, "#planks"), (0, 13, 13, 16, 14.5, 14, "#planks"),
     (0, 0, 2, 1.5, 7, 3, "#metal"), (14.5, 0, 2, 16, 7, 3, "#metal"), (0, 0, 13.5, 1.5, 15, 14.5, "#metal"), (14.5, 0, 13.5, 16, 15, 14.5, "#metal"),
     (0, 10, 2, 1.5, 11, 13.5, "#metal"), (14.5, 10, 2, 16, 11, 13.5, "#metal"), (0, 7, 2, 1.5, 10, 3, "#metal"), (14.5, 7, 2, 16, 10, 3, "#metal")]
-PIECES["planter_box"] = [(0, 0, 0, 16, 10, 1.5, "#planks"), (0, 0, 14.5, 16, 10, 16, "#planks"), (0, 0, 1.5, 1.5, 10, 14.5, "#planks"),
-                         (14.5, 0, 1.5, 16, 10, 14.5, "#planks"), (1.5, 0, 1.5, 14.5, 9, 14.5, "#soil")]
+PIECES["planter_box"] = [(0, 0, 0, 16, 16, 1.5, "#planks"), (0, 0, 14.5, 16, 16, 16, "#planks"), (0, 0, 1.5, 1.5, 16, 14.5, "#planks"),
+                         (14.5, 0, 1.5, 16, 16, 14.5, "#planks"), (1.5, 0, 1.5, 14.5, 15, 14.5, "#soil")]  # 0.2.0: 16 de altura (a planta assenta no topo)
 def shutter_panel(x0, x1, z0, z1):
     return [(x0, 0, z0, x1, 16, z1, "#planks")] + [(x0 + 0.5, y, z0 - 0.4, x1 - 0.5, y + 1, z0, "#planks") for y in range(2, 15, 3)]
 PIECES["shutters_closed"] = shutter_panel(0, 7.8, 15, 16) + shutter_panel(8.2, 16, 15, 16)
@@ -247,3 +247,131 @@ PIECES["sofa_corner_inner"] = [(0, 0, 0, 16, 3, 16, "#planks"), (4, 3, 0, 16, 7,
 PIECES["sofa_corner_outer"] = [(0, 0, 0, 16, 3, 16, "#planks"), (0, 3, 0, 16, 7, 12, "#wool"), (4, 3, 12, 16, 7, 16, "#wool"),
                                (0, 3, 12, 4, 15, 16, "#wool")]
 PIECES["table_leg"] = [(1, 0, 1, 3, 14, 3, "#log"), (3, 12, 1.5, 8, 14, 2.5, "#planks"), (1.5, 12, 3, 2.5, 14, 8, "#planks")]
+
+# ---------------- 0.2.0: partes móveis (o renderer do mod mexe nestas; o resto é o corpo estático) ----------------
+# Cada peça animada fica em PIECES[<peça>_body] (corpo) + PIECES[<peça>_<parte>] (partes, na posição de repouso), e o modelo
+# inteiro PIECES[<peça>] = corpo + partes (é o modelo estático quando nada se mexe, e o do item). ANIM diz como cada parte se
+# move (o gerador escreve isto em Java, FurnitureParts):
+#   ("rot", eixo, pivô, graus)   roda à volta do eixo que passa no pivô (px), até «graus» com a peça toda aberta
+#   ("move", (dx, dy, dz))       desliza (px)
+#   ("scalex", pivô_x, fator)    encolhe em x para o pivô (cortinas a correr)
+#   ("spin", eixo, pivô)         roda sem parar (ventilador); ("clock_hour"/"clock_minute", eixo, pivô): ponteiros do relógio
+ANIM = {}
+
+def rot90(boxes, axis, piv, sign):
+    """Roda cubos 90° (sign=+1/−1, regra da mão direita) à volta do eixo que passa em piv — continuam alinhados aos eixos."""
+    out = []
+    a, b = {"x": (1, 2), "y": (2, 0), "z": (0, 1)}[axis]   # roda o plano (a, b): a' = −sign·b, b' = sign·a
+    for c in boxes:
+        lo, hi = list(c[0:3]), list(c[3:6])
+        da = (lo[a] - piv[a], hi[a] - piv[a]); db = (lo[b] - piv[b], hi[b] - piv[b])
+        na = sorted((-sign * db[0], -sign * db[1])); nb = sorted((sign * da[0], sign * da[1]))
+        lo[a], hi[a] = piv[a] + na[0], piv[a] + na[1]; lo[b], hi[b] = piv[b] + nb[0], piv[b] + nb[1]
+        out.append(tuple(lo) + tuple(hi) + (c[6],))
+    return out
+
+def drawer_box(x1, x2, y1, y2, front_z=1, depth=6, var="#planks"):
+    """Caixa da gaveta por trás da frente (fica escondida dentro do corpo; vê-se quando a gaveta desliza)."""
+    return [(x1, y1, front_z, x2, y1 + 0.5, front_z + depth, var), (x1, y1 + 0.5, front_z, x1 + 0.5, y2, front_z + depth, var),
+            (x2 - 0.5, y1 + 0.5, front_z, x2, y2, front_z + depth, var), (x1, y1 + 0.5, front_z + depth - 0.5, x2, y2, front_z + depth, var)]
+
+def animated(name, body, parts, anim):
+    PIECES[name + "_body"] = body
+    for p, boxes in parts.items(): PIECES[f"{name}_{p}"] = boxes
+    PIECES[name] = body + [b for boxes in parts.values() for b in boxes]
+    ANIM[name] = anim
+
+DOOR = 100  # graus que as portas abrem
+# armário: portas nas dobradiças de fora (x 1,5 e 14,5), à frente (z 0,5)
+animated("cabinet", _CAB_BODY + [(1, 2, 0.9, 15, 14, 1, "#log")],
+         {"door_left": [(1.5, 2, 0.5, 7.5, 14, 1, "#planks"), (6, 7, 0, 7, 10, 0.5, "#metal")],
+          "door_right": [(8.5, 2, 0.5, 14.5, 14, 1, "#planks"), (9, 7, 0, 10, 10, 0.5, "#metal")]},
+         [("door_left", "rot", "y", (1.5, 0, 0.5), DOOR), ("door_right", "rot", "y", (14.5, 0, 0.5), -DOOR)])
+# gaveteiro: a gaveta de cima desliza 6 px
+animated("drawer", _CAB_BODY + [c for y in (1.5, 6) for c in ((2, y, 0.5, 14, y + 4, 1, "#planks"), (7, y + 1.5, 0, 9, y + 2.5, 0.5, "#metal"))],
+         {"drawer": [(2, 10.5, 0.5, 14, 14.5, 1, "#planks"), (7, 12, 0, 9, 13, 0.5, "#metal")] + drawer_box(2.5, 13.5, 10.5, 14)},
+         [("drawer", "move", (0, 0, -6))])
+# bancada (e o canto: uma porta só)
+_COUNTER_BODY = [(0, 0, 2, 16, 1, 16, "#planks"), (0, 1, 1, 16, 14, 16, "#planks"), (0, 14, 0, 16, 16, 16, "#counter"), (1, 2, 0.9, 15, 13, 1, "#log")]
+animated("counter", _COUNTER_BODY,
+         {"door_left": [(1, 2, 0.5, 7.5, 13, 1, "#planks"), (6.5, 9, 0, 7, 12, 0.5, "#metal")],
+          "door_right": [(8.5, 2, 0.5, 15, 13, 1, "#planks"), (9, 9, 0, 9.5, 12, 0.5, "#metal")]},
+         [("door_left", "rot", "y", (1, 0, 0.5), DOOR), ("door_right", "rot", "y", (15, 0, 0.5), -DOOR)])
+animated("counter_corner", _COUNTER_BODY,
+         {"door": [(1, 2, 0.5, 15, 13, 1, "#planks"), (13, 9, 0, 13.5, 12, 0.5, "#metal")]},
+         [("door", "rot", "y", (1, 0, 0.5), DOOR)])
+# mesa de cabeceira: a gaveta de cima desliza
+animated("nightstand", [c for c in PIECES["nightstand"] if c[1] != 7 and c[1] != 8.5],
+         {"drawer": [(2.5, 7, 0.5, 13.5, 11, 1, "#planks"), (7.5, 8.5, 0, 8.5, 9.5, 0.5, "#metal")] + drawer_box(3, 13, 7, 11)},
+         [("drawer", "move", (0, 0, -6))])
+# guarda-roupa: as portas são as mesmas nas duas metades (cada bloco desenha a sua metade, na mesma dobradiça)
+animated("wardrobe_bottom", [(0, 0, 0, 16, 1, 16, "#planks"), (1, 1, 1, 15, 16, 15, "#planks"), (1.5, 1.5, 0.9, 14.5, 16, 1, "#log")],
+         {"door_left": [(1.5, 1.5, 0.5, 7.75, 16, 1, "#planks")], "door_right": [(8.25, 1.5, 0.5, 14.5, 16, 1, "#planks")]},
+         [("door_left", "rot", "y", (1.5, 0, 0.5), DOOR), ("door_right", "rot", "y", (14.5, 0, 0.5), -DOOR)])
+animated("wardrobe_top", [(1, 0, 1, 15, 15, 15, "#planks"), (0, 15, 0, 16, 16, 16, "#planks"), (1.5, 0, 0.9, 14.5, 14, 1, "#log")],
+         {"door_left": [(1.5, 0, 0.5, 7.75, 14, 1, "#planks"), (6.5, 0, 0, 7.25, 5, 0.5, "#metal")],
+          "door_right": [(8.25, 0, 0.5, 14.5, 14, 1, "#planks"), (8.75, 0, 0, 9.5, 5, 0.5, "#metal")]},
+         [("door_left", "rot", "y", (1.5, 0, 0.5), DOOR), ("door_right", "rot", "y", (14.5, 0, 0.5), -DOOR)])
+# escrivaninha: gaveta de cima desliza; a perna da esquerda (x baixo) some quando há outra escrivaninha desse lado
+_DESK = PIECES["desk"]
+PIECES["desk_leg"] = [c for c in _DESK if c[0] == 0.5]
+animated("desk", [c for c in _DESK if c[0] != 0.5 and not (c[1] in (9.5, 11))],
+         {"drawer": [(10.5, 9.5, 0.5, 15, 13.5, 1, "#planks"), (12.25, 11, 0, 13.25, 12, 0.5, "#metal")] + drawer_box(11, 14.5, 9.5, 13.5)},
+         [("drawer", "move", (0, 0, -6))])
+# cofre: a porta na dobradiça da esquerda (x 2)
+_SAFE = PIECES["safe"]
+animated("safe", _SAFE[:2] + [(2, 1, 0.95, 14, 14, 1, "#black")],
+         {"door": _SAFE[2:]}, [("door", "rot", "y", (2, 0, 0.5), DOOR)])
+# lixeira: a tampa levanta na dobradiça de trás
+animated("trash_can", PIECES["trash_can"][:1], {"lid": PIECES["trash_can"][1:]}, [("lid", "rot", "x", (8, 12, 12.5), 100)])
+# caixa de correio: a bandeirinha em baixo (sem correio) levanta 90° quando chega correio
+_MAIL_FLAG_UP = PIECES["mailbox"][4:]
+animated("mailbox", PIECES["mailbox"][:4], {"flag": rot90(_MAIL_FLAG_UP, "x", (12.25, 12.5, 9.5), -1)},
+         [("flag", "rot", "x", (12.25, 12.5, 9.5), 90)])
+PIECES["mailbox_flag_up"] = _MAIL_FLAG_UP
+PIECES["mailbox_full"] = PIECES["mailbox_body"] + _MAIL_FLAG_UP
+# cortinas: metade esquerda (x 0–8) e direita (8–16) correm para os lados (ficam com 3/8 da largura, como a cortina aberta)
+_CUR = PIECES["curtain_closed"]
+animated("curtain", _CUR[:1], {"left": [c for c in _CUR[1:] if c[0] < 8], "right": [c for c in _CUR[1:] if c[0] >= 8]},
+         [("left", "scalex", 0, 3 / 8), ("right", "scalex", 16, 3 / 8)])
+# persianas: as duas folhas rodam nas dobradiças de fora (para dentro da sala, como o modelo aberto)
+animated("shutters", [], {"left": shutter_panel(0, 7.8, 15, 16), "right": shutter_panel(8.2, 16, 15, 16)},
+         [("left", "rot", "y", (0.5, 0, 15.5), 90), ("right", "rot", "y", (15.5, 0, 15.5), -90)])
+# ventilador: as pás giram à volta do eixo vertical
+_FAN = PIECES["ceiling_fan"]
+animated("ceiling_fan", _FAN[:3], {"blades": _FAN[3:]}, [("blades", "spin", "y", (8, 0, 8))])
+# relógio: os ponteiros (desenhados a apontar para as 12) rodam à volta do centro do mostrador
+animated("wall_clock", PIECES["wall_clock"][:2] + [(7.5, 7.5, 13.6, 8.5, 8.5, 13.9, "#metal")],
+         {"hour": [(7.6, 7.8, 14.2, 8.4, 10.6, 14.5, "#black")], "minute": [(7.7, 7.8, 13.9, 8.3, 11.8, 14.2, "#black")]},
+         [("hour", "clock_hour", "z", (8, 8, 0)), ("minute", "clock_minute", "z", (8, 8, 0))])
+PIECES["wall_clock"] = PIECES["wall_clock_body"] + PIECES["wall_clock_hour"] + rot90(PIECES["wall_clock_minute"], "z", (8, 8, 0), 1)  # 12h15 no item
+# adega: as garrafas aparecem por espaço ocupado (o renderer desloca a garrafa da casa 0 para as outras)
+_RACK = PIECES["wine_rack"]
+PIECES["wine_rack_body"] = [c for c in _RACK if c[6] != "#bottle" and not (c[5] == 2 and c[2] == 0.5)]
+PIECES["wine_rack_bottle"] = [c for c in _RACK if (c[6] == "#bottle" or (c[5] == 2 and c[2] == 0.5)) and c[0] in (1.6, 2.7) and c[1] in (1.6, 2.7)]
+# casas: 0 = em cima à esquerda (vista de frente: esquerda = x alto), por linhas
+WINE_CELLS = [(x - 1.2, y - 1.2) for y in (10.9, 6, 1.2) for x in (10.9, 6, 1.2)]
+# lareira apagada (sem o fogo)
+PIECES["fireplace_unlit"] = [c for c in PIECES["fireplace"] if c[6] != "#fire"]
+
+# piano: 14 teclas brancas (Sol3 … Fá5) e 9 pretas, graves à esquerda de quem toca (= x alto: o piano está virado a norte)
+_PIANO_BODY = [c for c in PIANO if c[6] not in ("#sheet", "#black")]
+_KW = 30 / 14
+PIANO_KEYS = []   # pela ordem cromática: (preta?, x1, x2) em px na largura de 32 do piano
+for i in range(14):
+    PIANO_KEYS.append((False, 31 - _KW * (i + 1) + 0.1, 31 - _KW * i - 0.1))
+    if i % 7 in (0, 1, 3, 4, 6) and i < 13:
+        c = 31 - _KW * (i + 1)
+        PIANO_KEYS.append((True, c - 0.6, c + 0.6))
+WHITE_Y, BLACK_Y, WHITE_Z, BLACK_Z = (12, 13.5), (13.5, 14.3), (2, 8), (4.5, 8)
+def _key(black, x1, x2):
+    y, z = (BLACK_Y, BLACK_Z) if black else (WHITE_Y, WHITE_Z)
+    return (x1, y[0], z[0], x2, y[1], z[1], "#black" if black else "#sheet")
+_PIANO_ALL = _PIANO_BODY + [_key(*k) for k in PIANO_KEYS]
+PIECES["piano_left"] = clip3(_PIANO_ALL, 0, 0, 0)
+PIECES["piano_right"] = clip3(_PIANO_ALL, 16, 0, 0)
+PIECES["piano_left_body"] = clip3(_PIANO_BODY, 0, 0, 0)
+PIECES["piano_right_body"] = clip3(_PIANO_BODY, 16, 0, 0)
+PIECES["piano_white_key"] = [_key(False, 0, _KW - 0.2)]
+PIECES["piano_black_key"] = [_key(True, 0, 1.2)]
+PIANO_SINK = {False: 0.7, True: 0.5}   # quanto cada tecla afunda (px)

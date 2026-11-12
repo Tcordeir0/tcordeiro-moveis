@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tmoveis:block/mirror"
+    },
+    "facing=east": {
+      "model": "tmoveis:block/mirror",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tmoveis:block/mirror",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tmoveis:block/mirror",
+      "y": 270
+    }
+  }
+}

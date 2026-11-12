@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tmoveis:block/jungle_coffee_table"
+    },
+    "facing=east": {
+      "model": "tmoveis:block/jungle_coffee_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tmoveis:block/jungle_coffee_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tmoveis:block/jungle_coffee_table",
+      "y": 270
+    }
+  }
+}

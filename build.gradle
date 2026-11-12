@@ -62,6 +62,14 @@ dependencies {
 	compileOnly industrial
 	// ./gradlew runGametest -PnoIndustrial : os mesmos testes sem o Industrial (as lâmpadas só com redstone)
 	if (!project.hasProperty('noIndustrial')) gametestRuntimeOnly industrial
+
+	// lógica pura (animação, relógio, piano): JUnit
+	testImplementation "org.junit.jupiter:junit-jupiter:5.11.3"
+	testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+
+test {
+	useJUnitPlatform()
 }
 
 processResources {

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "| P",
+    "| P"
+  ],
+  "key": {
+    "S": "minecraft:oak_slab",
+    "P": "minecraft:oak_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:oak_desk"
+  },
+  "group": "tmoveis:desk"
+}

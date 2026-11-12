@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tmoveis:bathtub",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "tmoveis:bathtub",
+            "state": {
+              "part": "foot"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tmoveis:blocks/bathtub"
+}

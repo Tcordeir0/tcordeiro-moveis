@@ -1,50 +1,104 @@
 package com.tcordeiro.moveis.block;
 
+import java.util.Map;
+
 import com.tcordeiro.moveis.block.entity.StorageFurnitureBlockEntity;
+import com.tcordeiro.moveis.registry.MoveisBlocks;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.Containers;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityTicker;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.VoxelShape;
 
 /**
- * Armário e gaveteiro: 27 espaços (o ecrã de 3 linhas do baú/barril). A frente vira para o jogador. OPEN: portas abertas / gaveta de
- * cima puxada enquanto alguém tem o inventário aberto (como o barril). Funis põem e tiram; o conteúdo cai ao partir.
+ * Móveis com inventário (armário, gaveteiro, bancada, mesa de cabeceira, escrivaninha, guarda-roupa, cofre, lixeira, caixa de correio).
+ * A frente vira para o jogador. OPEN enquanto alguém tem o inventário aberto (como o barril); as portas/gavetas/tampa abrem e fecham
+ * com animação ({@link AnimatedFurniture}). Funis põem e tiram (o cofre não; a caixa de correio e a lixeira só recebem); o conteúdo
+ * cai ao partir.
  */
-public class StorageFurnitureBlock extends BaseEntityBlock {
-	public enum Kind { CABINET, DRAWER }
+public class StorageFurnitureBlock extends BaseEntityBlock implements AnimatedFurniture {
+	/** Linhas do ecrã (9 espaços cada), o tipo de peça animada (pecas.ANIM) e o som. */
+	public enum Kind {
+		CABINET(3, "cabinet", Sound.DOOR), DRAWER(3, "drawer", Sound.BARREL), COUNTER(1, "counter", Sound.DOOR),
+		NIGHTSTAND(1, "nightstand", Sound.BARREL), DESK(1, "desk", Sound.BARREL), WARDROBE(4, "wardrobe_bottom", Sound.DOOR),
+		SAFE(3, "safe", Sound.IRON), TRASH(1, "trash_can", Sound.LID), MAILBOX(1, "mailbox", Sound.LID);
+
+		public final int rows;
+		public final String anim;
+		final Sound sound;
+
+		Kind(int rows, String anim, Sound sound) {
+			this.rows = rows;
+			this.anim = anim;
+			this.sound = sound;
+		}
+
+		public int size() {
+			return rows * 9;
+		}
+
+		public SoundEvent sound(boolean open) {
+			return switch (sound) {
+				case DOOR -> open ? SoundEvents.WOODEN_DOOR_OPEN : SoundEvents.WOODEN_DOOR_CLOSE;
+				case BARREL -> open ? SoundEvents.BARREL_OPEN : SoundEvents.BARREL_CLOSE;
+				case IRON -> open ? SoundEvents.IRON_DOOR_OPEN : SoundEvents.IRON_DOOR_CLOSE;
+				case LID -> open ? SoundEvents.IRON_TRAPDOOR_OPEN : SoundEvents.IRON_TRAPDOOR_CLOSE;
+			};
+		}
+	}
+
+	enum Sound { DOOR, BARREL, IRON, LID }
 
 	public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
-	public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
+
+	/** Formas viradas a norte (as que não são o bloco inteiro). */
+	private static final Map<Kind, Map<Direction, VoxelShape>> SHAPES = Map.of(
+			Kind.NIGHTSTAND, Shapes.rotateHorizontal(Block.box(0.5, 0, 0.5, 15.5, 13, 15.5)),
+			Kind.DESK, Shapes.rotateHorizontal(Shapes.or(Block.box(0, 14, 0, 16, 16, 16), Block.box(10, 0, 1, 15.5, 14, 15), Block.box(0.5, 0, 1, 2.5, 14, 15))),
+			Kind.SAFE, Shapes.rotateHorizontal(Block.box(0.5, 0, 0.5, 15.5, 16, 15.5)),
+			Kind.TRASH, Shapes.rotateHorizontal(Block.box(3.5, 0, 3.5, 12.5, 13, 12.5)),
+			Kind.MAILBOX, Shapes.rotateHorizontal(Shapes.or(Block.box(7, 0, 7, 9, 10, 9), Block.box(4, 10, 3, 12, 16, 13))));
 
 	public final Kind kind;
 
 	public StorageFurnitureBlock(Kind kind, Properties props) {
 		super(props);
 		this.kind = kind;
-		registerDefaultState(stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(OPEN, false));
+		registerDefaultState(stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(OPEN, false).setValue(MOVING, false));
 	}
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(FACING, OPEN);
+		builder.add(FACING, OPEN, MOVING);
+	}
+
+	@Override
+	public String animKind(BlockState state) {
+		return kind.anim;
 	}
 
 	@Override
@@ -53,9 +107,20 @@ public class StorageFurnitureBlock extends BaseEntityBlock {
 	}
 
 	@Override
+	protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext ctx) {
+		Map<Direction, VoxelShape> m = SHAPES.get(kind);
+		return m == null ? Shapes.block() : m.get(state.getValue(FACING));
+	}
+
+	@Override
 	protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hit) {
 		if (!level.isClientSide() && level.getBlockEntity(pos) instanceof StorageFurnitureBlockEntity be) player.openMenu(be);
 		return InteractionResult.SUCCESS;
+	}
+
+	/** O inventário abriu (primeiro jogador) ou fechou (último): mexe as portas. O guarda-roupa mexe as duas metades. */
+	public void onOpenChanged(Level level, BlockPos pos, BlockState state, boolean open) {
+		AnimatedFurniture.setTarget(level, pos, state, OPEN, open);
 	}
 
 	@Override
@@ -71,6 +136,11 @@ public class StorageFurnitureBlock extends BaseEntityBlock {
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
 		return new StorageFurnitureBlockEntity(pos, state);
+	}
+
+	@Override
+	public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> type) {
+		return createTickerHelper(type, MoveisBlocks.STORAGE_BE, StorageFurnitureBlockEntity::tick);
 	}
 
 	@Override

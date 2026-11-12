@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tmoveis:block/mangrove_garden_bench"
+    },
+    "facing=east": {
+      "model": "tmoveis:block/mangrove_garden_bench",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tmoveis:block/mangrove_garden_bench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tmoveis:block/mangrove_garden_bench",
+      "y": 270
+    }
+  }
+}

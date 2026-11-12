@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tmoveis:poplar_cabinet",
+    "tmoveis:poplar_cabinet"
+  ],
+  "result": {
+    "id": "tmoveis:poplar_wardrobe"
+  },
+  "group": "tmoveis:wardrobe"
+}

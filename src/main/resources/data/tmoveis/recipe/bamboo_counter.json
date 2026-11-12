@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "P|P",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:smooth_stone_slab",
+    "P": "minecraft:bamboo_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:bamboo_counter",
+    "count": 2
+  },
+  "group": "tmoveis:counter"
+}

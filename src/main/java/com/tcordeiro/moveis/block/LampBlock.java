@@ -40,7 +40,7 @@ public abstract class LampBlock extends BaseEntityBlock {
 
 	/** O estado a pôr (com LIT já pela redstone); as subclasses acrescentam a orientação. */
 	protected BlockState placed(BlockPlaceContext ctx, BlockState st) {
-		return st.setValue(LIT, ctx.getLevel().hasNeighborSignal(ctx.getClickedPos()));
+		return powered(ctx.getLevel(), ctx.getClickedPos(), st, ctx.getLevel().getBestNeighborSignal(ctx.getClickedPos()), false);
 	}
 
 	@Override
@@ -50,17 +50,35 @@ public abstract class LampBlock extends BaseEntityBlock {
 
 	/** Acesa = redstone, ou energia (Industrial) no último tick. */
 	public static void refresh(Level level, BlockPos pos, BlockState state) {
+		if (!(state.getBlock() instanceof LampBlock lamp)) return;
 		boolean energy = level.getBlockEntity(pos) instanceof LampBlockEntity be && be.energized();
-		boolean lit = level.hasNeighborSignal(pos) || energy;
-		if (lit != state.getValue(LIT)) {
-			level.setBlock(pos, state.setValue(LIT, lit), Block.UPDATE_CLIENTS);
-			level.playSound(null, pos, lit ? SoundEvents.COPPER_BULB_TURN_ON : SoundEvents.COPPER_BULB_TURN_OFF, SoundSource.BLOCKS, 0.4f, 1.3f);
+		BlockState now = lamp.powered(level, pos, state, lamp.signal(level, pos, state), energy);
+		if (now != state) {
+			level.setBlock(pos, now, Block.UPDATE_CLIENTS);
+			boolean lit = now.getValue(LIT);
+			if (lit != state.getValue(LIT))
+				level.playSound(null, pos, lit ? SoundEvents.COPPER_BULB_TURN_ON : SoundEvents.COPPER_BULB_TURN_OFF, SoundSource.BLOCKS, 0.4f, 1.3f);
 		}
+	}
+
+	/** O sinal de redstone que acende esta lâmpada (0–15). */
+	protected int signal(Level level, BlockPos pos, BlockState state) {
+		return level.getBestNeighborSignal(pos);
+	}
+
+	/** O estado com este sinal/energia (o ventilador também guarda a velocidade). */
+	protected BlockState powered(Level level, BlockPos pos, BlockState state, int signal, boolean energy) {
+		return state.setValue(LIT, signal > 0 || energy);
+	}
+
+	/** Há redstone a acender (a energia só se gasta sem ela). */
+	public boolean hasRedstone(Level level, BlockPos pos, BlockState state) {
+		return signal(level, pos, state) > 0;
 	}
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return LampBlockEntity.create(pos, state);
+		return LampBlockEntity.create(MoveisBlocks.LAMP_BE, pos, state);
 	}
 
 	@Override

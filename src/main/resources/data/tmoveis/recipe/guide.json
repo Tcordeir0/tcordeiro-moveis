@@ -15,7 +15,7 @@
         "author": "Tcordeiro",
         "pages": [
           {
-            "raw": "§lGuia dos Móveis§r\n\nCadeiras, bancos, mesas, armários, gaveteiros, sofás, camas de casal e lâmpadas.\n\nOs móveis de madeira existem em todas as madeiras do jogo: troque as tábuas e a laje da receita."
+            "raw": "§lGuia dos Móveis§r\n\nCadeiras, mesas, armários, sofás, camas, lâmpadas e a casa toda: cozinha, quarto, banheiro e jardim.\n\nOs móveis de madeira existem em todas as madeiras do jogo: troque as tábuas e a laje da receita."
           },
           {
             "raw": "§lSentar§r\n\nClique direito numa cadeira, banco ou sofá para se sentar. Shift para se levantar.\n\nSó cabe uma pessoa por bloco. Partir o móvel levanta quem lá estiver."
@@ -64,6 +64,93 @@
           },
           {
             "raw": "§lCom energia§r\n\nCom o Industrial: ligue um Fio de Cobre ou cabo à lâmpada, ou encoste-a a uma bateria ou painel.\n\nGasta 1 J/t: um fio de 32 J/t dá para 32 lâmpadas."
+          },
+          {
+            "raw": "§lA casa toda§r\n\nCozinha, quarto, banheiro, sala e jardim.\n\nPortas, gavetas, tampas, cortinas e persianas abrem devagar, como a tampa do baú, e fecham sozinhas quando você sai do inventário."
+          },
+          {
+            "raw": "§lBancada§r\n\nTampo de pedra e armário de 9 espaços. Em L, o canto se ajeita sozinho. Dá 2."
+          },
+          {
+            "raw": "§lPia§r\n\nEncha com balde de água ou cano de fluidos (1 balde). Tire com balde ou frasco. Lava não entra."
+          },
+          {
+            "raw": "§lLixeira§r\n\n⚠ Os itens somem para sempre: ao fechar a lixeira, ou na hora se vierem de um funil."
+          },
+          {
+            "raw": "§lCriado-Mudo§r\n\n9 espaços. A gaveta de cima desliza enquanto o inventário está aberto."
+          },
+          {
+            "raw": "§lGuarda-Roupa§r\n\n2 armários da mesma madeira. 2 blocos de altura e 36 espaços."
+          },
+          {
+            "raw": "§lCortina§r\n\nClique para abrir ou fechar. Cortinas vizinhas viradas para o mesmo lado abrem juntas. Dá 2."
+          },
+          {
+            "raw": "§lPersiana§r\n\nClique para abrir ou fechar as folhas. Dá 2."
+          },
+          {
+            "raw": "§lEspelho§r\n\nDecoração de parede: clique na face de um bloco."
+          },
+          {
+            "raw": "§lRelógio§r\n\nNa parede. Os ponteiros mostram a hora do mundo, como o relógio de bolso."
+          },
+          {
+            "raw": "§lBeliche§r\n\nEscada e 2 camas da mesma cor. São 2 camas de verdade: cada uma dorme uma pessoa."
+          },
+          {
+            "raw": "§lVaso Sanitário§r\n\nClique para se sentar. Shift para levantar."
+          },
+          {
+            "raw": "§lBanheira§r\n\n2 blocos. Encha com baldes ou cano (até 3 baldes). Entrar na água apaga o fogo."
+          },
+          {
+            "raw": "§lLareira§r\n\nPonha lenha (paus ou troncos) e acenda com a Pederneira ou o Isqueiro do Clima. A pá apaga."
+          },
+          {
+            "raw": "§lLenha e calor§r\n\nUm tronco dura 1 minuto; um pau, 20 segundos. Sem lenha, apaga.\n\nCom o mod Clima, aquece a sala (6 blocos à volta).\n\n⚠ Queima quem encosta no fogo."
+          },
+          {
+            "raw": "§lVentilador§r\n\nNo teto. Gira com redstone (mais sinal, mais rápido) ou com energia do Industrial."
+          },
+          {
+            "raw": "§lVentilador e Clima§r\n\nCom o mod Clima, o ventilador a girar refresca a sala no verão (5 blocos à volta).\n\nA luz do ventilador acende junto."
+          },
+          {
+            "raw": "§lCaixa de Correio§r\n\nÉ de quem a põe. Qualquer um deixa itens; só o dono tira. A bandeirinha levanta com correio."
+          },
+          {
+            "raw": "§lMandar correio§r\n\nPara mandar itens a outro jogador, ponha-os na caixa de correio dele.\n\nSe ele estiver no mundo, recebe um aviso na hora; senão, quando entrar."
+          },
+          {
+            "raw": "§lEscrivaninha§r\n\n3 gavetas, 9 espaços. Lado a lado, juntam-se num tampo só."
+          },
+          {
+            "raw": "§lMesa de Centro§r\n\nClique com um item para o pôr em cima; com a mão vazia, tire."
+          },
+          {
+            "raw": "§lMesa Lateral§r\n\nPara o lado do sofá. Também mostra o item que puser em cima."
+          },
+          {
+            "raw": "§lBanco de Jardim§r\n\nPara sentar ao ar livre: clique, e Shift para levantar."
+          },
+          {
+            "raw": "§lFloreira§r\n\nFlores, mudas e sementes crescem nela como na terra arada molhada."
+          },
+          {
+            "raw": "§lAdega§r\n\n9 casas só para frascos e poções. Clique numa casa com o frasco; a mão vazia tira."
+          },
+          {
+            "raw": "§lLuminária de Chão§r\n\n2 blocos de altura. Acende com redstone ou energia do Industrial."
+          },
+          {
+            "raw": "§lPiano§r\n\n2 blocos. Cada tecla toca uma nota: as graves à esquerda, as agudas à direita."
+          },
+          {
+            "raw": "§lCofre-Forte§r\n\n27 espaços. Só o dono abre e parte. Explosões, funis e outros jogadores não o abrem."
+          },
+          {
+            "raw": "§lToldo§r\n\nDecoração de parede, por cima de janelas e portas. Dá 2."
           },
           {
             "raw": "§lMadeiras§r\n\nCarvalho, Abeto, Bétula, Selva, Acácia, Carvalho Escuro, Carvalho Pálido, Carmesim, Distorcida, Mangue, Bambu, Cerejeira, Álamo."

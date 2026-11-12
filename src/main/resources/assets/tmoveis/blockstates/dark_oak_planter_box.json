@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "moisture=0": {
+      "model": "tmoveis:block/dark_oak_planter_box"
+    },
+    "moisture=1": {
+      "model": "tmoveis:block/dark_oak_planter_box"
+    },
+    "moisture=2": {
+      "model": "tmoveis:block/dark_oak_planter_box"
+    },
+    "moisture=3": {
+      "model": "tmoveis:block/dark_oak_planter_box"
+    },
+    "moisture=4": {
+      "model": "tmoveis:block/dark_oak_planter_box"
+    },
+    "moisture=5": {
+      "model": "tmoveis:block/dark_oak_planter_box"
+    },
+    "moisture=6": {
+      "model": "tmoveis:block/dark_oak_planter_box"
+    },
+    "moisture=7": {
+      "model": "tmoveis:block/dark_oak_planter_box"
+    }
+  }
+}

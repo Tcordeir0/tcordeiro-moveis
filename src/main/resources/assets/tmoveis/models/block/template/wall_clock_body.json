@@ -1,0 +1,105 @@
+{
+ "parent": "block/block",
+ "textures": {
+  "pillow": "minecraft:block/white_wool",
+  "metal": "minecraft:block/iron_block"
+ },
+ "elements": [
+  {
+   "from": [
+    3,
+    3,
+    15
+   ],
+   "to": [
+    13,
+    13,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#planks"
+    },
+    "south": {
+     "texture": "#planks"
+    },
+    "east": {
+     "texture": "#planks"
+    },
+    "west": {
+     "texture": "#planks"
+    },
+    "up": {
+     "texture": "#planks"
+    },
+    "down": {
+     "texture": "#planks"
+    }
+   }
+  },
+  {
+   "from": [
+    4,
+    4,
+    14.5
+   ],
+   "to": [
+    12,
+    12,
+    15
+   ],
+   "faces": {
+    "north": {
+     "texture": "#pillow"
+    },
+    "south": {
+     "texture": "#pillow"
+    },
+    "east": {
+     "texture": "#pillow"
+    },
+    "west": {
+     "texture": "#pillow"
+    },
+    "up": {
+     "texture": "#pillow"
+    },
+    "down": {
+     "texture": "#pillow"
+    }
+   }
+  },
+  {
+   "from": [
+    7.5,
+    7.5,
+    13.6
+   ],
+   "to": [
+    8.5,
+    8.5,
+    13.9
+   ],
+   "faces": {
+    "north": {
+     "texture": "#metal"
+    },
+    "south": {
+     "texture": "#metal"
+    },
+    "east": {
+     "texture": "#metal"
+    },
+    "west": {
+     "texture": "#metal"
+    },
+    "up": {
+     "texture": "#metal"
+    },
+    "down": {
+     "texture": "#metal"
+    }
+   }
+  }
+ ]
+}

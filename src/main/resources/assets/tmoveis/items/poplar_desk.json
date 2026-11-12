@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "tmoveis:block/poplar_desk"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "tmoveis:block/poplar_desk_leg"
+      }
+    ]
+  }
+}

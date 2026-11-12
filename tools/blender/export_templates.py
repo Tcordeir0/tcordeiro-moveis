@@ -6,13 +6,19 @@ Só toca nos templates listados em MAP; mantém o bloco "display" que já exista
 """
 import json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
-from pecas import PIECES, BED
+from pecas import PIECES, BED, ANIM
 
 OUT = os.path.join(HERE, "..", "..", "src", "main", "resources", "assets", "tmoveis", "models", "block", "template")
 # variáveis do Blender -> variáveis do mod (o que o filho não define vem de DEFAULTS no próprio template)
 RENAME = {"#sheet": "#pillow"}
 DEFAULTS = {"#metal": "minecraft:block/iron_block", "#pillow": "minecraft:block/white_wool", "#shade": "minecraft:block/white_wool",
-            "#log": None}  # #log: os filhos já definem (stripped log)
+            "#log": None,  # #log: os filhos já definem (stripped log)
+            "#counter": "minecraft:block/smooth_stone", "#porcelain": "minecraft:block/quartz_block_side",
+            "#water": "minecraft:block/water_still", "#fire": "minecraft:block/fire_0", "#bricks": "minecraft:block/bricks",
+            "#black": "minecraft:block/black_concrete", "#flag": "minecraft:block/red_concrete",
+            "#mirror": "minecraft:block/light_blue_stained_glass", "#stone": "minecraft:block/stone",
+            "#soil": "minecraft:block/farmland_moist", "#bottle": "minecraft:block/green_stained_glass"}
+TINTED = {"#water"}  # a água é cinzenta na textura: o mod pinta-a (tintindex 0, TMoveisClient)
 
 def bed_quarter(x0, head):
     """Cama do mod: cabeceira a SUL (como a vanilla). pecas.BED tem a cabeceira a norte → espelha z (z' = 32 - z)."""
@@ -24,9 +30,34 @@ def bed_quarter(x0, head):
         if a < b and c < d: out.append((a - x0, y1, c - oz, b - x0, y2, d - oz, v))
     return out
 
-MAP = {n: PIECES[n] for n in ["chair", "stool", "table_top", "table_leg", "cabinet", "cabinet_open", "drawer", "drawer_open",
+MAP = {n: PIECES[n] for n in ["chair", "stool", "table_top", "table_leg", "cabinet", "drawer",
                               "sofa_single", "sofa_left", "sofa_right", "sofa_middle", "sofa_corner_inner", "sofa_corner_outer",
                               "chandelier", "wall_lamp", "table_lamp"]}
+# 0.2.0: peças novas (estáticas) e, para as animadas, o corpo e cada parte móvel (ANIM em pecas.py)
+for n in ["counter_corner", "sink", "sink_water", "trash_can", "nightstand", "wardrobe_bottom", "wardrobe_top", "curtain_closed",
+          "curtain_open", "mirror", "wall_clock", "toilet", "bathtub_head", "bathtub_foot", "bathtub_water_head", "bathtub_water_foot",
+          "fireplace", "fireplace_unlit", "ceiling_fan", "mailbox", "mailbox_full", "desk", "desk_leg", "coffee_table", "side_table",
+          "garden_bench", "planter_box", "shutters_closed", "shutters_open", "wine_rack", "wine_rack_body", "wine_rack_bottle",
+          "floor_lamp_bottom", "floor_lamp_top", "bunk_bed_bottom_head", "bunk_bed_bottom_foot", "bunk_bed_top_head",
+          "bunk_bed_top_foot", "piano_left", "piano_right", "piano_left_body", "piano_right_body", "piano_white_key", "piano_black_key",
+          "safe", "awning", "counter"]:
+    MAP[n] = PIECES[n]
+for kind, parts in ANIM.items():
+    MAP[kind + "_body"] = PIECES[kind + "_body"]
+    for p in parts: MAP[f"{kind}_{p[0]}"] = PIECES[f"{kind}_{p[0]}"]
+# itens de 2 blocos (composite): cada metade com a escala que cabe no ecrã (como a cama de casal)
+def _disp(gui, ground=0.18):
+    return {"gui": {"rotation": [30, 225, 0], "translation": [0, 0, 0], "scale": [gui] * 3},
+            "ground": {"rotation": [0, 0, 0], "translation": [0, 3, 0], "scale": [ground] * 3},
+            "fixed": {"rotation": [0, 180, 0], "translation": [0, 0, 0], "scale": [gui + 0.08] * 3},
+            "thirdperson_righthand": {"rotation": [75, 45, 0], "translation": [0, 2.5, 0], "scale": [gui * 0.7] * 3},
+            "firstperson_righthand": {"rotation": [0, 45, 0], "translation": [0, 0, 0], "scale": [gui * 0.8] * 3},
+            "firstperson_lefthand": {"rotation": [0, 225, 0], "translation": [0, 0, 0], "scale": [gui * 0.8] * 3}}
+DISPLAY = {}
+for n in ["wardrobe_bottom", "wardrobe_top", "floor_lamp_bottom", "floor_lamp_top", "piano_left", "piano_right", "bathtub_head", "bathtub_foot"]:
+    DISPLAY[n] = _disp(0.32)
+for n in ["bunk_bed_bottom_head", "bunk_bed_bottom_foot", "bunk_bed_top_head", "bunk_bed_top_foot"]:
+    DISPLAY[n] = _disp(0.25, 0.14)
 # lado «right» do mod = poste exterior em x = 0 → metade x 0..16 do desenho; «left» = metade 16..32
 MAP["double_bed_head_right"] = bed_quarter(0, True); MAP["double_bed_head_left"] = bed_quarter(16, True)
 MAP["double_bed_foot_right"] = bed_quarter(0, False); MAP["double_bed_foot_left"] = bed_quarter(16, False)
@@ -43,13 +74,15 @@ for name, boxes in MAP.items():
     els, used = [], set()
     for (x1, y1, z1, x2, y2, z2, v) in boxes:
         v = RENAME.get(v, v); used.add(v)
+        face = {"texture": v, "tintindex": 0} if v in TINTED else {"texture": v}
         els.append({"from": [r(x1), r(y1), r(z1)], "to": [r(x2), r(y2), r(z2)],
-                    "faces": {f: {"texture": v} for f in ("north", "south", "east", "west", "up", "down")}})
+                    "faces": {f: dict(face) for f in ("north", "south", "east", "west", "up", "down")}})
     tex = dict(old.get("textures", {}))
     for v in used:
         if DEFAULTS.get(v) and v[1:] not in tex: tex[v[1:]] = DEFAULTS[v]
     model = {}
-    if "display" in old: model["display"] = old["display"]
+    if name in DISPLAY: model["parent"] = "block/block"; model["display"] = DISPLAY[name]
+    elif "display" in old: model["display"] = old["display"]
     else: model["parent"] = "block/block"
     model["textures"] = tex; model["elements"] = els
     json.dump(model, open(path, "w"), indent=1)

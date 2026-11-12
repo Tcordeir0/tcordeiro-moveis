@@ -1,0 +1,7 @@
+{
+  "parent": "tmoveis:block/template/mirror",
+  "textures": {
+    "planks": "minecraft:block/dark_oak_planks",
+    "particle": "minecraft:block/dark_oak_planks"
+  }
+}

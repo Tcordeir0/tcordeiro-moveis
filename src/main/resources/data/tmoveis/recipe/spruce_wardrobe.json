@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tmoveis:spruce_cabinet",
+    "tmoveis:spruce_cabinet"
+  ],
+  "result": {
+    "id": "tmoveis:spruce_wardrobe"
+  },
+  "group": "tmoveis:wardrobe"
+}

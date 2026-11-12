@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "P P"
+  ],
+  "key": {
+    "P": "minecraft:pale_oak_planks",
+    "S": "minecraft:pale_oak_slab"
+  },
+  "result": {
+    "id": "tmoveis:pale_oak_nightstand"
+  },
+  "group": "tmoveis:nightstand"
+}

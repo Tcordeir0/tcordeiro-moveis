@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tmoveis:warped_cabinet",
+    "tmoveis:warped_cabinet"
+  ],
+  "result": {
+    "id": "tmoveis:warped_wardrobe"
+  },
+  "group": "tmoveis:wardrobe"
+}

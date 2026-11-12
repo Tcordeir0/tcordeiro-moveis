@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/safe",
+  "textures": {
+    "pillow": "minecraft:block/white_concrete",
+    "metal": "minecraft:block/iron_block",
+    "particle": "minecraft:block/iron_block"
+  }
+}

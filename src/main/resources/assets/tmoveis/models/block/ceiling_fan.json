@@ -1,0 +1,9 @@
+{
+  "parent": "tmoveis:block/template/ceiling_fan",
+  "textures": {
+    "planks": "minecraft:block/dark_oak_planks",
+    "metal": "minecraft:block/copper_block",
+    "particle": "minecraft:block/copper_block",
+    "light": "minecraft:block/redstone_lamp"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tmoveis:acacia_cabinet",
+    "tmoveis:acacia_cabinet"
+  ],
+  "result": {
+    "id": "tmoveis:acacia_wardrobe"
+  },
+  "group": "tmoveis:wardrobe"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    "PDP"
+  ],
+  "key": {
+    "P": "minecraft:poplar_planks",
+    "D": "minecraft:dirt"
+  },
+  "result": {
+    "id": "tmoveis:poplar_planter_box"
+  },
+  "group": "tmoveis:planter_box"
+}

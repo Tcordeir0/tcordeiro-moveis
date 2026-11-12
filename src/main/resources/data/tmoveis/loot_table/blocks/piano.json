@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tmoveis:piano",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "tmoveis:piano",
+            "state": {
+              "side": "right"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tmoveis:blocks/piano"
+}

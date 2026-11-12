@@ -1,47 +1,63 @@
 package com.tcordeiro.moveis.block.entity;
 
 import java.util.List;
+import java.util.UUID;
+import java.util.stream.IntStream;
 
+import com.tcordeiro.moveis.anim.Anim;
+import com.tcordeiro.moveis.block.AnimatedFurniture;
 import com.tcordeiro.moveis.block.StorageFurnitureBlock;
+import com.tcordeiro.moveis.block.StorageFurnitureBlock.Kind;
 import com.tcordeiro.moveis.registry.MoveisBlocks;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
+import net.minecraft.core.UUIDUtil;
 import net.minecraft.core.Vec3i;
 import net.minecraft.network.chat.Component;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.ContainerHelper;
+import net.minecraft.world.WorldlyContainer;
 import net.minecraft.world.entity.ContainerUser;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ChestMenu;
+import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.entity.ContainerOpenersCounter;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
 
-/** O inventário do armário/gaveteiro: 27 espaços, como o barril (o mesmo ecrã de 3 linhas, compatível com funis e comparadores). */
-public class StorageFurnitureBlockEntity extends RandomizableContainerBlockEntity {
-	public static final int SIZE = 27;
-	private NonNullList<ItemStack> items = NonNullList.withSize(SIZE, ItemStack.EMPTY);
+/**
+ * O inventário dos móveis de guardar: 9, 27 ou 36 espaços (os ecrãs de 1, 3 e 4 linhas do baú, com funis e comparadores). Guarda a
+ * animação das portas/gavetas ({@link Anim}) e, no cofre e na caixa de correio, o dono.
+ */
+public class StorageFurnitureBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer, Animated {
+	private NonNullList<ItemStack> items;
+	private final Anim anim;
+	private final int[] slots;
+	/** Dono (cofre, caixa de correio); null = sem dono. */
+	public UUID owner;
+	public String ownerName = "";
 
 	private final ContainerOpenersCounter openers = new ContainerOpenersCounter() {
 		@Override
 		protected void onOpen(Level level, BlockPos pos, BlockState state) {
 			playSound(state, true);
-			setOpen(state, true);
+			if (state.getBlock() instanceof StorageFurnitureBlock b) b.onOpenChanged(level, pos, state, true);
 		}
 
 		@Override
 		protected void onClose(Level level, BlockPos pos, BlockState state) {
 			playSound(state, false);
-			setOpen(state, false);
+			if (state.getBlock() instanceof StorageFurnitureBlock b) b.onOpenChanged(level, pos, state, false);
+			if (kind() == Kind.TRASH) clearContent(); // ⚠ a lixeira apaga tudo ao fechar
 		}
 
 		@Override
@@ -54,13 +70,47 @@ public class StorageFurnitureBlockEntity extends RandomizableContainerBlockEntit
 	};
 
 	public StorageFurnitureBlockEntity(BlockPos pos, BlockState state) {
-		super(MoveisBlocks.STORAGE_BE, pos, state);
+		this(MoveisBlocks.STORAGE_BE, pos, state);
+	}
+
+	protected StorageFurnitureBlockEntity(BlockEntityType<?> type, BlockPos pos, BlockState state) {
+		super(type, pos, state);
+		items = NonNullList.withSize(kindOf(state).size(), ItemStack.EMPTY);
+		slots = IntStream.range(0, items.size()).toArray();
+		anim = new Anim(AnimatedFurniture.initialTarget(state));
+	}
+
+	static Kind kindOf(BlockState state) {
+		return state.getBlock() instanceof StorageFurnitureBlock b ? b.kind : Kind.CABINET;
+	}
+
+	public Kind kind() {
+		return kindOf(getBlockState());
+	}
+
+	@Override
+	public Anim anim() {
+		return anim;
+	}
+
+	public boolean isOwner(Player player) {
+		return owner == null || owner.equals(player.getUUID());
+	}
+
+	public void setOwner(Player player) {
+		owner = player.getUUID();
+		ownerName = player.getName().getString();
+		setChanged();
 	}
 
 	@Override
 	protected void saveAdditional(ValueOutput output) {
 		super.saveAdditional(output);
 		if (!trySaveLootTable(output)) ContainerHelper.saveAllItems(output, items);
+		if (owner != null) {
+			output.store("owner", UUIDUtil.CODEC, owner);
+			output.putString("owner_name", ownerName);
+		}
 	}
 
 	@Override
@@ -68,11 +118,13 @@ public class StorageFurnitureBlockEntity extends RandomizableContainerBlockEntit
 		super.loadAdditional(input);
 		items = NonNullList.withSize(getContainerSize(), ItemStack.EMPTY);
 		if (!tryLoadLootTable(input)) ContainerHelper.loadAllItems(input, items);
+		owner = input.read("owner", UUIDUtil.CODEC).orElse(null);
+		ownerName = input.getStringOr("owner_name", "");
 	}
 
 	@Override
 	public int getContainerSize() {
-		return SIZE;
+		return slots.length;
 	}
 
 	@Override
@@ -90,10 +142,49 @@ public class StorageFurnitureBlockEntity extends RandomizableContainerBlockEntit
 		return getBlockState().getBlock().getName();
 	}
 
+	public static MenuType<ChestMenu> menuType(int rows) {
+		return switch (rows) {
+			case 1 -> MenuType.GENERIC_9x1;
+			case 2 -> MenuType.GENERIC_9x2;
+			case 4 -> MenuType.GENERIC_9x4;
+			case 5 -> MenuType.GENERIC_9x5;
+			case 6 -> MenuType.GENERIC_9x6;
+			default -> MenuType.GENERIC_9x3;
+		};
+	}
+
 	@Override
 	protected AbstractContainerMenu createMenu(int containerId, Inventory inventory) {
-		return ChestMenu.threeRows(containerId, inventory, this);
+		int rows = kind().rows;
+		return new ChestMenu(menuType(rows), containerId, inventory, this, rows);
 	}
+
+	/** A lixeira apaga o que um funil lá põe quando ninguém a tem aberta (⚠ some para sempre). */
+	@Override
+	public void setChanged() {
+		super.setChanged();
+		if (level != null && !level.isClientSide() && kind() == Kind.TRASH && openers.getOpenerCount() == 0 && !isEmpty()) clearContent();
+	}
+
+	// ---------------------------------------------------------------- funis
+
+	@Override
+	public int[] getSlotsForFace(Direction side) {
+		return kind() == Kind.SAFE ? new int[0] : slots;
+	}
+
+	@Override
+	public boolean canPlaceItemThroughFace(int slot, ItemStack stack, Direction side) {
+		return kind() != Kind.SAFE;
+	}
+
+	@Override
+	public boolean canTakeItemThroughFace(int slot, ItemStack stack, Direction side) {
+		Kind k = kind();
+		return k != Kind.SAFE && k != Kind.MAILBOX && k != Kind.TRASH;
+	}
+
+	// ---------------------------------------------------------------- abrir / fechar
 
 	@Override
 	public void startOpen(ContainerUser user) {
@@ -112,21 +203,22 @@ public class StorageFurnitureBlockEntity extends RandomizableContainerBlockEntit
 		return openers.getEntitiesWithContainerOpen(getLevel(), getBlockPos());
 	}
 
+	public int openerCount() {
+		return openers.getOpenerCount();
+	}
+
 	public void recheckOpen() {
 		if (!remove) openers.recheckOpeners(getLevel(), getBlockPos(), getBlockState());
 	}
 
-	private void setOpen(BlockState state, boolean open) {
-		if (level != null && state.hasProperty(StorageFurnitureBlock.OPEN)) level.setBlockAndUpdate(getBlockPos(), state.setValue(StorageFurnitureBlock.OPEN, open));
+	public static void tick(Level level, BlockPos pos, BlockState state, StorageFurnitureBlockEntity be) {
+		AnimatedFurniture.tickAnim(level, pos, state, be.anim);
 	}
 
-	/** Armário: portas de madeira; gaveteiro: o som do barril (madeira a deslizar). */
 	private void playSound(BlockState state, boolean open) {
-		if (level == null) return;
-		boolean cabinet = state.getBlock() instanceof StorageFurnitureBlock b && b.kind == StorageFurnitureBlock.Kind.CABINET;
-		SoundEvent ev = cabinet ? (open ? SoundEvents.WOODEN_DOOR_OPEN : SoundEvents.WOODEN_DOOR_CLOSE) : (open ? SoundEvents.BARREL_OPEN : SoundEvents.BARREL_CLOSE);
+		if (level == null || !state.hasProperty(StorageFurnitureBlock.FACING)) return;
 		Vec3i d = state.getValue(StorageFurnitureBlock.FACING).getUnitVec3i();
-		level.playSound(null, worldPosition.getX() + 0.5 + d.getX() / 2.0, worldPosition.getY() + 0.5, worldPosition.getZ() + 0.5 + d.getZ() / 2.0, ev,
-				SoundSource.BLOCKS, 0.5f, level.getRandom().nextFloat() * 0.1f + 0.9f);
+		level.playSound(null, worldPosition.getX() + 0.5 + d.getX() / 2.0, worldPosition.getY() + 0.5, worldPosition.getZ() + 0.5 + d.getZ() / 2.0,
+				kind().sound(open), SoundSource.BLOCKS, 0.5f, level.getRandom().nextFloat() * 0.1f + 0.9f);
 	}
 }

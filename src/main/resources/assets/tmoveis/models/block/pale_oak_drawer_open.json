@@ -1,8 +1,0 @@
-{
-  "parent": "tmoveis:block/template/drawer_open",
-  "textures": {
-    "planks": "minecraft:block/pale_oak_planks",
-    "log": "minecraft:block/stripped_pale_oak_log",
-    "particle": "minecraft:block/pale_oak_planks"
-  }
-}

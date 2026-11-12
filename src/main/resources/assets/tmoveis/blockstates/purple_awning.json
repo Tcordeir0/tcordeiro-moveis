@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tmoveis:block/purple_awning"
+    },
+    "facing=east": {
+      "model": "tmoveis:block/purple_awning",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tmoveis:block/purple_awning",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tmoveis:block/purple_awning",
+      "y": 270
+    }
+  }
+}

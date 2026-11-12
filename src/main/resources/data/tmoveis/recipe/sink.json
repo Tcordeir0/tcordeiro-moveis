@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "C C",
+    "PPP"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "C": "minecraft:smooth_stone_slab",
+    "P": "#minecraft:planks"
+  },
+  "result": {
+    "id": "tmoveis:sink"
+  }
+}

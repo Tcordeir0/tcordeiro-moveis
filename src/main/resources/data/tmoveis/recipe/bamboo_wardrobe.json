@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tmoveis:bamboo_cabinet",
+    "tmoveis:bamboo_cabinet"
+  ],
+  "result": {
+    "id": "tmoveis:bamboo_wardrobe"
+  },
+  "group": "tmoveis:wardrobe"
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "tmoveis:block/template/cabinet_open",
-  "textures": {
-    "planks": "minecraft:block/oak_planks",
-    "log": "minecraft:block/stripped_oak_log",
-    "particle": "minecraft:block/oak_planks"
-  }
-}

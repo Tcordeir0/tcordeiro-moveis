@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/counter_body",
+  "textures": {
+    "planks": "minecraft:block/bamboo_planks",
+    "log": "minecraft:block/stripped_bamboo_block",
+    "particle": "minecraft:block/bamboo_planks"
+  }
+}

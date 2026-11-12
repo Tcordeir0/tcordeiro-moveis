@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tmoveis:acacia_wardrobe",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "tmoveis:acacia_wardrobe",
+            "state": {
+              "half": "lower"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tmoveis:blocks/acacia_wardrobe"
+}

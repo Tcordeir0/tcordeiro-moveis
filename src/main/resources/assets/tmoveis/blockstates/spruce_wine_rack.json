@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tmoveis:block/spruce_wine_rack_body"
+    },
+    "facing=east": {
+      "model": "tmoveis:block/spruce_wine_rack_body",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tmoveis:block/spruce_wine_rack_body",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tmoveis:block/spruce_wine_rack_body",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    "PDP"
+  ],
+  "key": {
+    "P": "minecraft:pale_oak_planks",
+    "D": "minecraft:dirt"
+  },
+  "result": {
+    "id": "tmoveis:pale_oak_planter_box"
+  },
+  "group": "tmoveis:planter_box"
+}

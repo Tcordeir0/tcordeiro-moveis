@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tmoveis:mangrove_cabinet",
+    "tmoveis:mangrove_cabinet"
+  ],
+  "result": {
+    "id": "tmoveis:mangrove_wardrobe"
+  },
+  "group": "tmoveis:wardrobe"
+}

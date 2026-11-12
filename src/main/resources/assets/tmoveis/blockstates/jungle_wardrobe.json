@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "half=lower,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom"
+    },
+    "half=lower,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body"
+    },
+    "half=lower,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body"
+    },
+    "half=lower,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body"
+    },
+    "half=lower,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom",
+      "y": 90
+    },
+    "half=lower,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body",
+      "y": 90
+    },
+    "half=lower,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body",
+      "y": 90
+    },
+    "half=lower,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body",
+      "y": 90
+    },
+    "half=lower,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom",
+      "y": 180
+    },
+    "half=lower,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body",
+      "y": 180
+    },
+    "half=lower,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body",
+      "y": 180
+    },
+    "half=lower,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body",
+      "y": 180
+    },
+    "half=lower,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom",
+      "y": 270
+    },
+    "half=lower,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body",
+      "y": 270
+    },
+    "half=lower,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body",
+      "y": 270
+    },
+    "half=lower,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_bottom_body",
+      "y": 270
+    },
+    "half=upper,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_top"
+    },
+    "half=upper,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body"
+    },
+    "half=upper,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body"
+    },
+    "half=upper,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body"
+    },
+    "half=upper,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_top",
+      "y": 90
+    },
+    "half=upper,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body",
+      "y": 90
+    },
+    "half=upper,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body",
+      "y": 90
+    },
+    "half=upper,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body",
+      "y": 90
+    },
+    "half=upper,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_top",
+      "y": 180
+    },
+    "half=upper,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body",
+      "y": 180
+    },
+    "half=upper,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body",
+      "y": 180
+    },
+    "half=upper,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body",
+      "y": 180
+    },
+    "half=upper,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_top",
+      "y": 270
+    },
+    "half=upper,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body",
+      "y": 270
+    },
+    "half=upper,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body",
+      "y": 270
+    },
+    "half=upper,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/jungle_wardrobe_top_body",
+      "y": 270
+    }
+  }
+}

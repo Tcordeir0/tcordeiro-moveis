@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": "minecraft:bamboo_slab"
+  },
+  "result": {
+    "id": "tmoveis:bamboo_shutters",
+    "count": 2
+  },
+  "group": "tmoveis:shutters"
+}

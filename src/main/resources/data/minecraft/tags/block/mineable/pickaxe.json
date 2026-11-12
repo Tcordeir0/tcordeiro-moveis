@@ -3,6 +3,15 @@
   "values": [
     "tmoveis:chandelier",
     "tmoveis:wall_lamp",
-    "tmoveis:table_lamp"
+    "tmoveis:table_lamp",
+    "tmoveis:sink",
+    "tmoveis:trash_can",
+    "tmoveis:toilet",
+    "tmoveis:bathtub",
+    "tmoveis:fireplace",
+    "tmoveis:ceiling_fan",
+    "tmoveis:mailbox",
+    "tmoveis:floor_lamp",
+    "tmoveis:safe"
   ]
 }

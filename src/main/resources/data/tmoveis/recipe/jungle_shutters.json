@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": "minecraft:jungle_slab"
+  },
+  "result": {
+    "id": "tmoveis:jungle_shutters",
+    "count": 2
+  },
+  "group": "tmoveis:shutters"
+}

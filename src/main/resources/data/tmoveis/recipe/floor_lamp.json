@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "L",
+    "|",
+    "C"
+  ],
+  "key": {
+    "L": "tmoveis:table_lamp",
+    "|": "minecraft:stick",
+    "C": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "tmoveis:floor_lamp"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,playing=false,side=left": {
+      "model": "tmoveis:block/piano_left"
+    },
+    "facing=north,playing=false,side=right": {
+      "model": "tmoveis:block/piano_right"
+    },
+    "facing=north,playing=true,side=left": {
+      "model": "tmoveis:block/piano_left_body"
+    },
+    "facing=north,playing=true,side=right": {
+      "model": "tmoveis:block/piano_right_body"
+    },
+    "facing=east,playing=false,side=left": {
+      "model": "tmoveis:block/piano_left",
+      "y": 90
+    },
+    "facing=east,playing=false,side=right": {
+      "model": "tmoveis:block/piano_right",
+      "y": 90
+    },
+    "facing=east,playing=true,side=left": {
+      "model": "tmoveis:block/piano_left_body",
+      "y": 90
+    },
+    "facing=east,playing=true,side=right": {
+      "model": "tmoveis:block/piano_right_body",
+      "y": 90
+    },
+    "facing=south,playing=false,side=left": {
+      "model": "tmoveis:block/piano_left",
+      "y": 180
+    },
+    "facing=south,playing=false,side=right": {
+      "model": "tmoveis:block/piano_right",
+      "y": 180
+    },
+    "facing=south,playing=true,side=left": {
+      "model": "tmoveis:block/piano_left_body",
+      "y": 180
+    },
+    "facing=south,playing=true,side=right": {
+      "model": "tmoveis:block/piano_right_body",
+      "y": 180
+    },
+    "facing=west,playing=false,side=left": {
+      "model": "tmoveis:block/piano_left",
+      "y": 270
+    },
+    "facing=west,playing=false,side=right": {
+      "model": "tmoveis:block/piano_right",
+      "y": 270
+    },
+    "facing=west,playing=true,side=left": {
+      "model": "tmoveis:block/piano_left_body",
+      "y": 270
+    },
+    "facing=west,playing=true,side=right": {
+      "model": "tmoveis:block/piano_right_body",
+      "y": 270
+    }
+  }
+}

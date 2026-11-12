@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    " P ",
+    "P P"
+  ],
+  "key": {
+    "P": "minecraft:pale_oak_planks"
+  },
+  "result": {
+    "id": "tmoveis:pale_oak_wine_rack"
+  },
+  "group": "tmoveis:wine_rack"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    " P ",
+    "P P"
+  ],
+  "key": {
+    "P": "minecraft:crimson_planks"
+  },
+  "result": {
+    "id": "tmoveis:crimson_wine_rack"
+  },
+  "group": "tmoveis:wine_rack"
+}

@@ -1,0 +1,46 @@
+{
+ "parent": "block/block",
+ "textures": {
+  "water": "minecraft:block/water_still"
+ },
+ "elements": [
+  {
+   "from": [
+    1.5,
+    2,
+    0
+   ],
+   "to": [
+    14.5,
+    8,
+    14.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#water",
+     "tintindex": 0
+    },
+    "south": {
+     "texture": "#water",
+     "tintindex": 0
+    },
+    "east": {
+     "texture": "#water",
+     "tintindex": 0
+    },
+    "west": {
+     "texture": "#water",
+     "tintindex": 0
+    },
+    "up": {
+     "texture": "#water",
+     "tintindex": 0
+    },
+    "down": {
+     "texture": "#water",
+     "tintindex": 0
+    }
+   }
+  }
+ ]
+}

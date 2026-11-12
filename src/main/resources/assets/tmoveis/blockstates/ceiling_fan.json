@@ -1,0 +1,30 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "lit": "false",
+        "moving": "false"
+      },
+      "apply": {
+        "model": "tmoveis:block/ceiling_fan"
+      }
+    },
+    {
+      "when": {
+        "lit": "false",
+        "moving": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/ceiling_fan_body"
+      }
+    },
+    {
+      "when": {
+        "lit": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/ceiling_fan_body_lit"
+      }
+    }
+  ]
+}

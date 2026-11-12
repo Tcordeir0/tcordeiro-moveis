@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "N N"
+  ],
+  "key": {
+    "S": "minecraft:dark_oak_slab",
+    "N": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "tmoveis:dark_oak_garden_bench"
+  },
+  "group": "tmoveis:garden_bench"
+}

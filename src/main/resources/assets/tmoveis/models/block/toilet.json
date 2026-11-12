@@ -1,0 +1,7 @@
+{
+  "parent": "tmoveis:block/template/toilet",
+  "textures": {
+    "planks": "minecraft:block/birch_planks",
+    "particle": "minecraft:block/quartz_block_side"
+  }
+}

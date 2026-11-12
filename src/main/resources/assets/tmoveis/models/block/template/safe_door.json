@@ -1,0 +1,138 @@
+{
+ "parent": "block/block",
+ "textures": {
+  "pillow": "minecraft:block/white_wool",
+  "metal": "minecraft:block/iron_block",
+  "black": "minecraft:block/black_concrete"
+ },
+ "elements": [
+  {
+   "from": [
+    2,
+    1,
+    0.5
+   ],
+   "to": [
+    14,
+    14,
+    1
+   ],
+   "faces": {
+    "north": {
+     "texture": "#metal"
+    },
+    "south": {
+     "texture": "#metal"
+    },
+    "east": {
+     "texture": "#metal"
+    },
+    "west": {
+     "texture": "#metal"
+    },
+    "up": {
+     "texture": "#metal"
+    },
+    "down": {
+     "texture": "#metal"
+    }
+   }
+  },
+  {
+   "from": [
+    6,
+    6,
+    0
+   ],
+   "to": [
+    10,
+    10,
+    0.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#black"
+    },
+    "south": {
+     "texture": "#black"
+    },
+    "east": {
+     "texture": "#black"
+    },
+    "west": {
+     "texture": "#black"
+    },
+    "up": {
+     "texture": "#black"
+    },
+    "down": {
+     "texture": "#black"
+    }
+   }
+  },
+  {
+   "from": [
+    7.5,
+    9,
+    -0.2
+   ],
+   "to": [
+    8.5,
+    9.8,
+    0
+   ],
+   "faces": {
+    "north": {
+     "texture": "#pillow"
+    },
+    "south": {
+     "texture": "#pillow"
+    },
+    "east": {
+     "texture": "#pillow"
+    },
+    "west": {
+     "texture": "#pillow"
+    },
+    "up": {
+     "texture": "#pillow"
+    },
+    "down": {
+     "texture": "#pillow"
+    }
+   }
+  },
+  {
+   "from": [
+    11,
+    6.5,
+    0
+   ],
+   "to": [
+    12.5,
+    9.5,
+    0.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#black"
+    },
+    "south": {
+     "texture": "#black"
+    },
+    "east": {
+     "texture": "#black"
+    },
+    "west": {
+     "texture": "#black"
+    },
+    "up": {
+     "texture": "#black"
+    },
+    "down": {
+     "texture": "#black"
+    }
+   }
+  }
+ ]
+}

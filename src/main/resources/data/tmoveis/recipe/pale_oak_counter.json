@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "P|P",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:smooth_stone_slab",
+    "P": "minecraft:pale_oak_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:pale_oak_counter",
+    "count": 2
+  },
+  "group": "tmoveis:counter"
+}

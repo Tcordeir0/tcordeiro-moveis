@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "| |"
+  ],
+  "key": {
+    "W": "minecraft:green_wool",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:green_awning",
+    "count": 2
+  },
+  "group": "tmoveis:awning"
+}

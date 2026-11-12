@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": "#minecraft:planks",
+    "C": "minecraft:clock"
+  },
+  "result": {
+    "id": "tmoveis:wall_clock"
+  }
+}

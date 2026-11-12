@@ -34,6 +34,30 @@ final class TestUtil {
 		return ((BlockItem) stack.getItem()).place(new BlockPlaceContext(player, InteractionHand.MAIN_HAND, stack, hit));
 	}
 
+	/** Um jogador em modo sobrevivência (os baldes e as pilhas gastam-se como no jogo normal). */
+	static ServerPlayer survivor(GameTestHelper h, BlockPos rel) {
+		ServerPlayer p = playerAt(h, rel);
+		p.setGameMode(net.minecraft.world.level.GameType.SURVIVAL);
+		return p;
+	}
+
+	/** Usa o item na mão sobre o bloco, como o clique direito do jogo (bloco primeiro, depois o item). */
+	static InteractionResult useItem(GameTestHelper h, ServerPlayer p, BlockPos rel, ItemStack stack) {
+		return useItemAt(h, p, rel, stack, Vec3.atCenterOf(h.absolutePos(rel)));
+	}
+
+	static InteractionResult useItemAt(GameTestHelper h, ServerPlayer p, BlockPos rel, ItemStack stack, Vec3 hitAbs) {
+		p.setItemInHand(InteractionHand.MAIN_HAND, stack);
+		BlockPos abs = h.absolutePos(rel);
+		BlockHitResult hit = new BlockHitResult(hitAbs, Direction.UP, abs, false);
+		return p.gameMode.useItemOn(p, h.getLevel(), stack, InteractionHand.MAIN_HAND, hit);
+	}
+
+	/** Clique de mão vazia num ponto exato do bloco (piano, adega). */
+	static InteractionResult useEmptyAt(GameTestHelper h, ServerPlayer p, BlockPos rel, Vec3 hitAbs) {
+		return useItemAt(h, p, rel, ItemStack.EMPTY, hitAbs);
+	}
+
 	static ServerPlayer playerAt(GameTestHelper h, BlockPos rel) {
 		ServerPlayer p = h.makeMockServerPlayerInLevel();
 		Vec3 v = Vec3.atBottomCenterOf(h.absolutePos(rel));

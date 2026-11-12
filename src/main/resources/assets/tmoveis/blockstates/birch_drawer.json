@@ -1,33 +1,63 @@
 {
   "variants": {
-    "facing=north,open=false": {
+    "facing=north,moving=false,open=false": {
       "model": "tmoveis:block/birch_drawer"
     },
-    "facing=north,open=true": {
-      "model": "tmoveis:block/birch_drawer_open"
+    "facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/birch_drawer_body"
     },
-    "facing=east,open=false": {
+    "facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/birch_drawer_body"
+    },
+    "facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/birch_drawer_body"
+    },
+    "facing=east,moving=false,open=false": {
       "model": "tmoveis:block/birch_drawer",
       "y": 90
     },
-    "facing=east,open=true": {
-      "model": "tmoveis:block/birch_drawer_open",
+    "facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/birch_drawer_body",
       "y": 90
     },
-    "facing=south,open=false": {
+    "facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/birch_drawer_body",
+      "y": 90
+    },
+    "facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/birch_drawer_body",
+      "y": 90
+    },
+    "facing=south,moving=false,open=false": {
       "model": "tmoveis:block/birch_drawer",
       "y": 180
     },
-    "facing=south,open=true": {
-      "model": "tmoveis:block/birch_drawer_open",
+    "facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/birch_drawer_body",
       "y": 180
     },
-    "facing=west,open=false": {
+    "facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/birch_drawer_body",
+      "y": 180
+    },
+    "facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/birch_drawer_body",
+      "y": 180
+    },
+    "facing=west,moving=false,open=false": {
       "model": "tmoveis:block/birch_drawer",
       "y": 270
     },
-    "facing=west,open=true": {
-      "model": "tmoveis:block/birch_drawer_open",
+    "facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/birch_drawer_body",
+      "y": 270
+    },
+    "facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/birch_drawer_body",
+      "y": 270
+    },
+    "facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/birch_drawer_body",
       "y": 270
     }
   }

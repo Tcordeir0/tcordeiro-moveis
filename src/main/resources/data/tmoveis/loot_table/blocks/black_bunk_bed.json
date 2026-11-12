@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tmoveis:black_bunk_bed",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "tmoveis:black_bunk_bed",
+            "state": {
+              "half": "lower",
+              "part": "foot"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tmoveis:blocks/black_bunk_bed"
+}

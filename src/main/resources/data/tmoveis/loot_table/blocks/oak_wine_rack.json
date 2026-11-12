@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tmoveis:oak_wine_rack"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tmoveis:blocks/oak_wine_rack"
+}

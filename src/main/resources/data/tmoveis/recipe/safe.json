@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ITI",
+    "ICI",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "T": "minecraft:tripwire_hook",
+    "C": "minecraft:chest"
+  },
+  "result": {
+    "id": "tmoveis:safe"
+  }
+}

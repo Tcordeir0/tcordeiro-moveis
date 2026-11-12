@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tmoveis:crimson_desk"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tmoveis:blocks/crimson_desk"
+}

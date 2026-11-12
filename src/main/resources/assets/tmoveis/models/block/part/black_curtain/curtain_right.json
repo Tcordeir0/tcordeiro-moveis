@@ -1,0 +1,7 @@
+{
+  "parent": "tmoveis:block/template/curtain_right",
+  "textures": {
+    "wool": "minecraft:block/black_wool",
+    "particle": "minecraft:block/black_wool"
+  }
+}

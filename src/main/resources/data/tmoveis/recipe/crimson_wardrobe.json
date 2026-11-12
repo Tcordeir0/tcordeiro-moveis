@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tmoveis:crimson_cabinet",
+    "tmoveis:crimson_cabinet"
+  ],
+  "result": {
+    "id": "tmoveis:crimson_wardrobe"
+  },
+  "group": "tmoveis:wardrobe"
+}

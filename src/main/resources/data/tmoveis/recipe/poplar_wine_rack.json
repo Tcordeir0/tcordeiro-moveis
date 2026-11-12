@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    " P ",
+    "P P"
+  ],
+  "key": {
+    "P": "minecraft:poplar_planks"
+  },
+  "result": {
+    "id": "tmoveis:poplar_wine_rack"
+  },
+  "group": "tmoveis:wine_rack"
+}

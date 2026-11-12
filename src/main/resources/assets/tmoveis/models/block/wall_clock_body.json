@@ -1,0 +1,9 @@
+{
+  "parent": "tmoveis:block/template/wall_clock_body",
+  "textures": {
+    "planks": "minecraft:block/dark_oak_planks",
+    "pillow": "minecraft:block/white_concrete",
+    "metal": "minecraft:block/gold_block",
+    "particle": "minecraft:block/dark_oak_planks"
+  }
+}

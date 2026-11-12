@@ -1,0 +1,168 @@
+{
+ "parent": "block/block",
+ "textures": {
+  "metal": "minecraft:block/iron_block"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    15,
+    14
+   ],
+   "to": [
+    16,
+    16,
+    15
+   ],
+   "faces": {
+    "north": {
+     "texture": "#metal"
+    },
+    "south": {
+     "texture": "#metal"
+    },
+    "east": {
+     "texture": "#metal"
+    },
+    "west": {
+     "texture": "#metal"
+    },
+    "up": {
+     "texture": "#metal"
+    },
+    "down": {
+     "texture": "#metal"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    0,
+    14
+   ],
+   "to": [
+    3,
+    15,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#wool"
+    },
+    "south": {
+     "texture": "#wool"
+    },
+    "east": {
+     "texture": "#wool"
+    },
+    "west": {
+     "texture": "#wool"
+    },
+    "up": {
+     "texture": "#wool"
+    },
+    "down": {
+     "texture": "#wool"
+    }
+   }
+  },
+  {
+   "from": [
+    13,
+    0,
+    14
+   ],
+   "to": [
+    16,
+    15,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#wool"
+    },
+    "south": {
+     "texture": "#wool"
+    },
+    "east": {
+     "texture": "#wool"
+    },
+    "west": {
+     "texture": "#wool"
+    },
+    "up": {
+     "texture": "#wool"
+    },
+    "down": {
+     "texture": "#wool"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    8,
+    13.5
+   ],
+   "to": [
+    3,
+    9,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#wool"
+    },
+    "south": {
+     "texture": "#wool"
+    },
+    "east": {
+     "texture": "#wool"
+    },
+    "west": {
+     "texture": "#wool"
+    },
+    "up": {
+     "texture": "#wool"
+    },
+    "down": {
+     "texture": "#wool"
+    }
+   }
+  },
+  {
+   "from": [
+    13,
+    8,
+    13.5
+   ],
+   "to": [
+    16,
+    9,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#wool"
+    },
+    "south": {
+     "texture": "#wool"
+    },
+    "east": {
+     "texture": "#wool"
+    },
+    "west": {
+     "texture": "#wool"
+    },
+    "up": {
+     "texture": "#wool"
+    },
+    "down": {
+     "texture": "#wool"
+    }
+   }
+  }
+ ]
+}

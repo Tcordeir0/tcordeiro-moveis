@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "L",
+    "B",
+    "B"
+  ],
+  "key": {
+    "L": "minecraft:ladder",
+    "B": "minecraft:lime_bed"
+  },
+  "result": {
+    "id": "tmoveis:lime_bunk_bed"
+  },
+  "group": "tmoveis:bunk_bed"
+}

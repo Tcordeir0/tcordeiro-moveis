@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tmoveis:cherry_cabinet",
+    "tmoveis:cherry_cabinet"
+  ],
+  "result": {
+    "id": "tmoveis:cherry_wardrobe"
+  },
+  "group": "tmoveis:wardrobe"
+}

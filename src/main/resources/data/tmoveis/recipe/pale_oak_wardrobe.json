@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tmoveis:pale_oak_cabinet",
+    "tmoveis:pale_oak_cabinet"
+  ],
+  "result": {
+    "id": "tmoveis:pale_oak_wardrobe"
+  },
+  "group": "tmoveis:wardrobe"
+}

@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=north,half=lower,occupied=false,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_head"
+    },
+    "facing=north,half=lower,occupied=true,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_head"
+    },
+    "facing=east,half=lower,occupied=false,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_head",
+      "y": 90
+    },
+    "facing=east,half=lower,occupied=true,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_head",
+      "y": 90
+    },
+    "facing=south,half=lower,occupied=false,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_head",
+      "y": 180
+    },
+    "facing=south,half=lower,occupied=true,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_head",
+      "y": 180
+    },
+    "facing=west,half=lower,occupied=false,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_head",
+      "y": 270
+    },
+    "facing=west,half=lower,occupied=true,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_head",
+      "y": 270
+    },
+    "facing=north,half=lower,occupied=false,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_foot"
+    },
+    "facing=north,half=lower,occupied=true,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_foot"
+    },
+    "facing=east,half=lower,occupied=false,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_foot",
+      "y": 90
+    },
+    "facing=east,half=lower,occupied=true,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_foot",
+      "y": 90
+    },
+    "facing=south,half=lower,occupied=false,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_foot",
+      "y": 180
+    },
+    "facing=south,half=lower,occupied=true,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_foot",
+      "y": 180
+    },
+    "facing=west,half=lower,occupied=false,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_foot",
+      "y": 270
+    },
+    "facing=west,half=lower,occupied=true,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_bottom_foot",
+      "y": 270
+    },
+    "facing=north,half=upper,occupied=false,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_top_head"
+    },
+    "facing=north,half=upper,occupied=true,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_top_head"
+    },
+    "facing=east,half=upper,occupied=false,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_top_head",
+      "y": 90
+    },
+    "facing=east,half=upper,occupied=true,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_top_head",
+      "y": 90
+    },
+    "facing=south,half=upper,occupied=false,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_top_head",
+      "y": 180
+    },
+    "facing=south,half=upper,occupied=true,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_top_head",
+      "y": 180
+    },
+    "facing=west,half=upper,occupied=false,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_top_head",
+      "y": 270
+    },
+    "facing=west,half=upper,occupied=true,part=head": {
+      "model": "tmoveis:block/red_bunk_bed_top_head",
+      "y": 270
+    },
+    "facing=north,half=upper,occupied=false,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_top_foot"
+    },
+    "facing=north,half=upper,occupied=true,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_top_foot"
+    },
+    "facing=east,half=upper,occupied=false,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_top_foot",
+      "y": 90
+    },
+    "facing=east,half=upper,occupied=true,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_top_foot",
+      "y": 90
+    },
+    "facing=south,half=upper,occupied=false,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_top_foot",
+      "y": 180
+    },
+    "facing=south,half=upper,occupied=true,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_top_foot",
+      "y": 180
+    },
+    "facing=west,half=upper,occupied=false,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_top_foot",
+      "y": 270
+    },
+    "facing=west,half=upper,occupied=true,part=foot": {
+      "model": "tmoveis:block/red_bunk_bed_top_foot",
+      "y": 270
+    }
+  }
+}

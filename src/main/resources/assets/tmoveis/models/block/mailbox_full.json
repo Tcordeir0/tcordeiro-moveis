@@ -1,0 +1,7 @@
+{
+  "parent": "tmoveis:block/template/mailbox_full",
+  "textures": {
+    "planks": "minecraft:block/oak_planks",
+    "particle": "minecraft:block/iron_block"
+  }
+}

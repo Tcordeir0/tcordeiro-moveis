@@ -1,0 +1,6 @@
+{
+  "parent": "tmoveis:block/template/bathtub_water_foot",
+  "textures": {
+    "particle": "minecraft:block/quartz_block_side"
+  }
+}

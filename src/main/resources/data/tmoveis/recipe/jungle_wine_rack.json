@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    " P ",
+    "P P"
+  ],
+  "key": {
+    "P": "minecraft:jungle_planks"
+  },
+  "result": {
+    "id": "tmoveis:jungle_wine_rack"
+  },
+  "group": "tmoveis:wine_rack"
+}

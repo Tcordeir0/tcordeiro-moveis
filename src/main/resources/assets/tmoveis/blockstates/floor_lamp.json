@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "half=lower,lit=false": {
+      "model": "tmoveis:block/floor_lamp_bottom"
+    },
+    "half=lower,lit=true": {
+      "model": "tmoveis:block/floor_lamp_bottom_lit"
+    },
+    "half=upper,lit=false": {
+      "model": "tmoveis:block/floor_lamp_top"
+    },
+    "half=upper,lit=true": {
+      "model": "tmoveis:block/floor_lamp_top_lit"
+    }
+  }
+}

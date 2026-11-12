@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "| |"
+  ],
+  "key": {
+    "P": "minecraft:jungle_planks",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:jungle_coffee_table"
+  },
+  "group": "tmoveis:coffee_table"
+}

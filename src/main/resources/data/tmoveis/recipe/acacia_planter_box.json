@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    "PDP"
+  ],
+  "key": {
+    "P": "minecraft:acacia_planks",
+    "D": "minecraft:dirt"
+  },
+  "result": {
+    "id": "tmoveis:acacia_planter_box"
+  },
+  "group": "tmoveis:planter_box"
+}

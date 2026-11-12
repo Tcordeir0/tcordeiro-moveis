@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": "minecraft:mangrove_slab"
+  },
+  "result": {
+    "id": "tmoveis:mangrove_shutters",
+    "count": 2
+  },
+  "group": "tmoveis:shutters"
+}

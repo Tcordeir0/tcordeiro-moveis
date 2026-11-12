@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "P P"
+  ],
+  "key": {
+    "P": "minecraft:acacia_planks",
+    "S": "minecraft:acacia_slab"
+  },
+  "result": {
+    "id": "tmoveis:acacia_nightstand"
+  },
+  "group": "tmoveis:nightstand"
+}

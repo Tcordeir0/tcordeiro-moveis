@@ -1,0 +1,168 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north",
+        "part": "head"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_head"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "part": "head",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_water_head"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "part": "head"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_head",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "part": "head",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_water_head",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "part": "head"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_head",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "part": "head",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_water_head",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "part": "head"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_head",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "part": "head",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_water_head",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "part": "foot"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_foot"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "part": "foot",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_water_foot"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "part": "foot"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_foot",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "part": "foot",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_water_foot",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "part": "foot"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_foot",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "part": "foot",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_water_foot",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "part": "foot"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_foot",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "part": "foot",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/bathtub_water_foot",
+        "y": 270
+      }
+    }
+  ]
+}

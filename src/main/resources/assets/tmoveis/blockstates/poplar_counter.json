@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "corner=false,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/poplar_counter"
+    },
+    "corner=false,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/poplar_counter_body"
+    },
+    "corner=false,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/poplar_counter_body"
+    },
+    "corner=false,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/poplar_counter_body"
+    },
+    "corner=true,facing=north,moving=false,open=false": {
+      "model": "tmoveis:block/poplar_counter_corner"
+    },
+    "corner=true,facing=north,moving=true,open=false": {
+      "model": "tmoveis:block/poplar_counter_corner_body"
+    },
+    "corner=true,facing=north,moving=false,open=true": {
+      "model": "tmoveis:block/poplar_counter_corner_body"
+    },
+    "corner=true,facing=north,moving=true,open=true": {
+      "model": "tmoveis:block/poplar_counter_corner_body"
+    },
+    "corner=false,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/poplar_counter",
+      "y": 90
+    },
+    "corner=false,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/poplar_counter_body",
+      "y": 90
+    },
+    "corner=false,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/poplar_counter_body",
+      "y": 90
+    },
+    "corner=false,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/poplar_counter_body",
+      "y": 90
+    },
+    "corner=true,facing=east,moving=false,open=false": {
+      "model": "tmoveis:block/poplar_counter_corner",
+      "y": 90
+    },
+    "corner=true,facing=east,moving=true,open=false": {
+      "model": "tmoveis:block/poplar_counter_corner_body",
+      "y": 90
+    },
+    "corner=true,facing=east,moving=false,open=true": {
+      "model": "tmoveis:block/poplar_counter_corner_body",
+      "y": 90
+    },
+    "corner=true,facing=east,moving=true,open=true": {
+      "model": "tmoveis:block/poplar_counter_corner_body",
+      "y": 90
+    },
+    "corner=false,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/poplar_counter",
+      "y": 180
+    },
+    "corner=false,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/poplar_counter_body",
+      "y": 180
+    },
+    "corner=false,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/poplar_counter_body",
+      "y": 180
+    },
+    "corner=false,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/poplar_counter_body",
+      "y": 180
+    },
+    "corner=true,facing=south,moving=false,open=false": {
+      "model": "tmoveis:block/poplar_counter_corner",
+      "y": 180
+    },
+    "corner=true,facing=south,moving=true,open=false": {
+      "model": "tmoveis:block/poplar_counter_corner_body",
+      "y": 180
+    },
+    "corner=true,facing=south,moving=false,open=true": {
+      "model": "tmoveis:block/poplar_counter_corner_body",
+      "y": 180
+    },
+    "corner=true,facing=south,moving=true,open=true": {
+      "model": "tmoveis:block/poplar_counter_corner_body",
+      "y": 180
+    },
+    "corner=false,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/poplar_counter",
+      "y": 270
+    },
+    "corner=false,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/poplar_counter_body",
+      "y": 270
+    },
+    "corner=false,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/poplar_counter_body",
+      "y": 270
+    },
+    "corner=false,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/poplar_counter_body",
+      "y": 270
+    },
+    "corner=true,facing=west,moving=false,open=false": {
+      "model": "tmoveis:block/poplar_counter_corner",
+      "y": 270
+    },
+    "corner=true,facing=west,moving=true,open=false": {
+      "model": "tmoveis:block/poplar_counter_corner_body",
+      "y": 270
+    },
+    "corner=true,facing=west,moving=false,open=true": {
+      "model": "tmoveis:block/poplar_counter_corner_body",
+      "y": 270
+    },
+    "corner=true,facing=west,moving=true,open=true": {
+      "model": "tmoveis:block/poplar_counter_corner_body",
+      "y": 270
+    }
+  }
+}

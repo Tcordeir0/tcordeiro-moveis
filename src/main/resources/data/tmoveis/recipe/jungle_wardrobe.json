@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tmoveis:jungle_cabinet",
+    "tmoveis:jungle_cabinet"
+  ],
+  "result": {
+    "id": "tmoveis:jungle_wardrobe"
+  },
+  "group": "tmoveis:wardrobe"
+}

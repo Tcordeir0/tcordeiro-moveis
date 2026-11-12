@@ -23,12 +23,12 @@ public class PoweredLampBlockEntity extends LampBlockEntity implements EnergyNod
 	private final EnergyBuffer buffer = new EnergyBuffer(CAPACITY, MAX_IN, 0);
 	private boolean energized;
 
-	public PoweredLampBlockEntity(BlockPos pos, BlockState state) {
-		super(pos, state);
+	public PoweredLampBlockEntity(net.minecraft.world.level.block.entity.BlockEntityType<?> type, BlockPos pos, BlockState state) {
+		super(type, pos, state);
 	}
 
-	public static LampBlockEntity create(BlockPos pos, BlockState state) {
-		return new PoweredLampBlockEntity(pos, state);
+	public static LampBlockEntity create(net.minecraft.world.level.block.entity.BlockEntityType<?> type, BlockPos pos, BlockState state) {
+		return new PoweredLampBlockEntity(type, pos, state);
 	}
 
 	@Override
@@ -55,7 +55,7 @@ public class PoweredLampBlockEntity extends LampBlockEntity implements EnergyNod
 	protected void tickEnergy(Level level, BlockPos pos, BlockState state) {
 		buffer.newTick();
 		// com redstone já está acesa: não gasta
-		energized = !level.hasNeighborSignal(pos) && buffer.consume(COST);
+		energized = !(state.getBlock() instanceof com.tcordeiro.moveis.block.LampBlock lamp && lamp.hasRedstone(level, pos, state)) && buffer.consume(COST);
 		if (energized) setChanged();
 	}
 

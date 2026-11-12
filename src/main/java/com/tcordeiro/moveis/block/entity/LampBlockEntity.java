@@ -6,7 +6,10 @@ import com.tcordeiro.moveis.registry.MoveisBlocks;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
+import com.tcordeiro.moveis.anim.Spin;
+
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 
 /**
@@ -17,13 +20,24 @@ public class LampBlockEntity extends BlockEntity {
 	/** Consumo com energia: 1 J/t (o Fio de Cobre leva 32 J/t: dá para 32 lâmpadas num fio, menos a perda). */
 	public static final long COST = 1;
 
+	/** As pás do ventilador (só o ventilador as usa; nas lâmpadas fica parado). */
+	public final Spin spin = new Spin();
+
+	public LampBlockEntity(BlockEntityType<?> type, BlockPos pos, BlockState state) {
+		super(type, pos, state);
+	}
+
 	public LampBlockEntity(BlockPos pos, BlockState state) {
-		super(MoveisBlocks.LAMP_BE, pos, state);
+		this(MoveisBlocks.LAMP_BE, pos, state);
 	}
 
 	/** Com o Industrial: a versão que aceita energia (a classe só é carregada se ele existir). */
+	public static LampBlockEntity create(BlockEntityType<?> type, BlockPos pos, BlockState state) {
+		return TMoveis.INDUSTRIAL ? com.tcordeiro.moveis.compat.PoweredLampBlockEntity.create(type, pos, state) : new LampBlockEntity(type, pos, state);
+	}
+
 	public static LampBlockEntity create(BlockPos pos, BlockState state) {
-		return TMoveis.INDUSTRIAL ? com.tcordeiro.moveis.compat.PoweredLampBlockEntity.create(pos, state) : new LampBlockEntity(pos, state);
+		return create(MoveisBlocks.LAMP_BE, pos, state);
 	}
 
 	/** Recebeu energia suficiente no último tick? */

@@ -1,0 +1,177 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "moving": "false"
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "OR": [
+              {
+                "open": "true"
+              },
+              {
+                "moving": "true"
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk_body"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "joined": "false"
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk_leg"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "moving": "false"
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "OR": [
+              {
+                "open": "true"
+              },
+              {
+                "moving": "true"
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk_body",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "joined": "false"
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk_leg",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "moving": "false"
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "OR": [
+              {
+                "open": "true"
+              },
+              {
+                "moving": "true"
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk_body",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "joined": "false"
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk_leg",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "moving": "false"
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "OR": [
+              {
+                "open": "true"
+              },
+              {
+                "moving": "true"
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk_body",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "joined": "false"
+      },
+      "apply": {
+        "model": "tmoveis:block/cherry_desk_leg",
+        "y": 270
+      }
+    }
+  ]
+}

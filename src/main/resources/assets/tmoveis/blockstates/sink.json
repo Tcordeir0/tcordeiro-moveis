@@ -1,0 +1,78 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "tmoveis:block/sink"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/sink_water"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "tmoveis:block/sink",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/sink_water",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "tmoveis:block/sink",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/sink_water",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "tmoveis:block/sink",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "water": "true"
+      },
+      "apply": {
+        "model": "tmoveis:block/sink_water",
+        "y": 270
+      }
+    }
+  ]
+}

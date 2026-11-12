@@ -1,0 +1,8 @@
+{
+  "parent": "tmoveis:block/template/bunk_bed_bottom_head",
+  "textures": {
+    "wool": "minecraft:block/purple_wool",
+    "particle": "minecraft:block/purple_wool",
+    "planks": "minecraft:block/oak_planks"
+  }
+}

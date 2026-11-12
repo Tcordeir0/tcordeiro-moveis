@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S",
+    "|",
+    "S"
+  ],
+  "key": {
+    "S": "minecraft:mangrove_slab",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "tmoveis:mangrove_side_table"
+  },
+  "group": "tmoveis:side_table"
+}

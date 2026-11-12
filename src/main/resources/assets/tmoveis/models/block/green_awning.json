@@ -1,0 +1,7 @@
+{
+  "parent": "tmoveis:block/template/awning",
+  "textures": {
+    "wool": "minecraft:block/green_wool",
+    "particle": "minecraft:block/green_wool"
+  }
+}

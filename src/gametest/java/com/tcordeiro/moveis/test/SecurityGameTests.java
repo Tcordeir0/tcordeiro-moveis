@@ -72,6 +72,13 @@ public class SecurityGameTests {
 		h.getLevel().explode(null, c.x + 1, c.y, c.z, 4f, Level.ExplosionInteraction.TNT);
 		h.assertBlockPresent(MoveisBlocks.MAILBOX, p);
 		h.assertValueEqual(h.getBlockEntity(p, MailboxBlockEntity.class).countItem(Items.DIAMOND), 4, "a explosão não tirou o correio");
+		// as duas camadas, cada uma sozinha: a resistência (a explosão nem a escolhe) e onExplosionHit (mesmo que a escolha, não parte)
+		h.assertTrue(MoveisBlocks.MAILBOX.getExplosionResistance() >= 1200f, "resistência da obsidiana");
+		var boom = new net.minecraft.world.level.ServerExplosion(h.getLevel(), null, null, null, c, 4f, false,
+				net.minecraft.world.level.Explosion.BlockInteraction.DESTROY);
+		h.getBlockState(p).onExplosionHit(h.getLevel(), h.absolutePos(p), boom, (st, at) -> {});
+		h.assertBlockPresent(MoveisBlocks.MAILBOX, p);
+		h.assertValueEqual(h.getBlockEntity(p, MailboxBlockEntity.class).countItem(Items.DIAMOND), 4, "escolhida pela explosão, não parte");
 		h.assertTrue(h.getBlockState(p).is(BlockTags.WITHER_IMMUNE) && h.getBlockState(p).is(BlockTags.DRAGON_IMMUNE), "nem o Wither nem o dragão");
 		h.setBlock(p.east(), MoveisBlocks.SAFE);
 		h.assertTrue(h.getBlockState(p.east()).is(BlockTags.WITHER_IMMUNE), "o cofre também");

@@ -7,6 +7,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.util.Mth;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityDimensions;
@@ -25,8 +26,15 @@ import net.minecraft.world.phys.Vec3;
  * sofá. Sai com Shift (o desmontar normal do jogo). Desaparece sozinha quando fica vazia ou quando o bloco deixa de ser um assento
  * (partido, explodido, empurrado). Tem de poder ser gravada (o jogo só deixa montar entidades graváveis); se ficar gravada vazia,
  * apaga-se no primeiro tick ao carregar o mundo.
+ * <p>
+ * 0.3.1: quem está sentado tem o corpo virado para a frente do móvel (o yaw desta entidade) e a cabeça só roda até
+ * {@link #TURN_LIMIT} para cada lado, como no barco. Corre nos dois lados: no cliente (onPassengerTurned, quando o rato mexe) e
+ * em cada tick (positionRider).
  */
 public class SeatEntity extends Entity {
+	/** Quanto a cabeça de quem está sentado pode rodar para cada lado da frente do móvel, em graus. */
+	public static final float TURN_LIMIT = 90f;
+
 	public SeatEntity(EntityType<? extends SeatEntity> type, Level level) {
 		super(type, level);
 		this.noPhysics = true;
@@ -67,6 +75,32 @@ public class SeatEntity extends Entity {
 	@Override
 	protected Vec3 getPassengerAttachmentPoint(Entity passenger, EntityDimensions dimensions, float scale) {
 		return Vec3.ZERO;
+	}
+
+	/** O yaw {@code yaw} limitado a ±{@link #TURN_LIMIT} em volta de {@code seatYaw} (mantém as voltas inteiras do yaw original). */
+	public static float clampYaw(float seatYaw, float yaw) {
+		float d = Mth.wrapDegrees(yaw - seatYaw);
+		return yaw + Mth.clamp(d, -TURN_LIMIT, TURN_LIMIT) - d;
+	}
+
+	/** Corpo para a frente do móvel; cabeça (e câmara) dentro do limite. */
+	protected void clampRotation(Entity passenger) {
+		passenger.setYBodyRot(getYRot());
+		float y = clampYaw(getYRot(), passenger.getYRot());
+		passenger.yRotO += y - passenger.getYRot();
+		passenger.setYRot(y);
+		passenger.setYHeadRot(y);
+	}
+
+	@Override
+	protected void positionRider(Entity passenger, Entity.MoveFunction moveFunction) {
+		super.positionRider(passenger, moveFunction);
+		clampRotation(passenger);
+	}
+
+	@Override
+	public void onPassengerTurned(Entity passenger) {
+		clampRotation(passenger);
 	}
 
 	/** Ao levantar: ao lado do móvel, num sítio seguro; se não houver, em cima dele. */

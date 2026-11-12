@@ -2,7 +2,7 @@
 
 Mod Fabric para Minecraft Java **26.3** (Fabric Loader 0.20.1, Fabric API 0.165.0+26.3, Java 25).
 
-- **Cadeira** e **Banco** — clique direito para sentar, Shift para levantar. Cadeira vira para onde você olha ao pôr.
+- **Cadeira** e **Banco** — clique direito para sentar, Shift para levantar. Cadeira vira para onde você olha ao pôr; sentado, fica virado para a frente do móvel e a cabeça roda até 90° para cada lado.
 - **Mesa** — junta-se às vizinhas; as pernas só aparecem nos cantos de fora.
 - **Armário** e **Gaveteiro** — 27 espaços, abrem as portas/gaveta, funis e comparadores, o conteúdo cai ao quebrar.
 - **Sofá** (16 cores) — emenda com os vizinhos (pontas, meio, canto de dentro e de fora) e dá para sentar.

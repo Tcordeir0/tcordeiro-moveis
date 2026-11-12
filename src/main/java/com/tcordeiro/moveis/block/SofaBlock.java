@@ -8,6 +8,7 @@ import com.tcordeiro.moveis.entity.SeatEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.util.Mth;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
@@ -144,7 +145,17 @@ public class SofaBlock extends Block implements SeatBlock {
 
 	@Override
 	public float seatYaw(BlockState state, Player player) {
-		return state.getValue(FACING).toYRot();
+		return seatYaw(state);
+	}
+
+	/**
+	 * Para onde se olha sentado. Reto: FACING. Cantos: na diagonal, entre os dois lados abertos. O modelo de canto (virado para
+	 * {@link #modelFacing}) tem o encosto atrás e à esquerda (de dentro) ou o pilar atrás-esquerda (de fora), por isso a diagonal
+	 * livre é sempre a frente-direita dele: modelFacing + 45°. Dá o mesmo para os dois cantos de dentro e os dois de fora.
+	 */
+	public static float seatYaw(BlockState state) {
+		if (!state.getValue(SHAPE).corner()) return state.getValue(FACING).toYRot();
+		return Mth.wrapDegrees(modelFacing(state).toYRot() + 45f);
 	}
 
 	@Override

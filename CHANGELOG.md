@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.1 — 12/11/2026 — correções do teste no jogo
+
+- **Sentar virado para a frente do móvel.** Antes o jogador ficava virado para onde estava a olhar ao clicar: na cadeira de costas
+  para a mesa, com as pernas a sair pelo encosto; no sofá com as pernas a sair pelo braço. Agora, ao sentar, o jogador é rodado
+  para a frente do móvel (o servidor manda a rotação ao cliente) e, enquanto está sentado, o corpo fica para a frente e a cabeça
+  só roda até 90° para cada lado (como no barco). Vale para cadeira, banco, sofá, banco de jardim e vaso sanitário.
+- **Cantos do sofá:** quem se senta num canto (de dentro ou de fora) olha na diagonal, entre os dois lados abertos.
+- **Ícones do Lustre e da Arandela** maiores e centrados na barra de atalhos e no inventário (também no chão e na moldura).
+- 83 GameTests (4 novos: rotação ao sentar na cadeira, sofá e vaso sanitário; cantos do sofá; limite de ±90°) + 32 testes JUnit.
+
 ## 0.3.0 — 12/11/2026 — madeira e verniz
 
 - **Verniz em 7 tons** (Natural, Mel, Nogueira, Mogno, Ébano, Laca Branca, Laca Preta): um Pincel de Verniz por tom (`tmoveis:varnish_brush_<tom>`, 64 demãos). Clique direito em tábuas, escadas e lajes de qualquer madeira, nos blocos novos e nos móveis: a madeira continua a mesma (o carvalho continua carvalho) e mantém os estados (lado, metade, forma, tipo da laje, água).

@@ -14,7 +14,7 @@ public interface SeatBlock {
 	/** Altura do assento, em blocos (o jogador fica sentado aqui). */
 	double seatHeight(BlockState state);
 
-	/** Para onde o jogador fica virado ao sentar. */
+	/** Para onde o jogador fica virado ao sentar (a frente do móvel; o corpo fica assim e a cabeça roda até ±90°). */
 	float seatYaw(BlockState state, Player player);
 
 	/** Senta o jogador. Agachado não senta (deixa pôr blocos em cima, como nas mesas de trabalho). */
@@ -25,9 +25,17 @@ public interface SeatBlock {
 			player.sendOverlayMessage(Component.translatable("message.tmoveis.occupied"));
 			return InteractionResult.SUCCESS;
 		}
-		SeatEntity seat = SeatEntity.create(level, pos, block.seatHeight(state), block.seatYaw(state, player));
+		float yaw = block.seatYaw(state, player);
+		SeatEntity seat = SeatEntity.create(level, pos, block.seatHeight(state), yaw);
 		level.addFreshEntity(seat);
-		if (!player.startRiding(seat)) seat.discard();
+		if (!player.startRiding(seat)) {
+			seat.discard();
+			return InteractionResult.SUCCESS;
+		}
+		// 0.3.1: o jogador vira-se para a frente do móvel (antes ficava virado para onde olhava: de costas para a mesa, com as pernas a
+		// sair pelo encosto). No ServerPlayer, forceSetRotation também manda o pacote de rotação ao cliente (é quem manda na câmara).
+		player.forceSetRotation(yaw, false, 0f, true);
+		player.setYBodyRot(yaw);
 		return InteractionResult.SUCCESS;
 	}
 }

@@ -24,7 +24,8 @@
 			"com.tcordeiro.moveis.test.SawmillGameTests",
 			"com.tcordeiro.moveis.test.StateCountGameTests",
 			"com.tcordeiro.moveis.test.SecurityGameTests"
-		]
+		],
+		"fabric-client-gametest": ["com.tcordeiro.moveis.test.MoveisAnimClientTest"]
 	},
 	"depends": {
 		"tmoveis": "*",

@@ -1060,7 +1060,7 @@
   "guide.tmoveis.lamps.title": "Lamps",
   "guide.tmoveis.mail_use.text": "To send items to another player, put them in their mailbox.\n\nIf they are online they get a message right away; otherwise when they join.",
   "guide.tmoveis.mail_use.title": "Sending mail",
-  "guide.tmoveis.mailbox.text": "It belongs to whoever places it. Anyone can drop items; only the owner takes them out or breaks it. Blasts and hoppers can't empty it. The flag goes up with mail.",
+  "guide.tmoveis.mailbox.text": "Anyone can drop items; only the owner takes them or breaks it. Blasts and hoppers can't empty it. The flag rises with mail.",
   "guide.tmoveis.mailbox.title": "Mailbox",
   "guide.tmoveis.mirror.text": "Wall decoration: click the side of a block.",
   "guide.tmoveis.mirror.title": "Mirror",

@@ -590,12 +590,12 @@ GUIDE = [
       ("Ventoinha e Clima", "Com o mod Clima, a ventoinha a girar refresca a sala no verão (5 blocos à volta).\n\nA luz da ventoinha acende junto."),
       ("Fan and climate", "With the Clima mod, a spinning fan cools the room in summer (5 blocks around).\n\nThe fan light turns on with it.")),
     P("mailbox", "mailbox",
-      ("Caixa de Correio", "É de quem a põe. Qualquer um deixa itens; só o dono tira e quebra. Explosões e funis não a esvaziam. "
-       "A bandeirinha levanta com correio."),
-      ("Caixa do Correio", "É de quem a põe. Qualquer um deixa itens; só o dono tira e parte. Explosões e funis não a esvaziam. "
-       "A bandeirinha levanta com correio."),
-      ("Mailbox", "It belongs to whoever places it. Anyone can drop items; only the owner takes them out or breaks it. Blasts and "
-       "hoppers can't empty it. The flag goes up with mail.")),
+      ("Caixa de Correio", "Qualquer um deixa itens; só o dono tira e quebra. Explosões e funis não a esvaziam. "
+       "A bandeirinha sobe com correio."),
+      ("Caixa do Correio", "Qualquer um deixa itens; só o dono tira e parte. Explosões e funis não a esvaziam. "
+       "A bandeirinha sobe com correio."),
+      ("Mailbox", "Anyone can drop items; only the owner takes them or breaks it. Blasts and hoppers "
+       "can't empty it. The flag rises with mail.")),
     P("mail_use", None,
       ("Mandar correio", "Para mandar itens a outro jogador, coloque-os na caixa de correio dele.\n\nSe ele estiver no mundo, recebe um aviso na hora; senão, quando entrar."),
       ("Mandar correio", "Para mandar itens a outro jogador, põe-nos na caixa do correio dele.\n\nSe ele estiver no mundo, recebe um aviso logo; senão, quando entrar."),

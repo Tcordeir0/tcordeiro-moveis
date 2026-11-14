@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.4 — 14/11/2026 — guia
+
+- A página da Caixa de Correio cabia mal (uma linha a mais antes da imagem); texto encurtado nas 3 línguas.
+- `tools/check_book_layout.py` reconhece `new Page(...)` com 4 argumentos (antes devolvia 0 páginas nesse formato) e falha se não encontrar nenhuma.
+
 ## 0.3.3 — 12/11/2026 — segurança, menos estados e correções do teste no jogo
 
 - **Caixa de Correio protegida como o cofre.** Só o dono abre a caixa a sério e tira (os outros continuam a depositar); só o dono a

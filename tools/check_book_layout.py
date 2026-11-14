@@ -55,7 +55,10 @@ def wrap(text):
 
 
 src = open(JAVA).read()
-pages = re.findall(r'new Page\("([a-z0-9_]+)",\s*(null|"[a-z0-9_]+"),\s*List\.of\(([^)]*)\)\)', src)
+# aceita também um 4.º argumento opcional (ex.: o mod de que a página depende: `, null)` ou `, "tmoveis")`)
+pages = re.findall(r'new Page\("([a-z0-9_]+)",\s*(null|"[a-z0-9_]+"),\s*List\.of\(([^)]*)\)\s*(?:,\s*(?:null|"[^"]*"))?\)', src)
+if not pages:
+    sys.exit("check_book_layout: nenhuma página encontrada — o formato de `new Page(...)` mudou?")
 lang = json.load(open(LANG))
 problems = 0
 for key, image, recipes in pages:
